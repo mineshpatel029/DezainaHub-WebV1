@@ -1,0 +1,50 @@
+.GalleryLSMain {
+  background-color: #1e1e1e;
+  height: 51.5rem;
+  padding-top: 12rem;
+  color: #ffffff;
+}
+.GalleryLSMain .GalleryLS {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-Head {
+  width: 50rem;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-Head span {
+  color: #25C1EC;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-ImgBox {
+  width: 50rem;
+  height: 20rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-ImgBox .GalleryLS-Img {
+  width: 100%;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer {
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer .GalleryLS-Category, .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer .GalleryLS-CategoryActive {
+  font-family: Montserrat;
+  color: #888888;
+  font-weight: 700;
+  background-color: #1e1e1e;
+  border-radius: 1.25rem;
+  padding: 1rem 3.5rem;
+  margin: 0rem;
+  cursor: pointer;
+}
+.GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer .GalleryLS-CategoryActive {
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  z-index: 1;
+}/*# sourceMappingURL=GalleryLandingSec.css.map */

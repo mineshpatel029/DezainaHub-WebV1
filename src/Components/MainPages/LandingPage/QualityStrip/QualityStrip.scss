@@ -1,0 +1,25 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.QualityStripMain{
+    background-color: $PrimaryColor;
+    height: 20rem;
+    color: $SecondaryFontColor;
+    display: flex;
+    align-items: center;
+
+    .QualityStrip{
+        display: flex;
+        justify-content: space-between;
+
+        .QualityStripContent{
+            font-size: 3.5rem;
+            text-align: center;
+            font-family: $HeadFont;
+            font-weight: 700;
+
+            span{
+                color: $SecondaryColor;
+            }
+        }
+    }
+}

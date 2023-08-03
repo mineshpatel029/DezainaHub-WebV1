@@ -1,0 +1,78 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.AboutTSMain{
+    padding: 5rem 0rem;
+    .AboutTS{
+        display: flex;
+        gap: 13.8rem;
+        align-items: center;
+        // justify-content: center;
+        // justify-content: space-between;
+        .AboutTS-Body{
+            width: 30rem;
+            .AboutTSBody-Title{
+                font-family: $ContentFont;
+                color: $SecondaryColor;
+                font-weight: 800;
+            }
+            .AboutTSBody-Heading{
+                font-family: $HeadFont;
+                color: $HeadFontColor;
+                font-weight: 800;
+                font-size: 3rem;
+                span{
+                    color: $SecondaryColor;
+                }
+            }
+            .AboutTSBody-Content{
+                font-family: $ContentFont;
+                color: $ContentFontColor;
+            }
+            .AboutTSBody-ButtonPrev, .AboutTSBody-ButtonNext{
+                border: none;
+                background-color: transparent;
+                color: $SecondaryFontColor;
+                padding: 0rem;
+            }
+        }
+        .AboutTS-ImgContainer{
+            position: relative;
+            .AboutTSImgContainer-FloatBox{
+                position: absolute;
+                bottom: 5rem;
+                right: -10rem;
+                background-color: $SecondaryFontColor;
+                width: 28rem;
+                height: 12rem;
+                padding: 1rem 2rem;
+                box-shadow: $PrimaryShadow;
+                border-radius: $SecondaryBorderRadius;
+                .AboutTSImgFloatBox-Content{
+                    font-family: $ContentFont;
+                    color: $ContentFontColor;
+                    margin-bottom: 1rem;
+                }
+                .AboutTSImgFloatBox-ReviewFrom{
+                    display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    justify-content: space-between;
+                    .AboutTSImgFloatBox-Name{
+                        font-family: $SecondaryFont;
+                        font-weight: 700;
+                        margin: 0rem;
+                    }
+                }
+            }
+            .AboutTSImgContainer-ImgBox{
+                width: 28rem;
+                height: 36rem;
+                overflow: hidden;
+                border-radius: $PrimaryBorderRadius;
+                .AboutTSImgContainer-Img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

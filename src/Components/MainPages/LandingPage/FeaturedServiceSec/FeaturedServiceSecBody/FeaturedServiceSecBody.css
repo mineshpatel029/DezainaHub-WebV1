@@ -1,0 +1,63 @@
+.FeaturedSS-BodyMain {
+  width: 80rem;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav {
+  display: flex;
+  gap: 2rem;
+  font-family: Martel Sans;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav .FeaturedSSBodyNav-ActiveButton {
+  font-weight: 700;
+  color: #1e1e1e;
+  background-color: transparent;
+  border: none;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav .FeaturedSSBodyNav-Button {
+  border: none;
+  background-color: transparent;
+  color: #888888;
+  font-weight: 500;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image {
+  width: 25rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  position: relative;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image .FeaturedService1-ImgShadow {
+  width: 25rem;
+  position: absolute;
+  height: 40rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4.34%, #000 91.56%);
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image .FeaturedService1-Img {
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image .FeaturedService1Img-Footer {
+  width: 21rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 2rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image .FeaturedService1Img-Footer .FeaturedService1Img-FooterContent .FeaturedService1Img-ContentHead {
+  font-family: Martel Sans;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FeaturedService1-Image .FeaturedService1Img-Footer .FeaturedService1Img-FooterContent .FeaturedService1Img-ContentBody {
+  font-family: Rasa;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #888888;
+}/*# sourceMappingURL=FeaturedServiceSecBody.css.map */

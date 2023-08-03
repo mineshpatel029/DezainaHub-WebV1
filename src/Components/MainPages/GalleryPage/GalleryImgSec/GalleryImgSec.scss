@@ -1,0 +1,74 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.GalleryISMain{
+    .GalleryIS{
+        .GalleryIS-ProductStrip{
+            background-color: $HelpingShadowPrimaryColor;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .GalleryIS-ProductList{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .GalleryISStrip-Product,.GalleryISStrip-ProductActive{
+                    margin: 0rem;
+                    font-family: $SecondaryFont;
+                    padding: 1.9rem 2rem;
+                    cursor: pointer;
+                }
+                .GalleryISStrip-Product{
+                    color: $ContentFontColor;
+                }
+                .GalleryISStrip-ProductActive{
+                    font-weight: 800;
+                    border-bottom: 2px solid $PrimaryColor;
+                }
+            }
+        }
+        .GalleryIS-Gallery{
+            padding: 1.15rem 0rem 5rem 0rem;
+            display: flex;
+            gap: 1.5rem;
+            flex-direction: column;
+            align-items: center;
+
+            .GalleryIS-GalleryContainer{
+                display: grid;
+            grid-template-columns: 26.25rem 26.25rem 26.25rem;
+            gap: 1.15rem;
+           .GalleryIS-ImgContainer{
+            cursor: pointer;
+            background-color: $PrimaryColor;
+            width: 26.25rem;
+            height: 18rem;
+            border-radius: $PrimaryBorderRadius;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .GalleryIS-ImgBox{
+                border-radius: $SecondaryBorderRadius;
+                overflow: hidden;
+                width: 18rem;
+                height: 12rem;
+                box-shadow: $SecondaryShadow;
+                .GalleryIS-Img{
+                    width: 100%;
+                }
+            }
+           } 
+             }
+            .GalleryIS-ImgButton{
+                background-color: $HeadFontColor;
+                color: $SecondaryFontColor;
+                font-family: $SecondaryFont;
+                font-weight: 600;
+                width: 12rem;
+                height: 3rem;
+                border: none;
+                border-radius: $SecondaryBorderRadius;
+            }
+    }
+    }
+}

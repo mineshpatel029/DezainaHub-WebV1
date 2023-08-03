@@ -1,0 +1,33 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.FooterFootMain{
+    padding-top: 3.5rem;
+    .FooterFoot{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        text-align: center;
+        .FooterFoot-Content{
+            width: 48rem;
+            color: $ContentFontColor;
+            font-size: 1.25rem;
+            font-family: $ContentFont;
+            margin-bottom: 0rem;
+        }
+        hr{
+            color: $PrimaryColor;
+            border: 1px solid $PrimaryColor;
+            width: 5rem;
+        }
+        .FooterFoot-SocialIcons{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .FooterFoot-Copyright{
+            color: $PrimaryColor;
+            margin-bottom: 1.5rem;
+        }
+    }
+}

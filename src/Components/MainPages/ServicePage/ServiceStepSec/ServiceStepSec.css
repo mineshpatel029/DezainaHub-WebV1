@@ -1,0 +1,70 @@
+.ServiceSSMain {
+  padding: 5rem 0rem;
+}
+.ServiceSSMain .ServiceSS {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+  text-align: center;
+}
+.ServiceSSMain .ServiceSS .ServiceSSHead-Heading {
+  font-family: Montserrat;
+  font-size: 3rem;
+  color: #364154;
+  font-weight: 700;
+  width: 30rem;
+}
+.ServiceSSMain .ServiceSS .ServiceSSHead-Heading span {
+  color: #25C1EC;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps {
+  position: relative;
+  display: flex;
+  width: 81rem;
+  justify-content: space-between;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Heading {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Heading .ServiceSSSteps-Number {
+  font-family: Montserrat;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Heading .ServiceSSSteps-Step {
+  font-family: Martel Sans;
+  font-size: 1.75rem;
+  width: 10rem;
+  font-weight: 800;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Content {
+  width: 18rem;
+  margin-left: 0rem;
+  text-align: center;
+  font-family: Rasa;
+  color: #888888;
+  font-size: 1rem;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1, .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
+  position: absolute;
+  top: 5rem;
+  opacity: 20%;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1 {
+  left: 18rem;
+}
+.ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
+  right: 18rem;
+}/*# sourceMappingURL=ServiceStepSec.css.map */

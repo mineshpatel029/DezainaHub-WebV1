@@ -1,0 +1,147 @@
+.AboutHSMain {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0rem;
+  padding: 5rem 0rem;
+}
+.AboutHSMain .AboutHS {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.AboutHSMain .AboutHS .AboutHS-Head {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.AboutHSMain .AboutHS .AboutHS-Head .AboutHSHead-Heading {
+  font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0rem;
+}
+.AboutHSMain .AboutHS .AboutHS-Head .AboutHSHead-Heading span {
+  color: #25C1EC;
+}
+.AboutHSMain .AboutHS .AboutHS-Head .AboutHSHead-Content {
+  width: 40rem;
+  font-family: Rasa;
+  color: #888888;
+  margin: 0rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 {
+  width: 65rem;
+  display: flex;
+  justify-content: space-between;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-ImgBox {
+  width: 38rem;
+  height: 34rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-ImgBox .AboutHSHeadBodyContainer1-Img {
+  position: relative;
+  left: -7rem;
+  height: 100%;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-Body {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-Body .AboutHSHeadBodyContainer1Body-Head {
+  font-family: Martel Sans;
+  font-weight: 800;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-Body .AboutHSHeadBodyContainer1Body-Head span {
+  color: #25C1EC;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-Body .AboutHSHeadBodyContainer1Body-Content {
+  font-family: Rasa;
+  color: #888888;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 {
+  display: flex;
+  width: 65rem;
+  justify-content: space-between;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body .AboutHSHeadBodyContainer2Body-Content {
+  text-align: center;
+  width: 12rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body .AboutHSHeadBodyContainer2Body-Content .AboutHSHeadBodyContainer2Body-Head {
+  font-family: Martel Sans;
+  font-weight: 800;
+  font-size: 5rem;
+  margin: 0rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body .AboutHSHeadBodyContainer2Body-Content .AboutHSHeadBodyContainer2Body-Content {
+  font-family: Rasa;
+  color: #888888;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-ImgBox {
+  width: 35rem;
+  height: 26rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-ImgBox .AboutHSHeadBodyContainer2-Img {
+  position: relative;
+  height: 100%;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 {
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-ImgBox {
+  width: 65rem;
+  height: 24rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-ImgBox .AboutHSHeadBodyContainer3-Img {
+  width: 100%;
+  position: relative;
+  top: -12rem;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body {
+  display: flex;
+  gap: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body .AboutHSHeadBodyContainer3Body-Head {
+  width: 22rem;
+  font-size: 2rem;
+  font-family: Martel Sans;
+  font-weight: 800;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body .AboutHSHeadBodyContainer3Body-Head span {
+  color: #25C1EC;
+}
+.AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body .AboutHSHeadBodyContainer3Body-Content {
+  width: 22rem;
+  font-family: Rasa;
+  color: #888888;
+}/*# sourceMappingURL=AboutHighlightSec.css.map */

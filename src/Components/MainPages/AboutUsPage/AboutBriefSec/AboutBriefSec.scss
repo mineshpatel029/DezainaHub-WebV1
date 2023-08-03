@@ -1,0 +1,74 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.AboutBSMain{
+    padding: 5rem 0rem;
+    .AboutBS{
+        .AboutBS-Head{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .AboutBSHead-Title{
+                font-family: $SecondaryFont;
+                font-weight: 700;
+                color: $SecondaryColor;
+            }
+            .AboutBSHead-Heading{
+                font-family: $HeadFont;
+                color: $HeadFontColor;
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .AboutBSHead-Content{
+                width: 40rem;
+                font-family: $ContentFont;
+                color: $ContentFontColor;
+            }
+        }
+        .AboutBS-Body{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            .AboutBSBody-Content{
+                background-color: $HelpingShadowPrimaryColor;
+                display: flex;
+                gap: 2rem;
+                padding: 1rem;
+                width: 52rem;
+                height: 11rem;
+                border-radius: $SecondaryBorderRadius;
+                .AboutBSBodyContent-Title{
+                    border-radius: $SecondaryBorderRadius;
+                    width: 9rem;
+                    height: 9rem;
+                    background-color: $SecondaryFontColor;
+                    font-family: $HeadFont;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-weight: 800;
+                        font-size: 5rem;
+                    }
+                }
+                .AboutBSBodyContent-Content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .AboutBSBodyContent-Heading{
+                        font-family: $SecondaryFont;
+                        font-weight: 800;
+                        margin: 0rem;
+                    }
+                    .AboutBSBodyContent-Body{
+                        margin: 0rem;
+                        font-family: $ContentFont;
+                        width: 38rem;
+                        color: $ContentFontColor;
+                    }
+                }
+            }
+        }
+    }
+}
