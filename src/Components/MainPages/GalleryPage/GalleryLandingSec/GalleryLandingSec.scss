@@ -1,0 +1,53 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.GalleryLSMain{
+    background-color: $PrimaryColor;
+    height: 51.5rem;
+    padding-top: 12rem;
+    color:  $SecondaryFontColor;
+    .GalleryLS{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        .GalleryLS-Head{
+            width: 50rem;
+            font-family: $HeadFont;
+            font-weight: 700;
+            span{
+                color: $SecondaryColor;
+            }
+        }
+        .GalleryLS-ImgBox{
+            width: 50rem;
+            height: 20rem;
+            border-radius: $PrimaryBorderRadius;
+            overflow: hidden;
+            .GalleryLS-Img{
+                width: 100%;
+            }
+        }
+        .GalleryLS-CategoryContainer{
+            width: 50rem;
+            display: flex;
+            justify-content: space-between;
+            .GalleryLS-Category, .GalleryLS-CategoryActive{
+                // font-family: $SecondaryFont;
+                font-family: $HeadFont;
+                color: $ContentFontColor;
+                font-weight: 700;
+                background-color: $PrimaryColor;
+                border-radius: $PrimaryBorderRadius;
+                padding: 1rem 3.5rem;
+                margin: 0rem;
+                cursor: pointer;
+            }
+            .GalleryLS-CategoryActive{
+                box-shadow: $SecondaryShadow;
+                color: $SecondaryFontColor;
+                z-index: 1;
+            }
+        }
+    }
+}

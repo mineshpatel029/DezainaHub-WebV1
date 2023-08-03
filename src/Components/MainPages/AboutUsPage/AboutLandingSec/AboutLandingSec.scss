@@ -1,0 +1,72 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.AboutLSMain{
+    height: 51.5rem;
+    background-color: $PrimaryColor;
+    padding-top: 12rem;
+    color: $SecondaryFontColor;
+    .AboutLS{
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+        .AboutLS-Head{
+            font-size: 3rem;
+            width: 45rem;
+            text-align: center;
+            font-family: $HeadFont;
+            font-weight: 700;
+            span{
+                color: $SecondaryColor
+            }
+        }
+        .AboutLS-ImgBox{
+            width: 45rem;
+            position: relative;
+            .AboutLS-ImgContainer{
+                width: 45rem;
+                height: 25rem;
+                overflow: hidden;
+                border-radius: $PrimaryBorderRadius;
+                .AboutLS-Img{
+                    width: 45rem;
+                }
+            }
+            .AboutLSImg-FloatBox{
+                position: absolute;
+                bottom: 0rem;
+                right: 0rem;
+                background-color: $PrimaryColor;
+                width: 15rem;
+                height: 8rem;
+                padding: 1rem;
+                border-top-left-radius: $PrimaryBorderRadius;
+                .AboutLSImgFloatBox-Head{
+                    display: flex;
+                    gap: 1rem;
+                    text-align: left;
+                    // justify-content: center;
+                    align-items: center;
+                    .AboutLSImgFloatBoxHead-Heading{
+                        color: $ContentFontColor;
+                        font-family: $ContentFont;
+                    }
+
+                }
+                .AboutLSImgFloatBox-Body{
+                    .AboutLSImgFloatBoxBody-Head{
+                        font-family: $HeadFont;
+                        font-size: 2rem; 
+                        font-weight: 700;
+                        margin: 0rem;
+                    }
+                    .AboutLSImgFloatBoxBody-Content{
+                        font-family: $ContentFont;
+                        font-size: 0.8rem;
+                        color: $ContentFontColor;;
+                    }
+                }
+            }
+        }
+    }
+}

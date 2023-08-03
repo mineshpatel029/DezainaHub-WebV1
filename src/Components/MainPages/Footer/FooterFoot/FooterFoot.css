@@ -1,0 +1,31 @@
+.FooterFootMain {
+  padding-top: 3.5rem;
+}
+.FooterFootMain .FooterFoot {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+.FooterFootMain .FooterFoot .FooterFoot-Content {
+  width: 48rem;
+  color: #888888;
+  font-size: 1.25rem;
+  font-family: Rasa;
+  margin-bottom: 0rem;
+}
+.FooterFootMain .FooterFoot hr {
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  width: 5rem;
+}
+.FooterFootMain .FooterFoot .FooterFoot-SocialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.FooterFootMain .FooterFoot .FooterFoot-Copyright {
+  color: #1e1e1e;
+  margin-bottom: 1.5rem;
+}/*# sourceMappingURL=FooterFoot.css.map */

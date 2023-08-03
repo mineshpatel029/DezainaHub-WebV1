@@ -1,0 +1,66 @@
+.AboutLSMain {
+  height: 51.5rem;
+  background-color: #1e1e1e;
+  padding-top: 12rem;
+  color: #ffffff;
+}
+.AboutLSMain .AboutLS {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+.AboutLSMain .AboutLS .AboutLS-Head {
+  font-size: 3rem;
+  width: 45rem;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.AboutLSMain .AboutLS .AboutLS-Head span {
+  color: #25C1EC;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox {
+  width: 45rem;
+  position: relative;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer {
+  width: 45rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer .AboutLS-Img {
+  width: 45rem;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  background-color: #1e1e1e;
+  width: 15rem;
+  height: 8rem;
+  padding: 1rem;
+  border-top-left-radius: 1.25rem;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head {
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  align-items: center;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head .AboutLSImgFloatBoxHead-Heading {
+  color: #888888;
+  font-family: Rasa;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Head {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0rem;
+}
+.AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Content {
+  font-family: Rasa;
+  font-size: 0.8rem;
+  color: #888888;
+}/*# sourceMappingURL=AboutLandingSec.css.map */
