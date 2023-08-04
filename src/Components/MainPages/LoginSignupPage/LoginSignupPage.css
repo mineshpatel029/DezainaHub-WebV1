@@ -1,0 +1,106 @@
+.LoginSignupPageMain {
+  height: 51.25rem;
+}
+.LoginSignupPageMain .LoginSignupPage {
+  height: 51.25rem;
+  display: flex;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content {
+  height: 51.25rem;
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-Logo {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-Logo .LoginSignupPageContentLogo-Img {
+  width: 5rem;
+  height: 5rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-HeadBox, .LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-InputBox, .LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-ButtonBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Head {
+  font-family: Montserrat;
+  color: #364154;
+  font-weight: 700;
+  font-size: 2.15rem;
+  margin: 0rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Content {
+  font-family: Rasa;
+  font-weight: 500;
+  color: #888888;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: Martel Sans;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid #f4f4f4;
+  border-radius: 0.8rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Verifybutton, .LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Googlebutton {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 1.25rem;
+  width: 100%;
+  font-family: Martel Sans;
+  font-weight: 600;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Verifybutton {
+  background-color: #364154;
+  color: #ffffff;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-Content .LoginSignupPageContent-FormContainer .LoginSignupPageContent-Form .LoginSignupPageContentForm-Googlebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-ImageContainer {
+  width: 60%;
+  padding: 1rem;
+  position: relative;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-ImageContainer .LoginSignupPage-ImgButton {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  z-index: 1;
+  width: 12rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #364154;
+  font-family: Martel Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-ImageContainer .LoginSignupPage-Imgbox {
+  border-radius: 1.25rem;
+  height: 49.25rem;
+  overflow: hidden;
+}
+.LoginSignupPageMain .LoginSignupPage .LoginSignupPage-ImageContainer .LoginSignupPage-Imgbox .LoginSignupPage-Img {
+  position: relative;
+  top: -20rem;
+  width: 100%;
+}/*# sourceMappingURL=LoginSignupPage.css.map */

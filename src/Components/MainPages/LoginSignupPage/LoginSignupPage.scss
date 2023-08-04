@@ -1,0 +1,116 @@
+@import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.LoginSignupPageMain{
+    height: 51.25rem;
+    .LoginSignupPage{
+        height: 51.25rem;
+        display: flex;
+        // gap: 5rem;
+        // overflow: hidden;
+        .LoginSignupPage-Content{
+            height: 51.25rem;
+            
+            width: 40%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .LoginSignupPageContent-Logo{
+                position: absolute;
+                top: 1rem;
+                left: 3rem;
+                .LoginSignupPageContentLogo-Img{
+                    
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+            .LoginSignupPageContent-FormContainer{
+                
+                .LoginSignupPageContent-Form{
+                    width: 25rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                .LoginSignupPageContentForm-HeadBox , .LoginSignupPageContentForm-InputBox , .LoginSignupPageContentForm-ButtonBox{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+                .LoginSignupPageContentForm-Head{
+                    font-family: $HeadFont;
+                    color: $HeadFontColor;
+                    font-weight: 700;
+                    font-size: 2.15rem;
+                    margin: 0rem;
+                }
+                .LoginSignupPageContentForm-Content{
+                    font-family: $ContentFont;
+                    font-weight: 500;
+                    color: $ContentFontColor;
+                }
+
+                .LoginSignupPageContentForm-input{
+                    width: 100%;
+                    padding: 0.5rem;
+                    font-family: $SecondaryFont;
+                    font-size: 1rem;
+                    border: none;
+                    border-bottom: 2px solid $ThirdColor;
+                    border-radius: $SecondaryBorderRadius;
+                }
+                .LoginSignupPageContentForm-Verifybutton,.LoginSignupPageContentForm-Googlebutton{
+                    border: none;
+                    width: 100%;
+                    height: 3rem;
+                    border-radius: $PrimaryBorderRadius;
+                    width: 100%;
+                    font-family: $SecondaryFont;
+                    font-weight: 600;
+                }
+                .LoginSignupPageContentForm-Verifybutton{
+                    background-color: $HeadFontColor;
+                    color: $SecondaryFontColor;
+                }
+                .LoginSignupPageContentForm-Googlebutton{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+            }
+        }
+    }
+    .LoginSignupPage-ImageContainer{
+        width: 60%;
+        padding: 1rem;
+        position: relative;
+        .LoginSignupPage-ImgButton{
+            position: absolute;
+            top: 3rem;
+            right: 3rem;
+            z-index: 1;
+            width: 12rem;
+            height: 2.5rem;
+            border: none;
+            border-radius: $PrimaryBorderRadius;
+            background-color: $HeadFontColor;
+            font-family: $SecondaryFont;
+            font-size: 1rem;
+            font-weight: 700;
+            color: $SecondaryFontColor;
+        }
+        .LoginSignupPage-Imgbox{
+            border-radius: $PrimaryBorderRadius;
+            height: 49.25rem;
+            overflow: hidden;
+            .LoginSignupPage-Img{
+                position: relative;
+                top: -20rem;
+                width: 100%;
+            }
+        }
+    }
+    }
+}

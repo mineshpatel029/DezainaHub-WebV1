@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./HeaderSec.css"
 import LogoImg from "./Image/Dezaina.hub.png"
 import { NavLink } from "react-router-dom";
 
 
 export const HeaderSec = () => {
+    const [active, setActive] = useState(false);
   return (
     <div className='NavMainContainer'>
         <nav className='NavBarStyle container'>
@@ -14,7 +15,7 @@ export const HeaderSec = () => {
             <div className='NavBarList'>
                 <div className='NavBarList-Items'>
                 <NavLink to="/">
-                    <button className='NavBarListItem-Button'>Home</button>
+                    <button onClick={() => setActive(!active)} className={!active ? 'NavBarListItem-Button' : "activeButton"}>Home</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
