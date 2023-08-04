@@ -10,6 +10,7 @@ import FooterSec from './Components/MainPages/Footer/FooterSec';
 // import GalleryPage from './Components/MainPages/GalleryPage/GalleryPage';
 // import ContactUsPage from './Components/MainPages/ContactUsPage/ContactUsPage';
 import  LazyLoader from "./Components/LazyLoader/LazyLoader";
+import LoginSignupPage from "./Components/MainPages/LoginSignupPage/LoginSignupPage";
 
 
 const LandingPage = lazy(() => import("./Components/MainPages/LandingPage/LandingPage"));
@@ -34,18 +35,11 @@ function App() {
           <Route path='/Gallery' element={<GalleryPage/>} />
           <Route path='/ContactUs' element={<ContactUsPage/>} />
           <Route path='*' element={<h1 style={{ color: 'blue', padding: '20rem' }}>Error Page</h1>} />
-        
-          {/* <HeaderSec/> */}
-            {/* <LandingPage/> */}
-            {/* <AboutUsPage/> */}
-            {/* <ServicePage/> */}
-            {/* <GalleryPage/> */}
-            {/* <ContactUsPage/> */}
-          {/* <FooterSec/> */}
           </Routes>
         <FooterSec/>
       </BrowserRouter>
       </Suspense>
+      {/* <LoginSignupPage/> */}
     </div>
   );
 }

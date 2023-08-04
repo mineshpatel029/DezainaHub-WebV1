@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
 }
-.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button:active {
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton {
   font-size: 1.1rem !important;
   font-weight: 800 !important;
   padding-bottom: 0.5rem;
