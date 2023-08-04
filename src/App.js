@@ -18,28 +18,37 @@ const AboutUsPage = lazy(() => import("./Components/MainPages/AboutUsPage/AboutU
 const ServicePage = lazy(() => import("./Components/MainPages/ServicePage/ServicePage"));
 const GalleryPage = lazy(() => import("./Components/MainPages/GalleryPage/GalleryPage"));
 const ContactUsPage = lazy(() => import("./Components/MainPages/ContactUsPage/ContactUsPage"));
+const LoginPage = lazy(() => import("./Components/MainPages/LoginSignupPage/LoginPage/LoginPage"));
+const SignupPage = lazy(() => import("./Components/MainPages/LoginSignupPage/SignupPage/SignupPage"));
+const VerifyPage = lazy(() => import("./Components/MainPages/LoginSignupPage/VerifyPage/VerifyPage"));
 
 
 
 
 function App() {
+  const renderHeaderFooter = () => {
+    const path = window.location.pathname;
+    return path === "/Login" || path === "/Signup" || path === "/Verify";
+  }
   return (
     <div className="App">
     <Suspense fallback={<div ><LazyLoader/></div>}>
     <BrowserRouter>
-      <HeaderSec/>
+        {!renderHeaderFooter() ? <HeaderSec/> : <></> } 
         <Routes>
           <Route path='/' element={<LandingPage/>} />
           <Route path='/AboutUs' element={<AboutUsPage/>} />
           <Route path='/Service' element={<ServicePage/>} />
           <Route path='/Gallery' element={<GalleryPage/>} />
           <Route path='/ContactUs' element={<ContactUsPage/>} />
+          <Route path='/Login' element={<LoginPage/>} />
+          <Route path='/Signup' element={<SignupPage/>} />
+          <Route path='/Verify' element={<VerifyPage/>} />
           <Route path='*' element={<h1 style={{ color: 'blue', padding: '20rem' }}>Error Page</h1>} />
           </Routes>
-        <FooterSec/>
+        {!renderHeaderFooter() ? <FooterSec/> : <></>}
       </BrowserRouter>
       </Suspense>
-      {/* <LoginSignupPage/> */}
     </div>
   );
 }
