@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./LoginPage.css"
 import LogoImg from "../Image/Dezaina.hub.png"
 import LoginImg from "../Image/4.jpg"
+import axios from '../../../../axios';
 
 export const LoginPage = () => {
+  const [email, setEmail] = useState(null);
+  const [password, setPassword] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!email || !password) return;
+    try {
+        const response = await axios.post("/login", {email, password});
+        if (response.data?.token) {
+            localStorage.setItem("token", response.data.token)
+        }
+        console.log('Success!');
+    } catch (error) {
+        console.log(error);
+    }
+  }
+
   return (
     <div className='LoginSignupPageMain'>
         <div className='LoginSignupPage'>
@@ -19,11 +37,11 @@ export const LoginPage = () => {
 
                         </div>
                         <div className='LoginSignupPageContentForm-InputBox'>
-                            <input className='LoginSignupPageContentForm-input' placeholder='Email'></input>
-                            <input className='LoginSignupPageContentForm-input' placeholder='Password'></input>
+                            <input className='LoginSignupPageContentForm-input' onChange={(e) => setEmail(e.target.value)} placeholder='Email'></input>
+                            <input className='LoginSignupPageContentForm-input' onChange={(e) => setPassword(e.target.value)} placeholder='Password'></input>
                         </div>
                         <div className='LoginSignupPageContentForm-ButtonBox'> 
-                            <button className='LoginSignupPageContentForm-Verifybutton'>Login</button>
+                            <button className='LoginSignupPageContentForm-Verifybutton' onClick={(e) => handleSubmit(e)}>Login</button>
                             <button className='LoginSignupPageContentForm-Googlebutton'>
                             <svg
                             width="18"
