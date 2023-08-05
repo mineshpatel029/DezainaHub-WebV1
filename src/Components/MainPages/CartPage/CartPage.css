@@ -1,0 +1,204 @@
+.CPMain {
+  background-color: #f4f4f4;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+}
+.CPMain .CP {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.CPMain .CP .CP-Head .CPHead-Writeup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CPMain .CP .CP-Head .CPHead-Writeup .CPHead-Heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0rem;
+}
+.CPMain .CP .CP-Head .CPHead-Writeup .CPHead-Content {
+  margin: 0rem;
+  font-family: Rasa;
+  color: #888888;
+  opacity: 70%;
+}
+.CPMain .CP .CPBodyMain {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(30, 30, 30, 0.05);
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head {
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-ImgContainer .CPBodyHead-ImgBox {
+  position: relative;
+  width: 8rem;
+  height: 11rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-ImgContainer .CPBodyHead-ImgBox .CPBodyHead-ImgShadow {
+  width: 7rem;
+  height: 10rem;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4.34%, #000 91.56%);
+  border-radius: 0.8rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-ImgContainer .CPBodyHead-ImgBox .CPBodyHead-Img {
+  border-radius: 0.8rem;
+  width: 7rem;
+  height: 10rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-Content .CPBodyHeadContent-Head .CPBodyHeadContent-Heading {
+  font-family: Montserrat;
+  color: #364154;
+  font-style: 2rem;
+  font-weight: 700;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-Content .CPBodyHeadContent-Head .CPBodyHeadContent-Body {
+  font-family: Rasa;
+  color: #888888;
+  font-size: 0.9rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Head .CPBodyHead-Content .CPBodyHead-AddMoreButton {
+  background-color: transparent;
+  border: none;
+  color: #364154;
+  font-family: Martel Sans;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration-line: underline;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter {
+  display: flex;
+  justify-content: space-between;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity {
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 0.8rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity .CPBodyValueQuant-Counter {
+  margin: 0rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #364154;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #1e1e1e;
+  width: 8rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  width: 8rem;
+  background-color: transparent;
+  border: none;
+  color: #FFABAB;
+  font-family: Martel Sans;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0.3rem 1rem;
+  border-radius: 0.8rem;
+  text-decoration-line: underline;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton span {
+  margin: 0rem;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton svg {
+  fill: #FFABAB;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton:hover {
+  background-color: #FFABAB;
+  color: #ffffff;
+  transition: 300ms ease;
+  box-shadow: 0px 5px 30px 2px rgba(136, 137, 137, 0.25);
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton:hover svg {
+  fill: #ffffff;
+}
+.CPMain .CP .CP-Base .CPBase-Head {
+  display: flex;
+  flex-direction: column;
+}
+.CPMain .CP .CP-Base .CPBase-Head .CPBase-Value {
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.CPMain .CP .CP-Base .CPBase-Head .CPBase-Value .CPBaseValue-Head {
+  font-size: Martel Sans;
+  color: #888888;
+  font-weight: 600;
+  margin: 0rem;
+}
+.CPMain .CP .CP-Base .CPBase-Head .CPBase-Value .CPBaseValue-Amount {
+  font-family: Montserrat;
+  color: #1e1e1e;
+  font-weight: 700;
+  margin: 0rem;
+}
+.CPMain .CP .CP-Base .CPBase-Button {
+  display: flex;
+  justify-content: space-between;
+}
+.CPMain .CP .CP-Base .CPBase-Button .CPBase-ProceedButton {
+  margin-top: 1rem;
+  background-color: #1e1e1e;
+  width: 16rem;
+  height: 3rem;
+  font-family: Montserrat;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.8rem;
+}
+.CPMain .CP .CP-Base .CPBase-Button .CPBaseButton-Content {
+  font-family: Martel Sans;
+  color: #364154;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}/*# sourceMappingURL=CartPage.css.map */

@@ -13,11 +13,13 @@ import  LazyLoader from "./Components/LazyLoader/LazyLoader";
 import LoginSignupPage from "./Components/MainPages/LoginSignupPage/LoginSignupPage";
 
 
+
 const LandingPage = lazy(() => import("./Components/MainPages/LandingPage/LandingPage"));
 const AboutUsPage = lazy(() => import("./Components/MainPages/AboutUsPage/AboutUsPage"));
 const ServicePage = lazy(() => import("./Components/MainPages/ServicePage/ServicePage"));
 const GalleryPage = lazy(() => import("./Components/MainPages/GalleryPage/GalleryPage"));
 const ContactUsPage = lazy(() => import("./Components/MainPages/ContactUsPage/ContactUsPage"));
+const CartPage = lazy(() => import("./Components/MainPages/CartPage/CartPage"));
 const LoginPage = lazy(() => import("./Components/MainPages/LoginSignupPage/LoginPage/LoginPage"));
 const SignupPage = lazy(() => import("./Components/MainPages/LoginSignupPage/SignupPage/SignupPage"));
 const VerifyPage = lazy(() => import("./Components/MainPages/LoginSignupPage/VerifyPage/VerifyPage"));
@@ -41,6 +43,7 @@ function App() {
           <Route path='/Service' element={<ServicePage/>} />
           <Route path='/Gallery' element={<GalleryPage/>} />
           <Route path='/ContactUs' element={<ContactUsPage/>} />
+          <Route path='/Cart' element={<CartPage/>} />
           <Route path='/Login' element={<LoginPage/>} />
           <Route path='/Signup' element={<SignupPage/>} />
           <Route path='/Verify' element={<VerifyPage/>} />
@@ -49,6 +52,8 @@ function App() {
         {!renderHeaderFooter() ? <FooterSec/> : <></>}
       </BrowserRouter>
       </Suspense>
+
+
     </div>
   );
 }
