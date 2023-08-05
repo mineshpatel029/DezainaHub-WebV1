@@ -5,7 +5,8 @@ import { NavLink } from "react-router-dom";
 
 
 export const HeaderSec = () => {
-    const [active, setActive] = useState(false);
+    const [activeTab, setActiveTab] = useState('home');
+
   return (
     <div className='NavMainContainer'>
         <nav className='NavBarStyle container'>
@@ -15,32 +16,32 @@ export const HeaderSec = () => {
             <div className='NavBarList'>
                 <div className='NavBarList-Items'>
                 <NavLink to="/">
-                    <button onClick={() => setActive(!active)} className={!active ? 'NavBarListItem-Button' : "activeButton"}>Home</button>
+                    <button onClick={() => setActiveTab('home')} className={activeTab === 'home' ? "activeButton" : 'NavBarListItem-Button'}>Home</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
                 <NavLink to="/AboutUs">
-                    <button className='NavBarListItem-Button'>About Us</button>
+                    <button onClick={() => setActiveTab('about')} className={activeTab === 'about' ? "activeButton" : 'NavBarListItem-Button'}>About Us</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
                 <NavLink to="/Gallery">
-                    <button className='NavBarListItem-Button'>Gallery</button>
+                    <button onClick={() => setActiveTab('gallery')} className={activeTab === 'gallery' ? "activeButton" : 'NavBarListItem-Button'}>Gallery</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
                 <NavLink to="/Service">
-                    <button className='NavBarListItem-Button'>Services</button>
+                    <button onClick={() => setActiveTab('service')} className={activeTab === 'service' ? "activeButton" : 'NavBarListItem-Button'}>Services</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
                 <NavLink to="/ContactUs">
-                    <button className='NavBarListItem-Button'>Contact Us</button>
+                    <button onClick={() => setActiveTab('contact')} className={activeTab === 'contact' ? "activeButton" : 'NavBarListItem-Button'}>Contact Us</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
                 <NavLink to="/Cart">
-                    <button className='NavBarListItem-Button'>Cart</button>
+                    <button onClick={() => setActiveTab('cart')} className={activeTab === 'cart' ? "activeButton" : 'NavBarListItem-Button'}>Cart</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
