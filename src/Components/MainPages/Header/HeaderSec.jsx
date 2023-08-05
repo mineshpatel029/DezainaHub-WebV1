@@ -38,6 +38,16 @@ export const HeaderSec = () => {
                     <button className='NavBarListItem-Button'>Contact Us</button>
                 </NavLink>
                 </div>
+                <div className='NavBarList-Items'>
+                <NavLink to="/Cart">
+                    <button className='NavBarListItem-Button'>Cart</button>
+                </NavLink>
+                </div>
+                <div className='NavBarList-Items'>
+                <NavLink to="/">
+                    <button className='NavBarListItem-Button'>LogOut</button>
+                </NavLink>
+                </div>
                 {/* <div className='NavBarList-Items'>
                     <NavLink to="/Article">
                     <button>Article</button>
