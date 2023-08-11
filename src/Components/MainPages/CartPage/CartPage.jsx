@@ -7,9 +7,9 @@ import CartOrderSuccesPage from './CartOrderSuccesPage/CartOrderSuccesPage';
 export const CartPage = () => {
   return (
     <div className='CartPageMain'>
-        {/* <YourCartPage/> */}
+        <YourCartPage/>
         {/* <ReviewCartPage/> */}
-        <CartOrderSuccesPage/>
+        {/* <CartOrderSuccesPage/> */}
     </div>
   )
 }

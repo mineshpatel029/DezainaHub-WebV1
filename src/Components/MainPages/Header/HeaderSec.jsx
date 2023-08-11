@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export const HeaderSec = () => {
     const [activeTab, setActiveTab] = useState('home');
-
+    
   return (
     <div className='NavMainContainer'>
         <nav className='NavBarStyle container'>
