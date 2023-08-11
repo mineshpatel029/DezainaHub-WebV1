@@ -39,15 +39,17 @@
         align-items: center;
 
         .activeButton{
+            width: 8rem;
+            height: 6rem;
             font-size: 1.1rem !important;
             font-weight: 800 !important;
             padding-bottom: 0.5rem;
             transition: 200ms ease;
-            // border-bottom: 4px solid $SecondaryColor !important;
             color: $SecondaryColor !important;
             background-color: $SecondaryFontColor !important;
+            border: none;
             border-radius: $BottomRadius;
-            // z-index: 10 !important;
+            letter-spacing: 0.04rem;
         }
 
         .NavBarListItem-Button{
