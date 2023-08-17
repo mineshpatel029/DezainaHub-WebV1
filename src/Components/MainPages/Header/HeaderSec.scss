@@ -1,0 +1,71 @@
+@import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+
+
+.NavMainContainer{
+    background-color: $PrimaryColor;
+    position: fixed;
+    width: 100%;
+    z-index: 100000000;
+    // display: flex;
+    // justify-content: center;
+
+.NavBarStyle{
+    display: flex;
+    flex-direction: row;
+    // margin: auto 0rem;
+    .Nav-Logo{
+        margin-left: -6rem;
+        img{
+            width: 5.7rem;
+            height: 100%;
+            
+        }
+    }
+
+    .NavBarList{
+        display: flex;
+        width: 120%;
+        justify-content: flex-end;
+        margin-right: -6rem !important;
+  
+    .NavBarList-Items{
+        // background-color: $PrimaryColor;
+        color: $SecondaryFontColor;
+        width: 8rem;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .activeButton{
+            width: 8rem;
+            height: 6rem;
+            font-size: 1.1rem !important;
+            font-weight: 800 !important;
+            padding-bottom: 0.5rem;
+            transition: 200ms ease;
+            color: $SecondaryColor !important;
+            background-color: $SecondaryFontColor !important;
+            border: none;
+            border-radius: $BottomRadius;
+            letter-spacing: 0.04rem;
+        }
+
+        .NavBarListItem-Button{
+            width: 8rem;
+            height: 6rem;
+            background-color: transparent;
+            border: none;
+            text-align: center;
+            font-family: $SecondaryFont;
+            font-weight: 600;
+            // font-size: 1rem;
+            letter-spacing: 0.04rem;
+            color: $SecondaryFontColor;
+        }
+    }
+}
+}
+}
+

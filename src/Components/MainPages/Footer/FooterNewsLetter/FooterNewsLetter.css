@@ -1,0 +1,42 @@
+.FooterNewsLetterMain {
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  padding: 8.5rem 0rem;
+  font-family: Montserrat;
+}
+.FooterNewsLetterMain .FooterNewsLetter {
+  display: flex;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 40rem;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body .FooterNewsLetterBody-Title {
+  font-size: 1rem;
+  font-family: Martel Sans;
+  color: #25C1EC;
+  font-weight: 500;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body .FooterNewsLetterBody-Head {
+  font-size: 4rem !important;
+  font-weight: 700;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body .FooterNewsLetterBody-Head span {
+  color: #25C1EC;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Button {
+  align-self: center;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Button button {
+  background-color: #f4f4f4;
+  border: none;
+  font-weight: 500;
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 1.25rem;
+}/*# sourceMappingURL=FooterNewsLetter.css.map */

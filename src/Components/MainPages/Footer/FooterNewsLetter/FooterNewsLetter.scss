@@ -1,0 +1,46 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.FooterNewsLetterMain{
+    
+    background-color: $PrimaryColor;
+    color: $ThirdColor;
+    padding: 8.5rem 0rem;
+    font-family: $HeadFont;
+
+    .FooterNewsLetter{
+        display: flex;
+        .FooterNewsLetter-Body{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 40rem;
+            .FooterNewsLetterBody-Title{
+                font-size: 1rem;
+                font-family: $SecondaryFont;
+                color: $SecondaryColor;
+                font-weight: 500;
+            }
+            .FooterNewsLetterBody-Head{
+                font-size: 4rem !important;
+                font-weight: 700;
+                span{
+                    color: $SecondaryColor;
+            }
+            }
+        }
+        .FooterNewsLetter-Button{
+            align-self: center;
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            button{
+                background-color: $ThirdColor;
+                border: none;
+                font-weight: 500;
+                width: 15rem;
+                height: 3.5rem;
+                border-radius: $PrimaryBorderRadius;
+            }
+        }
+    }
+}   

@@ -1,0 +1,67 @@
+.GalleryISMain .GalleryIS .GalleryIS-ProductStrip {
+  background-color: rgba(30, 30, 30, 0.05);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-Product, .GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-ProductActive {
+  margin: 0rem;
+  font-family: Martel Sans;
+  padding: 1.9rem 2rem;
+  cursor: pointer;
+}
+.GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-Product {
+  color: #888888;
+}
+.GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-ProductActive {
+  font-weight: 800;
+  border-bottom: 2px solid #1e1e1e;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery {
+  padding: 1.15rem 0rem 5rem 0rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer {
+  display: grid;
+  grid-template-columns: 26.25rem 26.25rem 26.25rem;
+  gap: 1.15rem;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer {
+  cursor: pointer;
+  background-color: #1e1e1e;
+  width: 26.25rem;
+  height: 18rem;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox {
+  border-radius: 0.8rem;
+  overflow: hidden;
+  width: 18rem;
+  height: 12rem;
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.35);
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox .GalleryIS-Img {
+  width: 100%;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-ImgButton {
+  background-color: #364154;
+  color: #ffffff;
+  font-family: Martel Sans;
+  font-weight: 600;
+  width: 12rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.8rem;
+}/*# sourceMappingURL=GalleryImgSec.css.map */

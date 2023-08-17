@@ -1,0 +1,102 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.HomeASMain{
+    padding: 10rem 0rem ;
+
+    .HomeAS{
+        display: flex;
+        gap: 3rem;
+        .HomeAS-ImageContainer{
+            position: relative;
+            margin-left: 4.5rem;
+            width: 30rem;
+            .HomeAS-ImgBox{
+                width: 25rem;
+                height: 32rem;
+                overflow: hidden;
+                border-radius: $PrimaryBorderRadius;
+                position: relative;
+                z-index: 1;
+                .HomeAS-Img{
+                    width: auto;
+                    height: 100%;
+                }
+                
+            }
+            .HomeAS-ImgShadow{
+                position: absolute;
+                top: -1.8rem;
+                left: -2.8rem;
+                width: 25rem;
+                height: 32rem;
+                border-radius: $PrimaryBorderRadius;
+                background-color: $HelpingShadowPrimaryColor;
+                transform: rotate(-10deg);
+            }
+            .HomeASImg-FloatWindow{
+                width: 10rem;
+                height: 11rem;
+                background-color: $ThirdColor;
+                border-radius: $PrimaryBorderRadius;
+                box-shadow: $PrimaryShadow;
+                position: absolute;
+                z-index: 2;
+                right: 0rem;
+                bottom: 5rem;
+                text-align: center;
+                display: flex;
+                // gap: 0.5rem ;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .HomeASImgFloatWindow-Icon{
+                    margin-bottom: 0.5rem;
+                }
+                .HomeASImgFloatWindow-Content{
+                    width: 8rem;
+                    font-family: $ContentFont;
+                    color: $ContentFontColor;
+                    font-size: 0.8rem;
+                }
+                .HomeASImgFloatWindow-Line{
+                    opacity: 20%;
+                }
+            }
+        }
+        .HomeAboutSec-Content{
+            width: 43.75rem;
+            display: flex;
+            gap: 0.5rem;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .HomeAboutSecContent-Title{
+                font-family: $SecondaryFont;
+                color: $SecondaryColor;
+                font-weight: 700;
+            }
+            .HomeAboutSecContent-Head{
+                font-family: $HeadFont;
+                color: $HeadFontColor;
+                font-weight: 700;
+                font-size: 2.9rem;
+                span{
+                    color: $SecondaryColor;
+                }
+            }
+            .HomeAboutSecContent-Body{
+                color: $ContentFontColor;
+                font-family: $ContentFont;
+                font-size: 1rem;
+            }
+            .HomeAboutSecContent-Button{
+                background-color: $HeadFontColor;
+                color: $SecondaryFontColor;
+                width: 16rem;
+                height: 3.5rem;
+                border-radius: $SecondaryBorderRadius;
+            }
+
+        }
+    }
+}

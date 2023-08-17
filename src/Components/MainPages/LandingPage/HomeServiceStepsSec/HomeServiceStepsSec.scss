@@ -1,0 +1,102 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.HomeSSSMain{
+    // border: 2px solid red;
+    background-color: $PrimaryColor;
+    height: 45.5rem;
+    padding-top: 3rem;
+    color: $SecondaryFontColor;
+    .HomeSSS{
+        display: flex;
+        // text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+        .HomeSSS-HeadContainer{
+            display: flex;
+            justify-content: center;
+            
+        
+        .HomeSSS-Head{
+            text-align: center;
+            font-size: 3rem;
+            font-family: $HeadFont;
+            font-weight: 700;
+            width: 28rem;
+            span{
+                color: $SecondaryColor;
+            }
+        }
+    }
+        .HomeSSS-Steps{
+            display: flex;
+            flex-direction: column;
+            gap: 10rem;
+            position: relative;
+            .HomeSSSSteps-1{
+                width: 18rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .HomeSSSSteps-Heading{
+                    display: flex;
+                    justify-content: center;
+                    gap: 1rem;
+                    // font-family: $;
+                    .HomeSSSStepsHead-Number{
+                        font-family: $HeadFont;
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                    .HomeSSSStepsHead-Step{
+                        font-family: $SecondaryFont;
+                        font-size: 1.25rem;
+                        width: 8rem;
+                        font-weight: 800;
+                        // text-align: center;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .HomeSSSStepsHead-Content{
+                    width: 14rem;
+                    text-align: center;
+                    font-family: $ContentFont;
+                    color: $ContentFontColor;
+                    font-size: 1rem;
+                    margin-left: 2rem;
+                }
+            }
+            .HomeSSSSteps-Up{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .HomeSSSSteps-Down{
+                display: flex;
+                justify-content: center;
+            }
+            .HomeSSSSteps-LeftLine{
+                position: absolute;
+                bottom: 4.5rem;
+                left: 8.75rem;
+            }
+            .HomeSSSSteps-RightLine{
+                position: absolute;
+                bottom: 4.5rem;
+                right: 8.75rem;
+
+            }
+            .HomeSSSSteps-UpLine{
+                position: absolute;
+                top: 4.5rem;
+                left: 17.5rem;
+            }
+            .HomeSSSSteps-CenterLine{
+                position: absolute;
+                top: 4.5rem;
+                left: 50%;
+            }
+        }
+    }
+}
