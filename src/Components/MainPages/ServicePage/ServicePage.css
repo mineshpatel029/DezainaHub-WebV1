@@ -1,0 +1,93 @@
+.ServiceLSMain {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  height: 51.5rem;
+  padding-top: 12rem;
+}
+.ServiceLSMain .ServiceLS {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head {
+  display: flex;
+  justify-content: space-between;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Heading {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 40rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Heading span {
+  color: #25C1EC;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body {
+  width: 35rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .ServiceLSHeadBody-Content {
+  font-family: Rasa;
+  color: #888888;
+  font-size: 1.25rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .ServiceLSHeadBody-Button {
+  background-color: #364154;
+  border: none;
+  border-radius: 0.8rem;
+  color: #ffffff;
+  width: 12rem;
+  height: 3rem;
+  font-family: Martel Sans;
+  font-weight: 700;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody {
+  position: relative;
+  border-radius: 1.25rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-Content {
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 600;
+  bottom: 0rem;
+  right: 1rem;
+  z-index: 1;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-UpperShadow {
+  position: absolute;
+  width: 81rem;
+  height: 0rem;
+  border-radius: 1.25rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer {
+  width: 81rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer .ServiceLSImgBody-Img {
+  width: 100%;
+  position: relative;
+  bottom: 60rem;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover {
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content {
+  font-weight: 700;
+  margin: 0rem;
+  right: 30rem;
+  bottom: 12rem;
+  transition: 300ms ease-out;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content span {
+  color: #25C1EC;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-UpperShadow {
+  bottom: 0rem;
+  height: 25rem;
+  background-color: #1e1e1e;
+  opacity: 50%;
+  visibility: visible;
+  transition: 200ms ease-in;
+}/*# sourceMappingURL=ServicePage.css.map */

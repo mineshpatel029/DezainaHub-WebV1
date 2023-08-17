@@ -1,0 +1,55 @@
+.NavMainContainer {
+  background-color: #1e1e1e;
+  position: fixed;
+  width: 100%;
+  z-index: 100000000;
+}
+.NavMainContainer .NavBarStyle {
+  display: flex;
+  flex-direction: row;
+}
+.NavMainContainer .NavBarStyle .Nav-Logo {
+  margin-left: -6rem;
+}
+.NavMainContainer .NavBarStyle .Nav-Logo img {
+  width: 5.7rem;
+  height: 100%;
+}
+.NavMainContainer .NavBarStyle .NavBarList {
+  display: flex;
+  width: 120%;
+  justify-content: flex-end;
+  margin-right: -6rem !important;
+}
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items {
+  color: #ffffff;
+  width: 8rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton {
+  width: 8rem;
+  height: 6rem;
+  font-size: 1.1rem !important;
+  font-weight: 800 !important;
+  padding-bottom: 0.5rem;
+  transition: 200ms ease;
+  color: #25C1EC !important;
+  background-color: #ffffff !important;
+  border: none;
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
+  letter-spacing: 0.04rem;
+}
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button {
+  width: 8rem;
+  height: 6rem;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-family: Martel Sans;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  color: #ffffff;
+}/*# sourceMappingURL=HeaderSec.css.map */

@@ -1,0 +1,92 @@
+.HomeSSSMain {
+  background-color: #1e1e1e;
+  height: 45.5rem;
+  padding-top: 3rem;
+  color: #ffffff;
+}
+.HomeSSSMain .HomeSSS {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-HeadContainer {
+  display: flex;
+  justify-content: center;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-HeadContainer .HomeSSS-Head {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  width: 28rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-HeadContainer .HomeSSS-Head span {
+  color: #25C1EC;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  position: relative;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSSteps-Heading {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSSteps-Heading .HomeSSSStepsHead-Number {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSSteps-Heading .HomeSSSStepsHead-Step {
+  font-family: Martel Sans;
+  font-size: 1.25rem;
+  width: 8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSStepsHead-Content {
+  width: 14rem;
+  text-align: center;
+  font-family: Rasa;
+  color: #888888;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-Up {
+  display: flex;
+  justify-content: space-between;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-Down {
+  display: flex;
+  justify-content: center;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-LeftLine {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 8.75rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-RightLine {
+  position: absolute;
+  bottom: 4.5rem;
+  right: 8.75rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-UpLine {
+  position: absolute;
+  top: 4.5rem;
+  left: 17.5rem;
+}
+.HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-CenterLine {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+}/*# sourceMappingURL=HomeServiceStepsSec.css.map */

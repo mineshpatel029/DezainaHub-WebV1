@@ -1,0 +1,104 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.HomeLSMain{
+    // border: 2px solid red;
+    height: 51.5rem;
+    padding-top: 12rem;
+    color: $ThirdColor;
+    background-color: $PrimaryColor;
+    overflow: hidden;
+    
+    
+    .HomeLS{
+        
+        display: flex;
+        gap: 0rem;
+    position: relative;
+        .HomeLS-Content{
+            display: flex;
+            flex-direction: column;
+            width: 43rem;
+            // gap: 5rem;
+
+            .HomeLSContent-Head{
+                width: 39rem;
+                font-family: $HeadFont;
+                font-size: 4rem;
+                font-weight: 700;
+                span{
+                    color: $SecondaryColor;
+                }
+            }
+            .HomeLSContent-Base{
+                height: 18rem;
+                display: flex;
+                align-items: flex-end;
+                // align-content: flex-end;
+                .HomeLSContentBase-L1{
+                    display: flex;
+                    gap: 3rem;
+
+                
+
+                .HomeLSContentBase-Head{
+                    height: 4.2rem;
+                    width: 16rem;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    padding-top: 0.6rem;
+                    font-family: $HeadFont;
+                }
+
+                .HomeLSContentBase-Values{
+                    display: flex;
+                    gap: 1.5rem;
+                    .HomeLSContentBaseValues-Items{
+                        width: 7rem;
+                        .HomeLSContentBaseValuesItems-Value{
+                            font-family: $HeadFont;
+                            font-size: 2.25rem;
+                            font-weight: 700;
+                        }
+                        .HomeLSContentBaseValuesItems-Description{
+                            font-size: 0.8rem;
+                            font-weight: 400;
+                            color: $ContentFontColor;
+                        }
+                    }
+                    
+                }
+
+            }
+        }
+    }
+        .HomeLS-ImageContainer{
+            width: 35rem;
+            height: 41.4rem;
+            overflow: hidden;
+            position: relative;
+            right: 0rem !important;
+            margin-left: 2rem;
+            z-index: 1;
+        // bottom: -1.9rem;
+        border-radius: $UpperRadius;
+        
+            .HomeLS-Image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .HomeLSImageContainer-BGBlue{
+            position: absolute;
+            opacity: 20%;
+            // z-index: 0;
+            right: -25rem;
+            top: -6rem;
+        }
+        .HomeLSImageContainer-BGPink{
+            position: absolute;
+            opacity: 20%;
+            right: 27rem;
+            bottom: 10rem;
+        }
+    }
+}

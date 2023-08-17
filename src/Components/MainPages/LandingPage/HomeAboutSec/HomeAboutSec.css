@@ -1,0 +1,95 @@
+.HomeASMain {
+  padding: 10rem 0rem;
+}
+.HomeASMain .HomeAS {
+  display: flex;
+  gap: 3rem;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer {
+  position: relative;
+  margin-left: 4.5rem;
+  width: 30rem;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox {
+  width: 25rem;
+  height: 32rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
+  width: auto;
+  height: 100%;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
+  position: absolute;
+  top: -1.8rem;
+  left: -2.8rem;
+  width: 25rem;
+  height: 32rem;
+  border-radius: 1.25rem;
+  background-color: rgba(30, 30, 30, 0.05);
+  transform: rotate(-10deg);
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow {
+  width: 10rem;
+  height: 11rem;
+  background-color: #f4f4f4;
+  border-radius: 1.25rem;
+  box-shadow: 0px 5px 30px 2px rgba(136, 137, 137, 0.25);
+  position: absolute;
+  z-index: 2;
+  right: 0rem;
+  bottom: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow .HomeASImgFloatWindow-Icon {
+  margin-bottom: 0.5rem;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow .HomeASImgFloatWindow-Content {
+  width: 8rem;
+  font-family: Rasa;
+  color: #888888;
+  font-size: 0.8rem;
+}
+.HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow .HomeASImgFloatWindow-Line {
+  opacity: 20%;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content {
+  width: 43.75rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Title {
+  font-family: Martel Sans;
+  color: #25C1EC;
+  font-weight: 700;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Head {
+  font-family: Montserrat;
+  color: #364154;
+  font-weight: 700;
+  font-size: 2.9rem;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Head span {
+  color: #25C1EC;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Body {
+  color: #888888;
+  font-family: Rasa;
+  font-size: 1rem;
+}
+.HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Button {
+  background-color: #364154;
+  color: #ffffff;
+  width: 16rem;
+  height: 3.5rem;
+  border-radius: 0.8rem;
+}/*# sourceMappingURL=HomeAboutSec.css.map */

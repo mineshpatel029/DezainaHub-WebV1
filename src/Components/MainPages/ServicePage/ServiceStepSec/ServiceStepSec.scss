@@ -1,0 +1,74 @@
+@import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.ServiceSSMain{
+    padding: 5rem 0rem;
+    .ServiceSS{
+            display: flex;
+            flex-direction: column;
+            gap: 7rem;
+            align-items: center;
+            text-align: center;
+            .ServiceSSHead-Heading{
+                font-family: $HeadFont;
+                font-size: 3rem;
+                color: $HeadFontColor;
+                font-weight: 700;
+                width: 30rem;
+                span{
+                    color: $SecondaryColor;
+                }
+            }
+            .ServiceSS-Steps{
+                position: relative;
+                display: flex;
+                width: 81rem;
+                justify-content: space-between;
+                .ServiceSSSteps-1{
+                    width: 18rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .ServiceSSSteps-Heading{
+                        display: flex;
+                        justify-content: center;
+                        gap: 1rem;
+                        .ServiceSSSteps-Number{
+                            font-family: $HeadFont;
+                            font-size: 5rem;
+                            font-weight: 700;
+                        }
+                        .ServiceSSSteps-Step{
+                            font-family: $SecondaryFont;
+                            font-size: 1.75rem;
+                            width: 10rem;
+                            font-weight: 800;
+                            
+                            text-align: left;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                    .ServiceSSSteps-Content{
+                        width: 18rem;
+                        margin-left: 0rem;
+                        text-align: center;
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 1rem;
+                    }
+                }
+                .ServiceSSSteps-Line1,.ServiceSSSteps-Line2{
+                    position: absolute;
+                    top: 5rem;
+                    opacity: 20%;
+                }
+                .ServiceSSSteps-Line1{
+                    left: 18rem;
+                }
+                .ServiceSSSteps-Line2{
+                    right: 18rem;
+                }
+                
+            }
+    }
+}

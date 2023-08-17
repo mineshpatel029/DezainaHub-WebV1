@@ -1,0 +1,81 @@
+@import "../../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.FeaturedSS-BodyMain{
+    width: 80rem;
+    .FeaturedSS-Body{
+        .FeaturedSSBody-Nav{
+            display: flex;
+            gap: 2rem;
+            font-family: $SecondaryFont;
+            .FeaturedSSBodyNav-ActiveButton{
+                font-weight: 700;
+                color: $PrimaryColor;
+                background-color: transparent;
+                border: none;
+            }
+            .FeaturedSSBodyNav-Button{
+                border: none;
+                background-color: transparent;
+                color: $ContentFontColor;
+                font-weight: 500;
+            }
+            
+        }
+        .FeaturedSSBody-Content{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            .FeaturedService-1{
+                .FeaturedService1-Image{
+                    width: 25rem;
+                    height: 35rem;
+                    overflow: hidden;
+                    border-radius: $PrimaryBorderRadius;
+                    position: relative;
+                    .FeaturedService1-ImgShadow{
+                        width: 25rem;
+                        position: absolute;
+                        height: 40rem;
+                        // background-color: $HelpingShadowPrimaryColor;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.34%, #000 91.56%);
+                        
+                    }
+                    
+                    .FeaturedService1-Img{
+                        height: 100%;
+                        width: auto;
+                        // position: relative;
+                        // left: -5rem;
+                        z-index: -1;
+                    }
+                   
+                    .FeaturedService1Img-Footer{
+                        width: 21rem;
+                            position: absolute;
+                            bottom: 0rem;
+                            left: 2rem;
+                            color: $SecondaryFontColor;
+                            display: flex;
+                            justify-content: space-between;
+                            .FeaturedService1Img-FooterContent{
+                                .FeaturedService1Img-ContentHead{
+                                    font-family: $SecondaryFont;
+                                    font-size: 1.25rem;
+                                    font-weight: 700;
+                                }
+                                .FeaturedService1Img-ContentBody{
+                                    font-family: $ContentFont;
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    color: $ContentFontColor;
+                                }
+                            }
+                            // .FeaturedService1-ImgIcon{
+
+                            // }
+                    }
+                }
+            }
+        }
+    }
+}

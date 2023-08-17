@@ -1,0 +1,86 @@
+.HomeLSMain {
+  height: 51.5rem;
+  padding-top: 12rem;
+  color: #f4f4f4;
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+.HomeLSMain .HomeLS {
+  display: flex;
+  gap: 0rem;
+  position: relative;
+}
+.HomeLSMain .HomeLS .HomeLS-Content {
+  display: flex;
+  flex-direction: column;
+  width: 43rem;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
+  width: 39rem;
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head span {
+  color: #25C1EC;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base {
+  height: 18rem;
+  display: flex;
+  align-items: flex-end;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+  display: flex;
+  gap: 3rem;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
+  height: 4.2rem;
+  width: 16rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 0.6rem;
+  font-family: Montserrat;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
+  display: flex;
+  gap: 1.5rem;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
+  width: 7rem;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #888888;
+}
+.HomeLSMain .HomeLS .HomeLS-ImageContainer {
+  width: 35rem;
+  height: 41.4rem;
+  overflow: hidden;
+  position: relative;
+  right: 0rem !important;
+  margin-left: 2rem;
+  z-index: 1;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {
+  width: 100%;
+  height: 100%;
+}
+.HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
+  position: absolute;
+  opacity: 20%;
+  right: -25rem;
+  top: -6rem;
+}
+.HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
+  position: absolute;
+  opacity: 20%;
+  right: 27rem;
+  bottom: 10rem;
+}/*# sourceMappingURL=HomeLandingSec.css.map */
