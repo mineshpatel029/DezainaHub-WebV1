@@ -87,6 +87,11 @@
   font-weight: 500;
   color: #888888;
 }
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .FeaturedService1-CartButton {
+  border: none;
+  background-color: transparent;
+  padding: 0rem;
+}
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Button {
   font-family: Martel Sans;
   font-weight: 600;

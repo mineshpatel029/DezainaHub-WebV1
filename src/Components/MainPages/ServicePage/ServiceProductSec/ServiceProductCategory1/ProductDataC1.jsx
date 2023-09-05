@@ -4,29 +4,34 @@ import FeaturedServiceImg3 from "../../Images/9.jpg"
 
 const ProductDataC1 =[
     {
-        HeadName : "Poster Designing",
-        Price: "Starting @ 300",
-        img: FeaturedServiceImg1,
+        Prodid:'1',
+        ProdName : "Poster Designing",
+        ProdPrice: "Starting @ 300",
+        ProdImg: FeaturedServiceImg1,
     },
     {
-        HeadName : "Logo Designing",
-        Price: "Starting @ 500",
-        img: FeaturedServiceImg2,
+        Prodid:'2',
+        ProdName : "Logo Designing",
+        ProdPrice: "Starting @ 500",
+        ProdImg: FeaturedServiceImg2,
     },
     {
-        HeadName : "Web Designing",
-        Price: "Starting @ 1000 Per Page",
-        img: FeaturedServiceImg3,
+        Prodid:'3',
+        ProdName : "Web Designing",
+        ProdPrice: "Starting @ 1000 Per Page",
+        ProdImg: FeaturedServiceImg3,
     },
     {
-        HeadName : "Logo Designing",
-        Price: "Starting @ 500",
-        img: FeaturedServiceImg2,
+        Prodid:'4',
+        ProdName : "Logo Designing",
+        ProdPrice: "Starting @ 500",
+        ProdImg: FeaturedServiceImg2,
     },
     {
-        HeadName : "Web Designing",
-        Price: "Starting @ 1000 Per Page",
-        img: FeaturedServiceImg3,
+        Prodid:'5',
+        ProdName : "Web Designing",
+        ProdPrice: "Starting @ 1000 Per Page",
+        ProdImg: FeaturedServiceImg3,
     },
 ]
 
