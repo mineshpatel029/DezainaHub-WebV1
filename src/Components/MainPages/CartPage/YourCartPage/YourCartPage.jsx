@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useReducer } from 'react'
 import "./YourCartPage.css"
 import UserCartData from "../UserCartData"
 
+const initialstate = 0;
+const reducer = (state, action) => {
+    // console.log(state,action);
+    // return state;
+    if(action.type==='INCREMENT'){
+        return state+1;
+    }
+    if(action.type==='DECREMENT'){
+        return state-1
+    }
+    return state;
+}
+
+
+
+
 export const YourCartPage = () => {
+    const [state , dispatch] = useReducer(reducer , initialstate);
   return (
     <div className='CPMain'>
         <div className='CP container'>
@@ -34,13 +51,17 @@ export const YourCartPage = () => {
                 <div className='CPBody-Value'>
                 <div className='CPBodyValue-Counter'>
                     <div className='CPBodyValue-Quantity'>
-                    <svg className='CPBodyValueQuantity-Dec' width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13.5144 0.503418H6.12278C2.9121 0.503418 0.998047 2.41748 0.998047 5.62815V13.0109C0.998047 16.2304 2.9121 18.1445 6.12278 18.1445H13.5056C16.7163 18.1445 18.6303 16.2304 18.6303 13.0198V5.62815C18.6391 2.41748 16.7251 0.503418 13.5144 0.503418ZM13.3468 9.9855H6.29037C5.92873 9.9855 5.62883 9.6856 5.62883 9.32396C5.62883 8.96232 5.92873 8.66242 6.29037 8.66242H13.3468C13.7084 8.66242 14.0083 8.96232 14.0083 9.32396C14.0083 9.6856 13.7084 9.9855 13.3468 9.9855Z" fill="#2F455C"/>
-</svg>
-                        <p className='CPBodyValueQuant-Counter'>0</p>
-                        <svg className='CPBodyValueQuantity-Inc' width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13.1985 0.503418H5.80686C2.59619 0.503418 0.682129 2.41748 0.682129 5.62815V13.0109C0.682129 16.2304 2.59619 18.1445 5.80686 18.1445H13.1897C16.4003 18.1445 18.3144 16.2304 18.3144 13.0198V5.62815C18.3232 2.41748 16.4092 0.503418 13.1985 0.503418ZM13.0309 9.9855H10.1642V12.8522C10.1642 13.2138 9.86431 13.5137 9.50267 13.5137C9.14103 13.5137 8.84113 13.2138 8.84113 12.8522V9.9855H5.97445C5.61281 9.9855 5.31291 9.6856 5.31291 9.32396C5.31291 8.96232 5.61281 8.66242 5.97445 8.66242H8.84113V5.79574C8.84113 5.4341 9.14103 5.1342 9.50267 5.1342C9.86431 5.1342 10.1642 5.4341 10.1642 5.79574V8.66242H13.0309C13.3925 8.66242 13.6924 8.96232 13.6924 9.32396C13.6924 9.6856 13.3925 9.9855 13.0309 9.9855Z" fill="#2F455C"/>
-</svg>
+                        <button onClick={()=>dispatch({type:"DECREMENT"})} className='CPBodyValueQuantity-Button'>
+                            <svg className='CPBodyValueQuantity-Dec' width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5144 0.503418H6.12278C2.9121 0.503418 0.998047 2.41748 0.998047 5.62815V13.0109C0.998047 16.2304 2.9121 18.1445 6.12278 18.1445H13.5056C16.7163 18.1445 18.6303 16.2304 18.6303 13.0198V5.62815C18.6391 2.41748 16.7251 0.503418 13.5144 0.503418ZM13.3468 9.9855H6.29037C5.92873 9.9855 5.62883 9.6856 5.62883 9.32396C5.62883 8.96232 5.92873 8.66242 6.29037 8.66242H13.3468C13.7084 8.66242 14.0083 8.96232 14.0083 9.32396C14.0083 9.6856 13.7084 9.9855 13.3468 9.9855Z" fill="#2F455C"/>
+                            </svg>
+                        </button>
+                        <p className='CPBodyValueQuant-Counter'>{state}</p>
+                        <button onClick={()=>dispatch({type:"INCREMENT"})} className='CPBodyValueQuantity-Button'>
+                            <svg className='CPBodyValueQuantity-Inc' width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.1985 0.503418H5.80686C2.59619 0.503418 0.682129 2.41748 0.682129 5.62815V13.0109C0.682129 16.2304 2.59619 18.1445 5.80686 18.1445H13.1897C16.4003 18.1445 18.3144 16.2304 18.3144 13.0198V5.62815C18.3232 2.41748 16.4092 0.503418 13.1985 0.503418ZM13.0309 9.9855H10.1642V12.8522C10.1642 13.2138 9.86431 13.5137 9.50267 13.5137C9.14103 13.5137 8.84113 13.2138 8.84113 12.8522V9.9855H5.97445C5.61281 9.9855 5.31291 9.6856 5.31291 9.32396C5.31291 8.96232 5.61281 8.66242 5.97445 8.66242H8.84113V5.79574C8.84113 5.4341 9.14103 5.1342 9.50267 5.1342C9.86431 5.1342 10.1642 5.4341 10.1642 5.79574V8.66242H13.0309C13.3925 8.66242 13.6924 8.96232 13.6924 9.32396C13.6924 9.6856 13.3925 9.9855 13.0309 9.9855Z" fill="#2F455C"/>
+                            </svg>
+                        </button>
 
 
                     </div>

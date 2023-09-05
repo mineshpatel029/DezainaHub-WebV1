@@ -110,6 +110,11 @@
   align-items: center;
   padding: 0.3rem 0.5rem;
 }
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity .CPBodyValueQuantity-Button {
+  border: none;
+  padding: 0rem;
+  background-color: transparent;
+}
 .CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity .CPBodyValueQuant-Counter {
   margin: 0rem;
   font-family: Montserrat;
