@@ -1,14 +1,27 @@
-import React, { useContext } from 'react'
-import { useProductContext } from '../../../Context/ProductContext';
-import {CartStageContext} from '../../../Context/CartContext';
+import React, { useEffect } from "react";
 import "./CartPage.css"
 import YourCartPage from './YourCartPage/YourCartPage';
 import ReviewCartPage from './ReviewCartPage/ReviewCartPage';
 import CartOrderSuccesPage from './CartOrderSuccesPage/CartOrderSuccesPage';
+import { useSelector, useDispatch } from "react-redux";
+import UserCartData from "./UserCartData";
+import { setProdInfo } from "../../../Redux/cartReducer";
 
 export const CartPage = () => {
-  // const myName = useProductContext();
-  const {setStep, currentStep} = useContext(CartStageContext);
+  const steps = useSelector((state) => state.cartReducer?.step);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    UserCartData.map((CartData) => {
+        dispatch(setProdInfo({key: CartData.prodId, value: {
+            prodQuantity: 1,
+            maxPrice: CartData.MaxPrice,
+            minPrice: CartData.MinPrice
+        }
+        }))
+    })
+  },[])
+
   const Showstep = (step)=>{
     switch (step) {
       case 1:
@@ -21,14 +34,12 @@ export const CartPage = () => {
     }
   }
   return (
-    <div className='CartPageMain'>
-      {console.log(currentStep)}
-  
-        {Showstep(currentStep)}
+    <div className='CartPageMain'>  
+        {Showstep(steps)}
        
         {/* <YourCartPage/> */}
-        {/* <ReviewCartPage/> */}
-        {/* <CartOrderSuccesPage/> */}
+        {/* <ReviewCartPage/>
+        <CartOrderSuccesPage/> */}
     </div>
   )
 }
