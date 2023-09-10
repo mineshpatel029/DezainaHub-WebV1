@@ -1,6 +1,7 @@
 import React from 'react'
 import "./FeaturedServiceSec.css"
 import FeaturedServiceSecBody from './FeaturedServiceSecBody/FeaturedServiceSecBody';
+import { NavLink } from "react-router-dom";
 
 export const FeaturedServiceSec = () => {
   return (
@@ -12,10 +13,11 @@ export const FeaturedServiceSec = () => {
                 <p className='FeaturedSSHead-Body'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
             </div>
             <FeaturedServiceSecBody/>
-            
+            <NavLink to="/Service" >
             <button className='FeaturedSS-Button'>
                 View All
             </button>
+            </NavLink>
 
         </div>
     

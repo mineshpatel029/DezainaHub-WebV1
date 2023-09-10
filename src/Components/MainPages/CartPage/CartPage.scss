@@ -129,15 +129,18 @@
                             color: $HeadFontColor;
                         }
                     }
-                    .CPBodyValue-PriceTag{
+                    .CPBodyValue-PriceBox{
+                        text-align: center;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        margin: 0rem;
-                        font-family: $HeadFont;
-                        font-weight: 700;
-                        color: $PrimaryColor;
-                        width: 8rem;
+                        .CPBodyValue-PriceTag{
+                            margin: 0rem;
+                            font-family: $HeadFont;
+                            font-weight: 700;
+                            color: $PrimaryColor;
+                            width: 4rem;
+                        }
                     }
                 }
                 .CPBodyHead-DelButton{

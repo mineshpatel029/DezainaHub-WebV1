@@ -8,30 +8,36 @@ const ProductDataC1 =[
         ProdName : "Poster Designing",
         ProdPrice: "Starting @ 300",
         ProdImg: FeaturedServiceImg1,
+        FeatureProd: false,
     },
     {
         Prodid:'2',
         ProdName : "Logo Designing",
         ProdPrice: "Starting @ 500",
         ProdImg: FeaturedServiceImg2,
+        FeatureProd: true,
     },
     {
         Prodid:'3',
         ProdName : "Web Designing",
         ProdPrice: "Starting @ 1000 Per Page",
         ProdImg: FeaturedServiceImg3,
+        FeatureProd: true,
     },
     {
         Prodid:'4',
-        ProdName : "Logo Designing",
+        ProdName : "Brand Kit",
         ProdPrice: "Starting @ 500",
         ProdImg: FeaturedServiceImg2,
+        FeatureProd: true,
+
     },
     {
         Prodid:'5',
         ProdName : "Web Designing",
         ProdPrice: "Starting @ 1000 Per Page",
         ProdImg: FeaturedServiceImg3,
+        FeatureProd: false,
     },
 ]
 

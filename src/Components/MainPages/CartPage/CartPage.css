@@ -121,15 +121,18 @@
   font-weight: 700;
   color: #364154;
 }
-.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceTag {
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceBox {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceBox .CPBodyValue-PriceTag {
   margin: 0rem;
   font-family: Montserrat;
   font-weight: 700;
   color: #1e1e1e;
-  width: 8rem;
+  width: 4rem;
 }
 .CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton {
   position: absolute;

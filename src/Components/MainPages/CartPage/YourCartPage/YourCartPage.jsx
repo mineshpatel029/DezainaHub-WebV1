@@ -1,6 +1,7 @@
-import React, { useReducer } from 'react'
+import React, { useContext, useReducer } from 'react'
 import "./YourCartPage.css"
 import UserCartData from "../UserCartData"
+import { CartStageContext } from '../../../../Context/CartContext';
 
 const initialstate = 0;
 const reducer = (state, action) => {
@@ -20,6 +21,14 @@ const reducer = (state, action) => {
 
 export const YourCartPage = () => {
     const [state , dispatch] = useReducer(reducer , initialstate);
+    const { setStep, currentStep } = useContext(CartStageContext);
+
+    const handleNextClick = () => {
+        setStep(2);
+      };
+    // const MinProdPrice = {}
+    
+
   return (
     <div className='CPMain'>
         <div className='CP container'>
@@ -65,9 +74,14 @@ export const YourCartPage = () => {
 
 
                     </div>
+                    <div className='CPBodyValue-PriceBox'>
                     <h6 className='CPBodyValue-PriceTag'>
-                        {CartData.Price}
+                        {CartData.MinPrice}
+                    </h6> - <h6 className='CPBodyValue-PriceTag'>
+                        {CartData.MaxPrice}
                     </h6>
+
+                    </div>
                 </div>
                 <button className='CPBodyHead-DelButton'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7 0C3.143 0 0 3.143 0 7C0 10.857 3.143 14 7 14C10.857 14 14 10.857 14 7C14 3.143 10.857 0 7 0ZM9.352 8.61C9.555 8.813 9.555 9.149 9.352 9.352C9.247 9.457 9.114 9.506 8.981 9.506C8.848 9.506 8.715 9.457 8.61 9.352L7 7.742L5.39 9.352C5.285 9.457 5.152 9.506 5.019 9.506C4.886 9.506 4.753 9.457 4.648 9.352C4.55036 9.2532 4.49561 9.1199 4.49561 8.981C4.49561 8.8421 4.55036 8.7088 4.648 8.61L6.258 7L4.648 5.39C4.55036 5.2912 4.49561 5.1579 4.49561 5.019C4.49561 4.8801 4.55036 4.7468 4.648 4.648C4.851 4.445 5.187 4.445 5.39 4.648L7 6.258L8.61 4.648C8.813 4.445 9.149 4.445 9.352 4.648C9.555 4.851 9.555 5.187 9.352 5.39L7.742 7L9.352 8.61Z"/>
@@ -90,7 +104,7 @@ export const YourCartPage = () => {
                     <hr/>
                 </div>
                 <div className='CPBase-Button'>
-                <button className='CPBase-ProceedButton'>Proceed</button>
+                <button className='CPBase-ProceedButton' onClick={handleNextClick()}>Proceed</button>
                 </div>
             </div>
 

@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./ReviewCartPage.css"
 import UserCartData from "../UserCartData"
+import { CartStageContext } from '../../../../Context/CartContext';
 
 export const ReviewCartPage = () => {
+    const { setStep, currentStep } = useContext(CartStageContext);
+    const HandleFinalClick =()=>{
+        setStep(3)
+      }
+      const handlePrevClick = ()=>{
+        setStep(1)
+    }
   return (
     <div className='CPMain'>
         <div className='CP container'>
@@ -69,8 +77,8 @@ export const ReviewCartPage = () => {
                     <hr/>
                 </div>
                 <div className='CPBase-Button'>
-                <button className='CPBase-ProceedButton'>Edit Details</button>
-                <button className='CPBase-ProceedButton'>Proceed</button>
+                <button className='CPBase-ProceedButton' onClick={handlePrevClick()}>Edit Details</button>
+                <button className='CPBase-ProceedButton' onClick={HandleFinalClick()}>Proceed</button>
                 </div>
             </div>
 
