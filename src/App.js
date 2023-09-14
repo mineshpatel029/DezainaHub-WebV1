@@ -38,7 +38,7 @@ function App() {
     <BrowserRouter>
         {!renderHeaderFooter() ? <HeaderSec/> : <></> } 
         <Routes>
-          <Route path='/Home' element={<LandingPage/>} />
+          <Route path='/' element={<LandingPage/>} />
           <Route path='/AboutUs' element={<AboutUsPage/>} />
           <Route path='/Service' element={<ServicePage/>} />
           <Route path='/Service/:id' element={<PDPage/>} />

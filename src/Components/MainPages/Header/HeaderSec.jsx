@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import "./HeaderSec.css"
 import LogoImg from "./Image/Dezaina.hub.png"
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 
 export const HeaderSec = () => {
     const [activeTab, setActiveTab] = useState("home");
     const url = window.location.href;
+    const { pathname ='' } = useLocation();
 
     return (
     <div className='NavMainContainer'>
@@ -16,8 +17,8 @@ export const HeaderSec = () => {
             </div>
             <div className='NavBarList'>
                 <div className='NavBarList-Items'>
-                <NavLink to="/Home">
-                    <button onClick={() => setActiveTab('home')} className={url.includes("Home") ? "activeButton" : 'NavBarListItem-Button'}>Home</button>
+                <NavLink to="/">
+                    <button onClick={() => setActiveTab('home')} className={pathname === '/' ? "activeButton" : 'NavBarListItem-Button'}>Home</button>
                 </NavLink>
                 </div>
                 <div className='NavBarList-Items'>
