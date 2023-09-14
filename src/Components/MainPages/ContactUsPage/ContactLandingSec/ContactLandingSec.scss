@@ -8,8 +8,9 @@
     .ContactLS{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
         .ContactLS-Head{
+            margin-top: 5rem;
             width: 45rem;
             .ContactLSHead-Heading{
                 font-family: $HeadFont;

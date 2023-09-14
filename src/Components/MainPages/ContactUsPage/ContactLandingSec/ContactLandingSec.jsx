@@ -54,11 +54,11 @@ export const ContactLandingSec = () => {
                             </div>
                             <div className='ContactLSForm-Content'>
                                 <label className='ContactLSForm-Label'>Service</label>
-                                <Select
+                                    <Select
                                         className='OPBodyContentAddBox-ProductDetail' 
                                         closeMenuOnSelect={false}
-        components={animatedComponents}
-      isMulti
+                                        components={animatedComponents}
+                                        isMulti
                                     options={ServiceOptions} />
                             </div>
                             <button className='ContactLSForm-Button' type='submit'>Next</button>

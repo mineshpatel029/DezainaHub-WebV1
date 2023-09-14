@@ -7,9 +7,9 @@
 .ContactLSMain .ContactLS {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .ContactLSMain .ContactLS .ContactLS-Head {
+  margin-top: 5rem;
   width: 45rem;
 }
 .ContactLSMain .ContactLS .ContactLS-Head .ContactLSHead-Heading {
