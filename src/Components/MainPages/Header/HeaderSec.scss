@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     .Nav-Logo{
-        margin-left: -3rem;
+        margin-left: -6vb;
         img{
             width: 5rem;
             height: 100%;
@@ -24,21 +24,21 @@
         display: flex;
         width: 120%;
         justify-content: flex-end;
-        margin-right: -2rem !important;
+        margin-right: -5vb !important;
   
     .NavBarList-Items{
         // background-color: $PrimaryColor;
         color: $SecondaryFontColor;
-        width: 6rem;
-        height: 5rem;
+        width: 13vb;
+        height: 11vh;
         display: flex;
         font-size: 0.8rem;
         justify-content: center;
         align-items: center;
 
         .activeButton{
-            width: 6rem;
-            height: 5rem;
+            width: 13vb;
+            height: 11vh;
             font-size: 1rem !important;
             font-weight: 800 !important;
             padding-bottom: 0.5rem;
@@ -51,8 +51,8 @@
         }
 
         .NavBarListItem-Button{
-            width: 6rem;
-            height: 5rem;
+            width: 13vb;
+            height: 11vh;
             background-color: transparent;
             border: none;
             text-align: center;

@@ -9,7 +9,7 @@
   flex-direction: row;
 }
 .NavMainContainer .NavBarStyle .Nav-Logo {
-  margin-left: -3rem;
+  margin-left: -6vb;
 }
 .NavMainContainer .NavBarStyle .Nav-Logo img {
   width: 5rem;
@@ -19,20 +19,20 @@
   display: flex;
   width: 120%;
   justify-content: flex-end;
-  margin-right: -2rem !important;
+  margin-right: -5vb !important;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items {
   color: #ffffff;
-  width: 6rem;
-  height: 5rem;
+  width: 13vb;
+  height: 11vh;
   display: flex;
   font-size: 0.8rem;
   justify-content: center;
   align-items: center;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton {
-  width: 6rem;
-  height: 5rem;
+  width: 13vb;
+  height: 11vh;
   font-size: 1rem !important;
   font-weight: 800 !important;
   padding-bottom: 0.5rem;
@@ -44,8 +44,8 @@
   letter-spacing: 0.04rem;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button {
-  width: 6rem;
-  height: 5rem;
+  width: 13vb;
+  height: 11vh;
   background-color: transparent;
   border: none;
   text-align: center;
