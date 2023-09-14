@@ -14,7 +14,6 @@ export const AboutLandingSec = () => {
                         <svg className='AboutLSImgFloatBoxHead-Line' width="95" height="2" viewBox="0 0 95 2" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 1H95" stroke="#888888"/>
                         </svg>
-
                     </div>
                     <div className='AboutLSImgFloatBox-Body'>
                         <h3 className='AboutLSImgFloatBoxBody-Head'>Vol 02</h3>

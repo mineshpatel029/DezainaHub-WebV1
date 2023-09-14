@@ -1,9 +1,10 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .AboutLSMain{
-    height: 51.5rem;
+    // height: 46.2rem;
+    height: 100vh;
     background-color: $PrimaryColor;
-    padding-top: 12rem;
+    padding-top: 22vh;
     color: $SecondaryFontColor;
     .AboutLS{
         display: flex;
@@ -21,15 +22,15 @@
             }
         }
         .AboutLS-ImgBox{
-            width: 45rem;
+            width: 55vw;
             position: relative;
             .AboutLS-ImgContainer{
-                width: 45rem;
-                height: 25rem;
+                width: 55vw;
+                height: 55vh;
                 overflow: hidden;
                 border-radius: $PrimaryBorderRadius;
                 .AboutLS-Img{
-                    width: 45rem;
+                    width: 55vw;
                 }
             }
             .AboutLSImg-FloatBox{
@@ -37,8 +38,8 @@
                 bottom: 0rem;
                 right: 0rem;
                 background-color: $PrimaryColor;
-                width: 15rem;
-                height: 8rem;
+                width: 16vw;
+                height: 18vh;
                 padding: 1rem;
                 border-top-left-radius: $PrimaryBorderRadius;
                 .AboutLSImgFloatBox-Head{

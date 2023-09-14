@@ -1,7 +1,7 @@
 .AboutLSMain {
-  height: 51.5rem;
+  height: 100vh;
   background-color: #1e1e1e;
-  padding-top: 12rem;
+  padding-top: 22vh;
   color: #ffffff;
 }
 .AboutLSMain .AboutLS {
@@ -21,25 +21,25 @@
   color: #25C1EC;
 }
 .AboutLSMain .AboutLS .AboutLS-ImgBox {
-  width: 45rem;
+  width: 55vw;
   position: relative;
 }
 .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer {
-  width: 45rem;
-  height: 25rem;
+  width: 55vw;
+  height: 55vh;
   overflow: hidden;
   border-radius: 1.25rem;
 }
 .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer .AboutLS-Img {
-  width: 45rem;
+  width: 55vw;
 }
 .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox {
   position: absolute;
   bottom: 0rem;
   right: 0rem;
   background-color: #1e1e1e;
-  width: 15rem;
-  height: 8rem;
+  width: 16vw;
+  height: 18vh;
   padding: 1rem;
   border-top-left-radius: 1.25rem;
 }
