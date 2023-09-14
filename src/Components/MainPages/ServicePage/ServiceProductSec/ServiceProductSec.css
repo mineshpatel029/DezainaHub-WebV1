@@ -101,4 +101,57 @@
   border: none;
   border-radius: 0.8rem;
   color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .ServicePSMain {
+    gap: 1rem;
+  }
+  .ServicePSMain .ServicePS-CategoryStrip {
+    height: 2.5rem;
+  }
+  .ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList .ServicePS-Category {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .ServicePSMain .ServicePS-CategoryHeadStrip {
+    height: 3rem;
+  }
+  .ServicePSMain .ServicePS-CategoryHeadStrip .ServicePS-CategoryHead {
+    font-size: 1.25rem;
+  }
+  .ServicePSMain .ServicePS {
+    margin-top: 2rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList {
+    gap: 2rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 14rem 14rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container {
+    width: 14rem;
+    height: 22rem;
+    border-radius: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProduct-ImgShadow {
+    height: 100%;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer {
+    width: 13rem;
+    left: 0.5rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .ServicePSProductImg-FooterContent .ServicePSProductImg-ContentHead {
+    font-size: 1rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .ServicePSProductImg-FooterContent .ServicePSProductImg-ContentBody {
+    font-size: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=ServiceProductSec.css.map */

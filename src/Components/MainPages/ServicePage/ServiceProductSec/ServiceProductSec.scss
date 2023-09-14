@@ -114,3 +114,64 @@
     }
 }
 
+
+
+
+@media screen and (max-width: 900px){
+    .ServicePSMain{
+        gap: 1rem;
+        .ServicePS-CategoryStrip{
+            height: 2.5rem;
+            .ServicePS-CategoryList{
+                .ServicePS-Category{
+                    width: 100%;
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        .ServicePS-CategoryHeadStrip{
+            height: 3rem;
+            .ServicePS-CategoryHead{
+                font-size: 1.25rem;
+            }
+        }
+        .ServicePS{
+            margin-top: 2rem;
+            .ServicePS-ProductList{
+                gap: 2rem;
+                .ServicePS-Products{
+                    display: grid;
+                    gap: 0.5rem;
+                    grid-template-columns: 14rem 14rem;
+                        .ServicePSProduct-Container{
+                            width: 14rem;
+                            height: 22rem;
+                            border-radius: $SecondaryBorderRadius;
+                            .ServicePSProduct-ImgShadow{
+                                height: 100%;                     
+                            }
+                           
+                            .ServicePSProductImg-Footer{
+                                    width: 13rem;
+                                    left: 0.5rem;
+                                    .ServicePSProductImg-FooterContent{
+                                        .ServicePSProductImg-ContentHead{
+                                            font-size: 1rem;
+                                        }
+                                        .ServicePSProductImg-ContentBody{
+                                            font-size: 0.8rem;
+                                        }
+                                    }
+                            }
+                        }
+                    
+                }
+                .ServicePS-Button{
+                    width: 8rem;
+                    height: 2.5rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ServiceLandingSec"
+import "./ServiceLandingSec.css"
 import ServiceLandingImg from "../Images/9.jpg"
 
 export const ServiceLandingSec = () => {
