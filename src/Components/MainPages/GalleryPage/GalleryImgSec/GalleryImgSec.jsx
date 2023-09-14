@@ -32,41 +32,6 @@ export const GalleryImgSec = () => {
                     </div>
                 </div>
                 ))} 
-                {/* <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div>
-                <div className='GalleryIS-ImgContainer'>
-                    <div className='GalleryIS-ImgBox'>
-                        <img className='GalleryIS-Img' src={GalleryImg1}/>
-                    </div>
-                </div> */}
 
             </div>
                 <button className='GalleryIS-ImgButton'>Load More</button>

@@ -64,4 +64,43 @@
   height: 3rem;
   border: none;
   border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .GalleryISMain .GalleryIS .GalleryIS-ProductStrip {
+    height: 3rem;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-Product, .GalleryISMain .GalleryIS .GalleryIS-ProductStrip .GalleryIS-ProductList .GalleryISStrip-ProductActive {
+    padding: 1rem 0.8rem;
+    font-size: 0.6rem;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-Gallery {
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer {
+    grid-template-columns: 9rem 9rem 9rem;
+    gap: 0.5rem;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer {
+    width: 9rem;
+    height: 6rem;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox {
+    border-radius: 0.8rem;
+    width: 6.5rem;
+    height: 3.5rem;
+  }
+  .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-ImgButton {
+    font-size: 0.6rem;
+    width: 8rem;
+    height: 2rem;
+  }
 }/*# sourceMappingURL=GalleryImgSec.css.map */
