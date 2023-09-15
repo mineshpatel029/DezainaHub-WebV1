@@ -33,11 +33,11 @@ export const ServiceStepSec = () => {
                 </div>
                 
                 <svg className='ServiceSSSteps-Line1' width="213" height="4" viewBox="0 0 213 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M213 2L-5.36442e-06 2" stroke="#5A5A5A" stroke-width="4" stroke-dasharray="8 8"/>
+                <path d="M213 2L-5.36442e-06 2" stroke="#5A5A5A"  stroke-dasharray="8 8"/>
                 </svg>
 
                 <svg className='ServiceSSSteps-Line2' width="213" height="4" viewBox="0 0 213 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M213 2L-5.36442e-06 2" stroke="#5A5A5A" stroke-width="4" stroke-dasharray="8 8"/>
+                <path d="M213 2L-5.36442e-06 2" stroke="#5A5A5A"  stroke-dasharray="8 8"/>
                 </svg>
 
             </div>

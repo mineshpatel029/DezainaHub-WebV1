@@ -8,7 +8,7 @@ export const AboutBriefSec = () => {
         <div className='AboutBS container'>
             <div className='AboutBS-Head'>
                 <h6 className='AboutBSHead-Title'>About Us</h6>
-                <h1 className='AboutBSHead-Heading'>We are the solution for your Graphic</h1>
+                <h1 className='AboutBSHead-Heading'>We are the solution for your Graphic Design</h1>
                 <p className='AboutBSHead-Content'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
             </div>
             <div className='AboutBS-Body'>

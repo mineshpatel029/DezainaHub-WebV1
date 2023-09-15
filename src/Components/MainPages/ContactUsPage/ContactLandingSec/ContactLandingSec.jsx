@@ -4,8 +4,6 @@ import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 
 
-
-
 const animatedComponents = makeAnimated();
 
 const ServiceOptions = [
@@ -21,7 +19,7 @@ const ServiceOptions = [
     { value: 'LetterHead', label: 'LetterHead' },
     { value: 'strawberry', label: 'Strawberry' },
     { value: 'Other', label: 'Other' },
-  ]
+]
 
 
 

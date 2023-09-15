@@ -1,7 +1,7 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ContactLSMain{
-    height: 51.5rem;
+    height: 100vh;
     padding-top: 20vh;
     background-color: $PrimaryColor;
     color: $SecondaryFontColor;
@@ -71,6 +71,58 @@
                 }
             }
 
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .ContactLSMain{
+        height: 51.5rem;
+        padding-top: 8rem;
+        .ContactLS{
+            display: flex;
+            flex-direction: column;
+            .ContactLS-Head{
+                margin-top: 0rem;
+                width: 100%;
+                text-align: center;
+                .ContactLSHead-Heading{
+                    font-size: 2.5rem;
+                }
+                .ContactLSHead-Body{
+                    font-size: 0.8rem;
+                    width: 100%;
+                }
+            }
+            .ContactLS-FormContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .ContactLS-FormBox{
+                    width: 25rem;
+                    min-height: 30rem;
+                    padding: 1rem 1.5rem;
+                    .ContactLS-Form{
+                        gap: 0.5rem;
+                        .ContactLSForm-Content{
+                            .ContactLSForm-Label{
+                                font-size: 0.6rem;
+                            }
+                            .ContactLSForm-Input{
+                                padding: 0.5rem;
+                                width: 100%;
+                                font-size: 0.6rem;
+                            }
+                        }
+                        .ContactLSForm-Button{
+                            height: 2rem;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+    
+            }
         }
     }
 }

@@ -1,7 +1,6 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ServiceSSMain{
-    padding: 5rem 0rem;
     .ServiceSS{
             display: flex;
             flex-direction: column;
@@ -61,6 +60,7 @@
                     position: absolute;
                     top: 5rem;
                     opacity: 20%;
+                    stroke-width: 4rem;
                 }
                 .ServiceSSSteps-Line1{
                     left: 18rem;
@@ -70,5 +70,61 @@
                 }
                 
             }
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .ServiceSSMain{
+        .ServiceSS{
+                gap: 4rem;
+                .ServiceSSHead-Heading{
+                    font-size: 2.5rem;
+                    width: 100%;
+                }
+                .ServiceSS-Steps{
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 3rem;
+                    .ServiceSSSteps-1{
+                        width: 15rem;
+                        justify-content: center;
+                        align-items: center;
+                        .ServiceSSSteps-Heading{
+                            display: flex;
+                            justify-content: center;
+                            gap: 1rem;
+                            .ServiceSSSteps-Number{
+                                font-size: 3rem;
+                            }
+                            .ServiceSSSteps-Step{
+                                font-size: 1.2rem;
+                                width: 8rem;
+                            }
+                        }
+                        .ServiceSSSteps-Content{
+                            width: 12rem;
+                            font-size: 0.65rem;
+                        }
+                    }
+                    .ServiceSSSteps-Line1,.ServiceSSSteps-Line2{
+                        width: 3rem;
+                        stroke-width: 6rem;
+                        left: 15rem;
+                        transform: rotate(90deg);
+                    }
+                    .ServiceSSSteps-Line1{
+                        top: 8.25rem;
+                        left: auto;
+                    }
+                    .ServiceSSSteps-Line2{
+                        left: 13rem;
+                        top: 18rem !important;
+                    }
+                    
+                }
+        }
     }
 }

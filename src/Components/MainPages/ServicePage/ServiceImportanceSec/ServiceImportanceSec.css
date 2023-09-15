@@ -1,5 +1,5 @@
 .ServiceISMain {
-  padding: 5rem 0rem;
+  margin-bottom: 10vh;
 }
 .ServiceISMain .ServiceIS {
   display: flex;
@@ -59,4 +59,41 @@
   color: #888888;
   font-size: 0.6rem;
   margin: 0rem;
+}
+
+@media screen and (max-width: 900px) {
+  .ServiceISMain .ServiceIS .ServiceIS-Head {
+    width: 100%;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Head .ServiceISHead-Heading {
+    font-size: 1.5rem;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Head .ServiceISHead-Body {
+    font-size: 0.8rem;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body {
+    width: 100%;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body .ServiceISBody-ImgContainer {
+    width: 100%;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body .ServiceISBody-ImgContainer .ServiceISBody-ImgBox {
+    width: 100%;
+    height: 19rem;
+    border-radius: 1.25rem;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body .ServiceISBody-ImgContainer .ServiceISBody-ImgBox .ServiceISBody-Img {
+    width: 100%;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body .ServiceISBody-ImgContainer .ServiceISBodyImg-FloatBox {
+    bottom: 2rem;
+    right: -0.5rem;
+    width: 8rem;
+    height: 9rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  .ServiceISMain .ServiceIS .ServiceIS-Body .ServiceISBody-ImgContainer .ServiceISBodyImg-FloatBox .ServiceISBodyImgFloat-Content {
+    font-size: 0.5rem;
+  }
 }/*# sourceMappingURL=ServiceImportanceSec.css.map */

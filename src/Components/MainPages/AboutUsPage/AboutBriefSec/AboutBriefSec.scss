@@ -1,7 +1,7 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .AboutBSMain{
-    padding: 5rem 0rem;
+    // padding: 5rem 0rem;
     .AboutBS{
         .AboutBS-Head{
             text-align: center;
@@ -66,6 +66,49 @@
                         font-family: $ContentFont;
                         width: 38rem;
                         color: $ContentFontColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .AboutBSMain{
+        .AboutBS{
+            .AboutBS-Head{
+                .AboutBSHead-Title{
+                    font-size: 0.8rem;
+                }
+                .AboutBSHead-Heading{
+                    font-size: 1.5rem;
+                }
+                .AboutBSHead-Content{
+                    width: 28rem;
+                    font-size: 0.8rem;
+                }
+            }
+            .AboutBS-Body{
+                .AboutBSBody-Content{
+                    gap: 1rem;
+                    width: 100%;
+                    height: 7rem;
+                    .AboutBSBodyContent-Title{
+                        width: 5rem;
+                        height: 100%;
+                        span{
+                            font-size: 3rem;
+                        }
+                    }
+                    .AboutBSBodyContent-Content{
+                        .AboutBSBodyContent-Heading{
+                            font-size: 1rem;
+                        }
+                        .AboutBSBodyContent-Body{
+                            width: 20rem;
+                            font-size: 0.7rem;
+                        }
                     }
                 }
             }

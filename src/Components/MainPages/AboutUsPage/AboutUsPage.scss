@@ -1,1 +1,7 @@
 @import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.AboutUsPageMain{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
