@@ -6,6 +6,7 @@ import ServiceProductSec from './ServiceProductSec/ServiceProductSec';
 import ServiceImportanceSec from './ServiceImportanceSec/ServiceImportanceSec';
 
 export const ServicePage = () => {
+  
   return (
     <div className='ServicePageMain'>
         <ServiceLandingSec/>

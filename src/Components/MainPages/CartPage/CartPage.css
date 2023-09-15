@@ -110,21 +110,29 @@
   align-items: center;
   padding: 0.3rem 0.5rem;
 }
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity .CPBodyValueQuantity-Button {
+  border: none;
+  padding: 0rem;
+  background-color: transparent;
+}
 .CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-Quantity .CPBodyValueQuant-Counter {
   margin: 0rem;
   font-family: Montserrat;
   font-weight: 700;
   color: #364154;
 }
-.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceTag {
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceBox {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyValue-Counter .CPBodyValue-PriceBox .CPBodyValue-PriceTag {
   margin: 0rem;
   font-family: Montserrat;
   font-weight: 700;
   color: #1e1e1e;
-  width: 8rem;
+  width: 4rem;
 }
 .CPMain .CP .CPBodyMain .CP-Body .CPBody-Value .CPBodyHead-DelButton {
   position: absolute;

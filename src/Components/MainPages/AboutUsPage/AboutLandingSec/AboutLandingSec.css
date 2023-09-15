@@ -1,5 +1,5 @@
 .AboutLSMain {
-  height: 51.5rem;
+  height: 46.2rem;
   background-color: #1e1e1e;
   padding-top: 12rem;
   color: #ffffff;
@@ -63,4 +63,48 @@
   font-family: Rasa;
   font-size: 0.8rem;
   color: #888888;
+}
+
+@media screen and (max-width: 900px) {
+  .AboutLSMain {
+    padding-top: 8rem;
+    height: 35rem;
+  }
+  .AboutLSMain .AboutLS {
+    gap: 2rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-Head {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox {
+    width: 100%;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer {
+    width: 100%;
+    height: 18rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer .AboutLS-Img {
+    width: 100%;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox {
+    width: 10rem;
+    height: 6rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head {
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head .AboutLSImgFloatBoxHead-Heading {
+    font-size: 0.6rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head .AboutLSImgFloatBoxHead-Line {
+    width: 4rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Head {
+    font-size: 1rem;
+  }
+  .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Content {
+    font-size: 0.6rem;
+  }
 }/*# sourceMappingURL=AboutLandingSec.css.map */

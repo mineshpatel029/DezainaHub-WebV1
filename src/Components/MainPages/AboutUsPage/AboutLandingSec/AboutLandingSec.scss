@@ -1,7 +1,8 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .AboutLSMain{
-    height: 51.5rem;
+    // height: 46.2rem;
+    height: 46.2rem;
     background-color: $PrimaryColor;
     padding-top: 12rem;
     color: $SecondaryFontColor;
@@ -64,6 +65,54 @@
                         font-family: $ContentFont;
                         font-size: 0.8rem;
                         color: $ContentFontColor;;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .AboutLSMain{
+        padding-top: 8rem;
+        height: 35rem;
+        .AboutLS{
+            gap: 2rem;
+            .AboutLS-Head{
+                font-size: 1.5rem;
+                width: 100%;
+            }
+            .AboutLS-ImgBox{
+                width: 100%;
+                .AboutLS-ImgContainer{
+                    width: 100%;
+                    height: 18rem;
+                    .AboutLS-Img{
+                        width: 100%;
+                    }
+                }
+                .AboutLSImg-FloatBox{
+                    width: 10rem;
+                    height: 6rem;
+                    .AboutLSImgFloatBox-Head{
+                        gap: 1rem;
+                        justify-content: space-between;
+                        .AboutLSImgFloatBoxHead-Heading{
+                            font-size: 0.6rem;
+                        }
+                        .AboutLSImgFloatBoxHead-Line{
+                            width: 4rem;
+                        }
+    
+                    }
+                    .AboutLSImgFloatBox-Body{
+                        .AboutLSImgFloatBoxBody-Head{
+                            font-size: 1rem; 
+                        }
+                        .AboutLSImgFloatBoxBody-Content{
+                            font-size: 0.6rem;
+                        }
                     }
                 }
             }

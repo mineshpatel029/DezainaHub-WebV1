@@ -1,15 +1,16 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ContactLSMain{
-    height: 51.5rem;
-    padding-top: 12rem;
+    height: 100vh;
+    padding-top: 20vh;
     background-color: $PrimaryColor;
     color: $SecondaryFontColor;
     .ContactLS{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
         .ContactLS-Head{
+            margin-top: 5rem;
             width: 45rem;
             .ContactLSHead-Heading{
                 font-family: $HeadFont;
@@ -30,26 +31,27 @@
             .ContactLS-FormBox{
                 color: $HeadFontColor;
                 width: 27rem;
-                height: 30rem;
+                min-height: 30rem;
                 background-color: $ThirdColor;
                 border-radius: $PrimaryBorderRadius;
-                padding: 3rem;
+                padding: 2rem 3rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 .ContactLS-Form{
                     display: flex;
                     flex-direction: column;
-                    gap: 1rem;
+                    gap: 0.8rem;
                     .ContactLSForm-Content{
                         .ContactLSForm-Label{
                             font-family: $HeadFont;
                             font-weight: 700;
                             margin-bottom: 0.3rem;
-                            font-size: 1rem;
+                            font-size: 0.8rem;
                         }
                         .ContactLSForm-Input{
                             border-radius: 0.25rem;
+                            margin-bottom: 0rem;
                             padding: 0.5rem;
                             width: 100%;
                             border: none;
@@ -69,6 +71,58 @@
                 }
             }
 
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .ContactLSMain{
+        height: 51.5rem;
+        padding-top: 8rem;
+        .ContactLS{
+            display: flex;
+            flex-direction: column;
+            .ContactLS-Head{
+                margin-top: 0rem;
+                width: 100%;
+                text-align: center;
+                .ContactLSHead-Heading{
+                    font-size: 2.5rem;
+                }
+                .ContactLSHead-Body{
+                    font-size: 0.8rem;
+                    width: 100%;
+                }
+            }
+            .ContactLS-FormContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .ContactLS-FormBox{
+                    width: 25rem;
+                    min-height: 30rem;
+                    padding: 1rem 1.5rem;
+                    .ContactLS-Form{
+                        gap: 0.5rem;
+                        .ContactLSForm-Content{
+                            .ContactLSForm-Label{
+                                font-size: 0.6rem;
+                            }
+                            .ContactLSForm-Input{
+                                padding: 0.5rem;
+                                width: 100%;
+                                font-size: 0.6rem;
+                            }
+                        }
+                        .ContactLSForm-Button{
+                            height: 2rem;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+    
+            }
         }
     }
 }
