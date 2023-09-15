@@ -19,7 +19,7 @@ export const GalleryLandingSec = () => {
               <div className='GalleryLS-CategoryContainer'>
               {GalleryProdCat.map((CatData , i)=>(
                   <h6 key={i} onClick={()=>setActiveCat(CatData.Catid)} className={activeCat === (CatData.Catid) ? 'GalleryLS-CategoryActive' : 'GalleryLS-Category'}>{CatData.CatName}</h6>
-
+                  
               ))}
               </div>
           </div>
