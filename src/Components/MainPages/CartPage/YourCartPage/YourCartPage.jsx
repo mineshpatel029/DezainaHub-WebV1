@@ -76,9 +76,14 @@ export const YourCartPage = () => {
                     <h2 className="CPBodyHeadContent-Heading">
                       {CartData.Heading}
                     </h2>
-                    <p className="CPBodyHeadContent-Body">
+                    {/* <p className="CPBodyHeadContent-Body">
                       {CartData.Description}
-                    </p>
+                    </p> */}
+                    <div>
+                    <textarea rows="3" cols="60" className="CPBodyHeadContent-Body" placeholder="Explain Breifly About This Project..."/>
+                    <button>Update</button>
+                    <button>Cancel</button>
+                    </div>
                   </div>
                   <button className="CPBodyHead-AddMoreButton">
                     + Add More
@@ -131,8 +136,8 @@ export const YourCartPage = () => {
                     ₹{productInfo?.[`${CartData.prodId}`]?.prodQuantity > 0
                         ? productInfo?.[`${CartData.prodId}`]?.minPrice
                         : CartData.MinPrice}
-                    </h6>{" "}
-                    -{" "}
+                    </h6>
+                    -
                     <h6 className="CPBodyValue-PriceTag">
                     ₹{productInfo?.[`${CartData.prodId}`]?.prodQuantity > 0
                         ? productInfo?.[`${CartData.prodId}`]?.maxPrice

@@ -50,6 +50,10 @@ export const HeaderSec = () => {
                 <NavLink to="/">
                     <button className='NavBarListItem-Button'>LogOut</button>
                 </NavLink>
+                <NavLink to="/Login">
+                    <button className='NavBarListItem-Button'>Login</button>
+                </NavLink>
+                
                 </div>
                 {/* <div className='NavBarList-Items'>
                     <NavLink to="/Article">
