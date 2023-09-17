@@ -30,7 +30,7 @@ const PDPage = lazy(()=> import("./Components/MainPages/ProductDescriptionPage/P
 function App() {
   const renderHeaderFooter = () => {
     const path = window.location.pathname;
-    return path === "/Login" || path === "/Signup" || path === "/Verify";
+    return path === "/Login" || path === "/Signup" || path === "/Verify" || path === "*";
   }
   return (
     <div className="App">
