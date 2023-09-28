@@ -6,7 +6,7 @@
 }
 .AboutLSMain .AboutLS {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   flex-direction: column;
   align-items: center;
 }
@@ -41,6 +41,7 @@
   width: 15rem;
   height: 8rem;
   padding: 1rem;
+  padding-left: 2rem;
   border-top-left-radius: 1.25rem;
 }
 .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head {

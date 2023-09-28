@@ -53,4 +53,7 @@
   font-weight: 600;
   letter-spacing: 0.04rem;
   color: #ffffff;
+}
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=HeaderSec.css.map */

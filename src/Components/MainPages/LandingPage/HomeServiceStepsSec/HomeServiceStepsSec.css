@@ -34,6 +34,7 @@
   width: 18rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSSteps-Heading {
@@ -55,12 +56,11 @@
   align-items: center;
 }
 .HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-1 .HomeSSSStepsHead-Content {
-  width: 14rem;
+  width: 17rem;
   text-align: center;
   font-family: Rasa;
   color: #888888;
   font-size: 1rem;
-  margin-left: 2rem;
 }
 .HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-Up {
   display: flex;
@@ -83,7 +83,7 @@
 .HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-UpLine {
   position: absolute;
   top: 4.5rem;
-  left: 17.5rem;
+  left: 18rem;
 }
 .HomeSSSMain .HomeSSS .HomeSSS-Steps .HomeSSSSteps-CenterLine {
   position: absolute;

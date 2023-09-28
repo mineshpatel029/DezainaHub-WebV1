@@ -6,7 +6,7 @@
   height: 35rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Content {
-  width: 35rem;
+  width: 45rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,6 +81,7 @@
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 {
   width: 30rem;
   height: 20rem;
+  top: 2rem;
   right: -1.75rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow .HomeGSGalleryImg1Shadow-Text {
@@ -95,7 +96,7 @@
   width: 18rem;
   height: 10rem;
   bottom: 0rem;
-  left: 16.75rem;
+  left: 12rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
   font-size: 0.8rem;
@@ -109,7 +110,7 @@
   width: 15rem;
   height: 12rem;
   bottom: 5rem;
-  left: -2rem;
+  left: -5rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow .HomeGSGalleryImg3Shadow-Text {
   font-size: 1rem;
@@ -122,14 +123,14 @@
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
   opacity: 20%;
   position: absolute;
-  bottom: 6.5rem;
-  left: 9rem;
+  bottom: 7rem;
+  left: 5rem;
   z-index: -1;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
   opacity: 20%;
   position: absolute;
-  bottom: 0rem;
-  left: -6rem;
+  bottom: 1.5rem;
+  left: -8rem;
   z-index: -1;
 }/*# sourceMappingURL=HomeGallerySec.css.map */

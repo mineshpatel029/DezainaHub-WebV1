@@ -54,7 +54,7 @@
   height: 100%;
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container1 .AboutHSHeadBodyContainer1-Body {
-  width: 22rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,7 +85,7 @@
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body .AboutHSHeadBodyContainer2Body-Content {
   text-align: center;
-  width: 12rem;
+  width: 15rem;
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container2 .AboutHSHeadBodyContainer2-Body .AboutHSHeadBodyContainer2Body-Content .AboutHSHeadBodyContainer2Body-Head {
   font-family: Martel Sans;
@@ -127,13 +127,14 @@
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   width: 50rem;
   justify-content: space-between;
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body .AboutHSHeadBodyContainer3Body-Head {
-  width: 22rem;
+  width: 23rem;
   font-size: 2rem;
+  line-height: 1.5;
   font-family: Martel Sans;
   font-weight: 800;
 }
@@ -141,7 +142,7 @@
   color: #25C1EC;
 }
 .AboutHSMain .AboutHS .AboutHSHead-Body .AboutHSHeadBody-Container3 .AboutHSHeadBodyContainer3-Body .AboutHSHeadBodyContainer3Body-Content {
-  width: 22rem;
+  width: 25rem;
   font-family: Rasa;
   color: #888888;
 }

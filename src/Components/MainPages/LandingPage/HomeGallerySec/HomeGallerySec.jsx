@@ -11,11 +11,10 @@ export const HomeGallerySec = () => {
         <div className="HomeGS-Content">
           <h6 className="HomeGSContent-Title">Gallery</h6>
           <h1 className="HomeGSContent-Head">
-            Community of made <span>Designers</span> made
+          Dive into Our <span>Captivating</span> Portfolio
           </h1>
           <p className="HomeGSContent-Body">
-            Gorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+          Explore our elegant portfolio showcasing our works and design expertise.
           </p>
           <button className="HomeGSContent-Button">Explore Gallery</button>
         </div>
@@ -24,7 +23,7 @@ export const HomeGallerySec = () => {
             <div className="HomeGSGallery-ImgBox1">
               <div className="HomeGSGalleryImg1-Shadow">
                 <h6 className="HomeGSGalleryImg1Shadow-Text">
-                  Poster Designing
+                  Website Designing
                 </h6>
               </div>
               <img className="HomeGSGallery-Img1" src={GalleryImg1} />
@@ -33,7 +32,7 @@ export const HomeGallerySec = () => {
           <div className="HomeGSGallery-ImgContainer2">
             <div className="HomeGSGallery-ImgBox2">
               <div className="HomeGSGalleryImg2-Shadow">
-                <h6 className="HomeGSGalleryImg1Shadow-Text">Logo Designing</h6>
+                <h6 className="HomeGSGalleryImg1Shadow-Text">Poster Designing</h6>
               </div>
               <img className="HomeGSGallery-Img2" src={GalleryImg2} />
             </div>
@@ -42,7 +41,7 @@ export const HomeGallerySec = () => {
             <div className="HomeGSGallery-ImgBox3">
               <div className="HomeGSGalleryImg3-Shadow">
                 <h6 className="HomeGSGalleryImg1Shadow-Text">
-                  Website Designing
+                  Logo Designing
                 </h6>
               </div>
               <img className="HomeGSGallery-Img3" src={GalleryImg3} />
