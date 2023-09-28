@@ -15,9 +15,9 @@ export const FeaturedServiceSecBody = ({featureProducts}) => {
         <div className='FeaturedSS-Body'>
                 <div className='FeaturedSSBody-Nav'>
                     <button className='FeaturedSSBodyNav-ActiveButton'>All Category</button>
-                    <button className='FeaturedSSBodyNav-Button'>Brand Designing</button>
-                    <button className='FeaturedSSBodyNav-Button'>Advertising Content</button>
-                    <button className='FeaturedSSBodyNav-Button'>Design Rendering</button>
+                    <button className='FeaturedSSBodyNav-Button'>Visual Branding</button>
+                    <button className='FeaturedSSBodyNav-Button'>Brand Marketing</button>
+                    <button className='FeaturedSSBodyNav-Button'>Digital Interaction</button>
                 </div>
                 <div className='FeaturedSSBody-Content'>
                 {featureProducts.length ? featureProducts.map((ServiceCardData)=> {

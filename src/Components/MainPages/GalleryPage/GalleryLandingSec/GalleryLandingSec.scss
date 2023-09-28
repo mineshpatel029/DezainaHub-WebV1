@@ -12,13 +12,20 @@
         gap: 2rem;
         align-items: center;
         text-align: center;
+        justify-content: center;
         .GalleryLS-Head{
             width: 50rem;
             font-family: $HeadFont;
             font-weight: 700;
+            margin-bottom: 1rem;
             span{
                 color: $SecondaryColor;
             }
+        }
+        .GalleryLSHead-Body{
+            font-family: $ContentFont;
+            color: $ContentFontColor;
+            margin: 0rem;
         }
         .GalleryLS-ImgBox{
             width: 50rem;
@@ -49,6 +56,12 @@
                 color: $SecondaryFontColor;
                 z-index: 1;
             }
+        }
+        .GalleryLSCategory-Body{
+            font-family: $ContentFont;
+            color: $ContentFontColor;
+            margin: 0rem;
+            width: 35rem;
         }
     }
 }

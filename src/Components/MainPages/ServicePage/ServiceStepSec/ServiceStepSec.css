@@ -22,10 +22,10 @@
   justify-content: space-between;
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 {
-  width: 18rem;
+  width: 19rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Heading {
   display: flex;
@@ -40,14 +40,14 @@
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Heading .ServiceSSSteps-Step {
   font-family: Martel Sans;
   font-size: 1.75rem;
-  width: 10rem;
+  width: 14rem;
   font-weight: 800;
   text-align: left;
   display: flex;
   align-items: center;
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 .ServiceSSSteps-Content {
-  width: 18rem;
+  width: 100%;
   margin-left: 0rem;
   text-align: center;
   font-family: Rasa;
@@ -56,15 +56,15 @@
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1, .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
   position: absolute;
-  top: 5rem;
-  opacity: 20%;
+  top: 3rem;
+  opacity: 15%;
   stroke-width: 4rem;
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1 {
   left: 18rem;
 }
 .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
-  right: 18rem;
+  right: 21rem;
 }
 
 @media screen and (max-width: 900px) {
