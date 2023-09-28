@@ -76,6 +76,8 @@
 .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox {
   width: 28rem;
   height: 36rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox .AboutTSImgContainer-Img {
   width: 100%;

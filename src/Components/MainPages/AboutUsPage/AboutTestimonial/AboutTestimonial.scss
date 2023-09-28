@@ -80,6 +80,8 @@
             .AboutTSImgContainer-ImgBox{
                 width: 28rem;
                 height: 36rem;
+                border-radius: $PrimaryBorderRadius;
+                overflow: hidden;
                 .AboutTSImgContainer-Img{
                     width: 100%;
                 }

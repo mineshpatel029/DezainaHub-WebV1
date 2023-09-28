@@ -10,14 +10,21 @@
   gap: 2rem;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 .GalleryLSMain .GalleryLS .GalleryLS-Head {
   width: 50rem;
   font-family: Montserrat;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 .GalleryLSMain .GalleryLS .GalleryLS-Head span {
   color: #25C1EC;
+}
+.GalleryLSMain .GalleryLS .GalleryLSHead-Body {
+  font-family: Rasa;
+  color: #888888;
+  margin: 0rem;
 }
 .GalleryLSMain .GalleryLS .GalleryLS-ImgBox {
   width: 50rem;
@@ -47,6 +54,12 @@
   box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.35);
   color: #ffffff;
   z-index: 1;
+}
+.GalleryLSMain .GalleryLS .GalleryLSCategory-Body {
+  font-family: Rasa;
+  color: #888888;
+  margin: 0rem;
+  width: 35rem;
 }
 
 @media screen and (max-width: 900px) {

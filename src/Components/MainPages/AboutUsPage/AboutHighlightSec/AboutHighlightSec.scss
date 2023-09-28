@@ -56,7 +56,7 @@
                 }
             }
             .AboutHSHeadBodyContainer1-Body{
-                width: 22rem;
+                width: 25rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -89,7 +89,7 @@
 
                 .AboutHSHeadBodyContainer2Body-Content{
                     text-align: center;
-                    width: 12rem;
+                    width: 15rem;
                     .AboutHSHeadBodyContainer2Body-Head{
                         font-family: $SecondaryFont;
                         font-weight: 800;
@@ -132,12 +132,13 @@
             }
             .AboutHSHeadBodyContainer3-Body{
                 display: flex;
-                gap: 5rem;
+                gap: 3rem;
                 width: 50rem;
                 justify-content: space-between;
                 .AboutHSHeadBodyContainer3Body-Head{
-                    width: 22rem;
+                    width: 23rem;
                     font-size: 2rem;
+                    line-height: 1.5;
                     font-family: $SecondaryFont;
                     font-weight: 800;
                     span{
@@ -145,7 +146,7 @@
                     }
                 }
                 .AboutHSHeadBodyContainer3Body-Content{
-                    width: 22rem;
+                    width: 25rem;
                     font-family: $ContentFont;
                     color: $ContentFontColor;
                 }

@@ -18,7 +18,7 @@ export const HomeAboutSec = () => {
 <path d="M13.6971 32.0048C11.547 29.7144 10.2148 26.6295 10.2148 23.2173C10.2148 16.136 15.9641 10.3867 23.0455 10.3867C30.1268 10.3867 35.8761 16.136 35.8761 23.2173C35.8761 26.6295 34.5439 29.6911 32.3938 32.0048M19.0724 36.936L15.707 41.1194C13.0427 44.4615 15.4032 49.3927 19.68 49.3927H26.3875C30.6644 49.3927 33.0482 44.4381 30.3605 41.1194L26.9951 36.936C24.9852 34.3886 21.1057 34.3886 19.0724 36.936Z" stroke="#4BACE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 <p className='HomeASImgFloatWindow-Content'>
-Lorem Ipsum is simply dummy text of the printing Ipsum is simply 
+The Secret of a great brands is great designs with masterful marketing 
 </p>
 <svg className='HomeASImgFloatWindow-Line' width="70" height="3" viewBox="0 0 70 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.773438 1.90283H18.867" stroke="#4BACE0" stroke-width="2"/>
@@ -29,10 +29,10 @@ Lorem Ipsum is simply dummy text of the printing Ipsum is simply
       </div>
       <div className='HomeAboutSec-Content'>
         <h6 className='HomeAboutSecContent-Title'>About Us</h6>
-        <h1 className='HomeAboutSecContent-Head'>We are the <span>Solution</span> for your Graphic Designing <span>Problems</span></h1>
-        <p className='HomeAboutSecContent-Body'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+        <h1 className='HomeAboutSecContent-Head'>DezainaHub is Your <span>Key</span> to Exceptional Branding <span>Success</span></h1>
+        <p className='HomeAboutSecContent-Body'>DezainaHub is your trusted partner, whether you're a small business seeking a strong brand presence or a large corporation in need of powerful marketing campaigns. Our specialty lies in crafting captivating brand identities through visually stunning designs. From logos to corporate solutions, we cover it all, helping you shine in a competitive market while you focus on business growth.</p>
         <button className='HomeAboutSecContent-Button'>
-          Lets Discuss
+        Want to Know More?
         </button>
       </div>
     </div>

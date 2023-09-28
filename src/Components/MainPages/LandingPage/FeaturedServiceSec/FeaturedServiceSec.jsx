@@ -28,7 +28,7 @@ export const FeaturedServiceSec = () => {
             <div className='FeaturedSS-Head'>
                 <h6 className='FeaturedSSHead-Title'>Services</h6>
                 <h1 className='FeaturedSSHead-Heading'>Explore <span>Featured</span> Services</h1>
-                <p className='FeaturedSSHead-Body'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                <p className='FeaturedSSHead-Body'>Discover Our Spotlighted Solutions: Tailored Solutions for Your Brand's Unique Journey. Elevate Your Brand with Our Creative Expertise.</p>
             </div>
             <FeaturedServiceSecBody featureProducts={featureProducts}/>
             <NavLink to="/Service" >

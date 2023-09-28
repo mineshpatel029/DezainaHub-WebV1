@@ -16,7 +16,7 @@
   width: 43rem;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
-  width: 39rem;
+  width: 42rem;
   font-family: Montserrat;
   font-size: 4rem;
   font-weight: 700;
@@ -30,15 +30,16 @@
   align-items: flex-end;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+  width: 100%;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
+  justify-content: space-between;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
   height: 4.2rem;
-  width: 16rem;
-  font-size: 1.5rem;
+  width: 20rem;
+  font-size: 1.35rem;
   font-weight: 700;
-  padding-top: 0.6rem;
   font-family: Montserrat;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
@@ -46,15 +47,15 @@
   gap: 1.5rem;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
-  width: 7rem;
+  width: 6rem;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
   font-family: Montserrat;
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   color: #888888;
 }
