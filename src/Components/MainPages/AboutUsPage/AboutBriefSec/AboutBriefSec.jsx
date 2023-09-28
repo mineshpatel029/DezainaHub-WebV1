@@ -7,9 +7,9 @@ export const AboutBriefSec = () => {
     <div className='AboutBSMain'>
         <div className='AboutBS container'>
             <div className='AboutBS-Head'>
-                <h6 className='AboutBSHead-Title'>About Us</h6>
-                <h1 className='AboutBSHead-Heading'>We are the solution for your Graphic</h1>
-                <p className='AboutBSHead-Content'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <h6 className='AboutBSHead-Title'>Key values</h6>
+                <h1 className='AboutBSHead-Heading'>Our Essence: A Glimpse into DezainaHub</h1>
+                <p className='AboutBSHead-Content'>Discover the heart and soul of DezainaHub - our core values, authenticity, and creativity. See how these elements define us and infuse uniqueness into every project we craft.</p>
             </div>
             <div className='AboutBS-Body'>
             {BriefContentData.map((BriefContent , i)=>(     

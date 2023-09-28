@@ -7,22 +7,22 @@ export const HomeLandingSec = () => {
     <div className='HomeLSMain'>
         <div className='HomeLS container'>
             <div className='HomeLS-Content'>
-                <h1 className='HomeLSContent-Head'>DESIGNING WHAT <span>VISUAL</span> AND STORIES PROFICIENTLY</h1>
+                <h1 className='HomeLSContent-Head'>DESIGNING VISUAL <span>STORIES</span> WITH UNMATCHED PRECISION</h1>
                 <div className='HomeLSContent-Base'>
                 <div className='HomeLSContentBase-L1'>
-                    <h4 className='HomeLSContentBase-Head'>DESIGNING VISUAL STORIES WITH</h4>
+                    <h4 className='HomeLSContentBase-Head'>Proven Excellence: Our Client Service Journey</h4>
                     <div className='HomeLSContentBase-Values'>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>8.0*</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Average platform specialist ratings</h6>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'>340</h3>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Total Customers ratings</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>$12</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>License and govern certificates</h6>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'>28*</h3>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Active Clients certificates</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>1M+</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Online order our product last Month</h6>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'>95%</h3>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Satisfaction Percentage</h6>
                         </div>
                     </div>
                 </div>

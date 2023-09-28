@@ -1,5 +1,9 @@
 import React from 'react'
 import "./ContactLandingSec.css"
+import ContactForm1 from './ContactFormStages/ContactForm1';
+import ContactFormFinal from './ContactFormStages/ContactFormFinal';
+
+
 
 export const ContactLandingSec = () => {
   return (
@@ -11,21 +15,8 @@ export const ContactLandingSec = () => {
             </div>
             <div className='ContactLS-FormContainer'>
                     <div className='ContactLS-FormBox'>
-                        <form className='ContactLS-Form'>
-                            <div className='ContactLSForm-Content'>
-                                <label className='ContactLSForm-Label'>Name</label>
-                                <input className='ContactLSForm-Input' placeholder='Name'></input>
-                            </div>
-                            <div className='ContactLSForm-Content'>
-                                <label className='ContactLSForm-Label'>Company</label>
-                                <input className='ContactLSForm-Input' placeholder='Company (if any)'></input>
-                            </div>
-                            <div className='ContactLSForm-Content'>
-                                <label className='ContactLSForm-Label'>Message</label>
-                                <textarea className='ContactLSForm-Input' type='MessageBox' rows='7' cols='40' placeholder='Message'></textarea>
-                            </div>
-                            <button className='ContactLSForm-Button' type='submit'>Next</button>
-                        </form>
+                        <ContactForm1/>
+                        {/* <ContactFormFinal/> */}
                     </div>
             </div>
         </div>

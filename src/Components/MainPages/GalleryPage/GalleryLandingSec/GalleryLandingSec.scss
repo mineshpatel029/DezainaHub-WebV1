@@ -2,8 +2,9 @@
 
 .GalleryLSMain{
     background-color: $PrimaryColor;
-    height: 51.5rem;
-    padding-top: 12rem;
+    // height: 51.5rem;
+    height: 100vh;
+    padding-top: 20vh;
     color:  $SecondaryFontColor;
     .GalleryLS{
         display: flex;
@@ -11,13 +12,20 @@
         gap: 2rem;
         align-items: center;
         text-align: center;
+        justify-content: center;
         .GalleryLS-Head{
             width: 50rem;
             font-family: $HeadFont;
             font-weight: 700;
+            margin-bottom: 1rem;
             span{
                 color: $SecondaryColor;
             }
+        }
+        .GalleryLSHead-Body{
+            font-family: $ContentFont;
+            color: $ContentFontColor;
+            margin: 0rem;
         }
         .GalleryLS-ImgBox{
             width: 50rem;
@@ -47,6 +55,39 @@
                 box-shadow: $SecondaryShadow;
                 color: $SecondaryFontColor;
                 z-index: 1;
+            }
+        }
+        .GalleryLSCategory-Body{
+            font-family: $ContentFont;
+            color: $ContentFontColor;
+            margin: 0rem;
+            width: 35rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 900px){
+    .GalleryLSMain{
+        height: 33rem;
+        padding-top: 8rem;
+        .GalleryLS{
+            gap: 1rem;
+            .GalleryLS-Head{
+                font-size: 1.5rem;
+                width: 100%;
+            }
+            .GalleryLS-ImgBox{
+                width: 100%;
+                height: 15rem;
+            }
+            .GalleryLS-CategoryContainer{
+                width: 100%;
+                .GalleryLS-Category, .GalleryLS-CategoryActive{
+                    padding: 0.8rem 1rem;
+                    font-size: 0.7rem;
+                }
             }
         }
     }

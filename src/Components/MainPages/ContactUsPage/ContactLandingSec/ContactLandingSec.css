@@ -1,15 +1,15 @@
 .ContactLSMain {
-  height: 51.5rem;
-  padding-top: 12rem;
+  height: 100vh;
+  padding-top: 20vh;
   background-color: #1e1e1e;
   color: #ffffff;
 }
 .ContactLSMain .ContactLS {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .ContactLSMain .ContactLS .ContactLS-Head {
+  margin-top: 5rem;
   width: 45rem;
 }
 .ContactLSMain .ContactLS .ContactLS-Head .ContactLSHead-Heading {
@@ -29,10 +29,10 @@
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox {
   color: #364154;
   width: 27rem;
-  height: 30rem;
+  min-height: 30rem;
   background-color: #f4f4f4;
   border-radius: 1.25rem;
-  padding: 3rem;
+  padding: 2rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,16 +40,17 @@
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Label {
   font-family: Montserrat;
   font-weight: 700;
   margin-bottom: 0.3rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Input {
   border-radius: 0.25rem;
+  margin-bottom: 0rem;
   padding: 0.5rem;
   width: 100%;
   border: none;
@@ -64,4 +65,52 @@
   font-family: Martel Sans;
   font-weight: 800;
   border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 900px) {
+  .ContactLSMain {
+    height: 51.5rem;
+    padding-top: 8rem;
+  }
+  .ContactLSMain .ContactLS {
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactLSMain .ContactLS .ContactLS-Head {
+    margin-top: 0rem;
+    width: 100%;
+    text-align: center;
+  }
+  .ContactLSMain .ContactLS .ContactLS-Head .ContactLSHead-Heading {
+    font-size: 2.5rem;
+  }
+  .ContactLSMain .ContactLS .ContactLS-Head .ContactLSHead-Body {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox {
+    width: 25rem;
+    min-height: 30rem;
+    padding: 1rem 1.5rem;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form {
+    gap: 0.5rem;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Label {
+    font-size: 0.6rem;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Input {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactLS-Form .ContactLSForm-Button {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=ContactLandingSec.css.map */

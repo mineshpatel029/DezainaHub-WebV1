@@ -1,8 +1,14 @@
+.ServicePageMain {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
 .ServiceLSMain {
   background-color: #1e1e1e;
   color: #ffffff;
-  height: 51.5rem;
-  padding-top: 12rem;
+  height: 100vh;
+  padding-top: 15vh;
 }
 .ServiceLSMain .ServiceLS {
   display: flex;
@@ -90,4 +96,62 @@
   opacity: 50%;
   visibility: visible;
   transition: 200ms ease-in;
+}
+
+@media screen and (max-width: 900px) {
+  .ServiceLSMain {
+    height: 35rem;
+    padding-top: 8rem;
+  }
+  .ServiceLSMain .ServiceLS {
+    gap: 2rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head {
+    width: 100%;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Heading {
+    font-size: 1.25rem;
+    width: 15rem;
+    margin: 0rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body {
+    width: 12rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .ServiceLSHeadBody-Content {
+    font-family: Rasa;
+    color: #888888;
+    font-size: 0.65rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .ServiceLSHeadBody-Button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody {
+    border-radius: 0.8rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-Content {
+    font-size: 1rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-UpperShadow {
+    position: absolute;
+    width: 100%;
+    height: 0rem;
+    border-radius: 0.8rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer {
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.8rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer .ServiceLSImgBody-Img {
+    bottom: 18rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content {
+    right: 10rem;
+    bottom: 6rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-UpperShadow {
+    height: 15rem;
+  }
 }/*# sourceMappingURL=ServicePage.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"ServiceProductCategory1.css"}
+{"version":3,"sources":["ServiceProductCategory1.scss","../../../../GlobalComponents/GlobalStyles/GlobalStyles.scss","ServiceProductCategory1.css"],"names":[],"mappings":"AAEA;EACI,yBCKQ;ACNZ","file":"ServiceProductCategory1.css"}

@@ -21,7 +21,7 @@
             // gap: 5rem;
 
             .HomeLSContent-Head{
-                width: 39rem;
+                width: 42rem;
                 font-family: $HeadFont;
                 font-size: 4rem;
                 font-weight: 700;
@@ -35,17 +35,19 @@
                 align-items: flex-end;
                 // align-content: flex-end;
                 .HomeLSContentBase-L1{
+                    width: 100%;
                     display: flex;
-                    gap: 3rem;
+                    gap: 2rem;
+                    justify-content: space-between;
 
                 
 
                 .HomeLSContentBase-Head{
                     height: 4.2rem;
-                    width: 16rem;
-                    font-size: 1.5rem;
+                    width: 20rem;
+                    font-size: 1.35rem;
                     font-weight: 700;
-                    padding-top: 0.6rem;
+                    // padding-top: 0.1rem;
                     font-family: $HeadFont;
                 }
 
@@ -53,14 +55,14 @@
                     display: flex;
                     gap: 1.5rem;
                     .HomeLSContentBaseValues-Items{
-                        width: 7rem;
+                        width: 6rem;
                         .HomeLSContentBaseValuesItems-Value{
                             font-family: $HeadFont;
-                            font-size: 2.25rem;
+                            font-size: 1.8rem;
                             font-weight: 700;
                         }
                         .HomeLSContentBaseValuesItems-Description{
-                            font-size: 0.8rem;
+                            font-size: 0.7rem;
                             font-weight: 400;
                             color: $ContentFontColor;
                         }

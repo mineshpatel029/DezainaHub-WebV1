@@ -1,7 +1,6 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ServicePSMain{
-    // padding: 5rem 0rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -91,7 +90,100 @@
                                         color: $ContentFontColor;
                                     }
                                 }
+                                .FeaturedService1-CartButton{
+                                    border: none;
+                                    background-color: transparent;
+                                    padding: 0rem;
+                                }
                         }
+                    }
+                    
+                    .PPBodyContent-Box{
+                        width: 25rem;
+                        min-height: 35rem;
+                        display: flex;
+                        border-radius: $PrimaryBorderRadius;
+                        padding-bottom: 1rem;
+                        background-color: $SecondaryFontColor;
+                        flex-direction: column;
+                        gap: 1rem;
+                        // justify-content: space-between;
+                        
+                        .PPBodyContentBox-ImgContainer{
+                            
+                            .PPBodyContentBox-Img{
+                                border-radius: $UpperRadius;
+                                width: 100%;
+                                height: 18rem;
+                            }
+                        }
+                        
+                        .PPBodyContentBox-Content{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            padding: 0rem 2rem;
+                            gap: 1rem;
+                            .PPBodyContentBox-HeadContent{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .PPBodyContentBox-ProductName{
+                                    font-size: 0.8rem;
+                                    margin: 0rem;
+                                    font-family: $HeadFont;
+                                    font-weight: 700;
+                                    color: $HeadFontColor;
+                                }
+                                .PPBodyContentBox-ProductPrice{
+                                    font-family: $HeadFont;
+                                    color: $ContentFontColor;
+                                    font-weight: 700;
+                                    font-size: 0.6rem;
+                                    margin: 0rem;
+                                }
+
+                            }
+                            .PPBodyContentBox-BodyContent{
+                                    color: $ContentFontColor;
+                                    font-size: 0.8rem;
+                                    font-family: $ContentFont;
+                                    margin: 0rem;
+                            }
+                        }
+                        .PPBodyContentBox-Body{
+                            margin: 0rem 2rem;
+                            .PPBodyContentBox-Details{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .PPBodyContentBox-EditButton, .PPBodyContentBox-RemoveButton{
+                                    background-color: transparent;
+                                    font-weight: 800;
+                                    border: none;
+                                    font-size: 1.1rem;
+                                    font-family: $SecondaryFont;
+                                    text-decoration: underline;
+                                    padding: 0rem;
+                                    display: flex;
+                                    gap: 0.5rem;
+                                    // justify-content: center;
+                                    align-items: center;
+                                }
+                                .PPBodyContentBox-EditButton{
+                                    color: $PrimaryColor;
+                                    text-align: left !important;
+                                }
+                                .PPBodyContentBox-RemoveButton{
+                                    color: $HelpingColor1;
+                                    text-align: right !important;
+                                }
+                            }
+                        }
+                    }
+                    .PPBodyContent-Box:hover{
+                        box-shadow: $PrimaryShadow;
+                        transition: 0.5s ease;
                     }
                 
             }
@@ -109,3 +201,64 @@
     }
 }
 
+
+
+
+@media screen and (max-width: 900px){
+    .ServicePSMain{
+        gap: 1rem;
+        .ServicePS-CategoryStrip{
+            height: 2.5rem;
+            .ServicePS-CategoryList{
+                .ServicePS-Category{
+                    width: 100%;
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        .ServicePS-CategoryHeadStrip{
+            height: 3rem;
+            .ServicePS-CategoryHead{
+                font-size: 1.25rem;
+            }
+        }
+        .ServicePS{
+            margin-top: 2rem;
+            .ServicePS-ProductList{
+                gap: 2rem;
+                .ServicePS-Products{
+                    display: grid;
+                    gap: 0.5rem;
+                    grid-template-columns: 14rem 14rem;
+                        .ServicePSProduct-Container{
+                            width: 14rem;
+                            height: 22rem;
+                            border-radius: $SecondaryBorderRadius;
+                            .ServicePSProduct-ImgShadow{
+                                height: 100%;                     
+                            }
+                           
+                            .ServicePSProductImg-Footer{
+                                    width: 13rem;
+                                    left: 0.5rem;
+                                    .ServicePSProductImg-FooterContent{
+                                        .ServicePSProductImg-ContentHead{
+                                            font-size: 1rem;
+                                        }
+                                        .ServicePSProductImg-ContentBody{
+                                            font-size: 0.8rem;
+                                        }
+                                    }
+                            }
+                        }
+                    
+                }
+                .ServicePS-Button{
+                    width: 8rem;
+                    height: 2.5rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

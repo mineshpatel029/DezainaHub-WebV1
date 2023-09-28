@@ -23,14 +23,14 @@ const CartPage = lazy(() => import("./Components/MainPages/CartPage/CartPage"));
 const LoginPage = lazy(() => import("./Components/MainPages/LoginSignupPage/LoginPage/LoginPage"));
 const SignupPage = lazy(() => import("./Components/MainPages/LoginSignupPage/SignupPage/SignupPage"));
 const VerifyPage = lazy(() => import("./Components/MainPages/LoginSignupPage/VerifyPage/VerifyPage"));
-
+const PDPage = lazy(()=> import("./Components/MainPages/ProductDescriptionPage/ProductDescriptionPage"))
 
 
 
 function App() {
   const renderHeaderFooter = () => {
     const path = window.location.pathname;
-    return path === "/Login" || path === "/Signup" || path === "/Verify";
+    return path === "/Login" || path === "/Signup" || path === "/Verify" || path === "*";
   }
   return (
     <div className="App">
@@ -41,6 +41,7 @@ function App() {
           <Route path='/' element={<LandingPage/>} />
           <Route path='/AboutUs' element={<AboutUsPage/>} />
           <Route path='/Service' element={<ServicePage/>} />
+          <Route path='/Service/:id' element={<PDPage/>} />
           <Route path='/Gallery' element={<GalleryPage/>} />
           <Route path='/ContactUs' element={<ContactUsPage/>} />
           <Route path='/Cart' element={<CartPage/>} />
