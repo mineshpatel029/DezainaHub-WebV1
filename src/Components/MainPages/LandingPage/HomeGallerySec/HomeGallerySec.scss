@@ -159,3 +159,116 @@
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    .HomeGSMain{
+        // padding: 5rem 0rem;
+        .HomeGS{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            .HomeGS-Content{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                .HomeGSContent-Title{
+                    font-size: 0.8rem;
+                    font-weight: 800;
+                }
+                .HomeGSContent-Head{
+                    font-size: 2rem;
+                }
+                .HomeGSContent-Body{
+                    width: 100%;
+                    font-size: 0.8rem;
+                }
+                .HomeGSContent-Button{
+                    width: 10rem;
+                    height: 2.5rem;
+                    font-size: 0.8rem;
+                }
+            }
+            .HomeGS-Gallery{
+                width: 100%;
+                height: 25rem;
+    
+                .HomeGSGallery-ImgContainer1, .HomeGSGallery-ImgContainer2, .HomeGSGallery-ImgContainer3{
+                    border-radius: $SecondaryBorderRadius;
+                } 
+    
+                .HomeGSGallery-ImgContainer1{
+                    width: 18rem;
+                    height: 12rem;
+                    top: 4rem;
+                    right: 0rem;
+                    .HomeGSGallery-ImgBox1{
+                        .HomeGSGalleryImg1-Shadow{
+                            .HomeGSGalleryImg1Shadow-Text{
+                                font-size: 0.8rem;
+                            }
+                        }
+                            .HomeGSGallery-Img1{
+                                width: 16.5rem;
+                                height: 10.5rem;
+                                border-radius: $SecondaryBorderRadius;
+                            }
+                        
+                    }
+                    
+                }
+                .HomeGSGallery-ImgContainer2{
+                    width: 12rem;
+                    height: 7rem;
+                    bottom: 0rem;
+                    left: 10.5rem;
+                    .HomeGSGallery-ImgBox2{
+                        .HomeGSGalleryImg2-Shadow{
+                            .HomeGSGalleryImg1Shadow-Text{
+                                font-size: 0.7rem;
+                                // border: 2px solid red;
+                            }
+                        }
+                    .HomeGSGallery-Img2{
+                        width: 10.5rem;
+                        height: 5.75rem;
+                    
+                }
+            }
+                }
+    
+                .HomeGSGallery-ImgContainer3{
+                    width: 9rem;
+                    height: 8rem;
+                    bottom: 4rem;
+                    left: 0rem;
+                    .HomeGSGallery-ImgBox3{
+                        .HomeGSGalleryImg3-Shadow{
+                            .HomeGSGalleryImg3Shadow-Text{
+                                font-size: 0.7rem;
+                            }
+                        }
+                    .HomeGSGallery-Img3{
+                        width: 7.75rem;
+                        height: 6.75rem;
+                        border-radius: $SecondaryBorderRadius;
+                    
+                }
+            }
+                }
+                .HomeGSGallery-BlueBG{
+                    bottom: 2rem;
+                    left: 0rem;
+                    z-index: -1;
+                }
+                .HomeGSGallery-PinkBG{
+                    z-index: -2;
+                    bottom: 4rem;
+                    // bottom: -3rem;
+                    // left: 18.5rem;
+                    left: -2.5rem;
+                }
+            }
+        }
+    }
+}

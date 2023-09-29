@@ -40,7 +40,7 @@ export const HomeGallerySec = () => {
           <div className="HomeGSGallery-ImgContainer3">
             <div className="HomeGSGallery-ImgBox3">
               <div className="HomeGSGalleryImg3-Shadow">
-                <h6 className="HomeGSGalleryImg1Shadow-Text">
+                <h6 className="HomeGSGalleryImg3Shadow-Text">
                   Logo Designing
                 </h6>
               </div>

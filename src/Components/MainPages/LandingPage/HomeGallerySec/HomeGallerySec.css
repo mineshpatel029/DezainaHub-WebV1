@@ -133,4 +133,92 @@
   bottom: 1.5rem;
   left: -8rem;
   z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+  .HomeGSMain .HomeGS {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Title {
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Head {
+    font-size: 2rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Body {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Button {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery {
+    width: 100%;
+    height: 25rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 {
+    width: 18rem;
+    height: 12rem;
+    top: 4rem;
+    right: 0rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow .HomeGSGalleryImg1Shadow-Text {
+    font-size: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
+    width: 16.5rem;
+    height: 10.5rem;
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
+    width: 12rem;
+    height: 7rem;
+    bottom: 0rem;
+    left: 10.5rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
+    font-size: 0.7rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
+    width: 10.5rem;
+    height: 5.75rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
+    width: 9rem;
+    height: 8rem;
+    bottom: 4rem;
+    left: 0rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow .HomeGSGalleryImg3Shadow-Text {
+    font-size: 0.7rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
+    width: 7.75rem;
+    height: 6.75rem;
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
+    bottom: 2rem;
+    left: 0rem;
+    z-index: -1;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
+    z-index: -2;
+    bottom: 4rem;
+    left: -2.5rem;
+  }
 }/*# sourceMappingURL=HomeGallerySec.css.map */
