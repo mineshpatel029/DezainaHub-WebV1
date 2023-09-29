@@ -31,3 +31,29 @@
         }
     }
 }
+
+
+@media screen and (max-width: 900px){
+    .FooterFootMain{
+        // padding-top: 3.5rem;
+        .FooterFoot{
+            .FooterFoot-Content{
+                width: 100%;
+                font-size: 1rem;
+            }
+            hr{
+                width: 3rem;
+            }
+            .FooterFoot-SocialIcons{
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 1rem;
+            }
+            .FooterFoot-Copyright{
+                font-size: 0.8rem;
+                color: $PrimaryColor;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}

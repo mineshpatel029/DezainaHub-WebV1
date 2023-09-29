@@ -19,6 +19,9 @@
                 color: $ContentFontColor;
                 font-weight: 500;
             }
+            .FeaturedSSBodyNav-Button:hover {
+                text-decoration: underline;
+            }
             
         }
         .FeaturedSSBody-Content{
@@ -76,6 +79,80 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .FeaturedSS-BodyMain{
+        width: 100%;
+        .FeaturedSS-Body{
+            .FeaturedSSBody-Nav{
+                gap: 1rem;
+                justify-content: center;
+                .FeaturedSSBodyNav-Button, .FeaturedSSBodyNav-ActiveButton {
+                    
+                    font-size: 0.6rem;
+                }
+                
+                
+            }
+            // .FeaturedSSBody-Content{
+            //     margin-top: 2rem;
+            //     display: flex;
+            //     justify-content: space-between;
+            //     .FeaturedService-1{
+            //         .FeaturedService1-Image{
+            //             width: 25rem;
+            //             height: 35rem;
+            //             overflow: hidden;
+            //             border-radius: $PrimaryBorderRadius;
+            //             position: relative;
+            //             .FeaturedService1-ImgShadow{
+            //                 width: 25rem;
+            //                 position: absolute;
+            //                 height: 40rem;
+            //                 // background-color: $HelpingShadowPrimaryColor;
+            //                 background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.34%, #000 91.56%);
+                            
+            //             }
+                        
+            //             .FeaturedService1-Img{
+            //                 height: 100%;
+            //                 width: auto;
+            //                 // position: relative;
+            //                 // left: -5rem;
+            //                 z-index: -1;
+            //             }
+                       
+            //             .FeaturedService1Img-Footer{
+            //                 width: 21rem;
+            //                     position: absolute;
+            //                     bottom: 0rem;
+            //                     left: 2rem;
+            //                     color: $SecondaryFontColor;
+            //                     display: flex;
+            //                     justify-content: space-between;
+            //                     .FeaturedService1Img-FooterContent{
+            //                         .FeaturedService1Img-ContentHead{
+            //                             font-family: $SecondaryFont;
+            //                             font-size: 1.25rem;
+            //                             font-weight: 700;
+            //                         }
+            //                         .FeaturedService1Img-ContentBody{
+            //                             font-family: $ContentFont;
+            //                             font-size: 1rem;
+            //                             font-weight: 500;
+            //                             color: $ContentFontColor;
+            //                         }
+            //                     }
+            //                     // .FeaturedService1-ImgIcon{
+    
+            //                     // }
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
 }

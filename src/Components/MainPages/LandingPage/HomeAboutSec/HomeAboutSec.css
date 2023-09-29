@@ -92,4 +92,61 @@
   width: 16rem;
   height: 3.5rem;
   border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .HomeASMain {
+    padding: 5rem 0rem;
+  }
+  .HomeASMain .HomeAS {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5rem;
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer {
+    margin-left: 0rem;
+    width: 20rem;
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox {
+    width: 100%;
+    height: 25rem;
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
+    width: 100%;
+    height: 100%;
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
+    width: 100%;
+    height: 25rem;
+    transform: rotate(-10deg);
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow {
+    width: 8rem;
+    height: 9rem;
+    border-radius: 0.8rem;
+    right: -2rem;
+    bottom: 3rem;
+    padding: 1rem;
+  }
+  .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow .HomeASImgFloatWindow-Content {
+    width: auto;
+    font-size: 0.6rem;
+  }
+  .HomeASMain .HomeAS .HomeAboutSec-Content {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Head {
+    font-size: 1.8rem;
+  }
+  .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Body {
+    font-size: 0.8rem;
+  }
+  .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Button {
+    width: 10rem;
+    font-size: 0.6rem;
+    height: 2.5rem;
+  }
 }/*# sourceMappingURL=HomeAboutSec.css.map */

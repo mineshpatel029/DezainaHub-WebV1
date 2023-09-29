@@ -84,4 +84,73 @@
   opacity: 20%;
   right: 27rem;
   bottom: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+  .HomeLSMain {
+    padding-top: 8rem;
+  }
+  .HomeLSMain .HomeLS {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
+    width: 100%;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base {
+    height: auto;
+    text-align: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
+    height: auto;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
+    width: 100%;
+    justify-content: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
+    width: 4rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
+    font-size: 1rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer {
+    width: 20rem;
+    height: 25rem;
+    margin-left: 0rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {
+    width: 100%;
+    height: 100%;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
+    right: -30rem;
+    top: 13rem;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
+    right: 14rem;
+    bottom: 3rem;
+  }
 }/*# sourceMappingURL=HomeLandingSec.css.map */
