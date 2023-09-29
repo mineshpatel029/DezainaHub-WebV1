@@ -28,4 +28,24 @@
 .FooterFootMain .FooterFoot .FooterFoot-Copyright {
   color: #1e1e1e;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .FooterFootMain .FooterFoot .FooterFoot-Content {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterFootMain .FooterFoot hr {
+    width: 3rem;
+  }
+  .FooterFootMain .FooterFoot .FooterFoot-SocialIcons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .FooterFootMain .FooterFoot .FooterFoot-Copyright {
+    font-size: 0.8rem;
+    color: #1e1e1e;
+    margin-bottom: 1.5rem;
+  }
 }/*# sourceMappingURL=FooterFoot.css.map */

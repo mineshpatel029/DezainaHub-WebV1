@@ -16,7 +16,7 @@ export const HomeServiceStepsSec = () => {
                         <p className='HomeSSSStepsHead-Content'>Clarify your brand's core <b>values</b>, <b>mission</b> and <b>vision</b> to lay a strong foundation for <b>identity building.</b></p>
 
                     </div>
-                    <div className='HomeSSSSteps-1'>
+                    <div className='HomeSSSSteps-1 HomeSSSSteps-3'>
                         <div className='HomeSSSSteps-Heading'>
                             <h1 className='HomeSSSStepsHead-Number'>03</h1>
                             <h2 className='HomeSSSStepsHead-Step'>Brand Connector</h2>
@@ -45,7 +45,7 @@ export const HomeServiceStepsSec = () => {
 
 
                 <div className='HomeSSSSteps-Down'>
-                <div className='HomeSSSSteps-1'>
+                <div className='HomeSSSSteps-1 HomeSSSSteps-2'>
                         <div className='HomeSSSSteps-Heading'>
                             <h1 className='HomeSSSStepsHead-Number'>02</h1>
                             <h2 className='HomeSSSStepsHead-Step'>Brand Amplifiers</h2>

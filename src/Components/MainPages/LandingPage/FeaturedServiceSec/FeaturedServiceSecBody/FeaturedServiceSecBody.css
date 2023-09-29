@@ -18,6 +18,9 @@
   color: #888888;
   font-weight: 500;
 }
+.FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav .FeaturedSSBodyNav-Button:hover {
+  text-decoration: underline;
+}
 .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content {
   margin-top: 2rem;
   display: flex;
@@ -60,4 +63,17 @@
   font-size: 1rem;
   font-weight: 500;
   color: #888888;
+}
+
+@media screen and (max-width: 900px) {
+  .FeaturedSS-BodyMain {
+    width: 100%;
+  }
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav {
+    gap: 1rem;
+    justify-content: center;
+  }
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav .FeaturedSSBodyNav-Button, .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav .FeaturedSSBodyNav-ActiveButton {
+    font-size: 0.6rem;
+  }
 }/*# sourceMappingURL=FeaturedServiceSecBody.css.map */

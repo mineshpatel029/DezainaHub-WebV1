@@ -40,4 +40,25 @@
   border-radius: 0.8rem;
   width: 16rem;
   height: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
+    width: 100%;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Title {
+    font-family: Martel Sans;
+    color: #25C1EC;
+    font-weight: 700;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading {
+    font-size: 2rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Body {
+    font-size: 0.8rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
+    width: 10rem;
+    height: 2.5rem;
+  }
 }/*# sourceMappingURL=FeaturedServiceSec.css.map */

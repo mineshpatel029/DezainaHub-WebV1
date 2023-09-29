@@ -39,8 +39,41 @@
                 font-weight: 500;
                 width: 15rem;
                 height: 3.5rem;
-                border-radius: $PrimaryBorderRadius;
+                border-radius: $SecondaryBorderRadius;
             }
         }
     }
 }   
+
+
+@media screen and (max-width: 900px){
+    .FooterNewsLetterMain{
+
+        padding: 5rem 0rem;
+    
+        .FooterNewsLetter{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            .FooterNewsLetter-Body{
+                gap: 0.5rem;
+                width: 25rem;
+                text-align: center;
+                .FooterNewsLetterBody-Title{
+                    font-size: 0.8rem;
+                }
+                .FooterNewsLetterBody-Head{
+                    font-size: 2rem !important;
+                }
+            }
+            .FooterNewsLetter-Button{
+                width: auto;
+                button{
+                    width: 10rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+    }
+}

@@ -100,3 +100,66 @@
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    .HomeASMain{
+        padding: 5rem 0rem ;
+    
+        .HomeAS{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 5rem;
+            .HomeAS-ImageContainer{
+                margin-left: 0rem;
+                width: 20rem;
+                .HomeAS-ImgBox{
+                    width: 100% ;
+                    height: 25rem;
+                    .HomeAS-Img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                }
+                .HomeAS-ImgShadow{
+                    width: 100%;
+                    height: 25rem;
+                    transform: rotate(-10deg);
+                }
+                .HomeASImg-FloatWindow{
+                    width: 8rem;
+                    height: 9rem;
+                    border-radius: $SecondaryBorderRadius;
+                    right: -2rem;
+                    bottom: 3rem;
+                    padding: 1rem;
+
+                    
+                // gap: 0.5rem ;
+                .HomeASImgFloatWindow-Content{
+                    width: auto;
+                    font-size: 0.6rem;
+                }
+                }
+            }
+            .HomeAboutSec-Content{
+                width: 100%;
+                text-align: center;
+                align-items: center;
+                .HomeAboutSecContent-Head{
+                    font-size: 1.8rem;
+                }
+                .HomeAboutSecContent-Body{
+                    font-size: 0.8rem;
+                }
+                .HomeAboutSecContent-Button{
+                    width: 10rem;
+                    font-size: 0.6rem;
+                    height: 2.5rem;
+                }
+    
+            }
+        }
+    }
+}
