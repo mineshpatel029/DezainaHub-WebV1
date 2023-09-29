@@ -100,3 +100,76 @@
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    .HomeSSSMain{
+        padding: 5rem 0rem;
+        height: 45rem;
+        .HomeSSS{
+            display: flex;
+            // gap: 3rem;
+            .HomeSSS-HeadContainer{
+            
+            .HomeSSS-Head{
+                font-size: 2rem;
+                width: 20rem;
+            }
+        }
+            .HomeSSS-Steps{
+                gap: 3rem;
+                position: relative;
+                .HomeSSSSteps-1{
+                    width: 15rem;
+                    .HomeSSSSteps-Heading{
+                        .HomeSSSStepsHead-Number{
+                            font-size: 2rem;
+                        }
+                        .HomeSSSStepsHead-Step{
+                            font-size: 0.9rem;
+                            width: 6rem;
+                        }
+                    }
+                    .HomeSSSStepsHead-Content{
+                        width: 100%;
+                        text-align: center;
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 0.75rem;
+                    }
+                }
+                .HomeSSSSteps-3{
+                    position: absolute;
+                    top: 20rem;
+                    left: 7rem;
+                }
+                .HomeSSSSteps-Up{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                .HomeSSSSteps-LeftLine{
+                    visibility: hidden;
+                    // bottom: 4.5rem;
+                    // left: 8.75rem;
+                }
+                .HomeSSSSteps-RightLine{
+                    visibility: hidden;
+                    // bottom: 4.5rem;
+                    // right: 8.75rem;
+    
+                }
+                .HomeSSSSteps-UpLine{
+                    visibility: hidden;
+                    // top: 4.5rem;
+                    // left: 18rem;
+                }
+                .HomeSSSSteps-CenterLine{
+                    visibility: hidden;
+                    // top: 4.5rem;
+                    // left: 50%;
+                }
+            }
+        }
+    }
+}

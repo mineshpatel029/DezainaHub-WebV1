@@ -38,5 +38,35 @@
   font-weight: 500;
   width: 15rem;
   height: 3.5rem;
-  border-radius: 1.25rem;
+  border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .FooterNewsLetterMain {
+    padding: 5rem 0rem;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body {
+    gap: 0.5rem;
+    width: 25rem;
+    text-align: center;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body .FooterNewsLetterBody-Title {
+    font-size: 0.8rem;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Body .FooterNewsLetterBody-Head {
+    font-size: 2rem !important;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Button {
+    width: auto;
+  }
+  .FooterNewsLetterMain .FooterNewsLetter .FooterNewsLetter-Button button {
+    width: 10rem;
+    height: 2.5rem;
+  }
 }/*# sourceMappingURL=FooterNewsLetter.css.map */

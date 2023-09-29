@@ -44,3 +44,30 @@
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    .FeaturedSSMain{
+        // padding: 5rem 0rem;
+        .FeaturedSS{
+            .FeaturedSS-Head{
+                width: 100%;
+                
+                .FeaturedSSHead-Title{
+                    font-family: $SecondaryFont;
+                    color: $SecondaryColor;
+                    font-weight: 700;
+                }
+                .FeaturedSSHead-Heading{
+                    font-size: 2rem;
+                }
+                .FeaturedSSHead-Body{
+                    font-size: 0.8rem;
+                }
+            }
+            .FeaturedSS-Button{
+                width: 10rem;
+                height: 2.5rem;
+            }
+        }
+    }
+}
