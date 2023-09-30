@@ -1,7 +1,7 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ServiceISMain{
-    margin-bottom: 10vh;
+    margin-bottom: 5rem;
     .ServiceIS{
         display: flex;
         flex-direction: column;
@@ -79,21 +79,24 @@
             }
             .ServiceIS-Body{
                 width: 100%;
+                justify-content: center;
+                align-items: center;
                 .ServiceISBody-ImgContainer{
-                    width: 100%;
+                    width: 18rem;
                     .ServiceISBody-ImgBox{
                         width: 100%;
-                        height: 19rem;
-                        border-radius: $PrimaryBorderRadius;
+                        height: 14rem;
+                        border-radius: $SecondaryBorderRadius;
                         .ServiceISBody-Img{
                             width: 100%;
                         }
                     }
                     .ServiceISBodyImg-FloatBox{
-                        bottom: 2rem;
-                        right: -0.5rem;
-                        width: 8rem;
-                        height: 9rem;
+                        // border: 2px solid red;
+                        bottom: 1.5rem;
+                        right: -1.5rem;
+                        width: 7rem;
+                        height: 7rem;
                         padding: 0.5rem;
                         gap: 0.5rem;
                         .ServiceISBodyImgFloat-Content{

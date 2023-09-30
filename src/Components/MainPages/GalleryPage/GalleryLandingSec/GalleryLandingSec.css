@@ -55,6 +55,12 @@
   color: #ffffff;
   z-index: 1;
 }
+.GalleryLSMain .GalleryLS hr {
+  width: 20rem;
+  border: 1px solid #ffffff;
+  opacity: 20%;
+  margin: 0rem;
+}
 .GalleryLSMain .GalleryLS .GalleryLSCategory-Body {
   font-family: Rasa;
   color: #888888;
@@ -64,25 +70,35 @@
 
 @media screen and (max-width: 900px) {
   .GalleryLSMain {
-    height: 33rem;
+    height: 44.5rem;
     padding-top: 8rem;
   }
   .GalleryLSMain .GalleryLS {
     gap: 1rem;
   }
   .GalleryLSMain .GalleryLS .GalleryLS-Head {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 100%;
   }
   .GalleryLSMain .GalleryLS .GalleryLS-ImgBox {
     width: 100%;
     height: 15rem;
   }
+  .GalleryLSMain .GalleryLS .GalleryLS-ImgBox .GalleryLS-Img {
+    height: 100%;
+  }
   .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer {
     width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 10rem 10rem;
   }
   .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer .GalleryLS-Category, .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer .GalleryLS-CategoryActive {
     padding: 0.8rem 1rem;
     font-size: 0.7rem;
+  }
+  .GalleryLSMain .GalleryLS .GalleryLSCategory-Body {
+    font-size: 0.8rem;
+    width: 100%;
   }
 }/*# sourceMappingURL=GalleryLandingSec.css.map */

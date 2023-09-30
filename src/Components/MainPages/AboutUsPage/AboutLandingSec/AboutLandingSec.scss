@@ -81,35 +81,37 @@
         .AboutLS{
             gap: 2rem;
             .AboutLS-Head{
-                font-size: 1.5rem;
+                font-size: 1.8rem;
                 width: 100%;
             }
             .AboutLS-ImgBox{
                 width: 100%;
                 .AboutLS-ImgContainer{
                     width: 100%;
-                    height: 18rem;
+                    height: 15rem;
                     .AboutLS-Img{
                         width: 100%;
+                        height: 100%;
                     }
                 }
                 .AboutLSImg-FloatBox{
-                    width: 10rem;
+                    width: 12rem;
                     height: 6rem;
                     .AboutLSImgFloatBox-Head{
-                        gap: 1rem;
+                        gap: 0.5rem;
                         justify-content: space-between;
                         .AboutLSImgFloatBoxHead-Heading{
-                            font-size: 0.6rem;
+                            font-size: 0.8rem;
                         }
                         .AboutLSImgFloatBoxHead-Line{
-                            width: 4rem;
+                            width: 10rem;
                         }
     
                     }
                     .AboutLSImgFloatBox-Body{
                         .AboutLSImgFloatBoxBody-Head{
                             font-size: 1rem; 
+                            margin-bottom: 0.5rem;
                         }
                         .AboutLSImgFloatBoxBody-Content{
                             font-size: 0.6rem;

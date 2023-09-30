@@ -85,12 +85,13 @@
                     font-size: 1.5rem;
                 }
                 .AboutBSHead-Content{
-                    width: 28rem;
-                    font-size: 0.8rem;
+                    width: 100%;
+                    font-size: 0.7rem;
                 }
             }
             .AboutBS-Body{
                 .AboutBSBody-Content{
+                    // padding-left: 0.5rem;
                     gap: 1rem;
                     width: 100%;
                     height: 7rem;
@@ -98,7 +99,7 @@
                         width: 5rem;
                         height: 100%;
                         span{
-                            font-size: 3rem;
+                            font-size: 2rem;
                         }
                     }
                     .AboutBSBodyContent-Content{
@@ -106,8 +107,8 @@
                             font-size: 1rem;
                         }
                         .AboutBSBodyContent-Body{
-                            width: 20rem;
-                            font-size: 0.7rem;
+                            width: 15rem;
+                            font-size: 0.6rem;
                         }
                     }
                 }
