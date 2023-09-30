@@ -88,18 +88,19 @@
 
 @media screen and (max-width: 900px) {
   .HomeLSMain {
-    padding-top: 8rem;
+    height: 44.5rem;
+    padding-top: 6rem;
   }
   .HomeLSMain .HomeLS {
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
   }
   .HomeLSMain .HomeLS .HomeLS-Content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 3rem;
+    gap: 1rem;
   }
   .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
     width: 100%;
@@ -137,8 +138,8 @@
     color: #888888;
   }
   .HomeLSMain .HomeLS .HomeLS-ImageContainer {
-    width: 20rem;
-    height: 25rem;
+    width: 18rem;
+    height: 21.6rem;
     margin-left: 0rem;
   }
   .HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {

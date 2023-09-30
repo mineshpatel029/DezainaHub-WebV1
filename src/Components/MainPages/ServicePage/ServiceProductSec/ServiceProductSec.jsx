@@ -14,7 +14,6 @@ export const ServiceProductSec = () => {
                 </div>
             </div>
             <ServiceProductCategory1/>
-            <ServiceProductCategory1/>
             <div className='ServicePS-CategoryStrip'>
                 <div className='ServicePS-CategoryList container'>
                     <h4 className='ServicePS-Category'>BRAND DESIGNING</h4>

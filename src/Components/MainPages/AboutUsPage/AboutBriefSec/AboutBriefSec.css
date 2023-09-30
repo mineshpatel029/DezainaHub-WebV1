@@ -74,8 +74,8 @@
     font-size: 1.5rem;
   }
   .AboutBSMain .AboutBS .AboutBS-Head .AboutBSHead-Content {
-    width: 28rem;
-    font-size: 0.8rem;
+    width: 100%;
+    font-size: 0.7rem;
   }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content {
     gap: 1rem;
@@ -87,13 +87,13 @@
     height: 100%;
   }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Title span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Heading {
     font-size: 1rem;
   }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Body {
-    width: 20rem;
-    font-size: 0.7rem;
+    width: 15rem;
+    font-size: 0.6rem;
   }
 }/*# sourceMappingURL=AboutBriefSec.css.map */
