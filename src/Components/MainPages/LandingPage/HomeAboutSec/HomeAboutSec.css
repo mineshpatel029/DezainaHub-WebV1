@@ -102,15 +102,15 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    gap: 5rem;
+    gap: 4rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer {
     margin-left: 0rem;
-    width: 20rem;
+    width: 18rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox {
     width: 100%;
-    height: 25rem;
+    height: 23rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
     width: 100%;
@@ -118,15 +118,15 @@
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
     width: 100%;
-    height: 25rem;
+    height: 23rem;
     transform: rotate(-10deg);
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow {
     width: 8rem;
     height: 9rem;
     border-radius: 0.8rem;
-    right: -2rem;
-    bottom: 3rem;
+    right: -1.5rem;
+    bottom: 2rem;
     padding: 1rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeASImg-FloatWindow .HomeASImgFloatWindow-Content {
@@ -139,9 +139,11 @@
     align-items: center;
   }
   .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Head {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 0rem;
   }
   .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Body {
+    margin: 0rem;
     font-size: 0.8rem;
   }
   .HomeASMain .HomeAS .HomeAboutSec-Content .HomeAboutSecContent-Button {

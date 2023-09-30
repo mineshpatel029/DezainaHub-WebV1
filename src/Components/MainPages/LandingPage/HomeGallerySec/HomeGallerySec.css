@@ -152,7 +152,7 @@
     font-weight: 800;
   }
   .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Head {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Body {
     width: 100%;
@@ -165,41 +165,41 @@
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery {
     width: 100%;
-    height: 25rem;
+    height: 20rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 {
-    width: 18rem;
-    height: 12rem;
-    top: 4rem;
+    width: 13rem;
+    height: 10rem;
+    top: 2rem;
     right: 0rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow .HomeGSGalleryImg1Shadow-Text {
     font-size: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
-    width: 16.5rem;
-    height: 10.5rem;
+    width: 12rem;
+    height: 9rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
-    width: 12rem;
-    height: 7rem;
-    bottom: 0rem;
-    left: 10.5rem;
+    width: 9rem;
+    height: 5rem;
+    bottom: 1.5rem;
+    left: 8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
     font-size: 0.7rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
-    width: 10.5rem;
-    height: 5.75rem;
+    width: 8rem;
+    height: 4rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
-    width: 9rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     bottom: 4rem;
     left: 0rem;
   }
@@ -207,18 +207,18 @@
     font-size: 0.7rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
-    width: 7.75rem;
-    height: 6.75rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
-    bottom: 2rem;
+    bottom: 1rem;
     left: 0rem;
     z-index: -1;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
     z-index: -2;
     bottom: 4rem;
-    left: -2.5rem;
+    left: 4rem;
   }
 }/*# sourceMappingURL=HomeGallerySec.css.map */

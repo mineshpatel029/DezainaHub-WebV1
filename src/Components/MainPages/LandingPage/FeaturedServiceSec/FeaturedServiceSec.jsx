@@ -15,7 +15,7 @@ export const FeaturedServiceSec = () => {
     const config = {
       headers: { authorization: token }
     }
-    const ProductDataAPI = "http://localhost:5050/api/item/get";
+    const ProductDataAPI = "https://api.pujakaitem.com/api/products";
     const res = await axios.get(ProductDataAPI, config);
     const products = await res.data;
     if(products.length){
