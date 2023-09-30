@@ -1,15 +1,15 @@
 const GalleryProdCat =[
     {
         Catid:1,
-        CatName:"Brand Designing",
+        CatName:"Visual Branding",
     },
     {
         Catid:2,
-        CatName:"Advertising Content",
+        CatName:"Brand Marketing",
     },
     {
         Catid:3,
-        CatName:"Design Rendering",
+        CatName:"Digital Interaction",
     },
 ]
 export default GalleryProdCat;

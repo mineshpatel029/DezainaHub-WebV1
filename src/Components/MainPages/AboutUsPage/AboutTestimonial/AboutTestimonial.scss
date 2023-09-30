@@ -90,43 +90,43 @@
     }
 }
 
-
-
 @media screen and (max-width: 900px){
     .AboutTSMain{
         .AboutTS{
+            flex-direction: column;
             gap: 2rem;
             .AboutTS-Body{
-                width: 15rem;
+                width: 100%;
+                text-align: center;
                 .AboutTSBody-Title{
                     font-size: 0.6rem;
                 }
                 .AboutTSBody-Heading{
-                    font-size: 1.25rem;
+                    font-size: 1.8rem;
                 }
                 .AboutTSBody-Content{
-                    font-size: 0.6rem;
+                    font-size: 0.8rem;
                 }
                 .AboutTSBody-ButtonPrev, .AboutTSBody-ButtonNext{
                     
-                    width: 2rem;
-                    height: 2rem;
+                    width: 3rem;
+                    height: 3rem;
                 }
             }
             .AboutTS-ImgContainer{
                 position: relative;
                 .AboutTSImgContainer-FloatBox{
-                    bottom: 1rem;
-                    right: -0.5rem;
-                    width: 10rem;
-                    height: 6rem;
-                    padding: 0.5rem 0.8rem;
+                    bottom: 2rem;
+                    right: -2rem;
+                    width: 13rem;
+                    height: 8rem;
+                    padding: 1rem;
                     .AboutTSImgFloatBox-Content{
                         font-family: $ContentFont;
                         color: $ContentFontColor;
                         margin-bottom: 1rem;
-                        font-size: 0.4rem;
-                        margin-bottom: 0.3rem;
+                        font-size: 0.5rem;
+                        margin-bottom: 1rem;
                     }
                     .AboutTSImgFloatBox-ReviewFrom{
                         display: flex;
@@ -148,8 +148,8 @@
                     }
                 }
                 .AboutTSImgContainer-ImgBox{
-                    width: 13rem;
-                    height: 18rem;
+                    width: 18rem;
+                    height: 25rem;
                     overflow: hidden;
                     border-radius: $PrimaryBorderRadius;
                     .AboutTSImgContainer-Img{
@@ -160,3 +160,72 @@
         }
     }
 }
+
+// @media screen and (max-width: 900px){
+//     .AboutTSMain{
+//         .AboutTS{
+//             gap: 2rem;
+//             .AboutTS-Body{
+//                 width: 15rem;
+//                 .AboutTSBody-Title{
+//                     font-size: 0.6rem;
+//                 }
+//                 .AboutTSBody-Heading{
+//                     font-size: 1.25rem;
+//                 }
+//                 .AboutTSBody-Content{
+//                     font-size: 0.6rem;
+//                 }
+//                 .AboutTSBody-ButtonPrev, .AboutTSBody-ButtonNext{
+                    
+//                     width: 2rem;
+//                     height: 2rem;
+//                 }
+//             }
+//             .AboutTS-ImgContainer{
+//                 position: relative;
+//                 .AboutTSImgContainer-FloatBox{
+//                     bottom: 1rem;
+//                     right: -0.5rem;
+//                     width: 10rem;
+//                     height: 6rem;
+//                     padding: 0.5rem 0.8rem;
+//                     .AboutTSImgFloatBox-Content{
+//                         font-family: $ContentFont;
+//                         color: $ContentFontColor;
+//                         margin-bottom: 1rem;
+//                         font-size: 0.4rem;
+//                         margin-bottom: 0.3rem;
+//                     }
+//                     .AboutTSImgFloatBox-ReviewFrom{
+//                         display: flex;
+//                         flex-direction: column;
+//                         .AboutTSImgFloatBox-Name{
+//                             font-size: 0.6rem;
+//                         }
+//                         .AboutTSImgFloatBox-Ratings{
+//                             .AboutTSImgFloatBoxRate-SVG{
+//                                 margin-top: -0.5rem;
+//                                 svg{
+//                                     width: 0.5rem !important;
+//                                     height: 0.5rem !important;
+
+//                                 }
+                                
+//                             }
+//                         }
+//                     }
+//                 }
+//                 .AboutTSImgContainer-ImgBox{
+//                     width: 13rem;
+//                     height: 18rem;
+//                     overflow: hidden;
+//                     border-radius: $PrimaryBorderRadius;
+//                     .AboutTSImgContainer-Img{
+//                         width: 100%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

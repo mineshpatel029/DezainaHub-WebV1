@@ -85,40 +85,42 @@
 
 @media screen and (max-width: 900px) {
   .AboutTSMain .AboutTS {
+    flex-direction: column;
     gap: 2rem;
   }
   .AboutTSMain .AboutTS .AboutTS-Body {
-    width: 15rem;
+    width: 100%;
+    text-align: center;
   }
   .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Title {
     font-size: 0.6rem;
   }
   .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Heading {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
   }
   .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Content {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-ButtonPrev, .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-ButtonNext {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ImgContainer {
     position: relative;
   }
   .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox {
-    bottom: 1rem;
-    right: -0.5rem;
-    width: 10rem;
-    height: 6rem;
-    padding: 0.5rem 0.8rem;
+    bottom: 2rem;
+    right: -2rem;
+    width: 13rem;
+    height: 8rem;
+    padding: 1rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-Content {
     font-family: Rasa;
     color: #888888;
     margin-bottom: 1rem;
-    font-size: 0.4rem;
-    margin-bottom: 0.3rem;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom {
     display: flex;
@@ -135,8 +137,8 @@
     height: 0.5rem !important;
   }
   .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox {
-    width: 13rem;
-    height: 18rem;
+    width: 18rem;
+    height: 25rem;
     overflow: hidden;
     border-radius: 1.25rem;
   }

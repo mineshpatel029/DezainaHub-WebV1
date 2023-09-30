@@ -3,7 +3,7 @@
 .ServicePageMain{
     display: flex;
     flex-direction: column;
-    gap: 10vh;
+    gap: 5rem;
 
 }
 .ServiceLSMain{
@@ -105,28 +105,30 @@
 
 @media screen and (max-width: 900px){
     .ServiceLSMain{
-        height: 35rem;
+        height: 36rem;
         padding-top: 8rem;
         .ServiceLS{
             gap: 2rem;
             .ServiceLS-Head{
+                flex-direction: column;
                 width:100%;
+                text-align: center;
                 .ServiceLSHead-Heading{
-                    font-size: 1.25rem;
-                    width: 15rem;
+                    font-size: 1.6rem;
+                    width: 100%;
                     margin: 0rem;
                 }
                 .ServiceLSHead-Body{
-                    width: 12rem;
+                    width: 100%;
                     .ServiceLSHeadBody-Content{
                         font-family: $ContentFont;
                         color: $ContentFontColor;
-                        font-size: 0.65rem;
+                        font-size: 0.8rem;
     
                     }
                     .ServiceLSHeadBody-Button{
-                        width: 8rem;
-                        height: 2rem;
+                        width: 10rem;
+                        height: 2.5rem;
                         font-size: 0.6rem;
                     }
                 }
@@ -144,16 +146,16 @@
                 }
                 .ServiceLSImgBody-ImgContainer{
                     width: 100%;
-                    height: 15rem;
+                    height: 12rem;
                     border-radius: $SecondaryBorderRadius;
                     .ServiceLSImgBody-Img{
-                        bottom: 18rem;
+                        bottom: 0rem;
                     }
                 }
             }
             .ServiceLS-ImgBody:hover{
                 .ServiceLSImgBody-Content{
-                    right: 10rem;
+                    right: 5rem;
                     bottom: 6rem;
                 }
                 .ServiceLSImgBody-UpperShadow{

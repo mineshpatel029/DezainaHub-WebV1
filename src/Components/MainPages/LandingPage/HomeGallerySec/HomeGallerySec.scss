@@ -177,7 +177,7 @@
                     font-weight: 800;
                 }
                 .HomeGSContent-Head{
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                 }
                 .HomeGSContent-Body{
                     width: 100%;
@@ -191,83 +191,158 @@
             }
             .HomeGS-Gallery{
                 width: 100%;
-                height: 25rem;
+                height: 20rem;
     
                 .HomeGSGallery-ImgContainer1, .HomeGSGallery-ImgContainer2, .HomeGSGallery-ImgContainer3{
                     border-radius: $SecondaryBorderRadius;
                 } 
     
-                .HomeGSGallery-ImgContainer1{
-                    width: 18rem;
-                    height: 12rem;
-                    top: 4rem;
-                    right: 0rem;
-                    .HomeGSGallery-ImgBox1{
-                        .HomeGSGalleryImg1-Shadow{
-                            .HomeGSGalleryImg1Shadow-Text{
-                                font-size: 0.8rem;
-                            }
-                        }
-                            .HomeGSGallery-Img1{
-                                width: 16.5rem;
-                                height: 10.5rem;
-                                border-radius: $SecondaryBorderRadius;
-                            }
+            //     .HomeGSGallery-ImgContainer1{
+            //         width: 18rem;
+            //         height: 12rem;
+            //         top: 4rem;
+            //         right: 0rem;
+            //         .HomeGSGallery-ImgBox1{
+            //             .HomeGSGalleryImg1-Shadow{
+            //                 .HomeGSGalleryImg1Shadow-Text{
+            //                     font-size: 0.8rem;
+            //                 }
+            //             }
+            //                 .HomeGSGallery-Img1{
+            //                     width: 16.5rem;
+            //                     height: 10.5rem;
+            //                     border-radius: $SecondaryBorderRadius;
+            //                 }
                         
-                    }
+            //         }
                     
-                }
-                .HomeGSGallery-ImgContainer2{
-                    width: 12rem;
-                    height: 7rem;
-                    bottom: 0rem;
-                    left: 10.5rem;
-                    .HomeGSGallery-ImgBox2{
-                        .HomeGSGalleryImg2-Shadow{
-                            .HomeGSGalleryImg1Shadow-Text{
-                                font-size: 0.7rem;
-                                // border: 2px solid red;
-                            }
-                        }
-                    .HomeGSGallery-Img2{
-                        width: 10.5rem;
-                        height: 5.75rem;
+            //     }
+            //     .HomeGSGallery-ImgContainer2{
+            //         width: 12rem;
+            //         height: 7rem;
+            //         bottom: 0rem;
+            //         left: 10.5rem;
+            //         .HomeGSGallery-ImgBox2{
+            //             .HomeGSGalleryImg2-Shadow{
+            //                 .HomeGSGalleryImg1Shadow-Text{
+            //                     font-size: 0.7rem;
+            //                     // border: 2px solid red;
+            //                 }
+            //             }
+            //         .HomeGSGallery-Img2{
+            //             width: 10.5rem;
+            //             height: 5.75rem;
                     
-                }
-            }
-                }
+            //     }
+            // }
+            //     }
     
-                .HomeGSGallery-ImgContainer3{
-                    width: 9rem;
-                    height: 8rem;
-                    bottom: 4rem;
-                    left: 0rem;
-                    .HomeGSGallery-ImgBox3{
-                        .HomeGSGalleryImg3-Shadow{
-                            .HomeGSGalleryImg3Shadow-Text{
-                                font-size: 0.7rem;
-                            }
+            //     .HomeGSGallery-ImgContainer3{
+            //         width: 9rem;
+            //         height: 8rem;
+            //         bottom: 4rem;
+            //         left: 0rem;
+            //         .HomeGSGallery-ImgBox3{
+            //             .HomeGSGalleryImg3-Shadow{
+            //                 .HomeGSGalleryImg3Shadow-Text{
+            //                     font-size: 0.7rem;
+            //                 }
+            //             }
+            //         .HomeGSGallery-Img3{
+            //             width: 7.75rem;
+            //             height: 6.75rem;
+            //             border-radius: $SecondaryBorderRadius;
+                    
+            //     }
+            // }
+            //     }
+            //     .HomeGSGallery-BlueBG{
+            //         bottom: 2rem;
+            //         left: 0rem;
+            //         z-index: -1;
+            //     }
+            //     .HomeGSGallery-PinkBG{
+            //         z-index: -2;
+            //         bottom: 4rem;
+            //         // bottom: -3rem;
+            //         // left: 18.5rem;
+            //         left: -2.5rem;
+            //     }
+
+            .HomeGSGallery-ImgContainer1{
+                width: 13rem;
+                height: 10rem;
+                top: 2rem;
+                right: 0rem;
+                .HomeGSGallery-ImgBox1{
+                    .HomeGSGalleryImg1-Shadow{
+                        .HomeGSGalleryImg1Shadow-Text{
+                            font-size: 0.8rem;
                         }
-                    .HomeGSGallery-Img3{
-                        width: 7.75rem;
-                        height: 6.75rem;
-                        border-radius: $SecondaryBorderRadius;
+                    }
+                        .HomeGSGallery-Img1{
+                            width: 12rem;
+                            height: 9rem;
+                            border-radius: $SecondaryBorderRadius;
+                        }
                     
                 }
+                
             }
-                }
-                .HomeGSGallery-BlueBG{
-                    bottom: 2rem;
-                    left: 0rem;
-                    z-index: -1;
-                }
-                .HomeGSGallery-PinkBG{
-                    z-index: -2;
-                    bottom: 4rem;
-                    // bottom: -3rem;
-                    // left: 18.5rem;
-                    left: -2.5rem;
-                }
+            .HomeGSGallery-ImgContainer2{
+                width: 9rem;
+                height: 5rem;
+                bottom: 1.5rem;
+                left: 8rem;
+                .HomeGSGallery-ImgBox2{
+                    .HomeGSGalleryImg2-Shadow{
+                        .HomeGSGalleryImg1Shadow-Text{
+                            font-size: 0.7rem;
+                            // border: 2px solid red;
+                        }
+                    }
+                .HomeGSGallery-Img2{
+                    width: 8rem;
+                    height: 4rem;
+                
+            }
+        }
+            }
+
+            .HomeGSGallery-ImgContainer3{
+                width: 7rem;
+                height: 7rem;
+                bottom: 4rem;
+                left: 0rem;
+                .HomeGSGallery-ImgBox3{
+                    .HomeGSGalleryImg3-Shadow{
+                        .HomeGSGalleryImg3Shadow-Text{
+                            font-size: 0.7rem;
+                        }
+                    }
+                .HomeGSGallery-Img3{
+                    width: 6rem;
+                    height: 6rem;
+                    border-radius: $SecondaryBorderRadius;
+                
+            }
+        }
+            }
+            .HomeGSGallery-BlueBG{
+                bottom: 1rem;
+                left: 0rem;
+                // width: 458 !important;
+                // height: 277;
+                z-index: -1;
+            }
+            .HomeGSGallery-PinkBG{
+                z-index: -2;
+                bottom: 4rem;
+                // bottom: -3rem;
+                // left: 18.5rem;
+                left: 4rem;
+            }
+
             }
         }
     }

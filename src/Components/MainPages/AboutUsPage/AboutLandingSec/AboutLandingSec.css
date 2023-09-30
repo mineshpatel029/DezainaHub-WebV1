@@ -75,7 +75,7 @@
     gap: 2rem;
   }
   .AboutLSMain .AboutLS .AboutLS-Head {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 100%;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox {
@@ -83,27 +83,29 @@
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer {
     width: 100%;
-    height: 18rem;
+    height: 15rem;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLS-ImgContainer .AboutLS-Img {
     width: 100%;
+    height: 100%;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox {
-    width: 10rem;
+    width: 12rem;
     height: 6rem;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head {
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: space-between;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head .AboutLSImgFloatBoxHead-Heading {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Head .AboutLSImgFloatBoxHead-Line {
-    width: 4rem;
+    width: 10rem;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Head {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
   .AboutLSMain .AboutLS .AboutLS-ImgBox .AboutLSImg-FloatBox .AboutLSImgFloatBox-Body .AboutLSImgFloatBoxBody-Content {
     font-size: 0.6rem;
