@@ -86,7 +86,7 @@
   bottom: 10rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .HomeLSMain {
     height: 44.5rem;
     padding-top: 6rem;
