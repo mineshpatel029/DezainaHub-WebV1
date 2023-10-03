@@ -1,6 +1,7 @@
 .NavMainContainer {
   background-color: #1e1e1e;
   position: fixed;
+  height: 11vh;
   width: 100%;
   z-index: 100000000;
 }
@@ -8,20 +9,35 @@
   display: flex;
   flex-direction: row;
 }
-.NavMainContainer .NavBarStyle .Nav-Logo {
+.NavMainContainer .NavBarStyle .NavBarLogoStyle {
+  display: flex;
+}
+.NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
+  display: flex;
   margin-left: -6vb;
+  justify-content: center;
+  align-items: center;
 }
-.NavMainContainer .NavBarStyle .Nav-Logo img {
-  width: 5rem;
-  height: 100%;
+.NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
+  width: auto !important;
+  height: 3.5rem;
 }
-.NavMainContainer .NavBarStyle .NavBarList {
+.NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger {
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+.NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger svg {
+  width: 30px;
+  height: 30px;
+}
+.NavMainContainer .NavBarStyle .NavBarList, .NavMainContainer .NavBarStyle .NavBarListMV {
   display: flex;
   width: 120%;
   justify-content: flex-end;
   margin-right: -5vb !important;
 }
-.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items {
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items {
   color: #ffffff;
   width: 13vb;
   height: 11vh;
@@ -30,7 +46,7 @@
   justify-content: center;
   align-items: center;
 }
-.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton {
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .activeButton {
   width: 13vb;
   height: 11vh;
   font-size: 0.9rem !important;
@@ -43,7 +59,7 @@
   border-radius: 0rem 0rem 1.25rem 1.25rem;
   letter-spacing: 0.04rem;
 }
-.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button {
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .NavBarListItem-Button {
   width: 13vb;
   height: 11vh;
   background-color: transparent;
@@ -54,6 +70,74 @@
   letter-spacing: 0.04rem;
   color: #ffffff;
 }
-.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button:hover {
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button:hover, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .NavBarListItem-Button:hover {
   text-decoration: underline;
+}
+.NavMainContainer .NavBarStyle .NavBarList .NavBarList-ItemsLog, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-ItemsLog {
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .NavMainContainer {
+    height: 8vh;
+  }
+  .NavMainContainer .NavBarStyle {
+    flex-direction: column;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle {
+    height: 8vh;
+    background-color: #1e1e1e;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
+    margin-left: 0vb;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
+    height: 2rem;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger {
+    display: flex;
+    align-items: center;
+    visibility: visible;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger svg {
+    width: 30px;
+    height: 30px;
+  }
+  .NavMainContainer .NavBarStyle .NavBarList, .NavMainContainer .NavBarStyle .NavBarListMV {
+    transition: 0.5s ease;
+    position: relative;
+    top: 0rem;
+    padding: 1rem 0rem;
+    background-color: #1e1e1e;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 110%;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-left: -2vb !important;
+  }
+  .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items {
+    height: 5vh;
+  }
+  .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .activeButton {
+    height: 5vh;
+    padding-top: 0.6rem;
+    border-radius: 0.8rem;
+  }
+  .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .NavBarListItem-Button {
+    width: 13vb;
+    height: 5vh;
+  }
+  .NavMainContainer .NavBarStyle .NavBarList .NavBarList-ItemsLog, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-ItemsLog {
+    flex-direction: column;
+  }
+  .NavMainContainer .NavBarStyle .NavBarListMV {
+    transition: 0.5s ease;
+    top: -30rem !important;
+  }
 }/*# sourceMappingURL=HeaderSec.css.map */
