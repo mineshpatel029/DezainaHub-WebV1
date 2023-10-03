@@ -5,22 +5,40 @@
 .NavMainContainer{
     background-color: $PrimaryColor;
     position: fixed;
+    height: 11vh;
     width: 100%;
     z-index: 100000000;
 
 .NavBarStyle{
     display: flex;
     flex-direction: row;
-    .Nav-Logo{
-        margin-left: -6vb;
-        img{
-            width: 5rem;
-            height: 100%;
-            
+    .NavBarLogoStyle{
+        display: flex;
+        .Nav-Logo{
+            display: flex;
+            margin-left: -6vb;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: auto !important;
+                height: 3.5rem;
+                
+            }
         }
+        .NavhamBurger{
+            display: flex;
+            align-items: center;
+            visibility: hidden;
+            svg{
+    
+                width: 30px;
+                height: 30px;
+            }
+            
+    }
     }
 
-    .NavBarList{
+    .NavBarList, .NavBarListMV{
         display: flex;
         width: 120%;
         justify-content: flex-end;
@@ -67,7 +85,85 @@
         }
         
     }
+    .NavBarList-ItemsLog{
+        display: flex;
+    }
 }
 }
 }
 
+@media screen and (max-width:400px){
+    .NavMainContainer{
+        height: 8vh;
+    
+    .NavBarStyle{
+        flex-direction: column;
+        .NavBarLogoStyle{
+            height: 8vh;
+            background-color: $PrimaryColor;
+            // width: 110%;
+            position: relative;
+            z-index: 1000;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        .Nav-Logo{
+            margin-left: 0vb;
+            img{
+                height: 2rem;
+            }
+        }
+        .NavhamBurger{
+            display: flex;
+            align-items: center;
+            visibility: visible;
+            svg{
+    
+                width: 30px;
+                height: 30px;
+            }
+            
+        }
+    }
+    
+        .NavBarList , .NavBarListMV {
+            transition: 0.5s ease;
+            position: relative;
+            top: 0rem;
+            padding: 1rem 0rem;
+            background-color: $PrimaryColor;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 110%;
+            align-items: center;
+            margin-top: 0.8rem;
+            margin-left: -2vb !important;
+      
+        .NavBarList-Items{
+            // width: 13vb;
+            height: 5vh;
+    
+            .activeButton{
+                // width: 13vb;
+                height: 5vh;
+                padding-top: 0.6rem;
+                border-radius: $SecondaryBorderRadius;
+            }
+    
+            .NavBarListItem-Button{
+                width: 13vb;
+                height: 5vh;
+            }
+            
+        }
+        .NavBarList-ItemsLog{
+            flex-direction: column;
+        }
+    }
+    .NavBarListMV{
+            transition: 0.5s ease;
+            top: -30rem !important;
+    }
+    }
+    }
+}
