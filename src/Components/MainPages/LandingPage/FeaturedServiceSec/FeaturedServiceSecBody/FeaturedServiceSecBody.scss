@@ -1,7 +1,7 @@
 @import "../../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .FeaturedSS-BodyMain{
-    width: 80rem;
+    width: 100%;
     .FeaturedSS-Body{
         .FeaturedSSBody-Nav{
             display: flex;
@@ -25,7 +25,7 @@
             
         }
         .FeaturedSSBody-Content{
-            margin-top: 2rem;
+            margin-top: 1rem;
             display: flex;
             justify-content: space-between;
             .FeaturedService-1{
@@ -79,7 +79,7 @@
                 //     }
                 // }
                 .FS1BodyContent-Box{
-                    width: 25rem;
+                    width: 26rem;
                     min-height: 35rem;
                     display: flex;
                     border-radius: $PrimaryBorderRadius;

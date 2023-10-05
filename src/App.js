@@ -11,6 +11,8 @@ import FooterSec from './Components/MainPages/Footer/FooterSec';
 // import ContactUsPage from './Components/MainPages/ContactUsPage/ContactUsPage';
 import  LazyLoader from "./Components/LazyLoader/LazyLoader";
 import LoginSignupPage from "./Components/MainPages/LoginSignupPage/LoginSignupPage";
+import FooterNewsLetter from "./Components/MainPages/Footer/FooterNewsLetter/FooterNewsLetter";
+import FooterFoot from "./Components/MainPages/Footer/FooterFoot/FooterFoot";
 
 
 
@@ -24,19 +26,26 @@ const LoginPage = lazy(() => import("./Components/MainPages/LoginSignupPage/Logi
 const SignupPage = lazy(() => import("./Components/MainPages/LoginSignupPage/SignupPage/SignupPage"));
 const VerifyPage = lazy(() => import("./Components/MainPages/LoginSignupPage/VerifyPage/VerifyPage"));
 const PDPage = lazy(()=> import("./Components/MainPages/ProductDescriptionPage/ProductDescriptionPage"))
-
-
+{/* <FooterNewsLetter */}
+{/* <FooterFoot */}
 
 function App() {
   const renderHeaderFooter = () => {
     const path = window.location.pathname;
-    return path === "/Login" || path === "/Signup" || path === "/Verify" || path === "*";
+    return (path === "/ContactUs") || (path === "/Login") || (path === "/Signup") || (path === "/Verify") || (path === "*");
+    // return (path === "/Login" || "/Signup" || "/Verify" || "*");
+  }
+  const ContactFooter = () => {
+    const path = window.location.pathname;
+    return (path === "/ContactUs") ;
+    // return (path === "/Login" || "/Signup" || "/Verify" || "*");
   }
   return (
     <div className="App">
-    <Suspense fallback={<div ><LazyLoader/></div>}>
+    <Suspense fallback={<div><LazyLoader/></div>}>
     <BrowserRouter>
-        {!renderHeaderFooter() ? <HeaderSec/> : <></> } 
+        {!renderHeaderFooter() || ContactFooter() ? <HeaderSec/> : <></> } 
+        {/* { ? <HeaderSec/> : <></> }  */}
         <Routes>
           <Route path='/' element={<LandingPage/>} />
           <Route path='/AboutUs' element={<AboutUsPage/>} />
@@ -50,7 +59,9 @@ function App() {
           <Route path='/Verify' element={<VerifyPage/>} />
           <Route path='*' element={<h1 style={{ color: 'blue', padding: '20rem' }}>Error Page</h1>} />
           </Routes>
-        {!renderHeaderFooter() ? <FooterSec/> : <></>}
+        {!renderHeaderFooter()  ? <div><FooterNewsLetter/><FooterFoot/></div> : <></>}
+        {ContactFooter() ? <FooterFoot/> : <></>}
+        {/* {!renderHeaderFooter() ? <FooterSec/> : <></>} */}
       </BrowserRouter>
       </Suspense>
 

@@ -1,6 +1,6 @@
 .HomeLSMain {
-  height: 51.5rem;
-  padding-top: 12rem;
+  height: 46.2rem;
+  padding-top: 10rem;
   color: #f4f4f4;
   background-color: #1e1e1e;
   overflow: hidden;
@@ -16,9 +16,9 @@
   width: 43rem;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
-  width: 42rem;
+  width: 38rem;
   font-family: Montserrat;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head span {
@@ -76,8 +76,8 @@
 .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
   position: absolute;
   opacity: 20%;
-  right: -25rem;
-  top: -6rem;
+  right: -28rem;
+  top: -4rem;
 }
 .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
   position: absolute;

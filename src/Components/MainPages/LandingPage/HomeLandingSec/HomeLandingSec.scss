@@ -2,8 +2,8 @@
 
 .HomeLSMain{
     // border: 2px solid red;
-    height: 51.5rem;
-    padding-top: 12rem;
+    height: 46.2rem;
+    padding-top: 10rem;
     color: $ThirdColor;
     background-color: $PrimaryColor;
     overflow: hidden;
@@ -21,9 +21,9 @@
             // gap: 5rem;
 
             .HomeLSContent-Head{
-                width: 42rem;
+                width: 38rem;
                 font-family: $HeadFont;
-                font-size: 4rem;
+                font-size: 3.5rem;
                 font-weight: 700;
                 span{
                     color: $SecondaryColor;
@@ -93,8 +93,8 @@
             position: absolute;
             opacity: 20%;
             // z-index: 0;
-            right: -25rem;
-            top: -6rem;
+            right: -28rem;
+            top: -4rem;
         }
         .HomeLSImageContainer-BGPink{
             position: absolute;

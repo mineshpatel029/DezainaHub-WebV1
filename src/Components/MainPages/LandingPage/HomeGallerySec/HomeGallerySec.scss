@@ -145,6 +145,7 @@
             .HomeGSGallery-BlueBG{
                 opacity: 20%;
                 position: absolute;
+                width: 30rem;
                 bottom: 7rem;
                 left: 5rem;
                 z-index: -1;
@@ -152,6 +153,7 @@
             .HomeGSGallery-PinkBG{
                 opacity: 20%;
                 position: absolute;
+                width: 8rem;
                 bottom: 1.5rem;
                 left: -8rem;
                 z-index: -1;
@@ -166,6 +168,8 @@
         .HomeGS{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             height: auto;
             .HomeGS-Content{
                 width: 100%;
@@ -190,7 +194,7 @@
                 }
             }
             .HomeGS-Gallery{
-                width: 100%;
+                width: 21rem;
                 height: 20rem;
     
                 .HomeGSGallery-ImgContainer1, .HomeGSGallery-ImgContainer2, .HomeGSGallery-ImgContainer3{
@@ -329,18 +333,21 @@
         }
             }
             .HomeGSGallery-BlueBG{
-                bottom: 1rem;
-                left: 0rem;
-                // width: 458 !important;
-                // height: 277;
+                // visibility: hidden;
+                bottom: -4rem;
+                left: 4rem;
+                width: 15rem !important;
+                height: 27rem !important;
                 z-index: -1;
             }
             .HomeGSGallery-PinkBG{
-                z-index: -2;
-                bottom: 4rem;
+                // z-index: -2;
+                bottom: 2rem;
+                width: 5rem;
+                height: 5rem;
                 // bottom: -3rem;
                 // left: 18.5rem;
-                left: 4rem;
+                left: -2rem;
             }
 
             }

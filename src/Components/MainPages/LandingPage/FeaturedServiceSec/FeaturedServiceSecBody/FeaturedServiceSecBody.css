@@ -1,5 +1,5 @@
 .FeaturedSS-BodyMain {
-  width: 80rem;
+  width: 100%;
 }
 .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Nav {
   display: flex;
@@ -22,12 +22,12 @@
   text-decoration: underline;
 }
 .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
 .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FeaturedService-1 .FS1BodyContent-Box {
-  width: 25rem;
+  width: 26rem;
   min-height: 35rem;
   display: flex;
   border-radius: 1.25rem;

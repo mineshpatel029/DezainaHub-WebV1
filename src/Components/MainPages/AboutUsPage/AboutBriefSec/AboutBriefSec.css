@@ -89,11 +89,14 @@
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Title span {
     font-size: 2rem;
   }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content {
+    width: 70%;
+  }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Heading {
     font-size: 1rem;
   }
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Body {
-    width: 15rem;
+    width: 100%;
     font-size: 0.6rem;
   }
 }/*# sourceMappingURL=AboutBriefSec.css.map */

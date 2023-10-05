@@ -1,7 +1,6 @@
 .NavMainContainer {
   background-color: #1e1e1e;
   position: fixed;
-  height: 11vh;
   width: 100%;
   z-index: 100000000;
 }
@@ -35,20 +34,20 @@
   display: flex;
   width: 120%;
   justify-content: flex-end;
-  margin-right: -5vb !important;
+  margin-right: -3rem !important;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items {
   color: #ffffff;
-  width: 13vb;
-  height: 11vh;
+  width: 6rem;
+  height: 5rem;
   display: flex;
   font-size: 0.8rem;
   justify-content: center;
   align-items: center;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .activeButton {
-  width: 13vb;
-  height: 11vh;
+  width: 6rem;
+  height: 5rem;
   font-size: 0.9rem !important;
   font-weight: 800 !important;
   padding-bottom: 0.5rem;
@@ -60,8 +59,8 @@
   letter-spacing: 0.04rem;
 }
 .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .NavBarListItem-Button, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .NavBarListItem-Button {
-  width: 13vb;
-  height: 11vh;
+  width: 6rem;
+  height: 5rem;
   background-color: transparent;
   border: none;
   text-align: center;
@@ -79,13 +78,13 @@
 
 @media screen and (max-width: 900px) {
   .NavMainContainer {
-    height: 8vh;
+    height: 4rem;
   }
   .NavMainContainer .NavBarStyle {
     flex-direction: column;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle {
-    height: 8vh;
+    height: 4rem;
     background-color: #1e1e1e;
     position: relative;
     z-index: 1000;
@@ -94,7 +93,7 @@
     justify-content: space-between;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo {
-    margin-left: 0vb;
+    margin-left: 0rem;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
     height: 2rem;
