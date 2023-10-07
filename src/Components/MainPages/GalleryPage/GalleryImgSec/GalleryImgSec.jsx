@@ -6,7 +6,7 @@ import GalleryImgProd from './GalleryImgProd'
 import GalleryImg1 from "../Image/17.jpg"
 import GalleryProdCat from '../GalleryLandingSec/GalleryProdCat'
 
-export const GalleryImgSec = () => {
+export const GalleryImgSec = (id) => {
     // console.log("Category id" , activeCat);
     const [activeProd, setActiveProd] = useState(1)
     // const [active, setActive] = useState(activeCatf)

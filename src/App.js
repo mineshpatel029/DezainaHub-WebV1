@@ -26,8 +26,7 @@ const LoginPage = lazy(() => import("./Components/MainPages/LoginSignupPage/Logi
 const SignupPage = lazy(() => import("./Components/MainPages/LoginSignupPage/SignupPage/SignupPage"));
 const VerifyPage = lazy(() => import("./Components/MainPages/LoginSignupPage/VerifyPage/VerifyPage"));
 const PDPage = lazy(()=> import("./Components/MainPages/ProductDescriptionPage/ProductDescriptionPage"))
-{/* <FooterNewsLetter */}
-{/* <FooterFoot */}
+
 
 function App() {
   const renderHeaderFooter = () => {
@@ -53,10 +52,10 @@ function App() {
           <Route path='/Service/:id' element={<PDPage/>} />
           <Route path='/Gallery' element={<GalleryPage/>} />
           <Route path='/ContactUs' element={<ContactUsPage/>} />
-          <Route path='/Cart' element={<CartPage/>} />
+          {/* <Route path='/Cart' element={<CartPage/>} />
           <Route path='/Login' element={<LoginPage/>} />
           <Route path='/Signup' element={<SignupPage/>} />
-          <Route path='/Verify' element={<VerifyPage/>} />
+          <Route path='/Verify' element={<VerifyPage/>} /> */}
           <Route path='*' element={<h1 style={{ color: 'blue', padding: '20rem' }}>Error Page</h1>} />
           </Routes>
         {!renderHeaderFooter()  ? <div><FooterNewsLetter/><FooterFoot/></div> : <></>}

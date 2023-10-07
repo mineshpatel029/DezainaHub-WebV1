@@ -105,7 +105,10 @@
     }
 }
 
-@media screen and (max-width: 600px){
+
+// ***********Mobile view*************
+
+@media screen and (max-width: 490px){
     .HomeLSMain{
         height: 44.5rem;
         padding-top: 6rem;
@@ -185,3 +188,332 @@
         }
     }
 }
+
+@media screen and (min-width: 490px) and (max-width: 770px) {
+    .HomeLSMain{
+        height: 51.2rem;
+        padding-top: 8rem;
+        // overflow: visible;
+        .HomeLS{
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            .HomeLS-Content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 2rem;
+    
+                .HomeLSContent-Head{
+                    width: 100%;
+                    font-size: 2.15rem;
+                    text-align: center;
+                }
+                .HomeLSContent-Base{
+                    // visibility: hidden;
+                    height: auto;
+                    text-align: center;
+                    .HomeLSContentBase-L1{
+                        width: 100%;
+                        flex-direction: column;
+                        gap: 0.5rem;
+    
+                    
+    
+                    .HomeLSContentBase-Head{
+                        height: auto;
+                        width: 100%;
+                        font-size: 1rem;
+                        color: $ContentFontColor;
+                    }
+    
+                    .HomeLSContentBase-Values{
+                        width: 100%;
+                        justify-content: center;
+                        .HomeLSContentBaseValues-Items{
+                            width: 6rem;
+                            .HomeLSContentBaseValuesItems-Value{
+                                font-size: 1.5rem;
+                            }
+                            .HomeLSContentBaseValuesItems-Description{
+                                font-size: 0.8rem;
+                                font-weight: 400;
+                                color: $ContentFontColor;
+                            }
+                        }
+                        
+                    }
+    
+                }
+            }
+        }
+            .HomeLS-ImageContainer{
+                width: 22rem;
+                height: 24rem;
+                margin-left: 0rem;
+            
+                .HomeLS-Image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .HomeLSImageContainer-BGBlue{
+                // z-index: 0;
+                opacity: 10%;
+                right: -30rem;
+                top: 10rem;
+            }
+            .HomeLSImageContainer-BGPink{
+                right:18rem;
+                bottom: 3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    .HomeLSMain{
+        height: 35rem;
+        padding-top: 10rem;
+        // overflow: visible;
+        .HomeLS{
+            // flex-direction: column;
+            // align-items: center;
+            gap: 1rem;
+            height: 25rem;
+            .HomeLS-Content{
+                // display: flex;
+                // flex-direction: column;
+                // width: 100%;
+                // gap: 2rem;
+                // height: auto;
+    
+                .HomeLSContent-Head{
+                    width: 23rem;
+                    font-size: 2.2rem;
+                    // text-align: center;
+                }
+                .HomeLSContent-Base{
+                    // visibility: hidden;
+                    // height: auto;
+                    // text-align: center;
+                    .HomeLSContentBase-L1{
+                        width: 25rem;
+                        // flex-direction: column;
+                        gap: 0.5rem;
+    
+                    
+    
+                    .HomeLSContentBase-Head{
+                        height: auto;
+                        width: auto;
+                        font-size: 0.7rem;
+                        color: $ContentFontColor;
+                    }
+    
+                    .HomeLSContentBase-Values{
+                        width: 100%;
+                        justify-content: center;
+                        .HomeLSContentBaseValues-Items{
+                            width: 4rem;
+                            .HomeLSContentBaseValuesItems-Value{
+                                font-size: 1.25rem;
+                            }
+                            .HomeLSContentBaseValuesItems-Description{
+                                font-size: 0.5rem;
+                                font-weight: 400;
+                                color: $ContentFontColor;
+                            }
+                        }
+                        
+                    }
+    
+                }
+            }
+        }
+            .HomeLS-ImageContainer{
+                width: 30rem;
+                height: 25rem;
+                margin-left: 0rem;
+            
+                .HomeLS-Image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .HomeLSImageContainer-BGBlue{
+                // z-index: 0;
+                opacity: 10%;
+                right: -35rem;
+                top: -4rem;
+            }
+            .HomeLSImageContainer-BGPink{
+                right:10rem;
+                bottom: 5rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .HomeLSMain{
+        height: 40rem;
+        padding-top: 10rem;
+        // overflow: visible;
+        .HomeLS{
+            // flex-direction: column;
+            // align-items: center;
+            gap: 1rem;
+            height: 30rem;
+            .HomeLS-Content{
+                // display: flex;
+                // flex-direction: column;
+                // width: 100%;
+                // gap: 2rem;
+                // height: auto;
+    
+                .HomeLSContent-Head{
+                    width: 28rem;
+                    font-size: 2.5rem;
+                    // text-align: center;
+                }
+                .HomeLSContent-Base{
+                    // visibility: hidden;
+                    // height: auto;
+                    // text-align: center;
+                    .HomeLSContentBase-L1{
+                        // width: 35rem;
+                        width: 100%;
+                        // flex-direction: column;
+                        gap: 1rem;
+    
+                    
+    
+                    .HomeLSContentBase-Head{
+                        height: auto;
+                        width: auto;
+                        font-size: 0.9rem;
+                        color: $ContentFontColor;
+                    }
+    
+                    .HomeLSContentBase-Values{
+                        width: 100%;
+                        justify-content: center;
+                        .HomeLSContentBaseValues-Items{
+                            width: 6rem;
+                            .HomeLSContentBaseValuesItems-Value{
+                                font-size: 1.75rem;
+                            }
+                            .HomeLSContentBaseValuesItems-Description{
+                                font-size: 0.8rem;
+                                font-weight: 400;
+                                color: $ContentFontColor;
+                            }
+                        }
+                        
+                    }
+    
+                }
+            }
+        }
+            .HomeLS-ImageContainer{
+                width: 30rem;
+                height: 30rem;
+                margin-left: 0rem;
+            
+                .HomeLS-Image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .HomeLSImageContainer-BGBlue{
+                // z-index: 0;
+                opacity: 10%;
+                right: -30rem;
+                top: -5rem;
+            }
+            .HomeLSImageContainer-BGPink{
+                right:15rem;
+                bottom: 5rem;
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 1200px) and (max-width: 1440px){
+//     .HomeLSMain{
+//         // height: 65rem;
+//         // padding-top: 12rem;
+//         // overflow: visible;
+//         .HomeLS{
+//             // flex-direction: column;
+//             // align-items: center;
+//             gap: 2rem;
+//             .HomeLS-Content{
+//                 height: 100%;
+//                 justify-content: space-between;
+//                 // flex-direction: column;
+//                 // width: 100%;
+//                 gap: 10rem;
+    
+//                 .HomeLSContent-Base{
+//                     // visibility: hidden;
+//                     height: auto;
+//                     // text-align: center;
+//                     .HomeLSContentBase-L1{
+//                         // width: 100%;
+//                         // flex-direction: column;
+//                         gap: 0.5rem;
+    
+                    
+    
+//                     .HomeLSContentBase-Head{
+//                         height: auto;
+//                         // width: 100%;
+//                         // font-size: 1.5rem;
+//                         color: $ContentFontColor;
+//                     }
+    
+//                     .HomeLSContentBase-Values{
+//                         width: 100%;
+//                         justify-content: center;
+//                         .HomeLSContentBaseValues-Items{
+//                             // width: 10rem;
+//                             .HomeLSContentBaseValuesItems-Description{
+//                                 // font-size: 1.25rem;
+//                                 font-weight: 400;
+//                                 color: $ContentFontColor;
+//                             }
+//                         }
+                        
+//                     }
+    
+//                 }
+//             }
+//         }
+//             .HomeLS-ImageContainer{
+//                 width: 30rem;
+//                 // height: 33rem;
+//                 margin-left: 0rem;
+            
+//                 .HomeLS-Image{
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//             .HomeLSImageContainer-BGBlue{
+//                 // z-index: 0;
+//                 opacity: 10%;
+//                 right: -20rem;
+//                 top: -4rem;
+//             }
+//             .HomeLSImageContainer-BGPink{
+//                 right:27rem;
+//                 bottom: 10rem;
+//             }
+//         }
+//     }
+// }
+
+

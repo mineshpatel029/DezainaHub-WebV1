@@ -5,7 +5,7 @@ import reducer from "../Reducer/ProductReducer"
 
 const AppContext = createContext();
 
-const ProductDataAPI = "https://api.pujakaitem.com/api/products";
+const ProductDataAPI = "http://localhost:5050/api/item/get?categoryId=650437af7623e86332589260";
 
 
 const initialState = {

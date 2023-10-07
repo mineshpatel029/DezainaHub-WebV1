@@ -92,7 +92,7 @@
 }
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:600px){
     .NavMainContainer{
         height: 4rem;
     
@@ -140,18 +140,18 @@
       
         .NavBarList-Items{
             // width: 13vb;
-            height: 5vh;
+            height: 2.5rem;
     
             .activeButton{
                 // width: 13vb;
-                height: 5vh;
+                height: 100%;
                 padding-top: 0.6rem;
                 border-radius: $SecondaryBorderRadius;
             }
     
             .NavBarListItem-Button{
                 width: 13vb;
-                height: 5vh;
+                height: 100%;
             }
             
         }
@@ -160,6 +160,84 @@
         }
     }
     .NavBarListMV{
+        position: absolute;
+            transition: 0.5s ease;
+            top: -30rem !important;
+    }
+    }
+    }
+}
+
+
+@media screen and (min-width: 600px ) and (max-width:1024px){
+    .NavMainContainer{
+        height: 4rem;
+    
+    .NavBarStyle{
+        flex-direction: column;
+        .NavBarLogoStyle{
+            height: 4rem;
+            background-color: $PrimaryColor;
+            // width: 110%;
+            position: relative;
+            z-index: 1000;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        .Nav-Logo{
+            // margin-left: 0rem;
+            img{
+                height: 2rem;
+            }
+        }
+        .NavhamBurger{
+            display: flex;
+            align-items: center;
+            visibility: visible;
+            svg{
+    
+                width: 30px;
+                height: 30px;
+            }
+            
+        }
+    }
+    
+        .NavBarList , .NavBarListMV {
+            transition: 0.5s ease;
+            position: relative;
+            top: 0rem;
+            padding: 1rem 0rem;
+            background-color: $PrimaryColor;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 110%;
+            align-items: center;
+            margin-left: -2vb !important;
+      
+        .NavBarList-Items{
+            // width: 13vb;
+            height: 2.5rem;
+    
+            .activeButton{
+                // width: 13vb;
+                height: 100%;
+                padding-top: 0.6rem;
+                border-radius: $SecondaryBorderRadius;
+            }
+    
+            .NavBarListItem-Button{
+                width: 13vb;
+                height: 100%;
+            }
+            
+        }
+        .NavBarList-ItemsLog{
+            flex-direction: column;
+        }
+    }
+    .NavBarListMV{
+        position: absolute;
             transition: 0.5s ease;
             top: -30rem !important;
     }

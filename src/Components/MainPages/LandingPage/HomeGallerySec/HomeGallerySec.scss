@@ -162,7 +162,7 @@
     }
 }
 
-@media screen and (max-width: 900px){
+@media only screen and (max-width:990px){
     .HomeGSMain{
         // padding: 5rem 0rem;
         .HomeGS{
@@ -347,6 +347,127 @@
                 height: 5rem;
                 // bottom: -3rem;
                 // left: 18.5rem;
+                left: -2rem;
+            }
+
+            }
+        }
+    }
+}
+
+@media screen and  (min-width: 990px ) and (max-width:1248px){
+    .HomeGSMain{
+        .HomeGS{
+            display: flex;
+            // gap: 5rem;
+            justify-content: space-between;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            height: auto;
+            .HomeGS-Content{
+                width: 30rem;
+                // width: 100%;
+                // text-align: center;
+                // justify-content: center;
+                // align-items: center;
+                .HomeGSContent-Title{
+                    font-size: 1rem;
+                    font-weight: 800;
+                }
+                .HomeGSContent-Head{
+                    width: 25rem;
+                    font-size: 2.15rem;
+                }
+                .HomeGSContent-Body{
+                    // width: 100%;
+                    font-size: 1rem;
+                }
+                .HomeGSContent-Button{
+                    width: 12rem;
+                    height: 3rem;
+                    font-size: 1rem;
+                }
+            }
+            .HomeGS-Gallery{
+                width: 30rem;
+                height: 25rem;
+    
+                .HomeGSGallery-ImgContainer1, .HomeGSGallery-ImgContainer2, .HomeGSGallery-ImgContainer3{
+                    border-radius: $SecondaryBorderRadius;
+                } 
+
+            .HomeGSGallery-ImgContainer1{
+                width: 18rem;
+                height: 12rem;
+                top: 2rem;
+                right: 0rem;
+                .HomeGSGallery-ImgBox1{
+                    .HomeGSGalleryImg1-Shadow{
+                        .HomeGSGalleryImg1Shadow-Text{
+                            font-size: 1rem;
+                        }
+                    }
+                        .HomeGSGallery-Img1{
+                            width: 17rem;
+                            height: 11rem;
+                            border-radius: $SecondaryBorderRadius;
+                        }
+                    
+                }
+                
+            }
+            .HomeGSGallery-ImgContainer2{
+                width: 12rem;
+                height: 7rem;
+                bottom: 1.5rem;
+                left: 12rem;
+                .HomeGSGallery-ImgBox2{
+                    .HomeGSGalleryImg2-Shadow{
+                        .HomeGSGalleryImg1Shadow-Text{
+                            font-size: 0.8rem;
+                            // border: 2px solid red;
+                        }
+                    }
+                .HomeGSGallery-Img2{
+                    width: 11rem;
+                    height: 6rem;
+                
+            }
+        }
+            }
+
+            .HomeGSGallery-ImgContainer3{
+                width: 10rem;
+                height: 7rem;
+                bottom: 5rem;
+                left: 0rem;
+                .HomeGSGallery-ImgBox3{
+                    .HomeGSGalleryImg3-Shadow{
+                        .HomeGSGalleryImg3Shadow-Text{
+                            font-size: 0.9rem;
+                        }
+                    }
+                .HomeGSGallery-Img3{
+                    width: 9rem;
+                    height: 6rem;
+                    border-radius: $SecondaryBorderRadius;
+                
+            }
+        }
+            }
+            .HomeGSGallery-BlueBG{
+                // visibility: hidden;
+                bottom: -2rem;
+                left: 7rem;
+                width: 20rem !important;
+                height: 27rem !important;
+                z-index: -1;
+            }
+            .HomeGSGallery-PinkBG{
+                bottom: 2rem;
+                width: 6rem;
+                height: 6rem;
                 left: -2rem;
             }
 
