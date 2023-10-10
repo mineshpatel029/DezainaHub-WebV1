@@ -39,26 +39,26 @@ export const ServiceProductCategory1 = () => {
                         </div>
                         ))} */}
                         {ProductDataC1.map((Product, i)=>(       
-                        <div className='PPBodyContent-Box'>
-                            <div className='PPBodyContentBox-ImgContainer'>
-                                <img className='PPBodyContentBox-Img' src={Product.Image} />
+                        <div className='SPSBodyContent-Box'>
+                            <div className='SPSBodyContentBox-ImgContainer'>
+                                <img className='SPSBodyContentBox-Img' src={Product.Image} />
                             </div>
-                            <div className='PPBodyContentBox-Content'>
-                                <div className='PPBodyContentBox-HeadContent'>
-                                    <h5 className='PPBodyContentBox-ProductName'>{Product.Name}</h5>
-                                    <h6 className='PPBodyContentBox-ProductPrice'>{Product.Price}</h6>
+                            <div className='SPSBodyContentBox-Content'>
+                                <div className='SPSBodyContentBox-HeadContent'>
+                                    <h5 className='SPSBodyContentBox-ProductName'>{Product.Name}</h5>
+                                    <h6 className='SPSBodyContentBox-ProductPrice'>{Product.Price}</h6>
                                 </div>
                                 
-                                <p className='PPBodyContentBox-BodyContent'>i. {Product.Description}</p>
+                                <p className='SPSBodyContentBox-BodyContent'>i. {Product.Description}</p>
                                 
                             </div>
-                            <div className='PPBodyContentBox-Body'>
-                                <div className='PPBodyContentBox-Details'>
-                                    {/* <button className='PPBodyContentBox-EditButton'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div className='SPSBodyContentBox-Body'>
+                                <div className='SPSBodyContentBox-Details'>
+                                    <button className='SPSBodyContentBox-EditButton'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.8139 0.5H4.945C2.39573 0.5 0.875977 2.019 0.875977 4.567V10.426C0.875977 12.981 2.39573 14.5 4.945 14.5H10.8069C13.3562 14.5 14.876 12.981 14.876 10.433V4.567C14.883 2.019 13.3632 0.5 10.8139 0.5ZM7.1441 11.357C6.941 11.56 6.55581 11.756 6.27567 11.798L4.55281 12.043C4.48978 12.05 4.42675 12.057 4.36371 12.057C4.07657 12.057 3.81044 11.959 3.62134 11.77C3.39023 11.539 3.29218 11.203 3.34821 10.832L3.59333 9.11C3.63535 8.823 3.82445 8.445 4.03455 8.242L7.15811 5.12C7.21414 5.267 7.27016 5.414 7.3472 5.582C7.41724 5.729 7.49427 5.883 7.57832 6.023C7.64835 6.142 7.72539 6.254 7.78842 6.338C7.86546 6.457 7.9565 6.569 8.01253 6.632C8.04755 6.681 8.07556 6.716 8.08957 6.73C8.26466 6.94 8.46776 7.136 8.64285 7.283C8.69187 7.332 8.71989 7.36 8.73389 7.367C8.83894 7.451 8.944 7.535 9.03504 7.598C9.1471 7.682 9.25915 7.759 9.37821 7.822C9.51828 7.906 9.67236 7.983 9.82644 8.06C9.98752 8.13 10.1346 8.193 10.2817 8.242L7.1441 11.357ZM11.6403 6.863L10.996 7.514C10.954 7.556 10.898 7.577 10.8419 7.577C10.8209 7.577 10.7929 7.577 10.7789 7.57C9.3572 7.164 8.22264 6.03 7.81643 4.609C7.79542 4.532 7.81643 4.448 7.87246 4.399L8.52379 3.748C9.58832 2.684 10.6038 2.705 11.6473 3.748C12.1796 4.28 12.4387 4.791 12.4387 5.323C12.4317 5.827 12.1726 6.331 11.6403 6.863Z" fill="#1E1E1E"/>
                                         </svg>
                                         Read More
-                                    </button> */}
+                                    </button>
                                     <NavLink to="/Cart" >
                                     <button className='FeaturedService1-CartButton'>
                                         <svg className='FeaturedService1-CartIcon' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -104,7 +104,11 @@ export const HeaderSec = () => {
               </button>
             </NavLink>
           </div>
-          <div className="NavBarList-Items">
+
+
+          {/* Will Release This In Next Version */}
+
+          {/* <div className="NavBarList-Items">
             <NavLink to="/Cart">
               <button
                 onClick={() => setActiveTab("cart")}
@@ -130,7 +134,7 @@ export const HeaderSec = () => {
                 <button className="NavBarListItem-Button">Login</button>
                 </NavLink>
             </div>
-          </div>
+          </div> */}
           {/* <div className='NavBarList-Items'>
                     <NavLink to="/Article">
                     <button>Article</button>

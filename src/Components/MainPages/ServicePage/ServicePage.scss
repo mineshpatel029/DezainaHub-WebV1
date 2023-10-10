@@ -9,20 +9,23 @@
 .ServiceLSMain{
     background-color: $PrimaryColor;
     color: $SecondaryFontColor;
-    height: 100vh;
-    padding-top: 15vh;
+    height: 46.2rem;
+    padding-top: 8rem;
     .ServiceLS{
         display: flex;
         flex-direction: column;
+        // justify-content: center;
+        align-items: center;
         gap: 2rem;
         .ServiceLS-Head{
             display: flex;
+            width: 70rem;
             justify-content: space-between;
             .ServiceLSHead-Heading{
                 font-family: $HeadFont;
-                font-size: 3rem;
+                font-size: 2.5rem;
                 font-weight: 700;
-                width: 40rem;
+                width: 30rem;
                 span{
                     color: $SecondaryColor;
                 }
@@ -60,13 +63,13 @@
             }
             .ServiceLSImgBody-UpperShadow{
                 position: absolute;
-                width: 81rem;
+                width: 70rem;
                 height: 0rem;
                 border-radius: $PrimaryBorderRadius;
             }
             .ServiceLSImgBody-ImgContainer{
-                width: 81rem;
-                height: 25rem;
+                width: 70rem;
+                height: 23rem;
                 overflow: hidden;
                 border-radius: $PrimaryBorderRadius;
                 .ServiceLSImgBody-Img{
@@ -82,8 +85,9 @@
             .ServiceLSImgBody-Content{
                 font-weight: 700;
                 margin: 0rem;
-                right: 30rem;
-                bottom: 12rem;
+                right: 23rem;
+                bottom: 10rem;
+                text-shadow: 1px 1px $PrimaryColor;
                 transition: 300ms ease-out;
                 span{
 

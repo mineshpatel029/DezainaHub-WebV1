@@ -3,6 +3,9 @@ import "./GalleryLandingSec.css"
 import GalleryLandingImg1 from "../Image/17.jpg"
 import GalleryProdCat from './GalleryProdCat'
 import GalleryImgSec from '../GalleryImgSec/GalleryImgSec'
+import GalleryImgProd from '../GalleryImgSec/GalleryImgProd'
+import GalleryImgProd3 from '../GalleryImgSec/GalleryImgProd3'
+import GalleryImgProd2 from '../GalleryImgSec/GalleryImgProd2'
 
 
 
@@ -10,6 +13,7 @@ import GalleryImgSec from '../GalleryImgSec/GalleryImgSec'
 export const GalleryLandingSec = () => {
   // const [activeCat, setActiveCat] = useState(0)
   const [activeCat, setActiveCat] = useState(1)
+  const [prodList, setProdList]= useState(GalleryImgProd)
   
   return (
     <div>
@@ -41,6 +45,7 @@ export const GalleryLandingSec = () => {
                  
           </div>
       </div>
+      <GalleryImgSec activeCat={activeCat} prodList={prodList}  />
       {/* <GalleryImgSec catState={GalleryProdCat[activeCat]} /> */}
     </div>
   )
