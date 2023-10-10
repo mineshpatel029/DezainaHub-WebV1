@@ -7,7 +7,7 @@ export const GalleryPage = () => {
   return (
     <div className='GalleryPageMain'>
         <GalleryLandingSec/>
-        <GalleryImgSec/>
+        {/* <GalleryImgSec/> */}
     </div>
   )
 }
