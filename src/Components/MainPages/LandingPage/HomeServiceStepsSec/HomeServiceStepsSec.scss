@@ -101,7 +101,7 @@
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 490px){
     .HomeSSSMain{
         padding: 5rem 0rem;
         height: 45rem;
@@ -168,6 +168,202 @@
                     visibility: hidden;
                     // top: 4.5rem;
                     // left: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width:744px){
+    .HomeSSSMain{
+        padding: 5rem 0rem;
+        height: 53rem;
+        .HomeSSS{
+            display: flex;
+            // gap: 3rem;
+            .HomeSSS-HeadContainer{
+            
+            .HomeSSS-Head{
+                font-size: 2.25rem;
+                width: 20rem;
+            }
+        }
+            .HomeSSS-Steps{
+                gap: 3rem;
+                position: relative;
+                .HomeSSSSteps-1{
+                    width: 20rem;
+                    .HomeSSSSteps-Heading{
+                        .HomeSSSStepsHead-Number{
+                            font-size: 3rem;
+                        }
+                        .HomeSSSStepsHead-Step{
+                            font-size: 1.5rem;
+                            width: 8.15rem;
+                        }
+                    }
+                    .HomeSSSStepsHead-Content{
+                        width: 100%;
+                        text-align: center;
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 1rem;
+                    }
+                }
+                .HomeSSSSteps-3{
+                    position: absolute;
+                    top: 24rem;
+                    // left: 3rem;
+                }
+                .HomeSSSSteps-Up{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                .HomeSSSSteps-LeftLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-RightLine{
+                    visibility: hidden;
+    
+                }
+                .HomeSSSSteps-UpLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-CenterLine{
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 744px) and (max-width:1024px){
+    .HomeSSSMain{
+        padding: 5rem 0rem;
+        height: 53rem;
+        .HomeSSS{
+            display: flex;
+            // gap: 3rem;
+            .HomeSSS-HeadContainer{
+            
+            .HomeSSS-Head{
+                font-size: 2.25rem;
+                width: 20rem;
+            }
+        }
+            .HomeSSS-Steps{
+                gap: 3rem;
+                position: relative;
+                .HomeSSSSteps-1{
+                    width: 20rem;
+                    .HomeSSSSteps-Heading{
+                        .HomeSSSStepsHead-Number{
+                            font-size: 3rem;
+                        }
+                        .HomeSSSStepsHead-Step{
+                            font-size: 1.5rem;
+                            width: 8.15rem;
+                        }
+                    }
+                    .HomeSSSStepsHead-Content{
+                        width: 100%;
+                        text-align: center;
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 1rem;
+                    }
+                }
+                .HomeSSSSteps-3{
+                    position: absolute;
+                    top: 24rem;
+                    // left: 3rem;
+                }
+                .HomeSSSSteps-Up{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                .HomeSSSSteps-LeftLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-RightLine{
+                    visibility: hidden;
+    
+                }
+                .HomeSSSSteps-UpLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-CenterLine{
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1024px){
+    .HomeSSSMain{
+        padding: 5rem 0rem;
+        height: 53rem;
+        .HomeSSS{
+            display: flex;
+            // gap: 3rem;
+            .HomeSSS-HeadContainer{
+            
+            .HomeSSS-Head{
+                font-size: 2.25rem;
+                width: 20rem;
+            }
+        }
+            .HomeSSS-Steps{
+                gap: 3rem;
+                position: relative;
+                .HomeSSSSteps-1{
+                    width: 20rem;
+                    .HomeSSSSteps-Heading{
+                        .HomeSSSStepsHead-Number{
+                            font-size: 3rem;
+                        }
+                        .HomeSSSStepsHead-Step{
+                            font-size: 1.5rem;
+                            width: 8.15rem;
+                        }
+                    }
+                    .HomeSSSStepsHead-Content{
+                        width: 100%;
+                        text-align: center;
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 1rem;
+                    }
+                }
+                .HomeSSSSteps-3{
+                    position: absolute;
+                    top: 24rem;
+                    // left: 3rem;
+                }
+                .HomeSSSSteps-Up{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                .HomeSSSSteps-LeftLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-RightLine{
+                    visibility: hidden;
+    
+                }
+                .HomeSSSSteps-UpLine{
+                    visibility: hidden;
+                }
+                .HomeSSSSteps-CenterLine{
+                    visibility: hidden;
                 }
             }
         }

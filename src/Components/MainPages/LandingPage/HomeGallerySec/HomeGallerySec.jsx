@@ -49,8 +49,8 @@ export const HomeGallerySec = () => {
           </div>
           <svg
             className="HomeGSGallery-BlueBG"
-            width="458"
-            height="277"
+            // width="458"
+            // height="277"
             viewBox="0 0 458 277"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -59,8 +59,8 @@ export const HomeGallerySec = () => {
           </svg>
           <svg
             className="HomeGSGallery-PinkBG"
-            width="116"
-            height="116"
+            // width="116"
+            // height="116"
             viewBox="0 0 116 116"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

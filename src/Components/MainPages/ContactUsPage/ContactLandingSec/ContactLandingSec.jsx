@@ -11,7 +11,7 @@ export const ContactLandingSec = () => {
         <div className='ContactLS container'>
             <div className='ContactLS-Head'>
                 <h1 className='ContactLSHead-Heading'>Looking To Find And <span>Heir</span> Great <span>Designers</span>?</h1>
-                <p className='ContactLSHead-Body'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <p className='ContactLSHead-Body'>Have a project in mind? Nurture your ideas with us. Connect today to find exceptional designers for your projects. Whether it's a custom request or enhancing your brand, let's create something amazing together!</p>
             </div>
             <div className='ContactLS-FormContainer'>
                     <div className='ContactLS-FormBox'>

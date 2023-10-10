@@ -44,62 +44,63 @@
             gap: 2rem;
             .ServicePS-Products{
                 display: grid;
-                gap: 3rem;
-                grid-template-columns: 25rem 25rem 25rem;
-                    .ServicePSProduct-Container{
-                        width: 25rem;
-                        height: 35rem;
-                        overflow: hidden;
-                        border-radius: $PrimaryBorderRadius;
-                        position: relative;
-                        .ServicePSProduct-ImgShadow{
-                            width: 25rem;
-                            position: absolute;
-                            height: 40rem;
-                            // background-color: $HelpingShadowPrimaryColor;
-                            background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.34%, #000 91.56%);
+                gap: 1.5rem;
+                grid-template-columns: 26rem 26rem 26rem;
+                // border: 2px solid red;
+                    // .ServicePSProduct-Container{
+                    //     width: 26rem;
+                    //     height: 35rem;
+                    //     overflow: hidden;
+                    //     border-radius: $PrimaryBorderRadius;
+                    //     position: relative;
+                    //     .ServicePSProduct-ImgShadow{
+                    //         width: 26rem;
+                    //         position: absolute;
+                    //         height: 40rem;
+                    //         // background-color: $HelpingShadowPrimaryColor;
+                    //         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.34%, #000 91.56%);
                             
-                        }
+                    //     }
                         
-                        .ServicePSProduct-Img{
-                            width: 100%;
-                            height: 100%;
-                            position: relative;
-                            // left: -5rem;
-                            z-index: -1;
-                        }
+                    //     .ServicePSProduct-Img{
+                    //         width: 100%;
+                    //         height: 100%;
+                    //         position: relative;
+                    //         // left: -5rem;
+                    //         z-index: -1;
+                    //     }
                        
-                        .ServicePSProductImg-Footer{
-                            width: 21rem;
-                                position: absolute;
-                                bottom: 0rem;
-                                left: 2rem;
-                                color: $SecondaryFontColor;
-                                display: flex;
-                                justify-content: space-between;
-                                .ServicePSProductImg-FooterContent{
-                                    .ServicePSProductImg-ContentHead{
-                                        font-family: $SecondaryFont;
-                                        font-size: 1.25rem;
-                                        font-weight: 700;
-                                    }
-                                    .ServicePSProductImg-ContentBody{
-                                        font-family: $ContentFont;
-                                        font-size: 1rem;
-                                        font-weight: 500;
-                                        color: $ContentFontColor;
-                                    }
-                                }
-                                .FeaturedService1-CartButton{
-                                    border: none;
-                                    background-color: transparent;
-                                    padding: 0rem;
-                                }
-                        }
-                    }
+                    //     .ServicePSProductImg-Footer{
+                    //         width: 21rem;
+                    //             position: absolute;
+                    //             bottom: 0rem;
+                    //             left: 2rem;
+                    //             color: $SecondaryFontColor;
+                    //             display: flex;
+                    //             justify-content: space-between;
+                    //             .ServicePSProductImg-FooterContent{
+                    //                 .ServicePSProductImg-ContentHead{
+                    //                     font-family: $SecondaryFont;
+                    //                     font-size: 1.25rem;
+                    //                     font-weight: 700;
+                    //                 }
+                    //                 .ServicePSProductImg-ContentBody{
+                    //                     font-family: $ContentFont;
+                    //                     font-size: 1rem;
+                    //                     font-weight: 500;
+                    //                     color: $ContentFontColor;
+                    //                 }
+                    //             }
+                    //             .FeaturedService1-CartButton{
+                    //                 border: none;
+                    //                 background-color: transparent;
+                    //                 padding: 0rem;
+                    //             }
+                    //     }
+                    // }
                     
-                    .PPBodyContent-Box{
-                        width: 25rem;
+                    .SPSBodyContent-Box{
+                        width: 26rem;
                         min-height: 35rem;
                         display: flex;
                         border-radius: $PrimaryBorderRadius;
@@ -109,33 +110,33 @@
                         gap: 1rem;
                         // justify-content: space-between;
                         
-                        .PPBodyContentBox-ImgContainer{
+                        .SPSBodyContentBox-ImgContainer{
                             
-                            .PPBodyContentBox-Img{
+                            .SPSBodyContentBox-Img{
                                 border-radius: $UpperRadius;
                                 width: 100%;
                                 height: 18rem;
                             }
                         }
                         
-                        .PPBodyContentBox-Content{
+                        .SPSBodyContentBox-Content{
                             display: flex;
                             flex-direction: column;
                             justify-content: space-between;
                             padding: 0rem 2rem;
                             gap: 1rem;
-                            .PPBodyContentBox-HeadContent{
+                            .SPSBodyContentBox-HeadContent{
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
-                                .PPBodyContentBox-ProductName{
+                                .SPSBodyContentBox-ProductName{
                                     font-size: 0.8rem;
                                     margin: 0rem;
                                     font-family: $HeadFont;
                                     font-weight: 700;
                                     color: $HeadFontColor;
                                 }
-                                .PPBodyContentBox-ProductPrice{
+                                .SPSBodyContentBox-ProductPrice{
                                     font-family: $HeadFont;
                                     color: $ContentFontColor;
                                     font-weight: 700;
@@ -144,20 +145,20 @@
                                 }
 
                             }
-                            .PPBodyContentBox-BodyContent{
+                            .SPSBodyContentBox-BodyContent{
                                     color: $ContentFontColor;
                                     font-size: 0.8rem;
                                     font-family: $ContentFont;
                                     margin: 0rem;
                             }
                         }
-                        .PPBodyContentBox-Body{
+                        .SPSBodyContentBox-Body{
                             margin: 0rem 2rem;
-                            .PPBodyContentBox-Details{
+                            .SPSBodyContentBox-Details{
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
-                                .PPBodyContentBox-EditButton, .PPBodyContentBox-RemoveButton{
+                                .SPSBodyContentBox-EditButton, .SPSBodyContentBox-RemoveButton{
                                     background-color: transparent;
                                     font-weight: 800;
                                     border: none;
@@ -170,18 +171,18 @@
                                     // justify-content: center;
                                     align-items: center;
                                 }
-                                .PPBodyContentBox-EditButton{
+                                .SPSBodyContentBox-EditButton{
                                     color: $PrimaryColor;
                                     text-align: left !important;
                                 }
-                                .PPBodyContentBox-RemoveButton{
+                                .SPSBodyContentBox-RemoveButton{
                                     color: $HelpingColor1;
                                     text-align: right !important;
                                 }
                             }
                         }
                     }
-                    .PPBodyContent-Box:hover{
+                    .SPSBodyContent-Box:hover{
                         box-shadow: $PrimaryShadow;
                         transition: 0.5s ease;
                     }
@@ -233,37 +234,37 @@
                     gap: 1rem;
                     grid-template-columns: 18rem;
                         
-                    .PPBodyContent-Box{
+                    .SPSBodyContent-Box{
                         width: 18rem;
                         min-height: 15rem;
                         border-radius: $SecondaryBorderRadius;
                         
-                        .PPBodyContentBox-ImgContainer{
+                        .SPSBodyContentBox-ImgContainer{
                             
-                            .PPBodyContentBox-Img{
+                            .SPSBodyContentBox-Img{
                                 border-radius: $UpperSecondaryRadius;
                                 width: 100%;
                                 height: 12rem;
                             }
                         }
                         
-                        .PPBodyContentBox-Content{
+                        .SPSBodyContentBox-Content{
                             padding: 0rem 1rem;
                             gap: 1rem;
-                            .PPBodyContentBox-HeadContent{
-                                .PPBodyContentBox-ProductName{
+                            .SPSBodyContentBox-HeadContent{
+                                .SPSBodyContentBox-ProductName{
                                     font-size: 1rem;
                                 }
-                                .PPBodyContentBox-ProductPrice{
+                                .SPSBodyContentBox-ProductPrice{
                                     font-size: 0.8rem;
                                 }
 
                             }
-                            .PPBodyContentBox-BodyContent{
+                            .SPSBodyContentBox-BodyContent{
                                     font-size: 0.8rem;
                             }
                         }
-                        .PPBodyContentBox-Body{
+                        .SPSBodyContentBox-Body{
                             margin: 0rem 1rem;
                         }
                     }

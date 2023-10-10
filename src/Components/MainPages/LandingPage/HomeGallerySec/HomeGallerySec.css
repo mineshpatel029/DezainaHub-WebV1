@@ -123,6 +123,7 @@
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
   opacity: 20%;
   position: absolute;
+  width: 30rem;
   bottom: 7rem;
   left: 5rem;
   z-index: -1;
@@ -130,15 +131,18 @@
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
   opacity: 20%;
   position: absolute;
+  width: 8rem;
   bottom: 1.5rem;
   left: -8rem;
   z-index: -1;
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 990px) {
   .HomeGSMain .HomeGS {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
   }
   .HomeGSMain .HomeGS .HomeGS-Content {
@@ -164,7 +168,7 @@
     font-size: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery {
-    width: 100%;
+    width: 21rem;
     height: 20rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
@@ -212,13 +216,103 @@
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
-    bottom: 1rem;
-    left: 0rem;
+    bottom: -4rem;
+    left: 4rem;
+    width: 15rem !important;
+    height: 27rem !important;
     z-index: -1;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
-    z-index: -2;
-    bottom: 4rem;
-    left: 4rem;
+    bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    left: -2rem;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1248px) {
+  .HomeGSMain .HomeGS {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content {
+    width: 30rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Title {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Head {
+    width: 25rem;
+    font-size: 2.15rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Body {
+    font-size: 1rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Content .HomeGSContent-Button {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery {
+    width: 30rem;
+    height: 25rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 {
+    width: 18rem;
+    height: 12rem;
+    top: 2rem;
+    right: 0rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow .HomeGSGalleryImg1Shadow-Text {
+    font-size: 1rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
+    width: 17rem;
+    height: 11rem;
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
+    width: 12rem;
+    height: 7rem;
+    bottom: 1.5rem;
+    left: 12rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
+    font-size: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
+    width: 11rem;
+    height: 6rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
+    width: 10rem;
+    height: 7rem;
+    bottom: 5rem;
+    left: 0rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow .HomeGSGalleryImg3Shadow-Text {
+    font-size: 0.9rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
+    width: 9rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
+    bottom: -2rem;
+    left: 7rem;
+    width: 20rem !important;
+    height: 27rem !important;
+    z-index: -1;
+  }
+  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-PinkBG {
+    bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+    left: -2rem;
   }
 }/*# sourceMappingURL=HomeGallerySec.css.map */

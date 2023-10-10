@@ -7,23 +7,25 @@
 .ServiceLSMain {
   background-color: #1e1e1e;
   color: #ffffff;
-  height: 100vh;
-  padding-top: 15vh;
+  height: 46.2rem;
+  padding-top: 8rem;
 }
 .ServiceLSMain .ServiceLS {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-Head {
   display: flex;
+  width: 70rem;
   justify-content: space-between;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Heading {
   font-family: Montserrat;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  width: 40rem;
+  width: 30rem;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Heading span {
   color: #25C1EC;
@@ -60,13 +62,13 @@
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-UpperShadow {
   position: absolute;
-  width: 81rem;
+  width: 70rem;
   height: 0rem;
   border-radius: 1.25rem;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer {
-  width: 81rem;
-  height: 25rem;
+  width: 70rem;
+  height: 23rem;
   overflow: hidden;
   border-radius: 1.25rem;
 }
@@ -82,8 +84,9 @@
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content {
   font-weight: 700;
   margin: 0rem;
-  right: 30rem;
-  bottom: 12rem;
+  right: 23rem;
+  bottom: 10rem;
+  text-shadow: 1px 1px #1e1e1e;
   transition: 300ms ease-out;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content span {

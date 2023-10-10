@@ -23,7 +23,8 @@
         }
     }
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 490px){
     .QualityStripMain{
         padding: 5rem 0rem;
         height: auto;
@@ -33,8 +34,40 @@
             gap: 5rem;
     
             .QualityStripContent{
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
         }
     }
 }
+
+@media screen and (min-width: 490px) and (max-width: 1024px){
+    .QualityStripMain{
+        padding: 5rem 0rem;
+        height: auto;
+        
+        .QualityStrip{
+            flex-direction: column;
+            gap: 5rem;
+    
+            .QualityStripContent{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 744px) and (max-width: 1024px){
+//     .QualityStripMain{
+//         padding: 5rem 0rem;
+//         height: auto;
+        
+//         .QualityStrip{
+//             flex-direction: column;
+//             gap: 5rem;
+    
+//             .QualityStripContent{
+//                 font-size: 3.5rem;
+//             }
+//         }
+//     }
+// }

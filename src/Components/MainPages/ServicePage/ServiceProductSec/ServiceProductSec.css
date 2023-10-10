@@ -44,55 +44,11 @@
 }
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products {
   display: grid;
-  gap: 3rem;
-  grid-template-columns: 25rem 25rem 25rem;
+  gap: 1.5rem;
+  grid-template-columns: 26rem 26rem 26rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container {
-  width: 25rem;
-  height: 35rem;
-  overflow: hidden;
-  border-radius: 1.25rem;
-  position: relative;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProduct-ImgShadow {
-  width: 25rem;
-  position: absolute;
-  height: 40rem;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4.34%, #000 91.56%);
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProduct-Img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: -1;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer {
-  width: 21rem;
-  position: absolute;
-  bottom: 0rem;
-  left: 2rem;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .ServicePSProductImg-FooterContent .ServicePSProductImg-ContentHead {
-  font-family: Martel Sans;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .ServicePSProductImg-FooterContent .ServicePSProductImg-ContentBody {
-  font-family: Rasa;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #888888;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .ServicePSProduct-Container .ServicePSProductImg-Footer .FeaturedService1-CartButton {
-  border: none;
-  background-color: transparent;
-  padding: 0rem;
-}
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box {
-  width: 25rem;
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box {
+  width: 26rem;
   min-height: 35rem;
   display: flex;
   border-radius: 1.25rem;
@@ -101,52 +57,52 @@
   flex-direction: column;
   gap: 1rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-ImgContainer .PPBodyContentBox-Img {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
   border-radius: 1.25rem 1.25rem 0rem 0rem;
   width: 100%;
   height: 18rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0rem 2rem;
   gap: 1rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-HeadContent {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-HeadContent .PPBodyContentBox-ProductName {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductName {
   font-size: 0.8rem;
   margin: 0rem;
   font-family: Montserrat;
   font-weight: 700;
   color: #364154;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-HeadContent .PPBodyContentBox-ProductPrice {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductPrice {
   font-family: Montserrat;
   color: #888888;
   font-weight: 700;
   font-size: 0.6rem;
   margin: 0rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-BodyContent {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContent {
   color: #888888;
   font-size: 0.8rem;
   font-family: Rasa;
   margin: 0rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body {
   margin: 0rem 2rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body .PPBodyContentBox-Details {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body .SPSBodyContentBox-Details {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body .PPBodyContentBox-Details .PPBodyContentBox-EditButton, .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body .PPBodyContentBox-Details .PPBodyContentBox-RemoveButton {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body .SPSBodyContentBox-Details .SPSBodyContentBox-EditButton, .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body .SPSBodyContentBox-Details .SPSBodyContentBox-RemoveButton {
   background-color: transparent;
   font-weight: 800;
   border: none;
@@ -158,15 +114,15 @@
   gap: 0.5rem;
   align-items: center;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body .PPBodyContentBox-Details .PPBodyContentBox-EditButton {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body .SPSBodyContentBox-Details .SPSBodyContentBox-EditButton {
   color: #1e1e1e;
   text-align: left !important;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body .PPBodyContentBox-Details .PPBodyContentBox-RemoveButton {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body .SPSBodyContentBox-Details .SPSBodyContentBox-RemoveButton {
   color: #FFABAB;
   text-align: right !important;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box:hover {
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box:hover {
   box-shadow: 0px 5px 30px 2px rgba(136, 137, 137, 0.25);
   transition: 0.5s ease;
 }
@@ -211,30 +167,30 @@
     gap: 1rem;
     grid-template-columns: 18rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box {
     width: 18rem;
     min-height: 15rem;
     border-radius: 0.8rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-ImgContainer .PPBodyContentBox-Img {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
     border-radius: 0.8rem 0.8rem 0rem 0rem;
     width: 100%;
     height: 12rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content {
     padding: 0rem 1rem;
     gap: 1rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-HeadContent .PPBodyContentBox-ProductName {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductName {
     font-size: 1rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-HeadContent .PPBodyContentBox-ProductPrice {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductPrice {
     font-size: 0.8rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Content .PPBodyContentBox-BodyContent {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContent {
     font-size: 0.8rem;
   }
-  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .PPBodyContent-Box .PPBodyContentBox-Body {
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body {
     margin: 0rem 1rem;
   }
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Button {

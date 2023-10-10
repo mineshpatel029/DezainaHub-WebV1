@@ -3,13 +3,13 @@
 .GalleryLSMain{
     background-color: $PrimaryColor;
     // height: 51.5rem;
-    height: 100vh;
-    padding-top: 20vh;
+    height: 46.2rem;
+    padding-top: 8rem;
     color:  $SecondaryFontColor;
     .GalleryLS{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.25rem;
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -94,7 +94,6 @@
             .GalleryLS-CategoryContainer{
                 width: 100%;
                 display: grid;
-                
                 gap: 1rem;
                 grid-template-columns: 10rem 10rem;
                 .GalleryLS-Category, .GalleryLS-CategoryActive{
