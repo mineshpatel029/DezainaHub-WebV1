@@ -43,7 +43,7 @@
   height: 3rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 490px) {
   .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
     width: 100%;
   }
@@ -61,5 +61,73 @@
   .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
     width: 10rem;
     height: 2.5rem;
+  }
+}
+@media screen and (min-width: 490px) and (max-width: 767px) {
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
+    width: 100%;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Title {
+    font-family: Martel Sans;
+    color: #25C1EC;
+    font-weight: 700;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading {
+    font-size: 2.15rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Body {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
+    width: 12rem;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Title {
+    font-family: Martel Sans;
+    color: #25C1EC;
+    font-weight: 700;
+    width: 100%;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading {
+    font-size: 2.5rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Body {
+    font-size: 1rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
+    width: 12rem;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Title {
+    font-family: Martel Sans;
+    color: #25C1EC;
+    font-weight: 700;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading {
+    font-size: 2.5rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Body {
+    width: 35rem;
+    font-size: 1.25rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
+    width: 12rem;
+    height: 3rem;
   }
 }/*# sourceMappingURL=FeaturedServiceSec.css.map */

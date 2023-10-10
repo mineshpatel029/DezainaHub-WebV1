@@ -1,13 +1,13 @@
 .GalleryLSMain {
   background-color: #1e1e1e;
-  height: 100vh;
-  padding-top: 20vh;
+  height: 46.2rem;
+  padding-top: 8rem;
   color: #ffffff;
 }
 .GalleryLSMain .GalleryLS {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
   align-items: center;
   text-align: center;
   justify-content: center;

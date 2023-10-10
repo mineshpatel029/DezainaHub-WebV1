@@ -1,6 +1,6 @@
 .HomeLSMain {
-  height: 51.5rem;
-  padding-top: 12rem;
+  height: 46.2rem;
+  padding-top: 10rem;
   color: #f4f4f4;
   background-color: #1e1e1e;
   overflow: hidden;
@@ -16,9 +16,9 @@
   width: 43rem;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
-  width: 42rem;
+  width: 38rem;
   font-family: Montserrat;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head span {
@@ -76,8 +76,8 @@
 .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
   position: absolute;
   opacity: 20%;
-  right: -25rem;
-  top: -6rem;
+  right: -28rem;
+  top: -4rem;
 }
 .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
   position: absolute;
@@ -86,7 +86,7 @@
   bottom: 10rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 490px) {
   .HomeLSMain {
     height: 44.5rem;
     padding-top: 6rem;
@@ -153,5 +153,189 @@
   .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
     right: 14rem;
     bottom: 3rem;
+  }
+}
+@media screen and (min-width: 490px) and (max-width: 770px) {
+  .HomeLSMain {
+    height: 51.2rem;
+    padding-top: 8rem;
+  }
+  .HomeLSMain .HomeLS {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
+    width: 100%;
+    font-size: 2.15rem;
+    text-align: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base {
+    height: auto;
+    text-align: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
+    width: 100%;
+    justify-content: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
+    width: 6rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
+    font-size: 1.5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer {
+    width: 22rem;
+    height: 24rem;
+    margin-left: 0rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {
+    width: 100%;
+    height: 100%;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
+    opacity: 10%;
+    right: -30rem;
+    top: 10rem;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
+    right: 18rem;
+    bottom: 3rem;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .HomeLSMain {
+    height: 35rem;
+    padding-top: 10rem;
+  }
+  .HomeLSMain .HomeLS {
+    gap: 1rem;
+    height: 25rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
+    width: 23rem;
+    font-size: 2.2rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+    width: 25rem;
+    gap: 0.5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
+    height: auto;
+    width: auto;
+    font-size: 0.7rem;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
+    width: 100%;
+    justify-content: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
+    width: 4rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
+    font-size: 1.25rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer {
+    width: 30rem;
+    height: 25rem;
+    margin-left: 0rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {
+    width: 100%;
+    height: 100%;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
+    opacity: 10%;
+    right: -35rem;
+    top: -4rem;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
+    right: 10rem;
+    bottom: 5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .HomeLSMain {
+    height: 40rem;
+    padding-top: 10rem;
+  }
+  .HomeLSMain .HomeLS {
+    gap: 1rem;
+    height: 30rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Head {
+    width: 28rem;
+    font-size: 2.5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 {
+    width: 100%;
+    gap: 1rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Head {
+    height: auto;
+    width: auto;
+    font-size: 0.9rem;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values {
+    width: 100%;
+    justify-content: center;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items {
+    width: 6rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Value {
+    font-size: 1.75rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-Content .HomeLSContent-Base .HomeLSContentBase-L1 .HomeLSContentBase-Values .HomeLSContentBaseValues-Items .HomeLSContentBaseValuesItems-Description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #888888;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer {
+    width: 30rem;
+    height: 30rem;
+    margin-left: 0rem;
+  }
+  .HomeLSMain .HomeLS .HomeLS-ImageContainer .HomeLS-Image {
+    width: 100%;
+    height: 100%;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGBlue {
+    opacity: 10%;
+    right: -30rem;
+    top: -5rem;
+  }
+  .HomeLSMain .HomeLS .HomeLSImageContainer-BGPink {
+    right: 15rem;
+    bottom: 5rem;
   }
 }/*# sourceMappingURL=HomeLandingSec.css.map */

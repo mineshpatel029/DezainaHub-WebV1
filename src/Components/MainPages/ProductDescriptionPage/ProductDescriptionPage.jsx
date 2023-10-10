@@ -24,7 +24,7 @@ export const ProductDescriptionPage = () => {
 
 
     if(isSinglePDPLoading){
-      console.log("Loading Successfull")
+      // console.log("Loading Successfull")
       return (<div>Loading...</div>)
     }
 
