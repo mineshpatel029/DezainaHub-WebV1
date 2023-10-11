@@ -3,9 +3,10 @@ import "./GalleryLandingSec.css"
 import GalleryLandingImg1 from "../Image/17.jpg"
 import GalleryProdCat from './GalleryProdCat'
 import GalleryImgSec from '../GalleryImgSec/GalleryImgSec'
-import GalleryImgProd from '../GalleryImgSec/GalleryImgProd'
-import GalleryImgProd3 from '../GalleryImgSec/GalleryImgProd3'
-import GalleryImgProd2 from '../GalleryImgSec/GalleryImgProd2'
+import GalleryImgProd , {GalleryImgProd2, GalleryImgProd3} from '../GalleryImgSec/GalleryImgProd'
+import GalleryCatProd1 from '../GalleryCatProds/GalleryCatProd1'
+import GalleryCatProd3 from '../GalleryCatProds/GalleryCatProd3'
+import GalleryCatProd2 from '../GalleryCatProds/GalleryCatProd2'
 
 
 
@@ -13,8 +14,20 @@ import GalleryImgProd2 from '../GalleryImgSec/GalleryImgProd2'
 export const GalleryLandingSec = () => {
   // const [activeCat, setActiveCat] = useState(0)
   const [activeCat, setActiveCat] = useState(1)
-  const [prodList, setProdList]= useState(GalleryImgProd)
+  const [prodList, setProdList]= useState(GalleryImgProd2)
+  const newCat = activeCat;
   
+  const Showstep = (step) => {
+    switch (step) {
+      case 1:
+        return <GalleryCatProd1 />;
+      case 2:
+        return <GalleryCatProd2 />;
+      case 3:
+        return <GalleryCatProd3 />;
+    }
+  };
+
   return (
     <div>
       <div className='GalleryLSMain'>
@@ -45,7 +58,8 @@ export const GalleryLandingSec = () => {
                  
           </div>
       </div>
-      <GalleryImgSec activeCat={activeCat} prodList={prodList}  />
+      {Showstep(activeCat)}
+      {/* <GalleryImgSec newCat={newCat} prodList={prodList}  /> */}
       {/* <GalleryImgSec catState={GalleryProdCat[activeCat]} /> */}
     </div>
   )
