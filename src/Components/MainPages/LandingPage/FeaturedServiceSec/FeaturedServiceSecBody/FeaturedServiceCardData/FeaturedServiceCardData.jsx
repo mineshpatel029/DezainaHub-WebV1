@@ -2,8 +2,11 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import FormatPrice from '../../../../../../Helpers/FormatPrice';
 
-export const FeaturedServiceCardData = (ServiceCardData) => {
-  const {id , name , minPrice, maxPrice , gallery , category, description} = ServiceCardData;
+
+    export const FeaturedServiceCardData = (ServiceCardData) => {
+//   const {id , name , minPrice, maxPrice , gallery , category, description} = ServiceCardData;
+  const {id , HeadName , Price , img , category, description} = ServiceCardData;
+
 //   console.log('Getting Data', ServiceCardData);
 // console.log(gallery.src, "gallery URL");
   return (
@@ -29,12 +32,12 @@ export const FeaturedServiceCardData = (ServiceCardData) => {
                         </div>       */}
                         <div className='FS1BodyContent-Box'>
                             <div className='FS1BodyContentBox-ImgContainer'>
-                                <img className='FS1BodyContentBox-Img' src={gallery.src} alt={gallery.alt} />
+                                <img className='FS1BodyContentBox-Img' src={img} alt={img} />
                             </div>
                             <div className='FS1BodyContentBox-Content'>
                                 <div className='FS1BodyContentBox-HeadContent'>
-                                    <h5 className='FS1BodyContentBox-ProductName'>{name}</h5>
-                                    <h6 className='FS1BodyContentBox-ProductPrice'>{minPrice}-{maxPrice}</h6>
+                                    <h5 className='FS1BodyContentBox-ProductName'>{HeadName}</h5>
+                                    <h6 className='FS1BodyContentBox-ProductPrice'>{Price}</h6>
                                 </div>
                                 
                                 <p className='FS1BodyContentBox-BodyContent'>i. {description}</p>

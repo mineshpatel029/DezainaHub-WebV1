@@ -9,7 +9,8 @@ import { setLoading, setProduct } from '../../../../../Redux/productDetailReduce
 import axios from "axios";
 
 
-export const FeaturedServiceSecBody = ({featureProducts}) => {
+// export const FeaturedServiceSecBody = ({featureProducts}) => {
+    export const FeaturedServiceSecBody = () => {
     return (
     <div className='FeaturedSS-BodyMain'>
         <div className='FeaturedSS-Body'>
@@ -20,13 +21,21 @@ export const FeaturedServiceSecBody = ({featureProducts}) => {
                     <button className='FeaturedSSBodyNav-Button'>Digital Interaction</button>
                 </div>
                 <div className='FeaturedSSBody-Content'>
-                {featureProducts.length ? featureProducts.map((ServiceCardData)=> {
+                {/* {featureProducts.length ? featureProducts.map((ServiceCardData)=> {
                     if(ServiceCardData?.featured) {
                         return <FeaturedServiceCardData key={ServiceCardData.id} { ...ServiceCardData}/>
 
                     }
                 }
-                ) : <>Loading...</>}
+                ) : <>Loading...</>} */}
+
+                {FeaturedServiceData.map((ServiceCardData)=> {
+                    if(ServiceCardData?.featured) {
+                        return <FeaturedServiceCardData {...ServiceCardData}/>
+                        {/* return <FeaturedServiceCardData key={ServiceCardData.id} { ...ServiceCardData}/> */}
+
+                    }
+                })}
                 </div>
 
             </div>
