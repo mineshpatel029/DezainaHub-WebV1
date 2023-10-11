@@ -21,6 +21,11 @@
                 .GalleryISStrip-Product{
                     color: $ContentFontColor;
                 }
+                .GalleryISStrip-Product:hover{
+                    transition: 0.5s ease;
+                    font-weight: 600;
+                    text-decoration: underline;
+                }
                 .GalleryISStrip-ProductActive{
                     font-weight: 800;
                     border-bottom: 2px solid $PrimaryColor;

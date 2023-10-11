@@ -17,8 +17,8 @@ export const GalleryLandingSec = () => {
   const [prodList, setProdList]= useState(GalleryImgProd2)
   const newCat = activeCat;
   
-  const Showstep = (step) => {
-    switch (step) {
+  const ShowCategory = (Cat) => {
+    switch (Cat) {
       case 1:
         return <GalleryCatProd1 />;
       case 2:
@@ -49,16 +49,14 @@ export const GalleryLandingSec = () => {
 
               </div>
               <hr/>
-              <p className='GalleryLSCategory-Body'>{ activeCat === 1 ? "Visual Branding is the core of corporate identity and includes creating a consistent and memorable visual representation for a business" : <></>}
-              { activeCat === 2 ? "Brand Marketing designs focuses on crafting materials that promote products or services, engage customers & convey key messages" : <></>}
-              { activeCat === 3 ? "Digital Interaction design involves crafting online experiences that are user friendly visually appealing and aligned with brand's message & objective" : <></>}
+              <p className='GalleryLSCategory-Body'>{ activeCat === 1 ? "Visual Branding is the core of corporate identity and includes creating a consistent and memorable visual representation for a business" :  activeCat === 2 ? "Brand Marketing designs focuses on crafting materials that promote products or services, engage customers & convey key messages" :  activeCat === 3 ? "Digital Interaction design involves crafting online experiences that are user friendly visually appealing and aligned with brand's message & objective" : <></>}
 
               
 </p>
                  
           </div>
       </div>
-      {Showstep(activeCat)}
+      {ShowCategory(activeCat)}
       {/* <GalleryImgSec newCat={newCat} prodList={prodList}  /> */}
       {/* <GalleryImgSec catState={GalleryProdCat[activeCat]} /> */}
     </div>
