@@ -2,6 +2,7 @@ import React from "react";
 import "./ServiceProductCat.css";
 import {ProductDataC2} from "./ProductData";
 import { NavLink } from "react-router-dom";
+import FormatPrice from "../../../../../Helpers/FormatPrice";
 
 export const ServiceProductCategory2 = () => {
   return (
@@ -24,7 +25,7 @@ export const ServiceProductCategory2 = () => {
                       {Product.Name}
                     </h5>
                     <h6 className="SPSBodyContentBox-ProductPrice">
-                      ₹{Product.minPrice} - {Product.maxPrice}/-
+                    <FormatPrice price={Product.minPrice}/> - <FormatPrice price={Product.maxPrice}/>/-
                     </h6>
                   </div>
 
