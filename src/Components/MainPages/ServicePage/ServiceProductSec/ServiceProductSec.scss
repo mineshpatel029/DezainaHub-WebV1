@@ -150,23 +150,23 @@
                             .SPSBodyContentBox-BodyContainer{
                                 overflow: hidden;
                                 overflow-y: scroll;
-                                // scrollbar-track-color: yellow;
-                                scrollbar-color: yellow;
-                                scrollbar-base-color: blue;
-                                scrollbar-arrow-color: aqua;
-                                scrollbar-face-color: pink;
                                 scroll-behavior: smooth;
-                                // white-space: nowrap;
-                                border: 2px solid red;
+                                padding: 0rem 1rem 0rem 0rem;
                                 
                                 .SPSBodyContentBox-BodyContent{
-                                    border: 2px solid red;
                                         height: 10rem;
                                         color: $ContentFontColor;
                                         font-size: 0.8rem;
                                         font-family: $ContentFont;
                                         margin: 0rem;
                                 }
+                            }
+                            ::-webkit-scrollbar{
+                                width: 3px;
+                                background-color: $PrimaryColor;
+                            }
+                            .SPSBodyContentBox-BodyContainer::-webkit-scrollbar-thumb{
+                                background: $SecondaryColor;
                             }
                         }
                         .SPSBodyContentBox-Body{

@@ -14,7 +14,7 @@ import GalleryCatProd2 from '../GalleryCatProds/GalleryCatProd2'
 export const GalleryLandingSec = () => {
   // const [activeCat, setActiveCat] = useState(0)
   const [activeCat, setActiveCat] = useState(1)
-  const [prodList, setProdList]= useState(GalleryImgProd2)
+  // const [prodList, setProdList]= useState(GalleryImgProd2)
   const newCat = activeCat;
   
   const ShowCategory = (Cat) => {

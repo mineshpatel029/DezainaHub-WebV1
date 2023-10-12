@@ -13,10 +13,10 @@ export const ServiceProductCategory1 = () => {
         <div className="ServicePS-ProductList">
           <div className="ServicePS-Products">
 
-            {ProductDataC1.map((Product, i) => (
+            {ProductDataC1.map((Product) => (
               <div className="SPSBodyContent-Box">
                 <div className="SPSBodyContentBox-ImgContainer">
-                  <img className="SPSBodyContentBox-Img" src={Product.Image} />
+                  <img className="SPSBodyContentBox-Img" src={Product.gallery[0]} />
                 </div>
                 <div className="SPSBodyContentBox-Content">
                   <div className="SPSBodyContentBox-HeadContent">

@@ -16,7 +16,7 @@ export const ServiceProductCategory3 = () => {
             {ProductDataC3.map((Product, i) => (
               <div className="SPSBodyContent-Box">
                 <div className="SPSBodyContentBox-ImgContainer">
-                  <img className="SPSBodyContentBox-Img" src={Product.Image} />
+                  <img className="SPSBodyContentBox-Img" src={Product.gallery[0]} />
                 </div>
                 <div className="SPSBodyContentBox-Content">
                   <div className="SPSBodyContentBox-HeadContent">

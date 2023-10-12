@@ -91,20 +91,22 @@
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContainer {
   overflow: hidden;
   overflow-y: scroll;
-  scrollbar-color: yellow;
-  scrollbar-base-color: blue;
-  scrollbar-arrow-color: aqua;
-  scrollbar-face-color: pink;
   scroll-behavior: smooth;
-  border: 2px solid red;
+  padding: 0rem 1rem 0rem 0rem;
 }
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContainer .SPSBodyContentBox-BodyContent {
-  border: 2px solid red;
   height: 10rem;
   color: #888888;
   font-size: 0.8rem;
   font-family: Rasa;
   margin: 0rem;
+}
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content ::-webkit-scrollbar {
+  width: 3px;
+  background-color: #1e1e1e;
+}
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContainer::-webkit-scrollbar-thumb {
+  background: #25C1EC;
 }
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body {
   margin: 0rem 2rem;
