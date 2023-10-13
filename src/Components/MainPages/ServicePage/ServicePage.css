@@ -55,16 +55,23 @@
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-Content {
   position: absolute;
   font-family: Montserrat;
-  font-weight: 600;
-  bottom: 0rem;
-  right: 1rem;
+  font-weight: 800;
+  bottom: 45%;
+  left: 35%;
   z-index: 1;
+}
+.ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-Content span {
+  color: #25C1EC;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-UpperShadow {
   position: absolute;
   width: 70rem;
-  height: 0rem;
   border-radius: 1.25rem;
+  bottom: 0rem;
+  height: 25rem;
+  background-color: #1e1e1e;
+  opacity: 60%;
+  visibility: visible;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer {
   width: 70rem;
@@ -76,29 +83,6 @@
   width: 100%;
   position: relative;
   bottom: 60rem;
-}
-.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover {
-  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.35);
-  cursor: pointer;
-}
-.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content {
-  font-weight: 700;
-  margin: 0rem;
-  right: 23rem;
-  bottom: 10rem;
-  text-shadow: 1px 1px #1e1e1e;
-  transition: 300ms ease-out;
-}
-.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content span {
-  color: #25C1EC;
-}
-.ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-UpperShadow {
-  bottom: 0rem;
-  height: 25rem;
-  background-color: #1e1e1e;
-  opacity: 50%;
-  visibility: visible;
-  transition: 200ms ease-in;
 }
 
 @media screen and (max-width: 900px) {

@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import Axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ContactFormFinal from './ContactFormFinal';
+import ContactFormLoader from './ContactFormLoader/ContactFormLoader';
 
 
 const animatedComponents = makeAnimated();
@@ -24,6 +28,8 @@ const ServiceOptions = [
 
 
 export const ContactForm1 = () => {
+    const [loading, setLoading] = useState(false);
+    const [formState, setFormState] = useState(1)
     const url = 'https://dezainabackend.onrender.com/api/save-contact'
     const [data, setData] = useState({
         name: "",
@@ -34,7 +40,7 @@ export const ContactForm1 = () => {
         
 
     });
-
+    
     function submit(e){
         e.preventDefault();
         Axios.post(url, {
@@ -47,6 +53,14 @@ export const ContactForm1 = () => {
         .then(res=>{
             console.log(res.data)
         })
+        setLoading(true);
+        toast.success("Form Submitted Successfully!", {position:"bottom-right", draggable: true,});
+        // setFormState(2);
+        setTimeout(() => {
+            setFormState(2);
+            setLoading(false);
+          }, 2000);
+
     }
 
     function handle(e){
@@ -58,7 +72,16 @@ export const ContactForm1 = () => {
     
   return (
     <div className='ContactFormMain'>
-        <form className='ContactLS-Form' onSubmit={(e)=>submit(e)}>
+        {/* <ContactFormFinal/> */}
+        {/* <ContactFormLoader/> */}
+                            
+                            {loading && (
+                            <ContactFormLoader/>
+                            
+                        )}
+                        <div className='ContactForm-Container'>
+
+                        {formState===1 && (<form className='ContactLS-Form' disabled={loading} onSubmit={(e)=>submit(e)} >
                             <div className='ContactLSForm-Content'>
                                 <label className='ContactLSForm-Label' >Name</label>
                                 <input className='ContactLSForm-Input' id='name' onChange={(e)=>handle(e)} value={data.name} type="text" placeholder='Name' required />
@@ -96,7 +119,11 @@ export const ContactForm1 = () => {
   </select>
                             </div>
                             <button className='ContactLSForm-Button'>Submit</button>
-                        </form> 
+                            
+                        </form>)  }
+                        {formState===2 && <ContactFormFinal/>}
+                        <ToastContainer/>
+                        </div>
                         {/* {
                             const form = document.querySelector('form')
                         } */}

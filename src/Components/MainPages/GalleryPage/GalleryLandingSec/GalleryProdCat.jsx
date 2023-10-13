@@ -5,11 +5,12 @@ const GalleryProdCat =[
     },
     {
         Catid:2,
-        CatName:"Brand Marketing",
+        CatName:"Digital Interaction",
     },
+    
     {
         Catid:3,
-        CatName:"Digital Interaction",
+        CatName:"Brand Marketing",
     },
 ]
 export default GalleryProdCat;
