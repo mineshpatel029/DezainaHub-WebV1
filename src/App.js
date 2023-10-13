@@ -1,9 +1,8 @@
 import "./App.css"
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 
 import HeaderSec from './Components/MainPages/Header/HeaderSec';
-import FooterSec from './Components/MainPages/Footer/FooterSec';
 // import LandingPage from './Components/MainPages/LandingPage/LandingPage';
 // import AboutUsPage from './Components/MainPages/AboutUsPage/AboutUsPage';
 // import ServicePage from './Components/MainPages/ServicePage/ServicePage';
@@ -44,7 +43,6 @@ function App() {
     <Suspense fallback={<div><LazyLoader/></div>}>
     <BrowserRouter>
         {!renderHeaderFooter() || ContactFooter() ? <HeaderSec/> : <></> } 
-        {/* { ? <HeaderSec/> : <></> }  */}
         <Routes>
           <Route path='/' element={<LandingPage/>} />
           <Route path='/AboutUs' element={<AboutUsPage/>} />
@@ -56,11 +54,10 @@ function App() {
           <Route path='/Login' element={<LoginPage/>} />
           <Route path='/Signup' element={<SignupPage/>} />
           <Route path='/Verify' element={<VerifyPage/>} /> */}
-          <Route path='*' element={<h1 style={{ color: 'blue', padding: '20rem' }}>Error Page</h1>} />
+          <Route path='*' element={<div style={{ display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', height:'100vh'  }}><h1 style={{ color: '#1e1e1e',  }}>Error Page</h1><NavLink to='/'><button>Return to Home</button></NavLink></div>} />
           </Routes>
         {!renderHeaderFooter()  ? <div><FooterNewsLetter/><FooterFoot/></div> : <></>}
         {ContactFooter() ? <FooterFoot/> : <></>}
-        {/* {!renderHeaderFooter() ? <FooterSec/> : <></>} */}
       </BrowserRouter>
       </Suspense>
 

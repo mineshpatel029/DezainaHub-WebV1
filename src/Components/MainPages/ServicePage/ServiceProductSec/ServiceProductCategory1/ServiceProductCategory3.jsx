@@ -1,20 +1,20 @@
 import React from "react";
 import "./ServiceProductCat.css";
-import ProductDataC1 from "./ProductData";
+import {ProductDataC3} from "./ProductData";
 import { NavLink } from "react-router-dom";
 import FormatPrice from "../../../../../Helpers/FormatPrice";
 
-export const ServiceProductCategory1 = () => {
+export const ServiceProductCategory3 = () => {
   return (
     <div className="ServicePC1-Main">
       <div className="ServicePS-CategoryHeadStrip">
-        <h1 className="ServicePS-CategoryHead">VISUAL BRANDING</h1>
+        <h1 className="ServicePS-CategoryHead">BRAND MARKETING</h1>
       </div>
       <div className="ServicePS container">
         <div className="ServicePS-ProductList">
           <div className="ServicePS-Products">
 
-            {ProductDataC1.map((Product) => (
+            {ProductDataC3.map((Product, i) => (
               <div className="SPSBodyContent-Box">
                 <div className="SPSBodyContentBox-ImgContainer">
                   <img className="SPSBodyContentBox-Img" src={Product.gallery[0]} />
@@ -26,12 +26,11 @@ export const ServiceProductCategory1 = () => {
                     </h5>
                     <h6 className="SPSBodyContentBox-ProductPrice">
                     <FormatPrice price={Product.minPrice}/> - <FormatPrice price={Product.maxPrice}/>/-
-                      
                     </h6>
                   </div>
 
                   <div className="SPSBodyContentBox-BodyContainer">
-                    <p className="SPSBodyContentBox-BodyContent"><span>{Product.Description}</span></p>
+                    <p className="SPSBodyContentBox-BodyContent">{Product.Description}</p>
                   </div>
                 </div>
                 {/* <div className="SPSBodyContentBox-Body">
@@ -83,4 +82,4 @@ export const ServiceProductCategory1 = () => {
   );
 };
 
-export default ServiceProductCategory1;
+export default ServiceProductCategory3;

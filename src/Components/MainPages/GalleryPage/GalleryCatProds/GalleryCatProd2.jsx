@@ -1,34 +1,34 @@
 import React, { useState } from "react";
 import "./GalleryCatProds.css";
 import PosterImgData from "../GalleryImgSec/GalleryCardData/ImgDataCat1";
-import { GalleryImgProd2 } from "../GalleryImgSec/GalleryImgProd";
-import ImgCat2Prod1, {ImgCat2Prod2, ImgCat2Prod3, ImgCat2Prod4, ImgCat2Prod5, ImgCat2Prod6} from "../GalleryImgSec/GalleryCardData/ImgDataCat2";
+import { GalleryImgProd3 } from "../GalleryImgSec/GalleryImgProd";
+import ImgCat3Prod1, {ImgCat3Prod2, ImgCat3Prod3, ImgCat3Prod4, ImgCat3Prod5} from "../GalleryImgSec/GalleryCardData/ImgDataCat3";
 
 export const GalleryCatProd2 = () => {
-  const [activeProd, setActiveProd] = useState(4);
+  const [activeProd, setActiveProd] = useState(2);
 
+  
   const ShowProd = (Prod) => {
     switch (Prod) {
       case 1:
-        return ImgCat2Prod1;
+        return ImgCat3Prod1;
       case 2:
-        return ImgCat2Prod2;
+        return ImgCat3Prod2;
       case 3:
-        return ImgCat2Prod3;
+        return ImgCat3Prod3;
       case 4:
-        return ImgCat2Prod4;
+        return ImgCat3Prod4;
       case 5:
-        return ImgCat2Prod5;
-      case 6:
-        return ImgCat2Prod6;
+        return ImgCat3Prod5;
     }
   };
+
   return (
     <div className="GalleryISMain">
       <div className="GalleryIS">
         <div className="GalleryIS-ProductStrip">
           <div className="GalleryIS-ProductList container">
-            {GalleryImgProd2.map((ProdData, i) => (
+            {GalleryImgProd3.map((ProdData, i) => (
               <h6
                 key={i}
                 onClick={() => setActiveProd(ProdData.id)}

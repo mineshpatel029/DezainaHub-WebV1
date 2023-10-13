@@ -1,6 +1,7 @@
 import React from 'react'
 import "./HomeAboutSec.css"
 import AboutImg from "../Images/11.jpg"
+import { NavLink } from 'react-router-dom'
 
 export const HomeAboutSec = () => {
   return (
@@ -31,9 +32,11 @@ The Secret of a great brands is great designs with masterful marketing
         <h6 className='HomeAboutSecContent-Title'>About Us</h6>
         <h1 className='HomeAboutSecContent-Head'>DezainaHub is Your <span>Key</span> to Exceptional Branding <span>Success</span></h1>
         <p className='HomeAboutSecContent-Body'>DezainaHub is your trusted partner, whether you're a small business seeking a strong brand presence or a large corporation in need of powerful marketing campaigns. Our specialty lies in crafting captivating brand identities through visually stunning designs. From logos to corporate solutions, we cover it all, helping you shine in a competitive market while you focus on business growth.</p>
+        <NavLink to="/AboutUs" className="buttons">
         <button className='HomeAboutSecContent-Button'>
         Want to Know More?
         </button>
+        </NavLink>
       </div>
     </div>
     

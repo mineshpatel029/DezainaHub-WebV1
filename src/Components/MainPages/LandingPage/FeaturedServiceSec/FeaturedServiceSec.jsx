@@ -7,22 +7,28 @@ import { useSelector, useDispatch } from 'react-redux'
 import axios from "axios";
 
 export const FeaturedServiceSec = () => {
-  const dispatch = useDispatch();
 
-  let featureProducts = useSelector((state) => state.productDetailReducer?.products);
-  useEffect(async() => {
-    let token = localStorage.getItem("token");
-    const config = {
-      headers: { authorization: token }
-    }
-    const ProductDataAPI = "http://localhost:5050/api/item/get?categoryId=650437af7623e86332589260";
-    console.log(ProductDataAPI, "Item API")
-    const res = await axios.get(ProductDataAPI, config);
-    const products = await res.data;
-    if(products.length){
-        dispatch(setProduct(products))
-    }
-},[])
+  //*************** */ Api Calling to the Featured Section starts here***************
+
+//   const dispatch = useDispatch();
+
+//   let featureProducts = useSelector((state) => state.productDetailReducer?.products);
+//   useEffect(async() => {
+//     let token = localStorage.getItem("token");
+//     const config = {
+//       headers: { authorization: token }
+//     }
+//     const ProductDataAPI = "http://localhost:5050/api/item/get?categoryId=650437af7623e86332589260";
+//     console.log(ProductDataAPI, "Item API")
+//     const res = await axios.get(ProductDataAPI, config);
+//     const products = await res.data;
+//     if(products.length){
+//         dispatch(setProduct(products))
+//     }
+// },[])
+
+  // ***************Api Calling to the Featured Section ends here***************
+
   return (
     <div className='FeaturedSSMain'>
         <div className='FeaturedSS container'>
@@ -31,7 +37,13 @@ export const FeaturedServiceSec = () => {
                 <h1 className='FeaturedSSHead-Heading'>Explore <span>Featured</span> Services</h1>
                 <p className='FeaturedSSHead-Body'>Discover Our Spotlighted Solutions: Tailored Solutions for Your Brand's Unique Journey. Elevate Your Brand with Our Creative Expertise.</p>
             </div>
-            <FeaturedServiceSecBody featureProducts={featureProducts}/>
+    {/* ***************Api Calling to the Featured Section ends here*************** */}
+
+            {/* <FeaturedServiceSecBody featureProducts={featureProducts}/> */}
+
+   {/* ***************Api Calling to the Featured Section ends here*************** */}
+
+            <FeaturedServiceSecBody/>
             <NavLink to="/Service" >
             <button className='FeaturedSS-Button'>
                 View All

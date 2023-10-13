@@ -1,5 +1,6 @@
 import React from 'react'
 import "./FooterNewsLetter.css";
+import { NavLink } from 'react-router-dom';
 
 export const FooterNewsLetter = () => {
   return (
@@ -10,7 +11,9 @@ export const FooterNewsLetter = () => {
                 <h1 className='FooterNewsLetterBody-Head'>Book a Free <span>Consultancy</span> Today</h1>
             </div>
             <div className='FooterNewsLetter-Button'>
+            <NavLink to="/ContactUs">
                 <button>Get A Call</button>
+            </NavLink>
             </div>
         </div>
     </div>
