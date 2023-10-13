@@ -21,7 +21,7 @@ import axios from "axios";
             {
                 Catid: 1,
                 CatName: "All Category",
-                product: ProductDataC1 && ProductDataC2 && ProductDataC3,
+                product: [...ProductDataC1, ...ProductDataC2, ...ProductDataC3],
             },
             {
                 Catid: 2,

@@ -17,7 +17,7 @@ const ProductDataC1 = [
         maxPrice : "5000",
         gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     {
         Name : "Business Card Design",
@@ -25,7 +25,7 @@ const ProductDataC1 = [
         maxPrice : "2000",
         gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     {
         Name : "Letter Head Design",
@@ -70,7 +70,7 @@ const ProductDataC2 = [
         maxPrice : "2000",
         gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     {
         Name : "Brochure Design",
@@ -86,7 +86,7 @@ const ProductDataC2 = [
         maxPrice : "1000",
         gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     {
         Name : "Social Media Design",
@@ -114,7 +114,7 @@ const ProductDataC3 = [
         maxPrice : "5000",
         gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     {
         Name : "Presentation Design",
@@ -138,7 +138,7 @@ const ProductDataC3 = [
         maxPrice : "1000",
         gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
         Description : "Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry. i. Gorem Ipsum is simply dummy text of the printing and typesetting industry. Gorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        featured: true,
+        featured: false,
     },
     
     
