@@ -3,7 +3,6 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 
 import HeaderSec from './Components/MainPages/Header/HeaderSec';
-import FooterSec from './Components/MainPages/Footer/FooterSec';
 // import LandingPage from './Components/MainPages/LandingPage/LandingPage';
 // import AboutUsPage from './Components/MainPages/AboutUsPage/AboutUsPage';
 // import ServicePage from './Components/MainPages/ServicePage/ServicePage';

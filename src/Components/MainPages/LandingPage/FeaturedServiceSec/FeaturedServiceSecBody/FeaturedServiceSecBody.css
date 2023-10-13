@@ -218,33 +218,30 @@
     justify-content: center;
     align-items: center;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box {
-    width: 18rem !important;
-    min-height: 15rem !important;
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box {
+    width: 18rem;
+    min-height: 15rem;
     border-radius: 0.8rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-ImgContainer {
-    width: 100%;
-  }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-ImgContainer .FS1BodyContentBox-Img {
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-ImgContainer .FSBodyContentBox-Img {
     border-radius: 0.8rem 0.8rem 0rem 0rem;
     width: 100%;
-    height: 12rem !important;
+    height: 12rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-Content {
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-Content {
     padding: 0rem 1rem;
     gap: 1rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-Content .FS1BodyContentBox-HeadContent .FS1BodyContentBox-ProductName {
-    font-size: 1rem !important;
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-Content .FSBodyContentBox-HeadContent .FSBodyContentBox-ProductName {
+    font-size: 1rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-Content .FS1BodyContentBox-HeadContent .FS1BodyContentBox-ProductPrice {
-    font-size: 0.8rem !important;
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-Content .FSBodyContentBox-HeadContent .FSBodyContentBox-ProductPrice {
+    font-size: 0.8rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-Content .FS1BodyContentBox-BodyContent {
-    font-size: 0.8rem !important;
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-Content .FSBodyContentBox-BodyContent {
+    font-size: 0.8rem;
   }
-  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FS1BodyContent-Box .FS1BodyContentBox-Body {
+  .FeaturedSS-BodyMain .FeaturedSS-Body .FeaturedSSBody-Content .FSBodyContent-Box .FSBodyContentBox-Body {
     margin: 0rem 1rem;
   }
 }

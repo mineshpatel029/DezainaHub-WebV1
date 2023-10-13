@@ -56,16 +56,25 @@
             .ServiceLSImgBody-Content{
                 position: absolute;
                 font-family: $HeadFont;
-                font-weight: 600;
-                bottom: 0rem;
-                right: 1rem;
+                font-weight: 800;
+                bottom: 45%;
+                left: 35%;
                 z-index: 1;
+                span{
+
+                                color: $SecondaryColor;
+                            }
             }
             .ServiceLSImgBody-UpperShadow{
                 position: absolute;
                 width: 70rem;
-                height: 0rem;
+                // height: 0rem;
                 border-radius: $PrimaryBorderRadius;
+                bottom: 0rem;
+                height: 25rem;
+                background-color: $PrimaryColor;
+                opacity: 60%;
+                visibility: visible;
             }
             .ServiceLSImgBody-ImgContainer{
                 width: 70rem;
@@ -79,30 +88,30 @@
                 }
             }
         }
-        .ServiceLS-ImgBody:hover{
-            box-shadow: $SecondaryShadow;
-            cursor: pointer;
-            .ServiceLSImgBody-Content{
-                font-weight: 700;
-                margin: 0rem;
-                right: 23rem;
-                bottom: 10rem;
-                text-shadow: 1px 1px $PrimaryColor;
-                transition: 300ms ease-out;
-                span{
+        // .ServiceLS-ImgBody:hover{
+        //     box-shadow: $SecondaryShadow;
+        //     cursor: pointer;
+        //     .ServiceLSImgBody-Content{
+        //         font-weight: 700;
+        //         margin: 0rem;
+        //         right: 23rem;
+        //         bottom: 10rem;
+        //         text-shadow: 1px 1px $PrimaryColor;
+        //         transition: 300ms ease-out;
+        //         span{
 
-                    color: $SecondaryColor;
-                }
-            }
-            .ServiceLSImgBody-UpperShadow{
-                bottom: 0rem;
-                height: 25rem;
-                background-color: $PrimaryColor;
-                opacity: 50%;
-                visibility: visible;
-                transition: 200ms ease-in;
-            }
-        }
+        //             color: $SecondaryColor;
+        //         }
+        //     }
+        //     .ServiceLSImgBody-UpperShadow{
+        //         bottom: 0rem;
+        //         height: 25rem;
+        //         background-color: $PrimaryColor;
+        //         opacity: 50%;
+        //         visibility: visible;
+        //         transition: 200ms ease-in;
+        //     }
+        // }
     }
 }
 

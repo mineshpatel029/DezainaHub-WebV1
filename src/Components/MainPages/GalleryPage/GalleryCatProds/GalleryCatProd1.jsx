@@ -7,8 +7,8 @@ import PosterImgData1, {
   PosterImgData5,
 } from "../GalleryImgSec/GalleryCardData/ImgDataCat1";
 import GalleryImgProd from "../GalleryImgSec/GalleryImgProd";
-import GalleryCatProd3 from "./GalleryCatProd3";
-import GalleryCatProd2 from "./GalleryCatProd2";
+import GalleryCatProd3 from "./GalleryCatProd2";
+import GalleryCatProd2 from "./GalleryCatProd3";
 
 export const GalleryCatProd1 = () => {
   const [activeProd, setActiveProd] = useState(1);

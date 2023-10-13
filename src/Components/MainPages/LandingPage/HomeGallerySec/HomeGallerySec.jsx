@@ -17,10 +17,12 @@ export const HomeGallerySec = () => {
           <p className="HomeGSContent-Body">
           Explore our elegant portfolio showcasing our works and design expertise.
           </p>
+          <NavLink to="/Gallery" className="buttons">
           <button className="HomeGSContent-Button">Explore Gallery</button>
+          </NavLink>
         </div>
         <div className="HomeGS-Gallery">
-        <NavLink to="/Gallery">
+        <NavLink to="/Gallery" >
           <div className="HomeGSGallery-ImgContainer1">
             <div className="HomeGSGallery-ImgBox1">
               <div className="HomeGSGalleryImg1-Shadow">

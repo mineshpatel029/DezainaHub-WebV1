@@ -1,7 +1,7 @@
 @import "../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 .ContactLSMain{
-    height: 100vh;
+    height: 46.2rem;
     padding-top: 20vh;
     background-color: $PrimaryColor;
     color: $SecondaryFontColor;
@@ -29,46 +29,52 @@
         }
         .ContactLS-FormContainer{
             .ContactLS-FormBox{
+                position: relative;
                 color: $HeadFontColor;
                 width: 27rem;
                 min-height: 30rem;
                 background-color: $ThirdColor;
                 border-radius: $PrimaryBorderRadius;
-                padding: 2rem 3rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .ContactLS-Form{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.8rem;
-                    .ContactLSForm-Content{
-                        .ContactLSForm-Label{
-                            font-family: $HeadFont;
-                            font-weight: 700;
-                            margin-bottom: 0.3rem;
-                            font-size: 0.8rem;
+                .ContactForm-Container{
+                    
+                    padding: 2rem 3rem;
+                    .ContactLS-Form{
+                        // padding: 2rem 3rem;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.8rem;
+                        .ContactLSForm-Content{
+                            .ContactLSForm-Label{
+                                font-family: $HeadFont;
+                                font-weight: 700;
+                                margin-bottom: 0.3rem;
+                                font-size: 0.8rem;
+                            }
+                            .ContactLSForm-Input{
+                                border-radius: 0.25rem;
+                                margin-bottom: 0rem;
+                                padding: 0.5rem;
+                                width: 100%;
+                                border: none;
+                                font-family: $SecondaryFont;
+                                font-size: 0.8rem;
+                            }
                         }
-                        .ContactLSForm-Input{
-                            border-radius: 0.25rem;
-                            margin-bottom: 0rem;
-                            padding: 0.5rem;
-                            width: 100%;
+                        .ContactLSForm-Button{
+                            height: 2.5rem;
                             border: none;
+                            background-color: $SecondaryColor;
+                            color: $SecondaryFontColor;
                             font-family: $SecondaryFont;
-                            font-size: 0.8rem;
+                            font-weight: 800;
+                            border-radius: 0.25rem  ;
                         }
-                    }
-                    .ContactLSForm-Button{
-                        height: 2.5rem;
-                        border: none;
-                        background-color: $SecondaryColor;
-                        color: $SecondaryFontColor;
-                        font-family: $SecondaryFont;
-                        font-weight: 800;
-                        border-radius: 0.25rem  ;
                     }
                 }
+                
             }
 
         }
@@ -78,8 +84,8 @@
 
 @media screen and (max-width: 900px){
     .ContactLSMain{
-        height: 51.5rem;
-        padding-top: 8rem;
+        height: auto;
+        padding: 8rem 0rem 4rem 0rem;
         .ContactLS{
             display: flex;
             flex-direction: column;
@@ -102,6 +108,8 @@
                 .ContactLS-FormBox{
                     width: 25rem;
                     min-height: 30rem;
+                    
+                    .ContactLS-FormContainer{
                     padding: 1rem 1.5rem;
                     .ContactLS-Form{
                         gap: 0.5rem;
@@ -121,6 +129,7 @@
                         }
                     }
                 }
+            }
     
             }
         }

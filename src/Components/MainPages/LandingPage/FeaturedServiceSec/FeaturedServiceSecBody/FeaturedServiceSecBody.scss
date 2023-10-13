@@ -295,39 +295,38 @@
                 gap: 1rem;
                 justify-content: center;
                 align-items: center;
-                .FS1BodyContent-Box{
-                    width: 18rem !important;
-                    min-height: 15rem !important;
+                
+                .FSBodyContent-Box{
+                    width: 18rem;
+                    min-height: 15rem;
                     border-radius: $SecondaryBorderRadius;
                     
-                    .FS1BodyContentBox-ImgContainer{
-                        width: 100%;
-
-                        .FS1BodyContentBox-Img{
+                    .FSBodyContentBox-ImgContainer{
+                        
+                        .FSBodyContentBox-Img{
                             border-radius: $UpperSecondaryRadius;
                             width: 100%;
-                            height: 12rem !important;
-                            
+                            height: 12rem;
                         }
                     }
                     
-                    .FS1BodyContentBox-Content{
+                    .FSBodyContentBox-Content{
                         padding: 0rem 1rem;
                         gap: 1rem;
-                        .FS1BodyContentBox-HeadContent{
-                            .FS1BodyContentBox-ProductName{
-                                font-size: 1rem !important;
+                        .FSBodyContentBox-HeadContent{
+                            .FSBodyContentBox-ProductName{
+                                font-size: 1rem;
                             }
-                            .FS1BodyContentBox-ProductPrice{
-                                font-size: 0.8rem !important;
+                            .FSBodyContentBox-ProductPrice{
+                                font-size: 0.8rem;
                             }
 
                         }
-                        .FS1BodyContentBox-BodyContent{
-                                font-size: 0.8rem !important;
+                        .FSBodyContentBox-BodyContent{
+                                font-size: 0.8rem;
                         }
                     }
-                    .FS1BodyContentBox-Body{
+                    .FSBodyContentBox-Body{
                         margin: 0rem 1rem;
                     }
                 }
