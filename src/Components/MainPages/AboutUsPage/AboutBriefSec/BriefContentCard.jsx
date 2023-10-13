@@ -17,7 +17,7 @@ const BriefContentCard = [
     {
         Title: "D",
         Head: "Decently Impactful",
-        Body: "We infuse a sense of decency into our designs, ensuring your brand communicates with grace and professionalism. Our creations leave a lasting and respectful impression.",
+        Body: "We infuse a sense of decency into our designs, ensuring your brand communicates with grace and professionalism. Our creations leave a lasting and respectful impression catered for you.",
     },
     {
         Title: "E",

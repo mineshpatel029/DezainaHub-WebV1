@@ -114,7 +114,7 @@
                 margin-left: 0rem;
                 width: 18rem;
                 .HomeAS-ImgBox{
-                    width: 100% ;
+                    width: 18rem;
                     height: 23rem;
                     .HomeAS-Img{
                         width: 100%;
@@ -124,8 +124,7 @@
                 }
                 .HomeAS-ImgShadow{
                     width: 100%;
-                    height: 23rem;
-                    transform: rotate(-10deg);
+                    height: 21.6em;
                 }
                 .HomeASImg-FloatWindow{
                     width: 8rem;
@@ -148,12 +147,12 @@
                 text-align: center;
                 align-items: center;
                 .HomeAboutSecContent-Head{
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                     margin: 0rem;
                 }
                 .HomeAboutSecContent-Body{
                     margin: 0rem;
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                 }
                 .HomeAboutSecContent-Button{
                     width: 10rem;
@@ -166,7 +165,7 @@
     }
 }
 
-@media screen and (min-width: 490px){
+@media screen and (min-width: 490px) and (max-width: 990px){
     .HomeASMain{
         padding: 5rem 0rem ;
     
@@ -177,10 +176,10 @@
             gap: 4rem;
             .HomeAS-ImageContainer{
                 margin-left: 0rem;
-                width: 25rem;
+                width: 22rem;
                 .HomeAS-ImgBox{
                     width: 100% ;
-                    height: 30rem;
+                    height: 28rem;
                     .HomeAS-Img{
                         width: 100%;
                         height: 100%;
@@ -190,7 +189,6 @@
                 .HomeAS-ImgShadow{
                     width: 100%;
                     height: 25rem;
-                    transform: rotate(-10deg);
                 }
                 .HomeASImg-FloatWindow{
                     width: 9rem;
@@ -229,21 +227,84 @@
 }
 
 
-@media screen and (min-width: 744px){
+// @media screen and (min-width: 744px) and (max-width: 920px) {
+//     .HomeASMain{
+//         padding: 5rem 0rem ;
+    
+//         .HomeAS{
+//             display: flex;
+//             flex-direction: column-reverse;
+//             align-items: center;
+//             gap: 4rem;
+//             .HomeAS-ImageContainer{
+//                 margin-left: 0rem;
+//                 width: 26rem;
+//                 .HomeAS-ImgBox{
+//                     width: 100% ;
+//                     height: 30rem;
+//                     .HomeAS-Img{
+//                         width: 100%;
+//                         height: 100%;
+//                     }
+                    
+//                 }
+//                 .HomeAS-ImgShadow{
+//                     width: 100%;
+//                     height: 30rem;
+//                     transform: rotate(-10deg);
+//                 }
+//                 .HomeASImg-FloatWindow{
+//                     width: 10rem;
+//                     height: 11rem;
+//                     border-radius: $SecondaryBorderRadius;
+//                     right: -1.5rem;
+//                     bottom: 2rem;
+//                     padding: 1rem;
+//                 .HomeASImgFloatWindow-Content{
+//                     width: auto;
+//                     font-size: 0.8rem;
+//                 }
+//                 }
+//             }
+//             .HomeAboutSec-Content{
+//                 width: 100%;
+//                 text-align: center;
+//                 align-items: center;
+//                 .HomeAboutSecContent-Head{
+//                     font-size: 2.8rem;
+//                     margin: 0rem;
+//                 }
+//                 .HomeAboutSecContent-Body{
+//                     margin: 0rem;
+//                     font-size: 1.25rem;
+//                 }
+//                 .HomeAboutSecContent-Button{
+//                     width: 14rem;
+//                     font-size: 1rem;
+//                     height: 3rem;
+//                 }
+    
+//             }
+//         }
+//     }
+// }
+
+
+@media screen and (min-width: 990px) and (max-width: 1220px){
     .HomeASMain{
         padding: 5rem 0rem ;
     
         .HomeAS{
             display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
+            justify-content: center;
+            // align-items: center;
             gap: 4rem;
             .HomeAS-ImageContainer{
                 margin-left: 0rem;
-                width: 26rem;
+                width: 20rem;
                 .HomeAS-ImgBox{
                     width: 100% ;
-                    height: 30rem;
+                    height: 25rem;
                     .HomeAS-Img{
                         width: 100%;
                         height: 100%;
@@ -252,7 +313,7 @@
                 }
                 .HomeAS-ImgShadow{
                     width: 100%;
-                    height: 30rem;
+                    height: 25rem;
                     transform: rotate(-10deg);
                 }
                 .HomeASImg-FloatWindow{
@@ -269,84 +330,19 @@
                 }
             }
             .HomeAboutSec-Content{
-                width: 100%;
-                text-align: center;
-                align-items: center;
+                width: 50%;
                 .HomeAboutSecContent-Head{
-                    font-size: 2.8rem;
+                    font-size: 1.8rem;
                     margin: 0rem;
                 }
                 .HomeAboutSecContent-Body{
                     margin: 0rem;
-                    font-size: 1.25rem;
+                    font-size: 1rem;
                 }
                 .HomeAboutSecContent-Button{
-                    width: 14rem;
-                    font-size: 1rem;
-                    height: 3rem;
-                }
-    
-            }
-        }
-    }
-}
-
-
-@media screen and (max-width: 1440px){
-    .HomeASMain{
-        padding: 5rem 0rem ;
-    
-        .HomeAS{
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            gap: 4rem;
-            .HomeAS-ImageContainer{
-                margin-left: 0rem;
-                width: 26rem;
-                .HomeAS-ImgBox{
-                    width: 100% ;
-                    height: 30rem;
-                    .HomeAS-Img{
-                        width: 100%;
-                        height: 100%;
-                    }
-                    
-                }
-                .HomeAS-ImgShadow{
-                    width: 100%;
-                    height: 30rem;
-                    transform: rotate(-10deg);
-                }
-                .HomeASImg-FloatWindow{
-                    width: 10rem;
-                    height: 11rem;
-                    border-radius: $SecondaryBorderRadius;
-                    right: -1.5rem;
-                    bottom: 2rem;
-                    padding: 1rem;
-                .HomeASImgFloatWindow-Content{
-                    width: auto;
+                    width: 12rem;
                     font-size: 0.8rem;
-                }
-                }
-            }
-            .HomeAboutSec-Content{
-                width: 100%;
-                text-align: center;
-                align-items: center;
-                .HomeAboutSecContent-Head{
-                    font-size: 2.8rem;
-                    margin: 0rem;
-                }
-                .HomeAboutSecContent-Body{
-                    margin: 0rem;
-                    font-size: 1.25rem;
-                }
-                .HomeAboutSecContent-Button{
-                    width: 14rem;
-                    font-size: 1rem;
-                    height: 3rem;
+                    height: 2.5rem;
                 }
     
             }

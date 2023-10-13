@@ -166,6 +166,110 @@
                     transition: 0.5s ease;
                 }
             }
+            .FSBodyContent-Box{
+                width: 26rem;
+                min-height: 35rem;
+                display: flex;
+                border-radius: $PrimaryBorderRadius;
+                padding-bottom: 1rem;
+                background-color: $SecondaryFontColor;
+                flex-direction: column;
+                gap: 1rem;
+                // justify-content: space-between;
+                
+                .FSBodyContentBox-ImgContainer{
+                    
+                    .FSBodyContentBox-Img{
+                        border-radius: $UpperRadius;
+                        width: 100%;
+                        height: 18rem;
+                    }
+                }
+                
+                .FSBodyContentBox-Content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 0rem 2rem;
+                    gap: 1rem;
+                    .FSBodyContentBox-HeadContent{
+                        display: flex;
+                        // justify-content: space-between;
+                        flex-direction: column;
+                        gap: 1rem;
+                        // align-items: center;
+                        .FSBodyContentBox-ProductName{
+                            font-size: 1.25rem;
+                            margin: 0rem;
+                            font-family: $HeadFont;
+                            font-weight: 700;
+                            color: $HeadFontColor;
+                        }
+                        .FSBodyContentBox-ProductPrice{
+                            font-family: $HeadFont;
+                            color: $ContentFontColor;
+                            font-weight: 700;
+                            font-size: 0.9rem;
+                            margin: 0rem;
+                        }
+
+                    }
+                    .FSBodyContentBox-BodyContainer{
+                        overflow: hidden;
+                        overflow-y: scroll;
+                        scroll-behavior: smooth;
+                        padding: 0rem 1rem 0rem 0rem;
+                        
+                        .FSBodyContentBox-BodyContent{
+                                height: 10rem;
+                                color: $ContentFontColor;
+                                font-size: 0.8rem;
+                                font-family: $ContentFont;
+                                margin: 0rem;
+                        }
+                    }
+                    ::-webkit-scrollbar{
+                        width: 3px;
+                        background-color: $PrimaryColor;
+                    }
+                    .FSBodyContentBox-BodyContainer::-webkit-scrollbar-thumb{
+                        background: $SecondaryColor;
+                    }
+                }
+                .FSBodyContentBox-Body{
+                    margin: 0rem 2rem;
+                    .FSBodyContentBox-Details{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .FSBodyContentBox-EditButton, .FSBodyContentBox-RemoveButton{
+                            background-color: transparent;
+                            font-weight: 800;
+                            border: none;
+                            font-size: 1.1rem;
+                            font-family: $SecondaryFont;
+                            text-decoration: underline;
+                            padding: 0rem;
+                            display: flex;
+                            gap: 0.5rem;
+                            // justify-content: center;
+                            align-items: center;
+                        }
+                        .FSBodyContentBox-EditButton{
+                            color: $PrimaryColor;
+                            text-align: left !important;
+                        }
+                        .FSBodyContentBox-RemoveButton{
+                            color: $HelpingColor1;
+                            text-align: right !important;
+                        }
+                    }
+                }
+            }
+            .FSBodyContent-Box:hover{
+                box-shadow: $PrimaryShadow;
+                transition: 0.5s ease;
+            }
         }
     }
 }
@@ -191,39 +295,38 @@
                 gap: 1rem;
                 justify-content: center;
                 align-items: center;
-                .FS1BodyContent-Box{
-                    width: 18rem !important;
-                    min-height: 15rem !important;
+                
+                .FSBodyContent-Box{
+                    width: 18rem;
+                    min-height: 15rem;
                     border-radius: $SecondaryBorderRadius;
                     
-                    .FS1BodyContentBox-ImgContainer{
-                        width: 100%;
-
-                        .FS1BodyContentBox-Img{
+                    .FSBodyContentBox-ImgContainer{
+                        
+                        .FSBodyContentBox-Img{
                             border-radius: $UpperSecondaryRadius;
                             width: 100%;
-                            height: 12rem !important;
-                            
+                            height: 12rem;
                         }
                     }
                     
-                    .FS1BodyContentBox-Content{
+                    .FSBodyContentBox-Content{
                         padding: 0rem 1rem;
                         gap: 1rem;
-                        .FS1BodyContentBox-HeadContent{
-                            .FS1BodyContentBox-ProductName{
-                                font-size: 1rem !important;
+                        .FSBodyContentBox-HeadContent{
+                            .FSBodyContentBox-ProductName{
+                                font-size: 1rem;
                             }
-                            .FS1BodyContentBox-ProductPrice{
-                                font-size: 0.8rem !important;
+                            .FSBodyContentBox-ProductPrice{
+                                font-size: 0.8rem;
                             }
 
                         }
-                        .FS1BodyContentBox-BodyContent{
-                                font-size: 0.8rem !important;
+                        .FSBodyContentBox-BodyContent{
+                                font-size: 0.8rem;
                         }
                     }
-                    .FS1BodyContentBox-Body{
+                    .FSBodyContentBox-Body{
                         margin: 0rem 1rem;
                     }
                 }
