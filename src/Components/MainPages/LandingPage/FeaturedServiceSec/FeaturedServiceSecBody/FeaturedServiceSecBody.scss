@@ -24,60 +24,27 @@
             }
             
         }
-        .FeaturedSSBody-Content{
-            margin-top: 1rem;
+        .react-multi-carousel-item--active, .react-multi-carousel-item{
+            overflow: visible !important;
+            // padding: 0rem 0.5rem;
             display: flex;
-            justify-content: space-between;
-            .FeaturedService-1{
-                // .FeaturedService1-Image{
-                //     width: 25rem;
-                //     height: 35rem;
-                //     overflow: hidden;
-                //     border-radius: $PrimaryBorderRadius;
-                //     position: relative;
-                //     .FeaturedService1-ImgShadow{
-                //         width: 25rem;
-                //         position: absolute;
-                //         height: 40rem;
-                //         // background-color: $HelpingShadowPrimaryColor;
-                //         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.34%, #000 91.56%);
-                        
-                //     }
-                    
-                //     .FeaturedService1-Img{
-                //         height: 100%;
-                //         width: auto;
-                //         // position: relative;
-                //         // left: -5rem;
-                //         z-index: -1;
-                //     }
-                   
-                //     .FeaturedService1Img-Footer{
-                //         width: 21rem;
-                //             position: absolute;
-                //             bottom: 0rem;
-                //             left: 2rem;
-                //             color: $SecondaryFontColor;
-                //             display: flex;
-                //             justify-content: space-between;
-                //             .FeaturedService1Img-FooterContent{
-                //                 .FeaturedService1Img-ContentHead{
-                //                     font-family: $SecondaryFont;
-                //                     font-size: 1.25rem;
-                //                     font-weight: 700;
-                //                 }
-                //                 .FeaturedService1Img-ContentBody{
-                //                     font-family: $ContentFont;
-                //                     font-size: 1rem;
-                //                     font-weight: 500;
-                //                     color: $ContentFontColor;
-                //                 }
-                //             }
-                //             // .FeaturedService1-ImgIcon{
-
-                //             // }
-                //     }
-                // }
+            width: 100%;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            
+            // border: 2px solid red;
+        }
+        .react-multiple-carousel__arrow--left{
+            left: 0rem;
+            // top: 10.5rem;
+        }
+        .react-multiple-carousel__arrow--right{
+            // left: 2rem;
+            right: 0rem;
+            // top: 10.5rem;
+        }
+        .FeaturedSSBody-Content{
                 .FS1BodyContent-Box{
                     width: 26rem;
                     min-height: 35rem;
@@ -86,7 +53,9 @@
                     padding-bottom: 1rem;
                     background-color: $SecondaryFontColor;
                     flex-direction: column;
-                    gap: 1rem;
+                    gap: 2rem;
+                    margin: 0rem 1rem;
+                    
                     // justify-content: space-between;
                     
                     .FS1BodyContentBox-ImgContainer{
@@ -272,7 +241,7 @@
             }
         }
     }
-}
+
 
 @media screen and (max-width:490px){
     .FeaturedSS-BodyMain{
@@ -288,13 +257,24 @@
                 
                 
             }
+            .react-multi-carousel-item--active, .react-multi-carousel-item{
+                overflow: visible !important;
+                // padding: 0rem
+                
+                // border: 2px solid red;
+            }
+            .react-multiple-carousel__arrow--left{
+                left: 0rem;
+                // top: 10.5rem;
+            }
+            .react-multiple-carousel__arrow--right{
+                // left: 2rem;
+                right: 0rem;
+                // top: 10.5rem;
+            }
             .FeaturedSSBody-Content{
                 margin-top: 2rem;
-                display: grid;
-                grid-template-columns: 18rem;
-                gap: 1rem;
-                justify-content: center;
-                align-items: center;
+                
                 
                 .FSBodyContent-Box{
                     width: 18rem;
@@ -349,10 +329,26 @@
                 
                 
             }
+            .react-multi-carousel-item--active, .react-multi-carousel-item{
+                overflow: visible !important;
+                
+                // padding: 0rem 0.5rem;
+                
+                // border: 2px solid red;
+            }
+            .react-multiple-carousel__arrow--left{
+                left: 0rem;
+                // top: 10.5rem;
+            }
+            .react-multiple-carousel__arrow--right{
+                // left: 2rem;
+                right: 0rem;
+                // top: 10.5rem;
+            }
             .FeaturedSSBody-Content{
                 margin-top: 2rem;
-                display: grid;
-                grid-template-columns: 25rem;
+                display: flex;
+                width: 100%;
                 gap: 1rem;
                 justify-content: center;
                 align-items: center;
@@ -411,13 +407,17 @@
                 
                 
             }
-            .FeaturedSSBody-Content{
-                margin-top: 2rem;
-                display: grid;
-                grid-template-columns: 25rem 25rem;
-                gap: 1rem;
+            .react-multi-carousel-item--active, .react-multi-carousel-item{
+                overflow: visible !important;
+                display: flex;
                 justify-content: center;
                 align-items: center;
+                gap: 1rem;
+                // padding: 0rem, 1rem !important;
+                // margin: 0rem 1rem;
+            }            
+            .FeaturedSSBody-Content{
+                margin-top: 2rem;
                 .FS1BodyContent-Box{
                     width: 25rem !important;
                     min-height: 30rem !important;
@@ -475,11 +475,6 @@
             }
             .FeaturedSSBody-Content{
                 margin-top: 2rem;
-                display: grid;
-                grid-template-columns: 20rem 20rem 20rem;
-                gap: 1rem;
-                justify-content: center;
-                align-items: center;
                 .FS1BodyContent-Box{
                     width: 20rem !important;
                     min-height: 30rem !important;
