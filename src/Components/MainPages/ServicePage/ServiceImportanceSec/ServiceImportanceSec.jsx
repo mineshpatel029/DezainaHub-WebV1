@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ServiceImportanceSec.css"
-import ImportanceSecImg from "../Images/8.jpg"
+import ImportanceSecImg from "../Images/BrandImg.jpg"
 
 export const ServiceImportanceSec = () => {
   return (
