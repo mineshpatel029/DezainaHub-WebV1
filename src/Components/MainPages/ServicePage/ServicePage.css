@@ -121,11 +121,12 @@
   }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-Content {
     font-size: 1rem;
+    left: 5rem;
   }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-UpperShadow {
     position: absolute;
     width: 100%;
-    height: 0rem;
+    height: 100%;
     border-radius: 0.8rem;
   }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer {
@@ -135,12 +136,5 @@
   }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer .ServiceLSImgBody-Img {
     bottom: 0rem;
-  }
-  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-Content {
-    right: 5rem;
-    bottom: 6rem;
-  }
-  .ServiceLSMain .ServiceLS .ServiceLS-ImgBody:hover .ServiceLSImgBody-UpperShadow {
-    height: 15rem;
   }
 }/*# sourceMappingURL=ServicePage.css.map */

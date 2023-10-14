@@ -18,8 +18,10 @@
                 position: relative;
                 z-index: 1;
                 .HomeAS-Img{
-                    width: auto;
-                    height: 100%;
+                    position: relative;
+                    bottom: 0rem;
+                    width: 100%;
+                    height: 105%;
                 }
                 
             }
@@ -33,16 +35,21 @@
                 background-color: $HelpingShadowPrimaryColor;
                 transform: rotate(-10deg);
             }
+            .HomeASImg-Float{
+                width: 10rem;
+                position: absolute;
+                
+                z-index: 2;
+                right: 0rem;
+                bottom: 5rem;
+                border-radius: $PrimaryBorderRadius;
+            
             .HomeASImg-FloatWindow{
                 width: 10rem;
                 height: 11rem;
                 background-color: $ThirdColor;
                 border-radius: $PrimaryBorderRadius;
                 box-shadow: $PrimaryShadow;
-                position: absolute;
-                z-index: 2;
-                right: 0rem;
-                bottom: 5rem;
                 text-align: center;
                 display: flex;
                 // gap: 0.5rem ;
@@ -62,6 +69,7 @@
                     opacity: 20%;
                 }
             }
+        }
         }
         .HomeAboutSec-Content{
             width: 43.75rem;
@@ -126,21 +134,21 @@
                     width: 100%;
                     height: 21.6em;
                 }
-                .HomeASImg-FloatWindow{
+                .HomeASImg-Float{
+                    border-radius: $SecondaryBorderRadius;
                     width: 8rem;
                     height: 9rem;
-                    border-radius: $SecondaryBorderRadius;
                     right: -1.5rem;
                     bottom: 2rem;
-                    padding: 1rem;
-
-                    
-                // gap: 0.5rem ;
+                    .HomeASImg-FloatWindow{
+                        width: 8rem;
+                        height: 9rem;
+                        padding: 1rem;
                 .HomeASImgFloatWindow-Content{
                     width: auto;
-                    font-size: 0.6rem;
+                    font-size: 0.7rem;
                 }
-                }
+                }}
             }
             .HomeAboutSec-Content{
                 width: 100%;
@@ -190,6 +198,11 @@
                     width: 100%;
                     height: 25rem;
                 }
+                .HomeASImg-Float{
+                    width: 9rem;
+                    height: 10rem;
+                    border-radius: $SecondaryBorderRadius;
+               
                 .HomeASImg-FloatWindow{
                     width: 9rem;
                     height: 10rem;
@@ -201,7 +214,7 @@
                     width: auto;
                     font-size: 0.7rem;
                 }
-                }
+                } }
             }
             .HomeAboutSec-Content{
                 width: 100%;

@@ -10,25 +10,25 @@ export const ServiceStepSec = () => {
                 <div className='ServiceSSSteps-1'>
                         <div className='ServiceSSSteps-Heading'>
                             <h1 className='ServiceSSSteps-Number'>01</h1>
-                            <h2 className='ServiceSSSteps-Step'>Explore Our Services</h2>
+                            <h2 className='ServiceSSSteps-Step'>Browse Our Services</h2>
                         </div>
-                        <p className='ServiceSSSteps-Content'>Explore our range of services to find the perfect solution for your project needs.</p>
+                        <p className='ServiceSSSteps-Content'>Begin by exploring our Service page, and visiting our Gallery to get inspired and visualize your project's potential.</p>
 
                 </div>
                 <div className='ServiceSSSteps-1'>
                         <div className='ServiceSSSteps-Heading'>
                             <h1 className='ServiceSSSteps-Number'>02</h1>
-                            <h2 className='ServiceSSSteps-Step'>Customize Your Project</h2>
+                            <h2 className='ServiceSSSteps-Step'>Share Your Vision</h2>
                         </div>
-                        <p className='ServiceSSSteps-Content'>Tailor your project by adding details about your project in your cart for a personalized experience.</p>
+                        <p className='ServiceSSSteps-Content'>Tell us about your project through 'Contact Us' and  let us transform your vision into stunning reality</p>
 
                 </div>
                 <div className='ServiceSSSteps-1'>
                         <div className='ServiceSSSteps-Heading'>
                             <h1 className='ServiceSSSteps-Number'>03</h1>
-                            <h2 className='ServiceSSSteps-Step'>Review and Connect</h2>
+                            <h2 className='ServiceSSSteps-Step'>Collaborate and Create</h2>
                         </div>
-                        <p className='ServiceSSSteps-Content'>Review your order and connect with our designers to discuss your project in detail.</p>
+                        <p className='ServiceSSSteps-Content'>Collaborate with our designers to craft your brand's unique identity. Let's bring your vision to life!</p>
 
                 </div>
                 

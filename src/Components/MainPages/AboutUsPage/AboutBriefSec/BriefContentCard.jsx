@@ -11,8 +11,8 @@ const BriefContentCard = [
     },
     {
         Title: "C",
-        Head: "Timeless Classic Designs",
-        Body: "Our classic designs withstand the test of time, creating enduring brand identities that resonate. We bring a touch of tradition to every project, preserving timeless appeal.",
+        Head: "Captivating Customization",
+        Body: "We excel in creative customization, tailoring designs to match your unique brand identity. Your vision, our expertise—creating distinctive brand experiences.",
     },
     {
         Title: "D",
