@@ -21,6 +21,7 @@ export const AboutTestimonial = () => {
 </svg>
 </button>
             </div>
+            
             <div className='AboutTS-ImgContainer'>
                 <div className='AboutTSImgContainer-FloatBox'>
                     <p className='AboutTSImgFloatBox-Content'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and typesetting industry.  and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and typesetting industry.  and typesetting industry.</p>

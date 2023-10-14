@@ -30,7 +30,19 @@ export const ServiceProductCategory2 = () => {
                   </div>
 
                   <div className="SPSBodyContentBox-BodyContainer">
-                    <p className="SPSBodyContentBox-BodyContent">{Product.Description}</p>
+                    <p className="SPSBodyContentBox-BodyContent">
+                    {Product.Description.DescriptHead}
+                      <br />
+                      <b>Factors Affecting Price:</b>
+                      <br />
+                      {Product.Description.DescriptFactors.map((Points) => (
+                        <li>{Points.factorsPoints}</li>
+                      ))}
+                      <br />
+                      {Product.Description.DescriptFooter.map((Points) => (
+                        <div>{Points.FooterPoints}</div>
+                      ))}
+                    </p>
                   </div>
                 </div>
                 {/* <div className="SPSBodyContentBox-Body">

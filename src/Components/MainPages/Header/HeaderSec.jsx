@@ -10,6 +10,9 @@ export const HeaderSec = () => {
   const url = window.location.href;
   const { pathname = "" } = useLocation();
 
+  const handleClick = () => {
+    setNavMV("MV")
+  }
   return (
     <div className="NavMainContainer">
       <nav className="NavBarStyle container">
@@ -39,7 +42,7 @@ export const HeaderSec = () => {
           <div className="NavBarList-Items">
             <NavLink to="/" className="nav-item">
               <button
-                onClick={() => setActiveTab("home")}
+                onClick={() => {setActiveTab("home"); handleClick()}}
                 className={
                   pathname === "/" ? "activeButton" : "NavBarListItem-Button"
                 }
@@ -51,7 +54,7 @@ export const HeaderSec = () => {
           <div className="NavBarList-Items">
             <NavLink to="/AboutUs">
               <button
-                onClick={() => setActiveTab("about")}
+                onClick={() => {setActiveTab("about"); handleClick()}}
                 className={
                   url.includes("AboutUs")
                     ? "activeButton"
@@ -65,7 +68,7 @@ export const HeaderSec = () => {
           <div className="NavBarList-Items">
             <NavLink to="/Gallery">
               <button
-                onClick={() => setActiveTab("gallery")}
+                onClick={() => {setActiveTab("gallery"); handleClick()}}
                 className={
                   url.includes("Gallery")
                     ? "activeButton"
@@ -79,7 +82,7 @@ export const HeaderSec = () => {
           <div className="NavBarList-Items">
             <NavLink to="/Service">
               <button
-                onClick={() => setActiveTab("service")}
+                onClick={() => {setActiveTab("service"); handleClick()}}
                 className={
                   url.includes("Service")
                     ? "activeButton"
@@ -93,7 +96,7 @@ export const HeaderSec = () => {
           <div className="NavBarList-Items">
             <NavLink to="/ContactUs">
               <button
-                onClick={() => setActiveTab("contact")}
+                onClick={() => {setActiveTab("contact"); handleClick()}}
                 className={
                   url.includes("ContactUs")
                     ? "activeButton"

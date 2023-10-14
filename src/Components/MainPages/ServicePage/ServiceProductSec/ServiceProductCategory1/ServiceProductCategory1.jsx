@@ -13,11 +13,13 @@ export const ServiceProductCategory1 = () => {
       <div className="ServicePS container">
         <div className="ServicePS-ProductList">
           <div className="ServicePS-Products">
-
             {ProductDataC1.map((Product) => (
               <div className="SPSBodyContent-Box">
                 <div className="SPSBodyContentBox-ImgContainer">
-                  <img className="SPSBodyContentBox-Img" src={Product.gallery[0]} />
+                  <img
+                    className="SPSBodyContentBox-Img"
+                    src={Product.gallery[0]}
+                  />
                 </div>
                 <div className="SPSBodyContentBox-Content">
                   <div className="SPSBodyContentBox-HeadContent">
@@ -25,13 +27,26 @@ export const ServiceProductCategory1 = () => {
                       {Product.Name}
                     </h5>
                     <h6 className="SPSBodyContentBox-ProductPrice">
-                    <FormatPrice price={Product.minPrice}/> - <FormatPrice price={Product.maxPrice}/>/-
-                      
+                      <FormatPrice price={Product.minPrice} /> -{" "}
+                      <FormatPrice price={Product.maxPrice} />
+                      /-
                     </h6>
                   </div>
 
                   <div className="SPSBodyContentBox-BodyContainer">
-                    <p className="SPSBodyContentBox-BodyContent"><span>{Product.Description}</span></p>
+                    <p className="SPSBodyContentBox-BodyContent">
+                      {Product.Description.DescriptHead}
+                      <br />
+                      <b>Factors Affecting Price:</b>
+                      <br />
+                      {Product.Description.DescriptFactors.map((Points) => (
+                        <li>{Points.factorsPoints}</li>
+                      ))}
+                      <br />
+                      {Product.Description.DescriptFooter.map((Points) => (
+                        <div>{Points.FooterPoints}</div>
+                      ))}
+                    </p>
                   </div>
                 </div>
                 {/* <div className="SPSBodyContentBox-Body">
