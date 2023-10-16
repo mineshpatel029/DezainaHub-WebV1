@@ -227,15 +227,15 @@ const ProductDataC2 = [
   },
   {
     Name: "Portfolio Design",
-    minPrice: "300",
-    maxPrice: "1000",
+    minPrice: "500",
+    maxPrice: "3000",
     gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
     Description: {
       DescriptHead:
         "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
 
       DescriptFactors: [
-        { factorsPoints: "Number of portfolio items." },
+        { factorsPoints: "Number of portfolio items and content" },
         { factorsPoints: "Complexity of design" },
         { factorsPoints: "Custom graphics and branding." },
         { factorsPoints: "Revision Included " },
@@ -313,7 +313,7 @@ const ProductDataC3 = [
   {
     Name: "Brochure Design",
     minPrice: "500",
-    maxPrice: "1500",
+    maxPrice: "2000",
     gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
     Description: {
       DescriptHead:
