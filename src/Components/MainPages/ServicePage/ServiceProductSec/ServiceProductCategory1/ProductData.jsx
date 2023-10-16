@@ -13,6 +13,11 @@ import C1B3Img9 from "./ProductImages/Category1Imgs/C1Prod3/Oven Fresh Delight-m
 import C1B3Img10 from "./ProductImages/Category1Imgs/C1Prod3/Vishal Navratan-min.jpg"
 import C1B3Img11 from "./ProductImages/Category1Imgs/C1Prod3/Kamal Yoga Academy-min.jpg"
 
+import C1P5Img1 from "./ProductImages/Category1Imgs/C1Prod5/Dezaina Signage.jpg"
+import C1P5Img2 from "./ProductImages/Category1Imgs/C1Prod5/HomeTown Furniture.jpg"
+import C1P5Img3 from "./ProductImages/Category1Imgs/C1Prod5/Saraswathi Library.jpg"
+
+
 const ProductDataC1 = [
   {
     Name: "Logo Design",
@@ -99,7 +104,7 @@ const ProductDataC1 = [
     Name: "Signage Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
+    gallery: [C1P5Img1, C1P5Img2, C1P5Img3],
     Description: {
       DescriptHead:
         "Signage design ensures that your brand is prominently displayed, making it easy for customers and visitors to locate and identify your business.",
@@ -116,7 +121,134 @@ const ProductDataC1 = [
   },
 ];
 
+
 const ProductDataC2 = [
+  {
+    Name: "Website Design",
+    minPrice: "2000",
+    maxPrice: "12000",
+    gallery: [ FeaturedServiceImg1, FeaturedServiceImg2],
+    Description: {
+      DescriptHead:
+        "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",
+
+      DescriptFactors: [
+        { factorsPoints: "Animations" },
+        { factorsPoints: "Complexity of design and functionality." },
+        { factorsPoints: "Custom features (Responsive Website)" },
+        { factorsPoints: "Revision Included " },
+        { factorsPoints: "Turnaround time." },
+      ],
+
+      DescriptFooter: [
+        { FooterPoints: "For Static page - @ ₹2000 per page" },
+        { FooterPoints: "For 3 Pages - @ ₹̶6̶0̶0̶0̶  - ₹5400 " },
+        { FooterPoints: "For 5 pages - @ ̶₹̶1̶0̶0̶0̶0̶ - ₹7500" },
+        { FooterPoints: "For 10 Pages - @  ̶₹̶2̶0̶0̶0̶0̶ - ₹12,000" },
+      ],
+    },
+    featured: true,
+  },
+  {
+    Name: "Application Design",
+    minPrice: "2000",
+    maxPrice: "12000",
+    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    Description: {
+      DescriptHead:
+        "App design focuses on creating user-friendly interfaces and experiences for your digital products, enhancing user engagement.",
+
+      DescriptFactors: [
+        { factorsPoints: "Animations" },
+        { factorsPoints: "Complexity of design and functionality." },
+        { factorsPoints: "Custom features (Responsive Website)" },
+        { factorsPoints: "Revision Included " },
+        { factorsPoints: "Turnaround time." },
+      ],
+
+      DescriptFooter: [
+        { FooterPoints: "For Static page - @ ₹2000 per page" },
+        { FooterPoints: "For 3 Pages - @ ₹̶6̶0̶0̶0̶  - ₹5400 " },
+        { FooterPoints: "For 5 pages - @ ̶₹̶1̶0̶0̶0̶0̶ - ₹7500" },
+        { FooterPoints: "For 10 Pages - @  ̶₹̶2̶0̶0̶0̶0̶ - ₹12,000" },
+      ],
+    },
+    featured: true,
+  },
+  {
+    Name: "Presentation Design",
+    minPrice: "250",
+    maxPrice: "500",
+    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    Description: {
+      DescriptHead:
+        "Professional presentations can make a significant impact during meetings, pitches, or conferences, conveying your message effectively.",
+
+      DescriptFactors: [
+        { factorsPoints: "Number of slides." },
+        { factorsPoints: "Complexity of design." },
+        { factorsPoints: "Custom graphics and animations." },
+        { factorsPoints: "Revision Included " },
+      ],
+
+      DescriptFooter: [
+        { FooterPoints: "For 3 or more slides - starting @ ₹500 per slide" },
+        { FooterPoints: "For 5 or more slides - starting @ ₹400 per slide" },
+        { FooterPoints: "For 10 or more slides - starting @ ₹300 per slide" },
+        { FooterPoints: "For 15 or more slides - starting @ ₹250 per slide" },
+      ],
+    },
+    featured: false,
+  },
+  {
+    Name: "Pitch Deck Design",
+    minPrice: "250",
+    maxPrice: "500",
+    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    Description: {
+      DescriptHead:
+        "A well-crafted pitch deck is essential for impressing investors, partners, or clients, helping you secure opportunities and funding.",
+
+      DescriptFactors: [
+        { factorsPoints: "Number of slides." },
+        { factorsPoints: "Complexity of design." },
+        { factorsPoints: "Custom graphics and animations." },
+        { factorsPoints: "Revision Included " },
+      ],
+
+      DescriptFooter: [
+        { FooterPoints: "For 3 or more slides - starting @ ₹500 per slide" },
+        { FooterPoints: "For 5 or more slides - starting @ ₹400 per slide" },
+        { FooterPoints: "For 10 or more slides - starting @ ₹300 per slide" },
+        { FooterPoints: "For 15 or more slides - starting @ ₹250 per slide" },
+      ],
+    },
+    featured: false,
+  },
+  {
+    Name: "Portfolio Design",
+    minPrice: "300",
+    maxPrice: "1000",
+    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    Description: {
+      DescriptHead:
+        "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
+
+      DescriptFactors: [
+        { factorsPoints: "Number of portfolio items." },
+        { factorsPoints: "Complexity of design" },
+        { factorsPoints: "Custom graphics and branding." },
+        { factorsPoints: "Revision Included " },
+      ],
+
+      DescriptFooter: [{ FooterPoints: "" }],
+    },
+    featured: true,
+  },
+];
+
+
+const ProductDataC3 = [
   {
     Name: "Poster Design",
     minPrice: "500",
@@ -253,131 +385,6 @@ const ProductDataC2 = [
       DescriptFooter: [{ FooterPoints: "" }],
     },
     featured: false,
-  },
-];
-
-const ProductDataC3 = [
-  {
-    Name: "Website Design",
-    minPrice: "2000",
-    maxPrice: "12000",
-    gallery: [ FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",
-
-      DescriptFactors: [
-        { factorsPoints: "Animations" },
-        { factorsPoints: "Complexity of design and functionality." },
-        { factorsPoints: "Custom features (Responsive Website)" },
-        { factorsPoints: "Revision Included " },
-        { factorsPoints: "Turnaround time." },
-      ],
-
-      DescriptFooter: [
-        { FooterPoints: "For Static page - @ ₹2000 per page" },
-        { FooterPoints: "For 3 Pages - @ ₹̶6̶0̶0̶0̶  - ₹5400 " },
-        { FooterPoints: "For 5 pages - @ ̶₹̶1̶0̶0̶0̶0̶ - ₹7500" },
-        { FooterPoints: "For 10 Pages - @  ̶₹̶2̶0̶0̶0̶0̶ - ₹12,000" },
-      ],
-    },
-    featured: true,
-  },
-  {
-    Name: "Application Design",
-    minPrice: "2000",
-    maxPrice: "12000",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "App design focuses on creating user-friendly interfaces and experiences for your digital products, enhancing user engagement.",
-
-      DescriptFactors: [
-        { factorsPoints: "Animations" },
-        { factorsPoints: "Complexity of design and functionality." },
-        { factorsPoints: "Custom features (Responsive Website)" },
-        { factorsPoints: "Revision Included " },
-        { factorsPoints: "Turnaround time." },
-      ],
-
-      DescriptFooter: [
-        { FooterPoints: "For Static page - @ ₹2000 per page" },
-        { FooterPoints: "For 3 Pages - @ ₹̶6̶0̶0̶0̶  - ₹5400 " },
-        { FooterPoints: "For 5 pages - @ ̶₹̶1̶0̶0̶0̶0̶ - ₹7500" },
-        { FooterPoints: "For 10 Pages - @  ̶₹̶2̶0̶0̶0̶0̶ - ₹12,000" },
-      ],
-    },
-    featured: true,
-  },
-  {
-    Name: "Presentation Design",
-    minPrice: "250",
-    maxPrice: "500",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "Professional presentations can make a significant impact during meetings, pitches, or conferences, conveying your message effectively.",
-
-      DescriptFactors: [
-        { factorsPoints: "Number of slides." },
-        { factorsPoints: "Complexity of design." },
-        { factorsPoints: "Custom graphics and animations." },
-        { factorsPoints: "Revision Included " },
-      ],
-
-      DescriptFooter: [
-        { FooterPoints: "For 3 or more slides - starting @ ₹500 per slide" },
-        { FooterPoints: "For 5 or more slides - starting @ ₹400 per slide" },
-        { FooterPoints: "For 10 or more slides - starting @ ₹300 per slide" },
-        { FooterPoints: "For 15 or more slides - starting @ ₹250 per slide" },
-      ],
-    },
-    featured: false,
-  },
-  {
-    Name: "Pitch Deck Design",
-    minPrice: "250",
-    maxPrice: "500",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "A well-crafted pitch deck is essential for impressing investors, partners, or clients, helping you secure opportunities and funding.",
-
-      DescriptFactors: [
-        { factorsPoints: "Number of slides." },
-        { factorsPoints: "Complexity of design." },
-        { factorsPoints: "Custom graphics and animations." },
-        { factorsPoints: "Revision Included " },
-      ],
-
-      DescriptFooter: [
-        { FooterPoints: "For 3 or more slides - starting @ ₹500 per slide" },
-        { FooterPoints: "For 5 or more slides - starting @ ₹400 per slide" },
-        { FooterPoints: "For 10 or more slides - starting @ ₹300 per slide" },
-        { FooterPoints: "For 15 or more slides - starting @ ₹250 per slide" },
-      ],
-    },
-    featured: false,
-  },
-  {
-    Name: "Portfolio Design",
-    minPrice: "300",
-    maxPrice: "1000",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
-
-      DescriptFactors: [
-        { factorsPoints: "Number of portfolio items." },
-        { factorsPoints: "Complexity of design" },
-        { factorsPoints: "Custom graphics and branding." },
-        { factorsPoints: "Revision Included " },
-      ],
-
-      DescriptFooter: [{ FooterPoints: "" }],
-    },
-    featured: true,
   },
 ];
 
