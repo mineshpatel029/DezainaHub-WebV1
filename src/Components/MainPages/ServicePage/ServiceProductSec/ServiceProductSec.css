@@ -190,13 +190,11 @@
   }
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box {
     width: 18rem;
-    min-height: 15rem;
     border-radius: 0.8rem;
   }
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
     border-radius: 0.8rem 0.8rem 0rem 0rem;
-    width: 100%;
-    height: 12rem;
+    width: 160%;
   }
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content {
     padding: 0rem 1rem;
