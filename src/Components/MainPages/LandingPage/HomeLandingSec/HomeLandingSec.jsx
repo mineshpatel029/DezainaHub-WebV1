@@ -3,6 +3,7 @@ import "./HomeLandingSec.css"
 import LandingImg from "../Images/4.jpg"
 // import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import { TypeAnimation } from 'react-type-animation';
+import CountUp from 'react-countup';
 
 export const HomeLandingSec = () => {
     // const {text} = useTypewriter({
@@ -33,15 +34,15 @@ export const HomeLandingSec = () => {
                     <h4 className='HomeLSContentBase-Head'>Proven Excellence: Our Client Service Journey</h4>
                     <div className='HomeLSContentBase-Values'>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>340</h3>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={340} duration={3} delay={0} />+</h3>
                             <h6 className='HomeLSContentBaseValuesItems-Description'>Total Customers ratings</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>28*</h3>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={28} duration={3} delay={0} />*</h3>
                             <h6 className='HomeLSContentBaseValuesItems-Description'>Active Clients certificates</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'>95%</h3>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={95} duration={3} delay={0} />%</h3>
                             <h6 className='HomeLSContentBaseValuesItems-Description'>Satisfaction Percentage</h6>
                         </div>
                     </div>
