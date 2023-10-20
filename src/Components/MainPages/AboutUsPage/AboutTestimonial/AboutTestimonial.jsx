@@ -24,7 +24,7 @@ export const AboutTestimonial = () => {
             
             <div className='AboutTS-ImgContainer'>
                 <div className='AboutTSImgContainer-FloatBox'>
-                    <p className='AboutTSImgFloatBox-Content'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and typesetting industry.  and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and typesetting industry.  and typesetting industry.</p>
+                    <p className='AboutTSImgFloatBox-Content'>DezainaHub exceeded all our expectations with their graphic design work. Their attention to detail and creative expertise shine through. They perfectly captured our brand essence, and our audience engagement has noticeably improved. I wholeheartedly recommend their services.</p>
                     <div className='AboutTSImgFloatBox-ReviewFrom'>
                         <h5 className='AboutTSImgFloatBox-Name'>Geetartha Gogoi</h5>
                         <div className='AboutTSImgFloatBox-Ratings'>

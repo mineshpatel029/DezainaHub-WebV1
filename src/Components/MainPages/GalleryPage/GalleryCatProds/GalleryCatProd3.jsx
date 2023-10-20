@@ -3,6 +3,7 @@ import "./GalleryCatProds.css";
 import PosterImgData from "../GalleryImgSec/GalleryCardData/ImgDataCat1";
 import { GalleryImgProd2 } from "../GalleryImgSec/GalleryImgProd";
 import ImgCat2Prod1, {ImgCat2Prod2, ImgCat2Prod3, ImgCat2Prod4, ImgCat2Prod5, ImgCat2Prod6} from "../GalleryImgSec/GalleryCardData/ImgDataCat2";
+import {ProductDataC3} from "../../ServicePage/ServiceProductSec/ServiceProductCategory1/ProductData"
 
 export const GalleryCatProd3 = () => {
   const [activeProd, setActiveProd] = useState(4);
@@ -10,19 +11,18 @@ export const GalleryCatProd3 = () => {
   const ShowProd = (Prod) => {
     switch (Prod) {
       case 1:
-        return ImgCat2Prod1;
+        return ProductDataC3[0].gallery;
       case 2:
-        return ImgCat2Prod2;
+        return ProductDataC3[1].gallery;
       case 3:
-        return ImgCat2Prod3;
+        return ProductDataC3[2].gallery;
       case 4:
-        return ImgCat2Prod4;
+        return ProductDataC3[3].gallery;
       case 5:
-        return ImgCat2Prod5;
-      case 6:
-        return ImgCat2Prod6;
+        return ProductDataC3[4].gallery;
     }
   };
+
   return (
     <div className="GalleryISMain">
       <div className="GalleryIS">
@@ -58,12 +58,12 @@ export const GalleryCatProd3 = () => {
             {ShowProd(activeProd).map((ImgData, i) => (
               <div className="GalleryIS-ImgContainer">
                 <div className="GalleryIS-ImgBox">
-                  <img className="GalleryIS-Img" src={ImgData.img} />
+                  <img className="GalleryIS-Img" src={ImgData} />
                 </div>
               </div>
             ))}
           </div>
-          <button className="GalleryIS-ImgButton">Load More</button>
+          {/* <button className="GalleryIS-ImgButton">Load More</button> */}
         </div>
       </div>
     </div>
