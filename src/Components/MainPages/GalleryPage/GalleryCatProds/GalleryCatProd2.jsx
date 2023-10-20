@@ -30,8 +30,6 @@ export const GalleryCatProd2 = () => {
     }
   };
 
-  const NewActiveProd = ShowProd(activeProd);
-  console.log(NewActiveProd, "Show Prods");
 
   const handelClick = (ImgData, i) => {
     setCurrIndex(i);
