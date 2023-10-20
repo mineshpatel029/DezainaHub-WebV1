@@ -1,6 +1,8 @@
 import React from 'react'
 import "./AboutLandingSec.css";
-import AmoutLandingImg from "../Images/17.jpg";
+// import AmoutLandingImg from "../Images/17.jpg";
+import AmoutLandingImg from "../Images/AboutLanding1.jpg";
+
 
 export const AboutLandingSec = () => {
   return (
