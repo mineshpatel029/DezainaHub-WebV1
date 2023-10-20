@@ -1,6 +1,15 @@
 import FeaturedServiceImg1 from "../../Images/1.jpg";
 import FeaturedServiceImg2 from "../../Images/8.jpg";
 import FeaturedServiceImg3 from "../../Images/9.jpg";
+
+import C1B1Img1 from "./ProductImages/Category1Imgs/C1Prod1/DH logo.jpg"
+import C1B1Img2 from "./ProductImages/Category1Imgs/C1Prod1/cx1- F2-Arcadience-Architects.jpg"
+import C1B1Img3 from "./ProductImages/Category1Imgs/C1Prod1/DStreat.jpg"
+import C1B1Img4 from "./ProductImages/Category1Imgs/C1Prod1/Trimedi Center.jpg"
+import C1B1Img5 from "./ProductImages/Category1Imgs/C1Prod1/Market Gabru.jpg"
+import C1B1Img6 from "./ProductImages/Category1Imgs/C1Prod1/Punjab House.jpg"
+import C1B1Img7 from "./ProductImages/Category1Imgs/C1Prod1/Justitia.jpg"
+
 import C1B3Img1 from "./ProductImages/Category1Imgs/C1Prod3/DripCast podcast.jpg"
 import C1B3Img2 from "./ProductImages/Category1Imgs/C1Prod3/Advocate Mratyunjay-min.jpg"
 import C1B3Img3 from "./ProductImages/Category1Imgs/C1Prod3/Arcadience Architects-min.jpg"
@@ -13,9 +22,53 @@ import C1B3Img9 from "./ProductImages/Category1Imgs/C1Prod3/Oven Fresh Delight-m
 import C1B3Img10 from "./ProductImages/Category1Imgs/C1Prod3/Vishal Navratan-min.jpg"
 import C1B3Img11 from "./ProductImages/Category1Imgs/C1Prod3/Kamal Yoga Academy-min.jpg"
 
+import C1B4Img1 from "./ProductImages/Category1Imgs/C1Prod4/Hermes Law 1.jpg"
+import C1B4Img2 from "./ProductImages/Category1Imgs/C1Prod4/Trimedi Center Letter Head.jpg"
+import C1B4Img3 from "./ProductImages/Category1Imgs/C1Prod4/Hermes law Main1.jpg"
+
 import C1P5Img1 from "./ProductImages/Category1Imgs/C1Prod5/Dezaina Signage.jpg"
 import C1P5Img2 from "./ProductImages/Category1Imgs/C1Prod5/HomeTown Furniture.jpg"
 import C1P5Img3 from "./ProductImages/Category1Imgs/C1Prod5/Saraswathi Library.jpg"
+
+
+
+import C2B1Img1 from "./ProductImages/Category2Imgs/C2Prod1/BhartiMakeover.jpg"
+import C2B1Img2 from "./ProductImages/Category2Imgs/C2Prod1/Deva Resume1.jpg"
+import C2B1Img3 from "./ProductImages/Category2Imgs/C2Prod1/Zeal1.jpg"
+import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
+
+import C2B4Img1 from "./ProductImages/Category2Imgs/C2Prod4/Brand.jpg"
+
+import C2B5Img1 from "./ProductImages/Category2Imgs/C2Prod5/Gaming Event 2.jpg"
+import C2B5Img2 from "./ProductImages/Category2Imgs/C2Prod5/Neurolingua.jpg"
+
+
+
+
+
+
+import C3B1Img1 from "./ProductImages/Category3Imgs/C3Prod1/Banjaarey.jpg"
+import C3B1Img2 from "./ProductImages/Category3Imgs/C3Prod1/Cofee Flower.jpg"
+import C3B1Img3 from "./ProductImages/Category3Imgs/C3Prod1/Football.jpg"
+
+import C3B2Img1 from "./ProductImages/Category3Imgs/C3Prod2/Bag House.jpg"
+import C3B2Img2 from "./ProductImages/Category3Imgs/C3Prod2/Faishon.jpg"
+import C3B2Img3 from "./ProductImages/Category3Imgs/C3Prod2/DPunjab House.jpg"
+
+import C3B3Img1 from "./ProductImages/Category3Imgs/C3Prod3/Summer.jpg"
+import C3B3Img2 from "./ProductImages/Category3Imgs/C3Prod3/Coffee.jpg"
+import C3B3Img3 from "./ProductImages/Category3Imgs/C3Prod3/Flowerr.jpg"
+
+import C3B4Img1 from "./ProductImages/Category3Imgs/C3Prod4/Bi Waffin.jpg"
+import C3B4Img2 from "./ProductImages/Category3Imgs/C3Prod4/Z-fold Coffee.jpg"
+import C3B4Img3 from "./ProductImages/Category3Imgs/C3Prod4/HermesLaw Trifold Broucher.jpg"
+
+import C3B6Img1 from "./ProductImages/Category3Imgs/C3Prod6/Gym m.jpg"
+import C3B6Img2 from "./ProductImages/Category3Imgs/C3Prod6/Festives.jpg"
+import C3B6Img3 from "./ProductImages/Category3Imgs/C3Prod6/Brand.jpg"
+import C3B6Img4 from "./ProductImages/Category3Imgs/C3Prod6/Food.jpg"
+import C3B6Img5 from "./ProductImages/Category3Imgs/C3Prod6/AnimalDay.jpg"
+
 
 
 const ProductDataC1 = [
@@ -23,7 +76,7 @@ const ProductDataC1 = [
     Name: "Logo Design",
     minPrice: "2000",
     maxPrice: "5000",
-    gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
+    gallery: [C1B1Img1, C1B1Img2, C1B1Img3, C1B1Img4 , C1B1Img5, C1B1Img6 , C1B1Img7],
     Description: {
       DescriptHead:
         "A professionally designed logo is the visual cornerstone of your brand. It's essential for creating a memorable and recognizable brand identity.",
@@ -83,9 +136,9 @@ const ProductDataC1 = [
   },
   {
     Name: "Letter Head Design",
-    minPrice: "500",
-    maxPrice: "1500",
-    gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
+    minPrice: "300",
+    maxPrice: "1000",
+    gallery: [C1B4Img1, C1B4Img2, C1B4Img3],
     Description: {
       DescriptHead:
         " Letterheads with a professional design enhance official correspondence and reinforce your brand's identity when sending formal documents.",
@@ -122,12 +175,33 @@ const ProductDataC1 = [
 ];
 
 
+
 const ProductDataC2 = [
+  {
+    Name: "Portfolio Design",
+    minPrice: "500",
+    maxPrice: "3000",
+    gallery:[ C2B1Img1, C2B1Img2, C2B1Img3, C2B1Img4],
+    Description: {
+      DescriptHead:
+        "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
+
+      DescriptFactors: [
+        { factorsPoints: "Number of portfolio items and content" },
+        { factorsPoints: "Complexity of design" },
+        { factorsPoints: "Custom graphics and branding." },
+        { factorsPoints: "Revision Included " },
+      ],
+
+      DescriptFooter: [{ FooterPoints: "" }],
+    },
+    featured: true,
+  },
   {
     Name: "Website Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [ FeaturedServiceImg1, FeaturedServiceImg2],
+    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
     Description: {
       DescriptHead:
         "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",
@@ -179,7 +253,7 @@ const ProductDataC2 = [
     Name: "Presentation Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    gallery: [C2B4Img1] ,
     Description: {
       DescriptHead:
         "Professional presentations can make a significant impact during meetings, pitches, or conferences, conveying your message effectively.",
@@ -204,7 +278,7 @@ const ProductDataC2 = [
     Name: "Pitch Deck Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    gallery: [C2B5Img1, C2B5Img2],
     Description: {
       DescriptHead:
         "A well-crafted pitch deck is essential for impressing investors, partners, or clients, helping you secure opportunities and funding.",
@@ -225,27 +299,10 @@ const ProductDataC2 = [
     },
     featured: false,
   },
-  {
-    Name: "Portfolio Design",
-    minPrice: "500",
-    maxPrice: "3000",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
-    Description: {
-      DescriptHead:
-        "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
-
-      DescriptFactors: [
-        { factorsPoints: "Number of portfolio items and content" },
-        { factorsPoints: "Complexity of design" },
-        { factorsPoints: "Custom graphics and branding." },
-        { factorsPoints: "Revision Included " },
-      ],
-
-      DescriptFooter: [{ FooterPoints: "" }],
-    },
-    featured: true,
-  },
+  
 ];
+
+
 
 
 const ProductDataC3 = [
@@ -253,7 +310,7 @@ const ProductDataC3 = [
     Name: "Poster Design",
     minPrice: "500",
     maxPrice: "2500",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
+    gallery: [C3B1Img1, C3B1Img2, C3B1Img3],
     Description: {
       DescriptHead:
         "Posters are powerful marketing tools for events, promotions, or showcasing your brand's message and products to a broader audience.",
@@ -274,7 +331,7 @@ const ProductDataC3 = [
     Name: "Banner Design",
     minPrice: "500",
     maxPrice: "2500",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
+    gallery: [C3B2Img1, C3B2Img2, C3B2Img3],
     Description: {
       DescriptHead:
         "Banners are excellent for outdoor or indoor advertising, helping to grab the attention of potential customers and conveying key messages effectively.",
@@ -294,7 +351,7 @@ const ProductDataC3 = [
     Name: "Flyer Design",
     minPrice: "500",
     maxPrice: "3000",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg3],
+    gallery: [C3B3Img1, C3B3Img2, C3B3Img3],
     Description: {
       DescriptHead:
         "Flyers are versatile marketing materials used for promoting special offers, events, or introducing new products or services.",
@@ -314,7 +371,7 @@ const ProductDataC3 = [
     Name: "Brochure Design",
     minPrice: "500",
     maxPrice: "2000",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
+    gallery: [C3B4Img1, C3B4Img2, C3B4Img3],
     Description: {
       DescriptHead:
         "Brochure are Double Sided informative marketing materials, ideal for detailing product or service offerings and establishing credibility.",
@@ -367,7 +424,7 @@ const ProductDataC3 = [
     Name: "Social Media Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
+    gallery: [C3B6Img1, C3B6Img2, C3B6Img3, C3B6Img4, C3B6Img5],
     Description: {
       DescriptHead:
         "Engaging social media graphics are essential for maintaining an active online presence and effectively conveying your brand's message to your target audience.",
