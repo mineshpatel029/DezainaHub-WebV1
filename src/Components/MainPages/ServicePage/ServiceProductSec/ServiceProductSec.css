@@ -57,10 +57,17 @@
   flex-direction: column;
   gap: 1rem;
 }
-.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
-  border-radius: 1.25rem 1.25rem 0rem 0rem;
-  width: 100%;
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer {
   height: 18rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
+  width: 120%;
+  height: auto;
 }
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content {
   display: flex;

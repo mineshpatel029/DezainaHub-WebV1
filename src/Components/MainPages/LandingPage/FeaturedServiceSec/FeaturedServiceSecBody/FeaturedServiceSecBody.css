@@ -125,10 +125,17 @@
   flex-direction: column;
   gap: 1rem;
 }
-.FeaturedSS-BodyMain .FeaturedSS-Body .FSBodyContent-Box .FSBodyContentBox-ImgContainer .FSBodyContentBox-Img {
-  border-radius: 1.25rem 1.25rem 0rem 0rem;
-  width: 100%;
+.FeaturedSS-BodyMain .FeaturedSS-Body .FSBodyContent-Box .FSBodyContentBox-ImgContainer {
   height: 18rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.FeaturedSS-BodyMain .FeaturedSS-Body .FSBodyContent-Box .FSBodyContentBox-ImgContainer .FSBodyContentBox-Img {
+  width: 120%;
+  height: auto;
 }
 .FeaturedSS-BodyMain .FeaturedSS-Body .FSBodyContent-Box .FSBodyContentBox-Content {
   display: flex;

@@ -18,12 +18,10 @@ export const HomeLandingSec = () => {
         // Same substring at the start will only be typed out once, initially
         'PRECISION',
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        'HAMSTER',
+        'EXCELLENCE',
         1500,
-        'GUINEA PIGS',
+        'DISTINCTION',
         1500,
-        'CHINCHIUI',
-        1500
       ]}
       wrapper="P"
       speed={10}
