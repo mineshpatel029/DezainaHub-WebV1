@@ -75,6 +75,28 @@ export const GalleryCatProd2 = () => {
     }
   };
 
+  const MobileStyle = {
+    backgroundColor: "rgba(30, 30, 30, 0.9)",
+    transition: "300ms ease",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100vw",
+    height: "100vh",
+    position: "fixed",
+    zIndex: "200000000000000",
+    top: "0%",
+    left: "0%",
+ 
+    // Adding media query..
+    '@media (max-width: 500px)': {
+      // display: 'none',
+      border: '2px solid red',
+      backgroundColor: 'red',
+    },
+  }
+  
+
   return (
     <div className="GalleryISMain">
       <div className="GalleryIS">
@@ -127,27 +149,15 @@ export const GalleryCatProd2 = () => {
               <div
                 className="overlay dismiss"
                 onClick={handelClickClose}
-                style={{
-                  backgroundColor: "rgba(30, 30, 30, 0.9)",
-                  transition: "300ms ease",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  width: "100vw",
-                  height: "100vh",
-                  position: "fixed",
-                  zIndex: "200000000000000",
-                  top: "0%",
-                  left: "0%",
-                }}
+                style={MobileStyle}
               >
                 {/* <div className="GalleryISImgBox-Open"> */}
                 <img
                   src={clickedImg}
                   alt="Bigger Image"
                   style={{
-                    width: "auto",
-                    height: "70%",
+                    maxWidth: "70vw",
+                    maxHeight: "70%",
                     border: "20px solid whitesmoke",
                   }}
                   // className="GalleryISImgBox-OpenImg"
@@ -158,8 +168,8 @@ export const GalleryCatProd2 = () => {
                   onClick={handelClickClose}
                   style={{
                     position: "absolute",
-                    top: "1.5rem",
-                    right: "4rem",
+                    top: "1.5vh",
+                    right: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
@@ -185,10 +195,11 @@ export const GalleryCatProd2 = () => {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    left: "3rem",
+                    left: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
+                  zIndex: "200000000000010",
                   }}
                 >
                 {/* Previous Button */}
@@ -211,7 +222,7 @@ export const GalleryCatProd2 = () => {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    right: "4rem",
+                    right: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",

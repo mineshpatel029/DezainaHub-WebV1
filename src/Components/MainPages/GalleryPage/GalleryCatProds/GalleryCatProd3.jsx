@@ -135,8 +135,8 @@ export const GalleryCatProd3 = () => {
                   src={clickedImg}
                   alt="Bigger Image"
                   style={{
-                    width: "auto",
-                    height: "70%",
+                    maxWidth: "70vw",
+                    maxHeight: "70%",
                     border: "20px solid whitesmoke",
                   }}
                   // className="GalleryISImgBox-OpenImg"
@@ -148,7 +148,7 @@ export const GalleryCatProd3 = () => {
                   style={{
                     position: "absolute",
                     top: "1.5rem",
-                    right: "4rem",
+                    right: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
@@ -174,10 +174,11 @@ export const GalleryCatProd3 = () => {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    left: "3rem",
+                    left: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
+                  zIndex: "200000000000010",
                   }}
                 >
                 {/* Previous Button */}
@@ -200,7 +201,7 @@ export const GalleryCatProd3 = () => {
                   style={{
                     position: "absolute",
                     top: "45%",
-                    right: "4rem",
+                    right: "1vw",
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
