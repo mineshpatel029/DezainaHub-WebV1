@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AboutHighlightSec.css"
-import HighlightContainer1 from '../Images/8.jpg'
-import HighlightContainer2 from '../Images/15.jpg'
+import HighlightContainer1 from '../Images/AboutLanding3.jpg'
+import HighlightContainer2 from '../Images/AboutLanding.jpg'
 import HighlightContainer3 from '../Images/13.png'
 
 export const AboutHighlightSec = () => {

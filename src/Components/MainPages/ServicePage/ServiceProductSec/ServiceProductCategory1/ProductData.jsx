@@ -10,6 +10,9 @@ import C1B1Img5 from "./ProductImages/Category1Imgs/C1Prod1/Market Gabru.jpg"
 import C1B1Img6 from "./ProductImages/Category1Imgs/C1Prod1/Punjab House.jpg"
 import C1B1Img7 from "./ProductImages/Category1Imgs/C1Prod1/Justitia.jpg"
 
+import C1B2Img1 from "./ProductImages/Category1Imgs/C1Prod2/MarketGabru.jpg"
+import C1B2Img2 from "./ProductImages/Category1Imgs/C1Prod2/HermesLaw.jpg"
+
 import C1B3Img1 from "./ProductImages/Category1Imgs/C1Prod3/DripCast podcast.jpg"
 import C1B3Img2 from "./ProductImages/Category1Imgs/C1Prod3/Advocate Mratyunjay-min.jpg"
 import C1B3Img3 from "./ProductImages/Category1Imgs/C1Prod3/Arcadience Architects-min.jpg"
@@ -37,6 +40,10 @@ import C2B1Img2 from "./ProductImages/Category2Imgs/C2Prod1/Deva Resume1.jpg"
 import C2B1Img3 from "./ProductImages/Category2Imgs/C2Prod1/Zeal1.jpg"
 import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
 
+import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/Web UI1.png"
+
+import C2B3Img1 from "./ProductImages/Category2Imgs/C2Prod3/App UI1.jpeg"
+
 import C2B4Img1 from "./ProductImages/Category2Imgs/C2Prod4/Brand.jpg"
 
 import C2B5Img1 from "./ProductImages/Category2Imgs/C2Prod5/Gaming Event 2.jpg"
@@ -62,6 +69,10 @@ import C3B3Img3 from "./ProductImages/Category3Imgs/C3Prod3/Flowerr.jpg"
 import C3B4Img1 from "./ProductImages/Category3Imgs/C3Prod4/Bi Waffin.jpg"
 import C3B4Img2 from "./ProductImages/Category3Imgs/C3Prod4/Z-fold Coffee.jpg"
 import C3B4Img3 from "./ProductImages/Category3Imgs/C3Prod4/HermesLaw Trifold Broucher.jpg"
+
+import C3B5Img1 from "./ProductImages/Category3Imgs/C3Prod5/Punjab House.jpg"
+import C3B5Img2 from "./ProductImages/Category3Imgs/C3Prod5/MessMenu.jpg"
+import C3B5Img3 from "./ProductImages/Category3Imgs/C3Prod5/DStreat.jpg"
 
 import C3B6Img1 from "./ProductImages/Category3Imgs/C3Prod6/Gym m.jpg"
 import C3B6Img2 from "./ProductImages/Category3Imgs/C3Prod6/Festives.jpg"
@@ -98,7 +109,7 @@ const ProductDataC1 = [
     Name: "Brand Kit Design",
     minPrice: "1000",
     maxPrice: "5000",
-    gallery: [FeaturedServiceImg1, FeaturedServiceImg2, FeaturedServiceImg3],
+    gallery: [C1B2Img1, C1B2Img2],
     Description: {
       DescriptHead:
         "Brand kit includes brand guidelines, color palette, typography, orientation and other related details. A brand kit provides a clear set of guidelines for consistent use of your brand's visual elements, ensuring a cohesive and professional image across all materials.",
@@ -201,7 +212,7 @@ const ProductDataC2 = [
     Name: "Website Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    gallery: [C2B2Img1],
     Description: {
       DescriptHead:
         "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",
@@ -227,7 +238,7 @@ const ProductDataC2 = [
     Name: "Application Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [FeaturedServiceImg3, FeaturedServiceImg1, FeaturedServiceImg2],
+    gallery: [C2B3Img1],
     Description: {
       DescriptHead:
         "App design focuses on creating user-friendly interfaces and experiences for your digital products, enhancing user engagement.",
@@ -393,7 +404,7 @@ const ProductDataC3 = [
     Name: "Catalog Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [FeaturedServiceImg2, FeaturedServiceImg1, FeaturedServiceImg3],
+    gallery: [C3B5Img1, C3B5Img2, C3B5Img3],
     Description: {
       DescriptHead:
         "Catalogs are comprehensive sales tools that help showcase your product range and assist customers in making informed purchase decisions.",
