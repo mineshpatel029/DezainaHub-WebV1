@@ -34,12 +34,12 @@ import 'react-multi-carousel/lib/styles.css';
             },
             {
                 Catid: 3,
-                CatName: "Brand Marketing",
+                CatName: "Digital Interaction",
                 product: ProductDataC2,
             },
             {
                 Catid: 4,
-                CatName: "Digital Interaction",
+                CatName: "Brand Marketing",
                 product: ProductDataC3,
             },
         ];

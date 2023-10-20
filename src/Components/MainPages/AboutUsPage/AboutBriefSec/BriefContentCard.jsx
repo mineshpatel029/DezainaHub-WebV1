@@ -11,7 +11,7 @@ const BriefContentCard = [
     },
     {
         Title: "C",
-        Head: "Captivating Customization",
+        Head: "Creative Customization",
         Body: "We excel in creative customization, tailoring designs to match your unique brand identity. Your vision, our expertise—creating distinctive brand experiences.",
     },
     {
