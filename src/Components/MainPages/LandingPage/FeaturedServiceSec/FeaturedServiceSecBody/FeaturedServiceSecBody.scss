@@ -152,9 +152,10 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    border-radius: $UpperRadius;
                     .FSBodyContentBox-Img{
-                        border-radius: $UpperRadius;
-                        width: 100%;
+                        width: 120%;
+                        height: auto;
                     }
                 }
                 
