@@ -260,15 +260,15 @@
                         
                     .SPSBodyContent-Box{
                         width: 18rem;
-                        min-height: 15rem;
+                        // min-height: 15rem;
                         border-radius: $SecondaryBorderRadius;
                         
                         .SPSBodyContentBox-ImgContainer{
                             
                             .SPSBodyContentBox-Img{
                                 border-radius: $UpperSecondaryRadius;
-                                width: 100%;
-                                height: 12rem;
+                                width: 160%;
+                                // height: 12rem;
                             }
                         }
                         

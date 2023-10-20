@@ -38,8 +38,10 @@
                 display: grid;
             grid-template-columns: 26.25rem 26.25rem 26.25rem;
             gap: 1.15rem;
+
+
            .GalleryIS-ImgContainer{
-            cursor: pointer;
+            // cursor: pointer;
             background-color: $PrimaryColor;
             width: 26.25rem;
             height: 18rem;
@@ -48,6 +50,9 @@
             justify-content: center;
             align-items: center;
             .GalleryIS-ImgBox{
+                border: none;
+                padding: 0rem;
+                background-color: transparent;
                 border-radius: $SecondaryBorderRadius;
                 overflow: hidden;
                 width: 18rem;
@@ -55,6 +60,34 @@
                 box-shadow: $SecondaryShadow;
                 .GalleryIS-Img{
                     width: 100%;
+                }
+            }
+            .H-Cross-Button{
+                visibility: hidden;
+            }
+            .GalleryISImgBox-Open{
+                border: none;
+                padding: 0rem;
+                background-color: $HelpingShadowDarkPrimaryColor;
+                overflow: hidden;
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                top: 0%;
+                left: 0%;
+                z-index: 2000000000000000;
+                .V-Cross-Button{
+                    visibility: visible;
+                }
+                .GalleryIS-Img{
+                    height: 20vh;
+                    width: auto;
+                }
+            }
+            .GalleryIS-ImgBox:hover{
+                .GalleryIS-Img{
+                    transform: scale(1.05);
+                    transition: 100ms ease;
                 }
             }
            } 
