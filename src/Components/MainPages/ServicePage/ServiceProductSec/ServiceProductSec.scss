@@ -111,13 +111,20 @@
                         // justify-content: space-between;
                         
                         .SPSBodyContentBox-ImgContainer{
+                            height: 18rem;
+                            overflow: hidden;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: $UpperRadius;
                             
                             .SPSBodyContentBox-Img{
-                                border-radius: $UpperRadius;
-                                width: 100%;
-                                height: 18rem;
+                                width: 120%;
+                                height: auto;
                             }
                         }
+
+                        
                         
                         .SPSBodyContentBox-Content{
                             display: flex;

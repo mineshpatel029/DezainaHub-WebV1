@@ -20,6 +20,8 @@ export const GalleryCatProd3 = () => {
         return ProductDataC3[3].gallery;
       case 5:
         return ProductDataC3[4].gallery;
+      case 6:
+        return ProductDataC3[5].gallery;
     }
   };
 
