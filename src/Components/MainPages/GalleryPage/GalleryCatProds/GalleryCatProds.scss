@@ -66,6 +66,22 @@
                     // height: 100%;
                 }
             }
+           }
+           .overlay{
+
+            //    .GalleryISImgBox-Open{
+                .GalleryISImgBox-OpenImg{
+                    padding: 5rem;
+                    background-color: $HelpingShadowDarkPrimaryColor;
+                    position: fixed;
+                    z-index: 200000000000000;
+                    width: 100vw;
+                    height: 100vh;
+                    // height: 70%;
+                    // width: auto;
+                    border-radius: $PrimaryBorderRadius;
+                }
+            //    }
            } 
              }
             .GalleryIS-ImgButton{

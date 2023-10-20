@@ -63,6 +63,15 @@
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox .GalleryIS-Img {
   width: 100%;
 }
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .overlay .GalleryISImgBox-OpenImg {
+  padding: 5rem;
+  background-color: rgba(30, 30, 30, 0.5);
+  position: fixed;
+  z-index: 200000000000000;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 1.25rem;
+}
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-ImgButton {
   background-color: #364154;
   color: #ffffff;

@@ -36,7 +36,6 @@
   gap: 1.15rem;
 }
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer {
-  cursor: pointer;
   background-color: #1e1e1e;
   width: 26.25rem;
   height: 18rem;
@@ -46,6 +45,9 @@
   align-items: center;
 }
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox {
+  border: none;
+  padding: 0rem;
+  background-color: transparent;
   border-radius: 0.8rem;
   overflow: hidden;
   width: 18rem;
@@ -54,6 +56,32 @@
 }
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox .GalleryIS-Img {
   width: 100%;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .H-Cross-Button {
+  visibility: hidden;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryISImgBox-Open {
+  border: none;
+  padding: 0rem;
+  background-color: rgba(30, 30, 30, 0.5);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 2000000000000000;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryISImgBox-Open .V-Cross-Button {
+  visibility: visible;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryISImgBox-Open .GalleryIS-Img {
+  height: 20vh;
+  width: auto;
+}
+.GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer .GalleryIS-ImgContainer .GalleryIS-ImgBox:hover .GalleryIS-Img {
+  transform: scale(1.05);
+  transition: 100ms ease;
 }
 .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-ImgButton {
   background-color: #364154;
