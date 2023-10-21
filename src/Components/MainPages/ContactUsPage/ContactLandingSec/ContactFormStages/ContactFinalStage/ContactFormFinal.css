@@ -1,0 +1,20 @@
+.CFFMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.CFFMain .CFF-Img {
+  width: 5rem;
+}
+.CFFMain .CFF-Head {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #1e1e1e;
+}
+.CFFMain .CFF-Body {
+  color: #888888;
+  font-family: Rasa;
+  font-size: 1rem;
+}/*# sourceMappingURL=ContactFormFinal.css.map */

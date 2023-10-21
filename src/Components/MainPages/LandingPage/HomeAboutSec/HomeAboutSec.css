@@ -17,12 +17,11 @@
   border-radius: 1.25rem;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
-  position: relative;
-  bottom: 0rem;
-  width: 100%;
-  height: 105%;
+  height: 100%;
 }
 .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
   position: absolute;
