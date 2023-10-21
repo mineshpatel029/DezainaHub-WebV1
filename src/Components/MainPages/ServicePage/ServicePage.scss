@@ -80,11 +80,13 @@
                 width: 70rem;
                 height: 23rem;
                 overflow: hidden;
+                display: flex;
+                align-items: center;
                 border-radius: $PrimaryBorderRadius;
                 .ServiceLSImgBody-Img{
                     width: 100%;
-                    position: relative;
-                    bottom: 60rem;
+                    // position: relative;
+                    // bottom: 60rem;
                 }
             }
         }

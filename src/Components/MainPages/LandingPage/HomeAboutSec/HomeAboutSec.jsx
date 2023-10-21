@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HomeAboutSec.css"
-import AboutImg from "../Images/AboutImg2.jpg"
+import AboutImg from "../Images/DH Business Card.jpg"
 import { NavLink } from 'react-router-dom'
 import FloatWindowCard from './FloatWindowCard'
 

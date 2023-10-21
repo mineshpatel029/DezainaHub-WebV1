@@ -1,0 +1,23 @@
+@import "../../../../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
+.CFFMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .CFF-Img{
+        width: 5rem;
+
+    }
+    .CFF-Head{
+        font-family: $HeadFont;
+        font-weight: 800;
+        color: $PrimaryColor;
+    }
+    .CFF-Body{
+        color: $ContentFontColor;
+        font-family: $ContentFont;
+        font-size: 1rem;
+    }
+}
