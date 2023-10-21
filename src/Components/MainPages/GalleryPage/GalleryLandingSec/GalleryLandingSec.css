@@ -29,6 +29,9 @@
 .GalleryLSMain .GalleryLS .GalleryLS-ImgBox {
   width: 50rem;
   height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 1.25rem;
   overflow: hidden;
 }

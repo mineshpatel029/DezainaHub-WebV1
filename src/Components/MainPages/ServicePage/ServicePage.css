@@ -77,12 +77,12 @@
   width: 70rem;
   height: 23rem;
   overflow: hidden;
+  display: flex;
+  align-items: center;
   border-radius: 1.25rem;
 }
 .ServiceLSMain .ServiceLS .ServiceLS-ImgBody .ServiceLSImgBody-ImgContainer .ServiceLSImgBody-Img {
   width: 100%;
-  position: relative;
-  bottom: 60rem;
 }
 
 @media screen and (max-width: 900px) {
