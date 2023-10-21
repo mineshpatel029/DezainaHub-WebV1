@@ -35,11 +35,11 @@ export const HomeLandingSec = () => {
                     <div className='HomeLSContentBase-Values'>
                         <div className='HomeLSContentBaseValues-Items'>
                             <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={340} duration={3} delay={0} />+</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Total Customers ratings</h6>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Business Elevated with DezainaHub</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
                             <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={28} duration={3} delay={0} />*</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Active Clients certificates</h6>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Average Active Clients</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
                             <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={95} duration={3} delay={0} />%</h3>

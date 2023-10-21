@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./GalleryLandingSec.css";
-import GalleryLandingImg1 from "../Image/17.jpg";
+import GalleryLandingImg1 from "../Image/1234.jpg";
 import GalleryProdCat from "./GalleryProdCat";
 import GalleryImgSec from "../GalleryImgSec/GalleryImgSec";
 import GalleryImgProd, {

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ServiceLandingSec.css"
-import ServiceLandingImg from "../Images/9.jpg"
+import ServiceLandingImg from "../Images/7845.jpg"
 import { NavLink } from 'react-router-dom'
 
 export const ServiceLandingSec = () => {

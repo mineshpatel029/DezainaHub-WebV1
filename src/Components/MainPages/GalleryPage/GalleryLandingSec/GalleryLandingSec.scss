@@ -31,9 +31,14 @@
         .GalleryLS-ImgBox{
             width: 50rem;
             height: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border-radius: $PrimaryBorderRadius;
             overflow: hidden;
             .GalleryLS-Img{
+                // position: relative;
+                // top: -1rem;
                 width: 100%;
             }
         }

@@ -28,12 +28,19 @@
                 width: 45rem;
                 height: 25rem;
                 overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 border-radius: $PrimaryBorderRadius;
                 .AboutLS-Img{
-                    width: 45rem;
+                    position: relative;
+                    left: 2rem;
+                    top: -7rem;
+                    width: 125%;
                 }
             }
             .AboutLSImg-FloatBox{
+                z-index: 1000;
                 position: absolute;
                 bottom: 0rem;
                 right: 0rem;
