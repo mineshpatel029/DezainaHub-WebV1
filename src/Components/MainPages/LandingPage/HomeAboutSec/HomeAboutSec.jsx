@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HomeAboutSec.css"
-import AboutImg from "../Images/DH Business Card.jpg"
+import AboutImg from "../Images/555.jpg"
 import { NavLink } from 'react-router-dom'
 import FloatWindowCard from './FloatWindowCard'
 
@@ -20,7 +20,7 @@ import { Autoplay, EffectCube, Pagination } from 'swiper/modules';
 export const HomeAboutSec = () => {
   return (
     <div className='HomeASMain' >
-    <div className='HomeAS container' >
+    <div className='HomeAS container' data-aos="fade-up">
       <div className='HomeAS-ImageContainer'>
       <div className='HomeAS-ImgBox'>
           <img className='HomeAS-Img' src={AboutImg} />

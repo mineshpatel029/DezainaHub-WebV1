@@ -13,6 +13,10 @@ import LoginSignupPage from "./Components/MainPages/LoginSignupPage/LoginSignupP
 import FooterNewsLetter from "./Components/MainPages/Footer/FooterNewsLetter/FooterNewsLetter";
 import FooterFoot from "./Components/MainPages/Footer/FooterFoot/FooterFoot";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 const LandingPage = lazy(() => import("./Components/MainPages/LandingPage/LandingPage"));

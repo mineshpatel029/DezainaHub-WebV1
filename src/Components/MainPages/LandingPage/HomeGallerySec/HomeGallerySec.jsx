@@ -1,14 +1,14 @@
 import React from "react";
 import "./HomeGallerySec.css";
-import GalleryImg1 from "../Images/18.gif";
-import GalleryImg2 from "../Images/12.jfif";
-import GalleryImg3 from "../Images/5.jpg";
+import GalleryImg3 from "../Images/Rolling R Keep Rolling.gif";
+import GalleryImg2 from "../Images/Brochure.jpg";
+import GalleryImg1 from "../Images/About.jpg";
 import { NavLink } from "react-router-dom";
 
 export const HomeGallerySec = () => {
   return (
     <div className="HomeGSMain">
-      <div className="HomeGS container">
+      <div className="HomeGS container" data-aos="fade-up">
         <div className="HomeGS-Content">
           <h6 className="HomeGSContent-Title">Gallery</h6>
           <h1 className="HomeGSContent-Head">
@@ -30,6 +30,7 @@ export const HomeGallerySec = () => {
                   Website Designing
                 </h6>
               </div>
+              
               <img className="HomeGSGallery-Img1" src={GalleryImg1} />
             </div>
           </div>

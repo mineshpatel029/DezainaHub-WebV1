@@ -8,6 +8,7 @@
   color: #ffffff;
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList {
   display: flex;

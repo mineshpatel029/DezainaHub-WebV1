@@ -73,7 +73,7 @@ export const GalleryCatProd3 = () => {
     }
   };
   return (
-    <div className="GalleryISMain">
+    <div className="GalleryISMain" data-aos="fade-up">
       <div className="GalleryIS">
         <div className="GalleryIS-ProductStrip">
           <div className="GalleryIS-ProductList container">
@@ -105,7 +105,7 @@ export const GalleryCatProd3 = () => {
             ))} */}
 
             {ShowProd(activeProd).map((ImgData, i) => (
-              <div className="GalleryIS-ImgContainer">
+              <div className="GalleryIS-ImgContainer" data-aos="fade-up">
                 <button className="GalleryIS-ImgBox" onClick={() => handelClick(ImgData, i)}>
                   <img className="GalleryIS-Img" src={ImgData} />
                 </button>

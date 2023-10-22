@@ -3,7 +3,7 @@ import "./FooterFoot.css";
 
 export const FooterFoot = () => {
   return (
-    <div className="FooterFootMain container">
+    <div className="FooterFootMain container" data-aos="fade-up">
       <div className="FooterFoot">
         <p className="FooterFoot-Content">
         Your brand is your identity in the business world, just like your appearance in everyday life. You've taken the first step by visiting. Let's take the next step and elevate your brand
