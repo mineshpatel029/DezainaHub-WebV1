@@ -2,8 +2,9 @@
   padding-bottom: 10vh;
 }
 .AboutTSMain .AboutTS {
+  padding-left: 5rem;
   display: flex;
-  gap: 13.8rem;
+  gap: 10rem;
   align-items: center;
 }
 .AboutTSMain .AboutTS .AboutTS-Body {
@@ -35,52 +36,104 @@
   width: 3rem;
   height: 3rem;
 }
-.AboutTSMain .AboutTS .AboutTS-ImgContainer {
+.AboutTSMain .AboutTS .swiper-slide-active, .AboutTSMain .AboutTS .swiper-slide, .AboutTSMain .AboutTS .swiper-slide-visible {
+  overflow: visible !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  box-shadow: none;
+  visibility: visible;
+  box-shadow: none !important;
+}
+.AboutTSMain .AboutTS .swiper-slide {
+  visibility: hidden;
+}
+.AboutTSMain .AboutTS .swiper-slide-visible {
+  visibility: visible;
+}
+.AboutTSMain .AboutTS .swiper-slide-active {
+  visibility: visible;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  width: 35rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer {
+  box-shadow: 0px 5px 30px 2px rgba(136, 137, 137, 0.25);
+  border-radius: 1.25rem;
+  width: 28rem;
+  height: 32rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head {
+  height: 6rem;
   position: relative;
 }
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox {
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
   position: absolute;
-  bottom: 5rem;
-  right: -10rem;
-  background-color: #ffffff;
-  width: 28rem;
-  height: 12rem;
-  padding: 1rem 2rem;
-  box-shadow: 0px 5px 30px 2px rgba(136, 137, 137, 0.25);
-  border-radius: 0.8rem;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-Content {
-  font-family: Rasa;
-  color: #888888;
-  margin-bottom: 1rem;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom {
-  display: flex;
-  justify-content: space-between;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Name {
-  font-family: Martel Sans;
-  font-weight: 700;
-  margin: 0rem;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Ratings {
-  display: flex;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
-  padding: 0rem;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG svg {
-  width: 1rem !important;
-  height: 1rem !important;
-}
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox {
-  width: 28rem;
-  height: 36rem;
-  border-radius: 1.25rem;
+  top: 1.5rem;
+  left: 37%;
   overflow: hidden;
 }
-.AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox .AboutTSImgContainer-Img {
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox .AboutTSImgContainer-HeadImg {
   width: 100%;
+  min-height: 100%;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Brand {
+  font-family: Montserrat;
+  font-weight: 700 !important;
+  margin: 0rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-BrandFeild {
+  opacity: 50%;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Review {
+  font-family: Rasa;
+  color: #888888;
+  font-size: 0.9rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person {
+  padding: 0.7rem 0rem;
+  width: 12rem;
+  border-radius: 0.8rem;
+  color: #ffffff;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person .AboutTSImgContainer-PersonName {
+  margin: 0rem;
+  color: #ffffff;
+  font-family: Martel Sans;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
+  display: flex;
+  gap: 0.25rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
+  padding: 0rem;
+}
+.AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG svg {
+  width: 1rem !important;
+  height: 1rem !important;
 }
 
 @media screen and (max-width: 900px) {
