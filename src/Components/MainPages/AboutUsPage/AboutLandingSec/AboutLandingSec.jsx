@@ -7,7 +7,7 @@ import AmoutLandingImg from "../Images/adsf.png";
 export const AboutLandingSec = () => {
   return (
     <div className='AboutLSMain'>
-        <div className='AboutLS container'>
+        <div className='AboutLS container' data-aos="zoom-in-up">
             <h1 className='AboutLS-Head'>No <span>More</span> Mediocre <span>Branding!</span></h1>
             <div className='AboutLS-ImgBox'>
             <div className='AboutLSImg-FloatBox'>

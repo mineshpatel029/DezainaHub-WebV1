@@ -11,8 +11,8 @@ export const HomeLandingSec = () => {
     //     loop:{},
     // })
   return (
-    <div className='HomeLSMain'>
-        <div className='HomeLS container'>
+    <div className='HomeLSMain' >
+        <div className='HomeLS container' data-aos="fade-up">
             <div className='HomeLS-Content'>
                 <h1 className='HomeLSContent-Head'>DESIGNING VISUAL <span className='HomeLSContent-HeadColor'>STORIES</span> WITH UNMATCHED <br/><TypeAnimation
       sequence={[

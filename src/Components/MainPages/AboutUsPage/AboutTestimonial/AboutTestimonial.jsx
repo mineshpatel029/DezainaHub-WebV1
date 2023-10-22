@@ -13,7 +13,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay, Mousewheel } from 's
 
 export const AboutTestimonial = () => {
   return (
-    <div className='AboutTSMain'>
+    <div className='AboutTSMain' data-aos="fade-up">
         <div className='AboutTS container'>
             <div className='AboutTS-Body'>
                 <h6 className='AboutTSBody-Title'>Testimonial</h6>
@@ -101,7 +101,7 @@ export const AboutTestimonial = () => {
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
                 }}
-                pagination={{el:'.swiper-pagination',clickable:true}}
+                // pagination={{el:'.swiper-pagination',clickable:true}}
                 navigation={{
                     nextEl:'.AboutTSBody-ButtonNext',
                     prevEl:'.AboutTSBody-ButtonPrev',

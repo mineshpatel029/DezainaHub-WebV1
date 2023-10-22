@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 export const HomeGallerySec = () => {
   return (
     <div className="HomeGSMain">
-      <div className="HomeGS container">
+      <div className="HomeGS container" data-aos="fade-up">
         <div className="HomeGS-Content">
           <h6 className="HomeGSContent-Title">Gallery</h6>
           <h1 className="HomeGSContent-Head">

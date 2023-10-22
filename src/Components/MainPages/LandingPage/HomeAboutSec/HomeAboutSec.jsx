@@ -20,7 +20,7 @@ import { Autoplay, EffectCube, Pagination } from 'swiper/modules';
 export const HomeAboutSec = () => {
   return (
     <div className='HomeASMain' >
-    <div className='HomeAS container' >
+    <div className='HomeAS container' data-aos="fade-up">
       <div className='HomeAS-ImageContainer'>
       <div className='HomeAS-ImgBox'>
           <img className='HomeAS-Img' src={AboutImg} />

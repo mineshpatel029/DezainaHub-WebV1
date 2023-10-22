@@ -5,7 +5,7 @@ import BriefContentData from "./BriefContentCard"
 export const AboutBriefSec = () => {
   return (
     <div className='AboutBSMain'>
-        <div className='AboutBS container'>
+        <div className='AboutBS container' data-aos="fade-up">
             <div className='AboutBS-Head'>
                 <h6 className='AboutBSHead-Title'>Key values</h6>
                 <h1 className='AboutBSHead-Heading'>Our Essence: A Glimpse into DezainaHub</h1>
@@ -13,7 +13,7 @@ export const AboutBriefSec = () => {
             </div>
             <div className='AboutBS-Body'>
             {BriefContentData.map((BriefContent , i)=>(     
-              <div className='AboutBSBody-Content'>
+              <div className='AboutBSBody-Content' data-aos="zoom-in-up">
                 <div className='AboutBSBodyContent-Title'>
                   <span>{BriefContent.Title}</span>
                 </div>
