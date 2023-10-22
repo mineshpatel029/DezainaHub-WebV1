@@ -3,8 +3,10 @@
 .AboutTSMain{
     padding-bottom: 10vh;
     .AboutTS{
+        padding-left: 5rem;
         display: flex;
-        gap: 13.8rem;
+        gap: 10rem;
+        // justify-content: space-between;
         align-items: center;
         // justify-content: center;
         // justify-content: space-between;
@@ -37,35 +39,151 @@
                 height: 3rem;
             }
         }
-        .AboutTS-ImgContainer{
-            position: relative;
-            .AboutTSImgContainer-FloatBox{
-                position: absolute;
-                bottom: 5rem;
-                right: -10rem;
-                background-color: $SecondaryFontColor;
-                width: 28rem;
-                height: 12rem;
-                padding: 1rem 2rem;
+        // .AboutTS-ImgContainer{
+        //     position: relative;
+        //     .AboutTSImgContainer-FloatBox{
+        //         position: absolute;
+        //         bottom: 5rem;
+        //         right: -10rem;
+        //         background-color: $SecondaryFontColor;
+        //         width: 28rem;
+        //         height: 12rem;
+        //         padding: 1rem 2rem;
+        //         box-shadow: $PrimaryShadow;
+        //         border-radius: $SecondaryBorderRadius;
+        //         .AboutTSImgFloatBox-Content{
+        //             font-family: $ContentFont;
+        //             color: $ContentFontColor;
+        //             margin-bottom: 1rem;
+        //         }
+        //         .AboutTSImgFloatBox-ReviewFrom{
+        //             display: flex;
+        //             // align-items: center;
+        //             // justify-content: center;
+        //             justify-content: space-between;
+        //             .AboutTSImgFloatBox-Name{
+        //                 font-family: $SecondaryFont;
+        //                 font-weight: 700;
+        //                 margin: 0rem;
+        //             }
+        //             .AboutTSImgFloatBox-Ratings{
+        //                 display: flex;
+        //                 .AboutTSImgFloatBoxRate-SVG{
+        //                     padding: 0rem;
+        //                     svg{
+        //                         width: 1rem !important;
+        //                         height: 1rem !important;
+                                
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     .AboutTSImgContainer-ImgBox{
+        //         width: 28rem;
+        //         height: 36rem;
+        //         border-radius: $PrimaryBorderRadius;
+        //         overflow: hidden;
+        //         .AboutTSImgContainer-Img{
+        //             width: 100%;
+        //         }
+        //     }
+        // }
+
+        .swiper-slide-active, .swiper-slide, .swiper-slide-visible{
+            overflow: visible !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 28rem;
+            box-shadow: none;
+            visibility: visible;
+            box-shadow: none !important;
+        }
+        .swiper-slide{
+            visibility: hidden;
+        }
+        .swiper-slide-visible{
+            visibility: visible;
+        }
+        .swiper-slide-active{
+            visibility: visible;
+        }
+        .AboutTS-ReviewBox{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            padding: 2rem;
+            width:35rem;
+
+            .AboutTS-ImgContainer{
+                // background-color: $PrimaryColor;
+                // color: $SecondaryFontColor;
                 box-shadow: $PrimaryShadow;
-                border-radius: $SecondaryBorderRadius;
-                .AboutTSImgFloatBox-Content{
-                    font-family: $ContentFont;
-                    color: $ContentFontColor;
-                    margin-bottom: 1rem;
+                border-radius: $PrimaryBorderRadius;
+                width: 28rem;
+                height: 32rem;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                // justify-content: space-between;
+                .AboutTSImgContainer-Head{
+                    height: 6rem;
+                    position: relative;
+                    .AboutTSImgContainer-HeadImgBox{
+                        border-radius: 50%;
+                        width: 8rem;
+                        height: 8rem;
+                        position: absolute;
+                        top: 1.5rem;
+                        left: 37%;
+                        overflow: hidden;
+                        .AboutTSImgContainer-HeadImg{
+                            width: 100%;
+                            min-height: 100%;
+                        }
+                    }
                 }
-                .AboutTSImgFloatBox-ReviewFrom{
+                .AboutTSImgContainer-Content{
+                    text-align: center;
                     display: flex;
-                    // align-items: center;
-                    // justify-content: center;
+                    flex-direction: column;
                     justify-content: space-between;
-                    .AboutTSImgFloatBox-Name{
-                        font-family: $SecondaryFont;
-                        font-weight: 700;
+                    align-items: center;
+                    padding: 1rem 2rem;
+                    .AboutTSImgContainer-Brand{
+                        font-family: $HeadFont;
+                        font-weight: 700 !important;
                         margin: 0rem;
+                    }
+                    .AboutTSImgContainer-BrandFeild{
+                        // color: grey;
+                        opacity: 50%;
+                        font-size: 0.8rem;
+                        margin-bottom: 1.5rem;
+                        font-weight: 500;
+                    }
+                    .AboutTSImgContainer-Review{
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 0.9rem;
+                    }
+                    .AboutTSImgContainer-Person{
+                        padding: 0.7rem 0rem;
+                        width: 12rem;
+                        border-radius: $SecondaryBorderRadius;
+                        color: $SecondaryFontColor;
+                        .AboutTSImgContainer-PersonName{
+                            margin: 0rem;
+                            color: $SecondaryFontColor;
+                            // mix-blend-mode:overlay;
+                            font-family: $SecondaryFont;
+                        }
                     }
                     .AboutTSImgFloatBox-Ratings{
                         display: flex;
+                        gap: 0.25rem;
                         .AboutTSImgFloatBoxRate-SVG{
                             padding: 0rem;
                             svg{
@@ -75,15 +193,6 @@
                             }
                         }
                     }
-                }
-            }
-            .AboutTSImgContainer-ImgBox{
-                width: 28rem;
-                height: 36rem;
-                border-radius: $PrimaryBorderRadius;
-                overflow: hidden;
-                .AboutTSImgContainer-Img{
-                    width: 100%;
                 }
             }
         }

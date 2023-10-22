@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 
 export const ServiceLandingSec = () => {
   return (
-    <div className='ServiceLSMain'>
-        <div className='ServiceLS container'>
+    <div className='ServiceLSMain' >
+        <div className='ServiceLS container' data-aos="zoom-in-up">
             <div className='ServiceLS-Head'>
                 <h1 className='ServiceLSHead-Heading'>Ready to make a Great Brand <span>Impression</span>?</h1>
                 <div className='ServiceLSHead-Body'>

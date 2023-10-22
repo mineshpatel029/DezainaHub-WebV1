@@ -7,13 +7,13 @@ import HighlightContainer3 from '../Images/13.png'
 export const AboutHighlightSec = () => {
   return (
     <div className='AboutHSMain'>
-        <div className='AboutHS container'>
+        <div className='AboutHS container' data-aos="fade-up">
             <div className='AboutHS-Head'>
                 <h1 className='AboutHSHead-Heading'>Dezainahub: Your <span>Bridge</span> to Brand Brilliance</h1>
                 <p className='AboutHSHead-Content'>DezainaHub connects businesses with exceptional brand designs that make a lasting impact in a competitive market.</p>
             </div>
             <div className='AboutHSHead-Body'>
-                <div className='AboutHSHeadBody-Container1'>
+                <div className='AboutHSHeadBody-Container1' data-aos="zoom-in-up">
                     <div className='AboutHSHeadBodyContainer1-ImgBox'>
                         <img className='AboutHSHeadBodyContainer1-Img' src={HighlightContainer1} />
                     </div>
@@ -22,7 +22,7 @@ export const AboutHighlightSec = () => {
                         <p className='AboutHSHeadBodyContainer1Body-Content'>Our team of seasoned designers brings a wealth of experience to the table. We've successfully partnered with numerous businesses, creating designs that captivate audiences and drive results. With a deep understanding of design principles, customers psychology and market dynamics, we craft visuals that make a real impact. Our passion for design goes beyond aesthetics; it's about crafting solutions that elevate your brand and deliver tangible outcomes.</p>
                     </div>
                 </div>
-                <div className='AboutHSHeadBody-Container2'>
+                <div className='AboutHSHeadBody-Container2' data-aos="zoom-in-up">
                 <div className='AboutHSHeadBodyContainer2-Body'>
                     <div className='AboutHSHeadBodyContainer2Body-Content'>
                             <h1 className='AboutHSHeadBodyContainer2Body-Head'>80%</h1>
@@ -38,7 +38,7 @@ export const AboutHighlightSec = () => {
                     </div>
                     
                 </div>
-                <div className='AboutHSHeadBody-Container3'>
+                <div className='AboutHSHeadBody-Container3' data-aos="zoom-in-up">
                     <div className='AboutHSHeadBodyContainer3-ImgBox'>
                         <img className='AboutHSHeadBodyContainer3-Img' src={HighlightContainer3} />
                     </div>

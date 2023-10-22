@@ -30,8 +30,8 @@ export const GalleryLandingSec = () => {
 
   return (
     <div>
-      <div className="GalleryLSMain">
-        <div className="GalleryLS container">
+      <div className="GalleryLSMain" >
+        <div className="GalleryLS container" data-aos="zoom-in-up">
           <div>
             <h1 className="GalleryLS-Head">
               Explore Our Diverse <span>Portfolio</span>

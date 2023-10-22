@@ -56,17 +56,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: absolute;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 92%;
   position: relative;
+  border-radius: 0.8rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox1 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg3-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg1-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg2-Shadow, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGalleryImg3-Shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 0.8rem;
   z-index: 10;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.94%, #000 91.56%);
 }
@@ -78,6 +83,10 @@
   color: #ffffff;
   font-family: Rasa;
 }
+.HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox1 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox2 .HomeGSGallery-Img3, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img1, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img2, .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3:hover .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
+  transform: scale(1.05);
+  transition: 300ms ease;
+}
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 {
   width: 30rem;
   height: 20rem;
@@ -88,8 +97,8 @@
   font-size: 1.2rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
-  width: 28.5rem;
-  height: 18.5rem;
+  min-width: 100%;
+  height: 100%;
   border-radius: 0.8rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
@@ -102,8 +111,8 @@
   font-size: 0.8rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
-  width: 16.5rem;
-  height: 8.5rem;
+  width: 100%;
+  min-height: 85%;
   border-radius: 0.8rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
@@ -116,8 +125,8 @@
   font-size: 1rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
-  width: 13.5rem;
-  height: 10.5rem;
+  width: 100%;
+  min-height: 100%;
   border-radius: 0.8rem;
 }
 .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
@@ -184,8 +193,6 @@
     font-size: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
-    width: 12rem;
-    height: 9rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
@@ -197,10 +204,6 @@
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
     font-size: 0.7rem;
   }
-  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
-    width: 8rem;
-    height: 4rem;
-  }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
     width: 7rem;
     height: 7rem;
@@ -211,8 +214,6 @@
     font-size: 0.7rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
-    width: 6rem;
-    height: 6rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {
@@ -271,8 +272,6 @@
     font-size: 1rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer1 .HomeGSGallery-ImgBox1 .HomeGSGallery-Img1 {
-    width: 17rem;
-    height: 11rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 {
@@ -284,10 +283,6 @@
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGalleryImg2-Shadow .HomeGSGalleryImg1Shadow-Text {
     font-size: 0.8rem;
   }
-  .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer2 .HomeGSGallery-ImgBox2 .HomeGSGallery-Img2 {
-    width: 11rem;
-    height: 6rem;
-  }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 {
     width: 10rem;
     height: 7rem;
@@ -298,8 +293,6 @@
     font-size: 0.9rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-ImgContainer3 .HomeGSGallery-ImgBox3 .HomeGSGallery-Img3 {
-    width: 9rem;
-    height: 6rem;
     border-radius: 0.8rem;
   }
   .HomeGSMain .HomeGS .HomeGS-Gallery .HomeGSGallery-BlueBG {

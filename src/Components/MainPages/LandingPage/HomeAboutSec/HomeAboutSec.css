@@ -21,6 +21,7 @@
   justify-content: center;
 }
 .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
+  min-width: 100%;
   height: 100%;
 }
 .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
@@ -118,7 +119,6 @@
     height: 23rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
-    width: 100%;
     height: 100%;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
@@ -179,7 +179,6 @@
     height: 28rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
-    width: 100%;
     height: 100%;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
@@ -240,7 +239,6 @@
     height: 25rem;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgBox .HomeAS-Img {
-    width: 100%;
     height: 100%;
   }
   .HomeASMain .HomeAS .HomeAS-ImageContainer .HomeAS-ImgShadow {
