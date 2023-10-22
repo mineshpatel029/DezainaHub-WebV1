@@ -36,7 +36,7 @@
   overflow: hidden;
 }
 .GalleryLSMain .GalleryLS .GalleryLS-ImgBox .GalleryLS-Img {
-  width: 100%;
+  min-width: 100%;
 }
 .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer {
   width: 50rem;
@@ -94,7 +94,7 @@
     height: 15rem;
   }
   .GalleryLSMain .GalleryLS .GalleryLS-ImgBox .GalleryLS-Img {
-    height: 100%;
+    min-width: 170%;
   }
   .GalleryLSMain .GalleryLS .GalleryLS-CategoryContainer {
     width: 100%;

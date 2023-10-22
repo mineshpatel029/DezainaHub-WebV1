@@ -5,7 +5,7 @@ import GalleryImgSec from './GalleryImgSec/GalleryImgSec';
 
 export const GalleryPage = () => {
   return (
-    <div className='GalleryPageMain'>
+    <div className='GalleryPageMain' >
         <GalleryLandingSec/>
         {/* <GalleryImgSec/> */}
     </div>

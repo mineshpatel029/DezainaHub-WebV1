@@ -31,7 +31,7 @@ export const FeaturedServiceSec = () => {
 
   return (
     <div className='FeaturedSSMain'>
-        <div className='FeaturedSS container'>
+        <div className='FeaturedSS container' data-aos="fade-up">
             <div className='FeaturedSS-Head'>
                 <h6 className='FeaturedSSHead-Title'>Services</h6>
                 <h1 className='FeaturedSSHead-Heading'>Explore <span>Featured</span> Services</h1>

@@ -112,7 +112,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    border: px solid red;
   }
   .GalleryISMain .GalleryIS .GalleryIS-Gallery .GalleryIS-GalleryContainer {
     grid-template-columns: 20rem;

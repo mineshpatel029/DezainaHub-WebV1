@@ -17,10 +17,11 @@ export const HeaderSec = () => {
     <div className="NavMainContainer">
       <nav className="NavBarStyle container">
       <div className="NavBarLogoStyle">
-
         <div className="Nav-Logo">
+      <NavLink to="/" className="nav-item">
           <img src={LogoImg} />
           {/* <img src={LogoImgName} /> */}
+        </NavLink>
         </div>
         <div onClick={()=>{if (navMV==='Responsive'){
         setNavMV('MV');

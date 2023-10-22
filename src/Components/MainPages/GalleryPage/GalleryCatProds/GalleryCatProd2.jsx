@@ -98,7 +98,7 @@ export const GalleryCatProd2 = () => {
   
 
   return (
-    <div className="GalleryISMain">
+    <div className="GalleryISMain" data-aos="fade-up">
       <div className="GalleryIS">
         <div className="GalleryIS-ProductStrip">
           <div className="GalleryIS-ProductList container">
@@ -130,7 +130,7 @@ export const GalleryCatProd2 = () => {
             ))} */}
 
             {ShowProd(activeProd).map((ImgData, i) => (
-              <div key={i} className="GalleryIS-ImgContainer">
+              <div key={i} className="GalleryIS-ImgContainer" data-aos="fade-up">
                 <button
                   className="GalleryIS-ImgBox"
                   // className={

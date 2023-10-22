@@ -6,7 +6,7 @@ import ContactFormFinal from "./ContactFormStages/ContactFinalStage/ContactFormF
 export const ContactLandingSec = () => {
   return (
     <div className="ContactLSMain">
-      <div className="ContactLS container">
+      <div className="ContactLS container" data-aos="zoom-in-up">
         <div className="ContactLS-Head">
           <h1 className="ContactLSHead-Heading">
             Looking To Find And <span>Hire</span> Great <span>Designers</span>?
@@ -19,7 +19,7 @@ export const ContactLandingSec = () => {
           </p>
         </div>
         <div className="ContactLS-FormContainer">
-          <div className="ContactLS-FormBox">
+          <div className="ContactLS-FormBox" data-aos="fade-up">
             <ContactForm1 />
             {/* <ContactFormFinal/> */}
           </div>

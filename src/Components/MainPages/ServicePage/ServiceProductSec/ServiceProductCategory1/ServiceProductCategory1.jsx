@@ -6,7 +6,7 @@ import FormatPrice from "../../../../../Helpers/FormatPrice";
 
 export const ServiceProductCategory1 = () => {
   return (
-    <div className="ServicePC1-Main">
+    <div className="ServicePC1-Main" data-aos="fade-up">
       <div className="ServicePS-CategoryHeadStrip">
         <h1 className="ServicePS-CategoryHead">VISUAL BRANDING</h1>
       </div>
@@ -14,7 +14,7 @@ export const ServiceProductCategory1 = () => {
         <div className="ServicePS-ProductList">
           <div className="ServicePS-Products">
             {ProductDataC1.map((Product) => (
-              <div className="SPSBodyContent-Box">
+              <div className="SPSBodyContent-Box" data-aos="zoom-in-up">
                 <div className="SPSBodyContentBox-ImgContainer">
                   <img
                     className="SPSBodyContentBox-Img"
