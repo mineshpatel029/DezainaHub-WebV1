@@ -35,15 +35,15 @@ export const HomeLandingSec = () => {
                     <div className='HomeLSContentBase-Values'>
                         <div className='HomeLSContentBaseValues-Items'>
                             <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={340} duration={3} delay={0} />+</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Business Elevated with DezainaHub</h6>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Business Transformed </h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
-                            <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={28} duration={3} delay={0} />*</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Average Active Clients</h6>
+                            <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={15} duration={3} delay={0} />+</h3>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Diverse Industries Served</h6>
                         </div>
                         <div className='HomeLSContentBaseValues-Items'>
                             <h3 className='HomeLSContentBaseValuesItems-Value'><CountUp start={0} end={95} duration={3} delay={0} />%</h3>
-                            <h6 className='HomeLSContentBaseValuesItems-Description'>Satisfaction Percentage</h6>
+                            <h6 className='HomeLSContentBaseValuesItems-Description'>Client Satisfaction Rate</h6>
                         </div>
                     </div>
                 </div>
