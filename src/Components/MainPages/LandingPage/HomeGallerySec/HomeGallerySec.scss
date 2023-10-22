@@ -58,15 +58,20 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                overflow: hidden;
                 position: absolute;
                 .HomeGSGallery-ImgBox1 , .HomeGSGallery-ImgBox2 , .HomeGSGallery-ImgBox3{
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 90%;
+                    width: 92%;
                     position: relative;
+                    border-radius: $SecondaryBorderRadius;
                     .HomeGSGalleryImg1-Shadow , .HomeGSGalleryImg2-Shadow , .HomeGSGalleryImg3-Shadow{
                         position: absolute;
                         width: 100%;
                         height: 100%;
-                        border-radius: $SecondaryBorderRadius;
                         z-index: 10;
                         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.94%, #000 91.56%);
                         .HomeGSGalleryImg1Shadow-Text, .HomeGSGalleryImg2Shadow-Text , .HomeGSGalleryImg3Shadow-Text{
@@ -80,6 +85,16 @@
                     }
                 }
             } 
+            .HomeGSGallery-ImgContainer1:hover, .HomeGSGallery-ImgContainer2:hover, .HomeGSGallery-ImgContainer3:hover{
+                
+                .HomeGSGallery-ImgBox1 , .HomeGSGallery-ImgBox2 , .HomeGSGallery-ImgBox3{
+                    .HomeGSGallery-Img1, .HomeGSGallery-Img2, .HomeGSGallery-Img3{
+                        transform: scale(1.05);
+                        transition: 300ms ease;
+                    }
+                    
+                }
+            }
 
             .HomeGSGallery-ImgContainer1{
                 width: 30rem;
@@ -93,8 +108,8 @@
                         }
                     }
                         .HomeGSGallery-Img1{
-                            width: 28.5rem;
-                            height: 18.5rem;
+                            min-width: 100%;
+                            height: 100%;
                             border-radius: $SecondaryBorderRadius;
                         }
                     
@@ -114,8 +129,8 @@
                         }
                     }
                 .HomeGSGallery-Img2{
-                    width: 16.5rem;
-                    height: 8.5rem;
+                    width: 100%;
+                    min-height: 85%;
                     border-radius: $SecondaryBorderRadius;
                 
             }
@@ -135,8 +150,8 @@
                         }
                     }
                 .HomeGSGallery-Img3{
-                    width: 13.5rem;
-                    height: 10.5rem;
+                    width: 100%;
+                    min-height: 100%;
                     border-radius: $SecondaryBorderRadius;
                 
             }
@@ -285,8 +300,8 @@
                         }
                     }
                         .HomeGSGallery-Img1{
-                            width: 12rem;
-                            height: 9rem;
+                            // width: 12rem;
+                            // height: 9rem;
                             border-radius: $SecondaryBorderRadius;
                         }
                     
@@ -306,8 +321,8 @@
                         }
                     }
                 .HomeGSGallery-Img2{
-                    width: 8rem;
-                    height: 4rem;
+                    // width: 8rem;
+                    // height: 4rem;
                 
             }
         }
@@ -325,8 +340,8 @@
                         }
                     }
                 .HomeGSGallery-Img3{
-                    width: 6rem;
-                    height: 6rem;
+                    // width: 6rem;
+                    // height: 6rem;
                     border-radius: $SecondaryBorderRadius;
                 
             }
@@ -409,8 +424,8 @@
                         }
                     }
                         .HomeGSGallery-Img1{
-                            width: 17rem;
-                            height: 11rem;
+                            // width: 17rem;
+                            // height: 11rem;
                             border-radius: $SecondaryBorderRadius;
                         }
                     
@@ -430,8 +445,8 @@
                         }
                     }
                 .HomeGSGallery-Img2{
-                    width: 11rem;
-                    height: 6rem;
+                    // width: 11rem;
+                    // height: 6rem;
                 
             }
         }
@@ -449,8 +464,8 @@
                         }
                     }
                 .HomeGSGallery-Img3{
-                    width: 9rem;
-                    height: 6rem;
+                    // width: 9rem;
+                    // height: 6rem;
                     border-radius: $SecondaryBorderRadius;
                 
             }
