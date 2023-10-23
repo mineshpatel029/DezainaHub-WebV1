@@ -138,8 +138,9 @@
 
 @media screen and (max-width: 900px) {
   .AboutTSMain .AboutTS {
+    padding-left: 1rem !important;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem !important;
   }
   .AboutTSMain .AboutTS .AboutTS-Body {
     width: 100%;
@@ -158,44 +159,63 @@
     width: 3rem;
     height: 3rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer {
-    position: relative;
+  .AboutTSMain .AboutTS .swiper-slide-active, .AboutTSMain .AboutTS .swiper-slide, .AboutTSMain .AboutTS .swiper-slide-visible {
+    width: 100%;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox {
-    bottom: 2rem;
-    right: -2rem;
-    width: 13rem;
-    height: 8rem;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer {
+    width: 30rem;
+    height: 25rem;
+    gap: 2rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head {
+    height: 6rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox {
+    width: 5rem;
+    height: 5rem;
+    top: 2rem;
+    left: 35%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox .AboutTSImgContainer-HeadImg {
+    width: 100%;
+    min-height: 100%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content {
     padding: 1rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-Content {
-    font-family: Rasa;
-    color: #888888;
-    margin-bottom: 1rem;
-    font-size: 0.5rem;
-    margin-bottom: 1rem;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Brand {
+    font-size: 1rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom {
-    display: flex;
-    flex-direction: column;
-  }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Name {
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-BrandFeild {
     font-size: 0.6rem;
+    margin-bottom: 1rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
-    margin-top: -0.5rem;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Review {
+    font-size: 0.7rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-FloatBox .AboutTSImgFloatBox-ReviewFrom .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG svg {
-    width: 0.5rem !important;
-    height: 0.5rem !important;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person {
+    padding: 0.5rem 0rem;
+    width: 10rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox {
-    width: 18rem;
-    height: 25rem;
-    overflow: hidden;
-    border-radius: 1.25rem;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person .AboutTSImgContainer-PersonName {
+    font-size: 0.8rem;
   }
-  .AboutTSMain .AboutTS .AboutTS-ImgContainer .AboutTSImgContainer-ImgBox .AboutTSImgContainer-Img {
-    width: 100%;
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
+    display: flex;
+    gap: 0.25rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
+    padding: 0rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG svg {
+    width: 1rem !important;
+    height: 1rem !important;
   }
 }/*# sourceMappingURL=AboutTestimonial.css.map */
