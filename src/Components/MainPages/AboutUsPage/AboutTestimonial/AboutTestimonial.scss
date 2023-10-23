@@ -202,8 +202,9 @@
 @media screen and (max-width: 900px){
     .AboutTSMain{
         .AboutTS{
+            padding-left: 1rem !important;
             flex-direction: column;
-            gap: 2rem;
+            gap: 1rem !important;
             .AboutTS-Body{
                 width: 100%;
                 text-align: center;
@@ -222,47 +223,108 @@
                     height: 3rem;
                 }
             }
-            .AboutTS-ImgContainer{
-                position: relative;
-                .AboutTSImgContainer-FloatBox{
-                    bottom: 2rem;
-                    right: -2rem;
-                    width: 13rem;
-                    height: 8rem;
-                    padding: 1rem;
-                    .AboutTSImgFloatBox-Content{
-                        font-family: $ContentFont;
-                        color: $ContentFontColor;
-                        margin-bottom: 1rem;
-                        font-size: 0.5rem;
-                        margin-bottom: 1rem;
-                    }
-                    .AboutTSImgFloatBox-ReviewFrom{
-                        display: flex;
-                        flex-direction: column;
-                        .AboutTSImgFloatBox-Name{
-                            font-size: 0.6rem;
-                        }
-                        .AboutTSImgFloatBox-Ratings{
-                            .AboutTSImgFloatBoxRate-SVG{
-                                margin-top: -0.5rem;
-                                svg{
-                                    width: 0.5rem !important;
-                                    height: 0.5rem !important;
+            // .AboutTS-ImgContainer{
+            //     position: relative;
+            //     .AboutTSImgContainer-FloatBox{
+            //         bottom: 2rem;
+            //         right: -2rem;
+            //         width: 13rem;
+            //         height: 8rem;
+            //         padding: 1rem;
+            //         .AboutTSImgFloatBox-Content{
+            //             font-family: $ContentFont;
+            //             color: $ContentFontColor;
+            //             margin-bottom: 1rem;
+            //             font-size: 0.5rem;
+            //             margin-bottom: 1rem;
+            //         }
+            //         .AboutTSImgFloatBox-ReviewFrom{
+            //             display: flex;
+            //             flex-direction: column;
+            //             .AboutTSImgFloatBox-Name{
+            //                 font-size: 0.6rem;
+            //             }
+            //             .AboutTSImgFloatBox-Ratings{
+            //                 .AboutTSImgFloatBoxRate-SVG{
+            //                     margin-top: -0.5rem;
+            //                     svg{
+            //                         width: 0.5rem !important;
+            //                         height: 0.5rem !important;
 
-                                }
+            //                     }
                                 
+            //                 }
+            //             }
+            //         }
+            //     }
+            //     .AboutTSImgContainer-ImgBox{
+            //         width: 18rem;
+            //         height: 25rem;
+            //         overflow: hidden;
+            //         border-radius: $PrimaryBorderRadius;
+            //         .AboutTSImgContainer-Img{
+            //             width: 100%;
+            //         }
+            //     }
+            // }
+            .swiper-slide-active, .swiper-slide, .swiper-slide-visible{
+                width: 100%;
+            }
+            .AboutTS-ReviewBox{
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                padding: 2rem;
+                width:100%;
+                
+                .AboutTS-ImgContainer{
+                    width: 30rem;
+                    height: 25rem;
+                    gap: 2rem;
+                    .AboutTSImgContainer-Head{
+                        height: 6rem;
+                        .AboutTSImgContainer-HeadImgBox{
+                            width: 5rem;
+                            height: 5rem;
+                            top: 2rem;
+                            left: 35%;
+                            .AboutTSImgContainer-HeadImg{
+                                width: 100%;
+                                min-height: 100%;
                             }
                         }
                     }
-                }
-                .AboutTSImgContainer-ImgBox{
-                    width: 18rem;
-                    height: 25rem;
-                    overflow: hidden;
-                    border-radius: $PrimaryBorderRadius;
-                    .AboutTSImgContainer-Img{
-                        width: 100%;
+                    .AboutTSImgContainer-Content{
+                        padding: 1rem ;
+                        .AboutTSImgContainer-Brand{
+                            font-size: 1rem;
+                        }
+                        .AboutTSImgContainer-BrandFeild{
+                            font-size: 0.6rem;
+                            margin-bottom: 1rem;
+                        }
+                        .AboutTSImgContainer-Review{
+                            font-size: 0.7rem;
+                        }
+                        .AboutTSImgContainer-Person{
+                            padding: 0.5rem 0rem;
+                            width: 10rem;
+                            .AboutTSImgContainer-PersonName{
+                                font-size: 0.8rem;
+                            }
+                        }
+                        .AboutTSImgFloatBox-Ratings{
+                            display: flex;
+                            gap: 0.25rem;
+                            .AboutTSImgFloatBoxRate-SVG{
+                                padding: 0rem;
+                                svg{
+                                    width: 1rem !important;
+                                    height: 1rem !important;
+                                    
+                                }
+                            }
+                        }
                     }
                 }
             }
