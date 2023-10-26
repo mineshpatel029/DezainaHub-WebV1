@@ -159,7 +159,7 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .ServicePSMain .ServicePS-CategoryStrip {
     min-height: 3rem;
   }
@@ -192,6 +192,69 @@
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box {
     width: 18rem;
     border-radius: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    width: 160%;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content {
+    padding: 0rem 1rem;
+    gap: 1rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductName {
+    font-size: 1rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-HeadContent .SPSBodyContentBox-ProductPrice {
+    font-size: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Content .SPSBodyContentBox-BodyContent {
+    font-size: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-Body {
+    margin: 0rem 1rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Button {
+    width: 10rem;
+    height: 2.5rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .ServicePSMain .ServicePS-CategoryStrip {
+    min-height: 3rem;
+  }
+  .ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    gap: 1rem;
+  }
+  .ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList .ServicePS-Category {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .ServicePSMain .ServicePS-CategoryHeadStrip {
+    height: 4rem;
+  }
+  .ServicePSMain .ServicePS-CategoryHeadStrip .ServicePS-CategoryHead {
+    font-size: 1.25rem;
+  }
+  .ServicePSMain .ServicePS {
+    margin-top: 2rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList {
+    gap: 2rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 17.25rem 17.25rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box {
+    width: 17.25rem;
+    min-height: 25rem;
+    border-radius: 0.8rem;
+  }
+  .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer {
+    height: 12rem;
   }
   .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Products .SPSBodyContent-Box .SPSBodyContentBox-ImgContainer .SPSBodyContentBox-Img {
     border-radius: 0.8rem 0.8rem 0rem 0rem;

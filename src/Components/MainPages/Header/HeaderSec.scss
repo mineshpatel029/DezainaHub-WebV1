@@ -187,7 +187,7 @@
         .Nav-Logo{
             // margin-left: 0rem;
             img{
-                height: 2rem;
+                height: 2.5rem;
             }
         }
         .NavhamBurger{
@@ -211,16 +211,16 @@
             background-color: $PrimaryColor;
             flex-direction: column;
             gap: 0.5rem;
-            width: 110%;
+            width: 120%;
             align-items: center;
-            margin-left: -2vb !important;
+            margin-left: -5vb !important;
       
         .NavBarList-Items{
             // width: 13vb;
             height: 2.5rem;
     
             .activeButton{
-                // width: 13vb;
+                width: 16vb;
                 height: 100%;
                 padding-top: 0.6rem;
                 border-radius: $SecondaryBorderRadius;
