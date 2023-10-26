@@ -55,8 +55,8 @@
             .GalleryIS-ImgBox{
                 border-radius: $SecondaryBorderRadius;
                 overflow: hidden;
-                width: 18rem;
-                height: 12rem;
+                width: 70%;
+                height: 70%;
                 box-shadow: $SecondaryShadow;
                 display: flex;
                 align-items: center;
@@ -99,7 +99,7 @@
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 500px){
     .GalleryISMain{
         .GalleryIS{
             .GalleryIS-ProductStrip{
@@ -133,8 +133,6 @@
                 align-items: center;
                 .GalleryIS-ImgBox{
                     border-radius: $SecondaryBorderRadius;
-                    width: 15rem;
-                    height: 10rem;
                 }
                } 
                  }
@@ -148,48 +146,47 @@
     }
 }
 
-// @media screen and (max-width: 900px){
-//     .GalleryISMain{
-//         .GalleryIS{
-//             .GalleryIS-ProductStrip{
-//                 height: 3rem;
-//                 .GalleryIS-ProductList{
-//                     .GalleryISStrip-Product,.GalleryISStrip-ProductActive{
-//                         padding: 1rem 0.8rem;
-//                         font-size: 0.6rem;
-//                     }
-//                 }
-//             }
-//             .GalleryIS-Gallery{
-//                 padding: 1rem;
-//                 display: flex;
-//                 gap: 0.5rem;
-//                 flex-direction: column;
-//                 align-items: center;
-    
-//                 .GalleryIS-GalleryContainer{
-//                 grid-template-columns: 9rem 9rem 9rem;
-//                 gap: 0.5rem;
-//                .GalleryIS-ImgContainer{
-//                 width: 9rem;
-//                 height: 6rem;
-//                 border-radius: $PrimaryBorderRadius;
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 .GalleryIS-ImgBox{
-//                     border-radius: $SecondaryBorderRadius;
-//                     width: 6.5rem;
-//                     height: 3.5rem;
-//                 }
-//                } 
-//                  }
-//                 .GalleryIS-ImgButton{
-//                     font-size: 0.6rem;
-//                     width: 8rem;
-//                     height: 2rem;
-//                 }
-//         }
-//         }
-//     }
-// }
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .GalleryISMain{
+        .GalleryIS{
+            .GalleryIS-ProductStrip{
+                height: 3rem;
+                .GalleryIS-ProductList{
+                    width: 100% !important;
+                    // display: grid;
+                    margin: 0rem;
+                    // grid-template-columns: 5rem 5rem 5rem;
+                    .GalleryISStrip-Product,.GalleryISStrip-ProductActive{
+                        padding: 1rem 0.8rem;
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+            .GalleryIS-Gallery{
+                padding: 1rem;
+                display: flex;
+                gap: 1rem;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                .GalleryIS-GalleryContainer{
+                grid-template-columns: 18.25rem 18rem;
+                gap: 0.5rem;
+               .GalleryIS-ImgContainer{
+                width: 18rem;
+                height: 13rem;
+                border-radius: $PrimaryBorderRadius;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               } 
+                 }
+                .GalleryIS-ImgButton{
+                    font-size: 0.6rem;
+                    width: 8rem;
+                    height: 2rem;
+                }
+        }
+        }
+    }
+}

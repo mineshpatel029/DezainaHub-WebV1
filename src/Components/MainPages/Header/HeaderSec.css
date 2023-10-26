@@ -157,7 +157,7 @@
     justify-content: space-between;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .Nav-Logo img {
-    height: 2rem;
+    height: 2.5rem;
   }
   .NavMainContainer .NavBarStyle .NavBarLogoStyle .NavhamBurger {
     display: flex;
@@ -176,14 +176,15 @@
     background-color: #1e1e1e;
     flex-direction: column;
     gap: 0.5rem;
-    width: 110%;
+    width: 120%;
     align-items: center;
-    margin-left: -2vb !important;
+    margin-left: -5vb !important;
   }
   .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items {
     height: 2.5rem;
   }
   .NavMainContainer .NavBarStyle .NavBarList .NavBarList-Items .activeButton, .NavMainContainer .NavBarStyle .NavBarListMV .NavBarList-Items .activeButton {
+    width: 16vb;
     height: 100%;
     padding-top: 0.6rem;
     border-radius: 0.8rem;

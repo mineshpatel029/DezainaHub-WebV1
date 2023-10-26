@@ -90,6 +90,7 @@
   min-height: 100%;
 }
 .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content {
+  max-height: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -136,7 +137,7 @@
   height: 1rem !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .AboutTSMain .AboutTS {
     padding-left: 1rem !important;
     flex-direction: column;
@@ -209,6 +210,87 @@
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
     display: flex;
+    gap: 0.25rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
+    padding: 0rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG svg {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .AboutTSMain .AboutTS {
+    padding-left: 1rem !important;
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+  .AboutTSMain .AboutTS .AboutTS-Body {
+    width: 100%;
+    text-align: center;
+  }
+  .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Title {
+    font-size: 0.6rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Heading {
+    font-size: 1.8rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-Content {
+    font-size: 0.8rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-ButtonPrev, .AboutTSMain .AboutTS .AboutTS-Body .AboutTSBody-ButtonNext {
+    width: 3rem;
+    height: 3rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer {
+    width: 25rem;
+    height: 27rem;
+    gap: 2rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head {
+    height: 7rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox {
+    width: 7rem;
+    height: 7rem;
+    top: 2rem;
+    left: 35%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head .AboutTSImgContainer-HeadImgBox .AboutTSImgContainer-HeadImg {
+    width: 100%;
+    min-height: 100%;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content {
+    padding: 1rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Brand {
+    font-size: 1.5rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-BrandFeild {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Review {
+    font-size: 0.8rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person {
+    padding: 0.5rem 0.25rem;
+    width: 12rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgContainer-Person .AboutTSImgContainer-PersonName {
+    font-size: 1rem;
+  }
+  .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
+    display: flex;
+    justify-content: center;
     gap: 0.25rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
