@@ -81,7 +81,7 @@
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 500px){
     .AboutLSMain{
         padding-top: 8rem;
         height: 35rem;
@@ -102,6 +102,58 @@
                         
                     left: 0rem;
                     top: -3rem;
+                    }
+                }
+                .AboutLSImg-FloatBox{
+                    width: 12rem;
+                    height: 6rem;
+                    .AboutLSImgFloatBox-Head{
+                        gap: 0.5rem;
+                        justify-content: space-between;
+                        .AboutLSImgFloatBoxHead-Heading{
+                            font-size: 0.8rem;
+                        }
+                        .AboutLSImgFloatBoxHead-Line{
+                            width: 10rem;
+                        }
+    
+                    }
+                    .AboutLSImgFloatBox-Body{
+                        .AboutLSImgFloatBoxBody-Head{
+                            font-size: 1rem; 
+                            margin-bottom: 0.5rem;
+                        }
+                        .AboutLSImgFloatBoxBody-Content{
+                            font-size: 0.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .AboutLSMain{
+        padding-top: 8rem;
+        height: 35rem;
+        .AboutLS{
+            gap: 2rem;
+            .AboutLS-Head{
+                font-size: 1.8rem;
+                width: 100%;
+            }
+            .AboutLS-ImgBox{
+                width: 100%;
+                .AboutLS-ImgContainer{
+                    width: 100%;
+                    height: 18rem;
+                    .AboutLS-Img{
+                        min-width: 145%;
+                        // min-height: 110%;
+                        
+                    left: 0rem;
+                    top: -4rem;
                     }
                 }
                 .AboutLSImg-FloatBox{

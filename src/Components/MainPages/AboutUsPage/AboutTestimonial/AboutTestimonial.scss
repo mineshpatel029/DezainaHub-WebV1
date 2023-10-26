@@ -146,6 +146,7 @@
                     }
                 }
                 .AboutTSImgContainer-Content{
+                    max-height: 80%;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
@@ -199,7 +200,7 @@
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 500px){
     .AboutTSMain{
         .AboutTS{
             padding-left: 1rem !important;
@@ -332,71 +333,90 @@
     }
 }
 
-// @media screen and (max-width: 900px){
-//     .AboutTSMain{
-//         .AboutTS{
-//             gap: 2rem;
-//             .AboutTS-Body{
-//                 width: 15rem;
-//                 .AboutTSBody-Title{
-//                     font-size: 0.6rem;
-//                 }
-//                 .AboutTSBody-Heading{
-//                     font-size: 1.25rem;
-//                 }
-//                 .AboutTSBody-Content{
-//                     font-size: 0.6rem;
-//                 }
-//                 .AboutTSBody-ButtonPrev, .AboutTSBody-ButtonNext{
-                    
-//                     width: 2rem;
-//                     height: 2rem;
-//                 }
-//             }
-//             .AboutTS-ImgContainer{
-//                 position: relative;
-//                 .AboutTSImgContainer-FloatBox{
-//                     bottom: 1rem;
-//                     right: -0.5rem;
-//                     width: 10rem;
-//                     height: 6rem;
-//                     padding: 0.5rem 0.8rem;
-//                     .AboutTSImgFloatBox-Content{
-//                         font-family: $ContentFont;
-//                         color: $ContentFontColor;
-//                         margin-bottom: 1rem;
-//                         font-size: 0.4rem;
-//                         margin-bottom: 0.3rem;
-//                     }
-//                     .AboutTSImgFloatBox-ReviewFrom{
-//                         display: flex;
-//                         flex-direction: column;
-//                         .AboutTSImgFloatBox-Name{
-//                             font-size: 0.6rem;
-//                         }
-//                         .AboutTSImgFloatBox-Ratings{
-//                             .AboutTSImgFloatBoxRate-SVG{
-//                                 margin-top: -0.5rem;
-//                                 svg{
-//                                     width: 0.5rem !important;
-//                                     height: 0.5rem !important;
 
-//                                 }
-                                
-//                             }
-//                         }
-//                     }
-//                 }
-//                 .AboutTSImgContainer-ImgBox{
-//                     width: 13rem;
-//                     height: 18rem;
-//                     overflow: hidden;
-//                     border-radius: $PrimaryBorderRadius;
-//                     .AboutTSImgContainer-Img{
-//                         width: 100%;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+@media screen and (min-width: 500px) and (max-width:900px){
+    .AboutTSMain{
+        .AboutTS{
+            padding-left: 1rem !important;
+            flex-direction: column;
+            gap: 1rem !important;
+            .AboutTS-Body{
+                width: 100%;
+                text-align: center;
+                .AboutTSBody-Title{
+                    font-size: 0.6rem;
+                }
+                .AboutTSBody-Heading{
+                    font-size: 1.8rem;
+                }
+                .AboutTSBody-Content{
+                    font-size: 0.8rem;
+                }
+                .AboutTSBody-ButtonPrev, .AboutTSBody-ButtonNext{
+                    
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+            .AboutTS-ReviewBox{
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                padding: 2rem;
+                width:100%;
+                
+                .AboutTS-ImgContainer{
+                    width: 25rem;
+                    height: 27rem;
+                    gap: 2rem;
+                    .AboutTSImgContainer-Head{
+                        height: 7rem;
+                        .AboutTSImgContainer-HeadImgBox{
+                            width: 7rem;
+                            height: 7rem;
+                            top: 2rem;
+                            left: 35%;
+                            .AboutTSImgContainer-HeadImg{
+                                width: 100%;
+                                min-height: 100%;
+                            }
+                        }
+                    }
+                    .AboutTSImgContainer-Content{
+                        padding: 1rem ;
+                        .AboutTSImgContainer-Brand{
+                            font-size: 1.5rem;
+                        }
+                        .AboutTSImgContainer-BrandFeild{
+                            font-size: 0.8rem;
+                            margin-bottom: 1rem;
+                        }
+                        .AboutTSImgContainer-Review{
+                            font-size: 0.8rem;
+                        }
+                        .AboutTSImgContainer-Person{
+                            padding: 0.5rem 0.25rem;
+                            width: 12rem;
+                            .AboutTSImgContainer-PersonName{
+                                font-size: 1rem;
+                            }
+                        }
+                        .AboutTSImgFloatBox-Ratings{
+                            display: flex;
+                            justify-content: center;
+                            gap: 0.25rem;
+                            .AboutTSImgFloatBoxRate-SVG{
+                                padding: 0rem;
+                                svg{
+                                    width: 1rem !important;
+                                    height: 1rem !important;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

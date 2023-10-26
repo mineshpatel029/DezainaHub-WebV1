@@ -11,13 +11,14 @@ import C1B1Img6 from "./ProductImages/Category1Imgs/C1Prod1/Punjab House.jpg"
 import C1B1Img7 from "./ProductImages/Category1Imgs/C1Prod1/Justitia.jpg"
 
 import C1B2Img1 from "./ProductImages/Category1Imgs/C1Prod2/MarketGabru.jpg"
-import C1B2Img2 from "./ProductImages/Category1Imgs/C1Prod2/HermesLaw.jpg"
+import C1B2Img2 from "./ProductImages/Category1Imgs/C1Prod2/Brand.jpg"
+import C1B2Img3 from "./ProductImages/Category1Imgs/C1Prod2/HermesLaw.jpg"
 
 import C1B3Img1 from "./ProductImages/Category1Imgs/C1Prod3/DripCast podcast.jpg"
 import C1B3Img2 from "./ProductImages/Category1Imgs/C1Prod3/Advocate Mratyunjay-min.jpg"
 import C1B3Img3 from "./ProductImages/Category1Imgs/C1Prod3/Arcadience Architects-min.jpg"
 import C1B3Img4 from "./ProductImages/Category1Imgs/C1Prod3/Media Master-min.jpg"
-import C1B3Img5 from "./ProductImages/Category1Imgs/C1Prod3/Oven Fresh Delight-min.jpg"
+import C1B3Img5 from "./ProductImages/Category1Imgs/C1Prod3/Urban Trendz-min.jpg"
 import C1B3Img6 from "./ProductImages/Category1Imgs/C1Prod3/Shelter Heavens-min.jpg"
 import C1B3Img7 from "./ProductImages/Category1Imgs/C1Prod3/Sunshine beauty Saloon-min.jpg"
 import C1B3Img8 from "./ProductImages/Category1Imgs/C1Prod3/Trendify-min.jpg"
@@ -41,6 +42,9 @@ import C2B1Img3 from "./ProductImages/Category2Imgs/C2Prod1/Zeal1.jpg"
 import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
 
 import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/Web UI1.png"
+import C2B2Img2 from "./ProductImages/Category2Imgs/C2Prod2/DezainaHub Main.jpg"
+import C2B2Img3 from "./ProductImages/Category2Imgs/C2Prod2/AnilBimal Law Firm.jpg"
+import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
 
 import C2B3Img1 from "./ProductImages/Category2Imgs/C2Prod3/App UI1.jpeg"
 
@@ -109,7 +113,7 @@ const ProductDataC1 = [
     Name: "Brand Kit Design",
     minPrice: "1000",
     maxPrice: "5000",
-    gallery: [C1B2Img1, C1B2Img2],
+    gallery: [C1B2Img1, C1B2Img2, C1B2Img3],
     Description: {
       DescriptHead:
         "Brand kit includes brand guidelines, color palette, typography, orientation and other related details. A brand kit provides a clear set of guidelines for consistent use of your brand's visual elements, ensuring a cohesive and professional image across all materials.",
@@ -212,7 +216,7 @@ const ProductDataC2 = [
     Name: "Website Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [C2B2Img1],
+    gallery: [C2B2Img1, C2B2Img2, C2B2Img3, C2B2Img4],
     Description: {
       DescriptHead:
         "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",

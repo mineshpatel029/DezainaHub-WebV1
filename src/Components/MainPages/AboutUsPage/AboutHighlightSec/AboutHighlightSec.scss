@@ -160,7 +160,7 @@
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 490px){
     .AboutHSMain{
         .AboutHS{
             gap: 2rem;
@@ -255,6 +255,122 @@
                     .AboutHSHeadBodyContainer3Body-Content{
                         margin: 0rem;
                         width: 18rem;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .AboutHSMain{
+        .AboutHS{
+            gap: 2rem;
+           .AboutHS-Head{
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .AboutHSHead-Heading{
+                font-size: 2rem;
+            }
+            .AboutHSHead-Content{
+                width: 100%;
+                font-size: 0.9rem;
+            }
+           } 
+           .AboutHSHead-Body{
+            gap: 5rem;
+            text-align: center;
+            .AboutHSHeadBody-Container1{
+                // justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                width: 100%;
+                flex-direction: column;
+                .AboutHSHeadBodyContainer1-ImgBox{
+                    width: 25rem;
+                    height: 16.5rem;
+                    display: flex;
+                    align-items: center;
+                    .AboutHSHeadBodyContainer1-Img{
+                        min-width: 100% !important;
+                        left: 0rem;
+                        // width: 30rem;
+                        // height: auto;
+                        min-height: 100% !important;
+                    }
+                }
+                .AboutHSHeadBodyContainer1-Body{
+                    width: 25rem;
+                    
+                    .AboutHSHeadBodyContainer1Body-Head{
+                        font-size: 1.5rem;
+    
+                    }
+                    .AboutHSHeadBodyContainer1Body-Content{
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .AboutHSHeadBody-Container2{
+                align-items: center;
+                gap: 2rem;
+                width: 100%;
+                flex-direction: column-reverse;
+                .AboutHSHeadBodyContainer2-Body{
+                    flex-direction: row;
+                    width: 25rem;
+                    gap: 0rem;
+                    padding: 0rem 0.5rem;
+                    justify-content: space-between;
+    
+                    .AboutHSHeadBodyContainer2Body-Content{
+                        font-size: 0.65rem;
+                        width:10rem;
+                        .AboutHSHeadBodyContainer2Body-Head{
+                            font-size: 3.5rem;
+                        }
+                    }
+                }
+                .AboutHSHeadBodyContainer2-ImgBox{
+                    width: 25rem;
+                    height: 18rem;
+                    .AboutHSHeadBodyContainer2-Img{
+                        min-width: 100%;
+                        min-height: 100%;
+                    }
+                }
+            }
+            .AboutHSHeadBody-Container3{
+                width: 100%;
+                gap: 2rem;
+                .AboutHSHeadBodyContainer3-ImgBox{
+                    width: 100%;
+                    height: 12rem;
+                    .AboutHSHeadBodyContainer3-Img{
+                        top: -6rem;
+                    }
+                }
+                .AboutHSHeadBodyContainer3-Body{
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    width: 80%;
+
+                    .AboutHSHeadBodyContainer3Body-Head{
+                        width: 80%;
+                        font-size: 1.5rem;
+                        margin: 0rem;
+                    }
+                    .AboutHSHeadBodyContainer3Body-Content{
+                        margin: 0rem;
+                        width:90%;
                         font-size: 0.8rem;
                     }
                 }

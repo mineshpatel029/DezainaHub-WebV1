@@ -66,7 +66,7 @@
   color: #888888;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .AboutBSMain .AboutBS .AboutBS-Head .AboutBSHead-Title {
     font-size: 0.8rem;
   }
@@ -98,5 +98,39 @@
   .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Body {
     width: 100%;
     font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .AboutBSMain .AboutBS .AboutBS-Head .AboutBSHead-Title {
+    font-size: 0.8rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Head .AboutBSHead-Heading {
+    font-size: 1.5rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Head .AboutBSHead-Content {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content {
+    gap: 1rem;
+    width: 100%;
+    height: 7rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Title {
+    width: 5rem;
+    height: 100%;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Title span {
+    font-size: 2rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content {
+    width: 70%;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Heading {
+    font-size: 1rem;
+  }
+  .AboutBSMain .AboutBS .AboutBS-Body .AboutBSBody-Content .AboutBSBodyContent-Content .AboutBSBodyContent-Body {
+    width: 100%;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=AboutBriefSec.css.map */

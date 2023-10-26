@@ -120,7 +120,7 @@ export const AboutTestimonial = () => {
                             </div>
                         </div>
                         <div className='AboutTSImgContainer-Content'>
-                        <div>
+                            <div className='AboutTSImgContainer-ContentHead'>
                             <h3 className='AboutTSImgContainer-Brand'>
                                 {data.BrandName}
                             </h3>
@@ -131,6 +131,8 @@ export const AboutTestimonial = () => {
                             {data.Review}
                             </p>
                             </div>
+                            <div className='AboutTSImgContainer-ContentHeadFotter'>
+
                             <div className='AboutTSImgContainer-Person' style={{backgroundColor: `${data.brandColor}`}}>
                                 <h6 className='AboutTSImgContainer-PersonName'>{data.PersonName}</h6>
                             </div>
@@ -167,6 +169,7 @@ export const AboutTestimonial = () => {
                                 </div>
 
 
+                            </div>
                             </div>
 
                         </div>
