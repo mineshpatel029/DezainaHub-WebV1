@@ -91,6 +91,7 @@
 }
 .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content {
   max-height: 80%;
+  min-height: 50%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -127,6 +128,7 @@
 }
 .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
   display: flex;
+  justify-content: center;
   gap: 0.25rem;
 }
 .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
@@ -172,7 +174,7 @@
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer {
     width: 30rem;
-    height: 25rem;
+    height: 26rem;
     gap: 2rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Head {
@@ -290,7 +292,6 @@
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings {
     display: flex;
-    justify-content: center;
     gap: 0.25rem;
   }
   .AboutTSMain .AboutTS .AboutTS-ReviewBox .AboutTS-ImgContainer .AboutTSImgContainer-Content .AboutTSImgFloatBox-Ratings .AboutTSImgFloatBoxRate-SVG {
