@@ -147,6 +147,7 @@
                 }
                 .AboutTSImgContainer-Content{
                     max-height: 80%;
+                    min-height: 50%;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
@@ -184,6 +185,7 @@
                     }
                     .AboutTSImgFloatBox-Ratings{
                         display: flex;
+                        justify-content: center;
                         gap: 0.25rem;
                         .AboutTSImgFloatBoxRate-SVG{
                             padding: 0rem;
@@ -280,7 +282,7 @@
                 
                 .AboutTS-ImgContainer{
                     width: 30rem;
-                    height: 25rem;
+                    height: 26rem;
                     gap: 2rem;
                     .AboutTSImgContainer-Head{
                         height: 6rem;
@@ -403,7 +405,6 @@
                         }
                         .AboutTSImgFloatBox-Ratings{
                             display: flex;
-                            justify-content: center;
                             gap: 0.25rem;
                             .AboutTSImgFloatBoxRate-SVG{
                                 padding: 0rem;
