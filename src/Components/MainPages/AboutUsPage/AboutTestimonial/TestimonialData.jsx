@@ -8,7 +8,7 @@ const TestimonialData = [
   BrandName: "Hermes Law",
   BrandFeild: "Law Firm, Delhi",
   PersonName : "Adv Nimit Bhola",
-  Review: "DezainaHub exceeded our expectations in providing complete branding solutions for Hermes Law. Their designers are not only exceptionally talented but also remarkably attentive to client needs. The client-service experience was seamless and professional throughout. We couldn't be more pleased with the results and their commitment to delivering top-notch work. DezainaHub truly transformed our branding vision into a reality.",
+  Review: "Hermes Law extends its profound thankfulness to DezainaHub for creating a website and brochure that radiates sheer creative brilliance. Their creative proficiency, steadfast commitment and special focus on client satisfaction and delivery is truly remarkable. Their ingenious brilliance has truly elevated our brand name. We're thrilled with the result and look forward to future collaborations with this team of remarkable creative thinkers.",
   logoImg: HLLogo,
   brandColor:"#c7ad7c",
 },
