@@ -30,7 +30,7 @@ export const GalleryLandingSec = () => {
 
   return (
     <div>
-      <div className="GalleryLSMain" >
+      <div className="GalleryLSMain">
         <div className="GalleryLS container" data-aos="zoom-in-up">
           <div>
             <h1 className="GalleryLS-Head">
@@ -63,9 +63,9 @@ export const GalleryLandingSec = () => {
             {activeCat === 1 ? (
               "Visual Branding is the core of corporate identity and includes creating a consistent and memorable visual representation for a business"
             ) : activeCat === 2 ? (
-              "Brand Marketing designs focuses on crafting materials that promote products or services, engage customers & convey key messages"
-            ) : activeCat === 3 ? (
               "Digital Interaction design involves crafting online experiences that are user friendly visually appealing and aligned with brand's message & objective"
+            ) : activeCat === 3 ? (
+              "Brand Marketing designs focuses on crafting materials that promote products or services, engage customers & convey key messages"
             ) : (
               <></>
             )}
