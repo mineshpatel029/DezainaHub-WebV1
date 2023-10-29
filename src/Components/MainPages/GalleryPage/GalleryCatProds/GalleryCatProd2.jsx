@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import "./GalleryCatProds.css";
 import PosterImgData from "../GalleryImgSec/GalleryCardData/ImgDataCat1";
 import { GalleryImgProd3 } from "../GalleryImgSec/GalleryImgProd";
@@ -29,7 +29,6 @@ export const GalleryCatProd2 = () => {
         return ProductDataC2[4].gallery;
     }
   };
-
 
   const handelClick = (ImgData, i) => {
     setCurrIndex(i);
@@ -87,15 +86,14 @@ export const GalleryCatProd2 = () => {
     zIndex: "200000000000000",
     top: "0%",
     left: "0%",
- 
+
     // Adding media query..
-    '@media (max-width: 500px)': {
+    "@media (max-width: 500px)": {
       // display: 'none',
-      border: '2px solid red',
-      backgroundColor: 'red',
+      border: "2px solid red",
+      backgroundColor: "red",
     },
-  }
-  
+  };
 
   return (
     <div className="GalleryISMain" data-aos="fade-up">
@@ -130,7 +128,11 @@ export const GalleryCatProd2 = () => {
             ))} */}
 
             {ShowProd(activeProd).map((ImgData, i) => (
-              <div key={i} className="GalleryIS-ImgContainer" data-aos="fade-up">
+              <div
+                key={i}
+                className="GalleryIS-ImgContainer"
+                data-aos="fade-up"
+              >
                 <button
                   className="GalleryIS-ImgBox"
                   // className={
@@ -175,7 +177,7 @@ export const GalleryCatProd2 = () => {
                     padding: "2rem",
                   }}
                 >
-                {/* Cross Button - X */}
+                  {/* Cross Button - X */}
                   <svg
                     width="19"
                     height="19"
@@ -199,10 +201,10 @@ export const GalleryCatProd2 = () => {
                     color: "whitesmoke",
                     cursor: "pointer",
                     padding: "2rem",
-                  zIndex: "200000000000010",
+                    zIndex: "200000000000010",
                   }}
                 >
-                {/* Previous Button */}
+                  {/* Previous Button */}
                   <svg
                     width="38"
                     height="38"
@@ -228,7 +230,7 @@ export const GalleryCatProd2 = () => {
                     padding: "2rem",
                   }}
                 >
-                {/* Next Button */}
+                  {/* Next Button */}
                   <svg
                     width="38"
                     height="38"
