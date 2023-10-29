@@ -58,7 +58,7 @@ export const FooterFoot = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/dezainahub"
+            href="https://www.linkedin.com/in/dezainahub/"
             target="_blank"
           >
             <svg
