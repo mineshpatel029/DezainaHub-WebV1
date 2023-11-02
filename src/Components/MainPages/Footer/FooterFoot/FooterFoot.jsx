@@ -129,7 +129,7 @@ export const FooterFoot = () => {
           </a>
         </div>
         <h6 className="FooterFoot-Copyright">
-          2023 All Rights Reserved @ Dezaina.hub
+          All Rights Reserved @ Singhfinity Designs(OPC) Pvt Ltd
         </h6>
       </div>
     </div>
