@@ -4,11 +4,12 @@ import FeaturedServiceImg3 from "../../Images/9.jpg";
 
 import C1B1Img1 from "./ProductImages/Category1Imgs/C1Prod1/DH logo.jpg"
 import C1B1Img2 from "./ProductImages/Category1Imgs/C1Prod1/cx1- F2-Arcadience-Architects.jpg"
-import C1B1Img3 from "./ProductImages/Category1Imgs/C1Prod1/DStreat.jpg"
-import C1B1Img4 from "./ProductImages/Category1Imgs/C1Prod1/Trimedi Center.jpg"
-import C1B1Img5 from "./ProductImages/Category1Imgs/C1Prod1/Market Gabru.jpg"
-import C1B1Img6 from "./ProductImages/Category1Imgs/C1Prod1/Punjab House.jpg"
-import C1B1Img7 from "./ProductImages/Category1Imgs/C1Prod1/Justitia.jpg"
+import C1B1Img3 from "./ProductImages/Category1Imgs/C1Prod1/Coffee logo 2.jpg"
+import C1B1Img4 from "./ProductImages/Category1Imgs/C1Prod1/DStreat.jpg"
+import C1B1Img5 from "./ProductImages/Category1Imgs/C1Prod1/Trimedi Centre logo.jpg"
+import C1B1Img6 from "./ProductImages/Category1Imgs/C1Prod1/Market Gabru.jpg"
+import C1B1Img7 from "./ProductImages/Category1Imgs/C1Prod1/Punjab House.jpg"
+import C1B1Img8 from "./ProductImages/Category1Imgs/C1Prod1/Justitia.jpg"
 
 import C1B2Img1 from "./ProductImages/Category1Imgs/C1Prod2/MarketGabru.jpg"
 import C1B2Img2 from "./ProductImages/Category1Imgs/C1Prod2/Brand.jpg"
@@ -64,7 +65,8 @@ import C3B1Img3 from "./ProductImages/Category3Imgs/C3Prod1/Football.jpg"
 
 import C3B2Img1 from "./ProductImages/Category3Imgs/C3Prod2/Bag House.jpg"
 import C3B2Img2 from "./ProductImages/Category3Imgs/C3Prod2/Faishon.jpg"
-import C3B2Img3 from "./ProductImages/Category3Imgs/C3Prod2/DPunjab House.jpg"
+import C3B2Img3 from "./ProductImages/Category3Imgs/C3Prod2/Coffee banner.jpg"
+import C3B2Img4 from "./ProductImages/Category3Imgs/C3Prod2/DPunjab House.jpg"
 
 import C3B3Img1 from "./ProductImages/Category3Imgs/C3Prod3/Summer.jpg"
 import C3B3Img2 from "./ProductImages/Category3Imgs/C3Prod3/Coffee.jpg"
@@ -91,7 +93,7 @@ const ProductDataC1 = [
     Name: "Logo Design",
     minPrice: "2000",
     maxPrice: "5000",
-    gallery: [C1B1Img1, C1B1Img2, C1B1Img3, C1B1Img4 , C1B1Img5, C1B1Img6 , C1B1Img7],
+    gallery: [C1B1Img1, C1B1Img2, C1B1Img3, C1B1Img4 , C1B1Img5, C1B1Img6 , C1B1Img7, C1B1Img8],
     Description: {
       DescriptHead:
         "A professionally designed logo is the visual cornerstone of your brand. It's essential for creating a memorable and recognizable brand identity.",
@@ -346,7 +348,7 @@ const ProductDataC3 = [
     Name: "Banner Design",
     minPrice: "500",
     maxPrice: "2500",
-    gallery: [C3B2Img1, C3B2Img2, C3B2Img3],
+    gallery: [C3B2Img1, C3B2Img2, C3B2Img3, C3B2Img4],
     Description: {
       DescriptHead:
         "Banners are excellent for outdoor or indoor advertising, helping to grab the attention of potential customers and conveying key messages effectively.",
