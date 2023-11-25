@@ -354,8 +354,8 @@ const ProductDataC3 = [
         "Banners are excellent for outdoor or indoor advertising, helping to grab the attention of potential customers and conveying key messages effectively.",
 
       DescriptFactors: [
-        { factorsPoints: "Size of the poster" },
-        { factorsPoints: "Complexity of the poster" },
+        { factorsPoints: "Size of the banner" },
+        { factorsPoints: "Complexity of the banner" },
         { factorsPoints: "Customization and graphic elements." },
         { factorsPoints: "Revisions Included" },
       ],
