@@ -99,11 +99,19 @@
                 font-size: 1rem;
             }
             .HomeAboutSecContent-Button{
-                background-color: $HeadFontColor;
+                background-color: $PrimaryColor;
                 color: $SecondaryFontColor;
                 width: 16rem;
                 height: 3.5rem;
                 border-radius: $SecondaryBorderRadius;
+                // background-color: $PrimaryColor;
+                //     font-family: $SecondaryFont;
+                //     font-weight: 600;
+                //     color: $SecondaryFontColor;
+                //     border: none;
+                //     border-radius: $SecondaryBorderRadius;
+                //     width: 16rem;
+                //     height: 3rem;
             }
 
         }

@@ -16,10 +16,15 @@
   font-family: Martel Sans;
 }
 .ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList .ServicePS-Category {
+  cursor: pointer;
   width: 25rem;
   text-align: center;
   margin: 0rem;
   font-weight: 700;
+}
+.ServicePSMain .ServicePS-CategoryStrip .ServicePS-CategoryList .ServicePS-Category:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
 }
 .ServicePSMain .ServicePS-CategoryHeadStrip {
   background-color: #1e1e1e;
@@ -151,7 +156,7 @@
 .ServicePSMain .ServicePS .ServicePS-ProductList .ServicePS-Button {
   font-family: Martel Sans;
   font-weight: 600;
-  background-color: #364154;
+  background-color: #1e1e1e;
   width: 12rem;
   height: 3rem;
   border: none;

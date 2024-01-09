@@ -7,7 +7,7 @@
     position: fixed;
     // height: 11rem;
     width: 100%;
-    z-index: 100000000;
+    z-index: 1000 ;
 
 .NavBarStyle{
     display: flex;
@@ -242,5 +242,30 @@
             top: -30rem !important;
     }
     }
+    }
+} 
+
+@media (min-width:  1880px) {
+.NavMainContainer {        
+        width: 100%;
+
+        .NavBarStyle {
+            display: flex;
+            flex-direction: row;
+
+            .NavBarLogoStyle {
+                display: flex;
+
+                .Nav-Logo { 
+                    // margin-left: -15rem;
+                }
+                 
+            }
+
+            .NavBarList,
+            .NavBarListMV {
+                // margin-right: -17rem !important;             
+            }
+        }
     }
 }

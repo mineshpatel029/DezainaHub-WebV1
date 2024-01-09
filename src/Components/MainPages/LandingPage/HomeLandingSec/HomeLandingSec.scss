@@ -441,6 +441,62 @@
     }
 }
 
+//***********Large Screens***************//
+
+@media (min-width: 1880px){
+    .HomeLSMain {
+            overflow: hidden;
+
+            .HomeLS {
+                width: 110%;
+                display: flex;
+
+                .HomeLS-Content {
+                    position: relative;
+                    // right: 4rem;
+                        display: flex;
+                        flex-direction: column;
+                        width: 43rem;
+                        // gap: 5rem;
+                }
+    
+                .HomeLS-ImageContainer {
+                    width: 35rem;
+                    height: 41.4rem;
+                    overflow: hidden;
+                    position: relative;
+                    right: 0rem !important;
+                    
+    
+                    .HomeLS-Image {
+                        z-index:1;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+    
+                .HomeLSImageContainer-BGBlue {
+                    position: absolute;
+                    opacity: 20%;
+ 
+                }
+    
+                .HomeLSImageContainer-BGPink {
+                    position: absolute;
+                    
+                }
+            }
+        }
+}
+
+
+
+
+
+
+
+
+
 // @media screen and (min-width: 1200px) and (max-width: 1440px){
 //     .HomeLSMain{
 //         // height: 65rem;

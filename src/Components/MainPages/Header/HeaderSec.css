@@ -2,7 +2,7 @@
   background-color: #1e1e1e;
   position: fixed;
   width: 100%;
-  z-index: 100000000;
+  z-index: 1000;
 }
 .NavMainContainer .NavBarStyle {
   display: flex;
@@ -200,5 +200,17 @@
     position: absolute;
     transition: 0.5s ease;
     top: -30rem !important;
+  }
+}
+@media (min-width: 1880px) {
+  .NavMainContainer {
+    width: 100%;
+  }
+  .NavMainContainer .NavBarStyle {
+    display: flex;
+    flex-direction: row;
+  }
+  .NavMainContainer .NavBarStyle .NavBarLogoStyle {
+    display: flex;
   }
 }/*# sourceMappingURL=HeaderSec.css.map */

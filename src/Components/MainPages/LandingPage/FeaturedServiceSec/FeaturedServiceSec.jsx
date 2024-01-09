@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { setLoading, setProduct } from '../../../../Redux/productDetailReducer';
 import { useSelector, useDispatch } from 'react-redux'
 import axios from "axios";
+import Button from '../../../GlobalComponents/Button/Button';
 
 export const FeaturedServiceSec = () => {
 
@@ -30,30 +31,38 @@ export const FeaturedServiceSec = () => {
   // ***************Api Calling to the Featured Section ends here***************
 
   return (
-    <div className='FeaturedSSMain'>
-        <div className='FeaturedSS container' data-aos="fade-up">
-            <div className='FeaturedSS-Head'>
-                <h6 className='FeaturedSSHead-Title'>Services</h6>
-                <h1 className='FeaturedSSHead-Heading'>Explore <span>Featured</span> Services</h1>
-                <p className='FeaturedSSHead-Body'>Discover Our Spotlighted Solutions: Tailored Solutions for Your Brand's Unique Journey. Elevate Your Brand with Our Creative Expertise.</p>
-            </div>
-    {/* ***************Api Calling to the Featured Section ends here*************** */}
-
-            {/* <FeaturedServiceSecBody featureProducts={featureProducts}/> */}
-
-   {/* ***************Api Calling to the Featured Section ends here*************** */}
-
-            <FeaturedServiceSecBody/>
-            <NavLink to="/Service" >
-            <button className='FeaturedSS-Button'>
-                View All
-            </button>
-            </NavLink>
-
+    <div className="FeaturedSSMain">
+      <div className="FeaturedSS container" data-aos="fade-up">
+        <div className="FeaturedSS-Head">
+          <h6 className="FeaturedSSHead-Title">Services</h6>
+          <h1 className="FeaturedSSHead-Heading">
+            Explore <span>Featured</span> Services
+          </h1>
+          <p className="FeaturedSSHead-Body">
+            Discover Our Spotlighted Solutions: Tailored Solutions for Your
+            Brand's Unique Journey. Elevate Your Brand with Our Creative
+            Expertise.
+          </p>
         </div>
-    
+        {/* ***************Api Calling to the Featured Section ends here*************** */}
+
+        {/* <FeaturedServiceSecBody featureProducts={featureProducts}/> */}
+
+        {/* ***************Api Calling to the Featured Section ends here*************** */}
+
+        <FeaturedServiceSecBody />
+        <NavLink to="/Service">
+          <Button
+            buttonText="View All"
+            border="none"
+            fontFamily="Martel Sans"
+            fontWeight="600"
+          />
+        </NavLink>
+      </div>
     </div>
-  )
+  );
 }
 
 export default FeaturedServiceSec;
+

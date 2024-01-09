@@ -158,3 +158,57 @@
         }
     }
 }
+
+@media (min-width: 1880px){
+    .FeaturedSSMain {
+            padding: 5rem 0rem;
+            background-color: $ThirdColor;
+    
+            .FeaturedSS {
+                display: flex;
+                gap: 2rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                .FeaturedSS-Head {
+                    text-align: center;
+                    width: 40rem;
+    
+                    .FeaturedSSHead-Title {
+                        font-family: $SecondaryFont;
+                        color: $SecondaryColor;
+                        font-weight: 700;
+                    }
+    
+                    .FeaturedSSHead-Heading {
+                        font-family: $HeadFont;
+                        color: $HeadFontColor;
+                        font-weight: 700;
+                        font-size: 2.5rem;
+    
+                        span {
+                            color: $SecondaryColor;
+                        }
+                    }
+    
+                    .FeaturedSSHead-Body {
+                        font-family: $ContentFont;
+                        color: $ContentFontColor;
+                        font-size: 1rem;
+                    }
+                }
+    
+                .FeaturedSS-Button {
+                    background-color: $PrimaryColor;
+                    font-family: $SecondaryFont;
+                    font-weight: 600;
+                    color: $SecondaryFontColor;
+                    border: none;
+                    border-radius: $SecondaryBorderRadius;
+                    width: 16rem;
+                    height: 3rem;
+                }
+            }
+        }
+}
