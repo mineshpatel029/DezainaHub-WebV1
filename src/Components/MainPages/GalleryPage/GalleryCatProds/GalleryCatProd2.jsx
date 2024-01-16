@@ -175,7 +175,7 @@ export const GalleryCatProd2 = () => {
                 </button>
               </div>
             ))}
-            {clickedImg && (              
+            {clickedImg && (
               <Modal
                 open={open}
                 onClose={handelClickClose}

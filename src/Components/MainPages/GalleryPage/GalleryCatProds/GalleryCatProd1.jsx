@@ -50,11 +50,11 @@ export const GalleryCatProd1 = () => {
 
   const isSingleImage = ShowProd(activeProd).length === 1;
 
- const handelClick = (ImgData, i) => {
-   setOpen(true);
-   setCurrIndex(i);
-   setClickedImg(ImgData);
- };
+  const handelClick = (ImgData, i) => {
+    setOpen(true);
+    setCurrIndex(i);
+    setClickedImg(ImgData);
+  };
   const handleRotationRight = () => {
     const totalLength = ShowProd(activeProd).length;
     if (currIndex + 1 >= totalLength) {

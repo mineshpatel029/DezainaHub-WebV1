@@ -1,23 +1,69 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import "./HeaderSec.css";
 import LogoImg from "./Image/DezainahubNew.png";
-import LogoImgName from "./Image/DezainaHub.png";
+// import LogoImgName from "./Image/DezainaHub.png";
 import { NavLink, useLocation } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import axios from "axios";
+import { fetchData } from "../../../Redux/offerSlice";
 
 export const HeaderSec = () => {
   const [activeTab, setActiveTab] = useState("home");
   const [navMV, setNavMV] = useState("MV");
   const url = window.location.href;
   const { pathname = "" } = useLocation();
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.data.data);
+
+  useEffect(() => {
+    dispatch(fetchData())
+  }, [dispatch])
 
   const handleClick = () => {
     setNavMV("MV");
   };
   return (
     <>
-      <div className="NavMainContainer">
-        
+      {data.length > 0 && (
+        <Marquee
+          autoFill={true}
+          speed={80}
+          style={{
+            position: "fixed",
+            top: "0",
+            backgroundColor: "black",
+            zIndex: "101",
+            color: "#fff",
+            height: "42px",
+          }}
+        >
+          {data.map((item) => (
+            <div key={item._id} style={{ display: "flex", gap: "30px" }}>
+              <div className="OfferStrip" style={{ marginLeft: "20px" }}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                >
+                  <circle cx="6" cy="6" r="6" fill="white" />
+                </svg>
+              </div>
+              <div className="OfferStripText">
+                 {item.text}
+              </div>
+              {/*   */}
+            </div>
+          ))}
+        </Marquee>
+      )}
+      <div
+        className={`NavMainContainer ${
+          data.length > 0 ? "with-offer-strip" : ""
+        }`}
+      >
         <nav className="NavBarStyle container">
           <div className="NavBarLogoStyle">
             <div className="Nav-Logo">

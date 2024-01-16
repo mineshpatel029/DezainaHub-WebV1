@@ -1,13 +1,39 @@
 @import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 
+.NavMainContainer.with-offer-strip {
+    position: fixed;
+    top: 4%;
+    // left:0.8%;
+    z-index: 100;
+    
+}
+
+.OfferStrip{
+    display: flex;
+    align-items: center;
+
+    .OfferStripText {
+        display:flex;
+        align-items: center;
+        color: #F3F2F2;
+        // text-align: center;
+        font-family: $SecondaryFont ;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        // line-height: normal;
+    }
+}
 
 .NavMainContainer{
     background-color: $PrimaryColor;
     position: fixed;
     // height: 11rem;
     width: 100%;
-    z-index: 1000 ;
+    z-index: 100 ;
+    
+    
 
 .NavBarStyle{
     display: flex;

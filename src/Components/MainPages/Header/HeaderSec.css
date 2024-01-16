@@ -1,8 +1,28 @@
+.NavMainContainer.with-offer-strip {
+  position: fixed;
+  top: 4%;
+  z-index: 100;
+}
+
+.OfferStrip {
+  display: flex;
+  align-items: center;
+}
+.OfferStrip .OfferStripText {
+  display: flex;
+  align-items: center;
+  color: #F3F2F2;
+  font-family: Martel Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .NavMainContainer {
   background-color: #1e1e1e;
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
 }
 .NavMainContainer .NavBarStyle {
   display: flex;

@@ -15,15 +15,15 @@ import GalleryCatProd3 from "../GalleryCatProds/GalleryCatProd3";
 
 export const GalleryLandingSec = () => {
   // const [activeCat, setActiveCat] = useState(0)
-    const dispatch = useDispatch();
-    const activeCat = useSelector((state) => state.gallery.activeCat);
+  const dispatch = useDispatch();
+  const activeCat = useSelector((state) => state.gallery.activeCat);
 
   // const [prodList, setProdList]= useState(GalleryImgProd2)
   const newCat = activeCat;
 
-   const handleSetActiveCat = (cat) => {
-     dispatch(setActiveCat(cat));
-   };
+  const handleSetActiveCat = (cat) => {
+    dispatch(setActiveCat(cat));
+  };
 
   const ShowCategory = (Cat) => {
     switch (Cat) {

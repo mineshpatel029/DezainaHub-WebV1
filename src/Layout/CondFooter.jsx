@@ -1,20 +1,19 @@
-import { useLocation } from 'react-router'
-import FooterNewsLetter from '../Components/MainPages/Footer/FooterNewsLetter/FooterNewsLetter';
+import { useLocation } from "react-router";
+import FooterNewsLetter from "../Components/MainPages/Footer/FooterNewsLetter/FooterNewsLetter";
 
+const CondFooter = ({ children }) => {
+  const location = useLocation();
+  const currentPath = location.pathname;
 
-const CondFooter = ({children}) => {
-    const location = useLocation();
-    const currentPath = location.pathname;
-
-    if (currentPath === "/ContactUs"  || currentPath === "/Error" ) {
-      return null;
-    }
+  if (currentPath === "/ContactUs" || currentPath === "/Error") {
+    return null;
+  }
 
   return (
-     <>
-        <FooterNewsLetter />
-     </>
-  )
-}
+    <>
+      <FooterNewsLetter />
+    </>
+  );
+};
 
-export default CondFooter
+export default CondFooter;

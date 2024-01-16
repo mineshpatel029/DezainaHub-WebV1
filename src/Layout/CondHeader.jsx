@@ -1,24 +1,19 @@
-import HeaderSec from '../Components/MainPages/Header/HeaderSec';
-import { useLocation } from 'react-router';
-import OfferStrip from '../Components/OfferStrip/OfferStrip';
+import HeaderSec from "../Components/MainPages/Header/HeaderSec";
+import { useLocation } from "react-router";
 
-const CondHeader = ({children}) => {
-    
-     
-     const location = useLocation();
-     const currentPath = location.pathname;
+const CondHeader = ({ children }) => {
+  const location = useLocation();
+  const currentPath = location.pathname;
 
-     if (currentPath === "/Error") {
-       return null;
-     }
-
-
+  if (currentPath === "/Error") {
+    return null;
+  }
 
   return (
     <>
-        <HeaderSec />
+      <HeaderSec />
     </>
-  )
-}
+  );
+};
 
-export default CondHeader
+export default CondHeader;

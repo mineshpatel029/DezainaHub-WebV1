@@ -1,27 +1,27 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import CondHeader from "./CondHeader";
 import CondFooter from "./CondFooter";
 import CondFootFooter from "./CondFootFooter";
 import PopOver from "../Components/PopOver/PopOver";
-import Marquee from "react-fast-marquee";
-import OfferStrip from "../Components/OfferStrip/OfferStrip";
- 
+import { useDispatch, useSelector } from "react-redux";
+import { fetchData } from "../Redux/offerSlice";
 
 const Layout = ({ children }) => {
-   
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.data.data);
+
+  useEffect(() => {
+    dispatch(fetchData());
+  }, [dispatch]);
+
   return (
     <>
-    {/* <OfferStrip /> */}
       <CondHeader />
       <PopOver />
-        <main>
-          
-            {children}
-        </main>
+      <main style={data.length > 0 ? { marginTop: "4%" } : {}}>{children}</main>
       <CondFooter />
       <CondFootFooter />
     </>
-    
   );
 };
 
