@@ -5,6 +5,7 @@
     flex-direction: column;
     // gap: 1rem;
     .ServicePS-CategoryStrip{
+        
         background-color: $PrimaryColor;
         height: 5rem;
         color: $SecondaryFontColor;
@@ -16,10 +17,17 @@
             justify-content: space-between;
             font-family: $SecondaryFont;
             .ServicePS-Category{
+                cursor: pointer;
                 width: 25rem;
                 text-align: center;
                 margin: 0rem;
                 font-weight: 700;
+
+                &:hover{
+                    text-decoration: underline;
+                     transform: scale(1.1);
+                
+                }
             }
         }
     }
@@ -216,7 +224,7 @@
             .ServicePS-Button{
                 font-family: $SecondaryFont;
                 font-weight: 600;
-                background-color: $HeadFontColor;
+                background-color: $PrimaryColor;
                 width: 12rem;
                 height: 3rem;
                 border: none;

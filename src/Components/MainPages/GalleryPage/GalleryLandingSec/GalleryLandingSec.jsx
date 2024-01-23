@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setActiveCat } from "../../../../Redux/galleryReducer";
 import "./GalleryLandingSec.css";
 import GalleryLandingImg1 from "../Image/1234.jpg";
 import GalleryProdCat from "./GalleryProdCat";
@@ -13,9 +15,15 @@ import GalleryCatProd3 from "../GalleryCatProds/GalleryCatProd3";
 
 export const GalleryLandingSec = () => {
   // const [activeCat, setActiveCat] = useState(0)
-  const [activeCat, setActiveCat] = useState(2);
+  const dispatch = useDispatch();
+  const activeCat = useSelector((state) => state.gallery.activeCat);
+
   // const [prodList, setProdList]= useState(GalleryImgProd2)
   const newCat = activeCat;
+
+  const handleSetActiveCat = (cat) => {
+    dispatch(setActiveCat(cat));
+  };
 
   const ShowCategory = (Cat) => {
     switch (Cat) {
@@ -47,7 +55,7 @@ export const GalleryLandingSec = () => {
             {GalleryProdCat.map((CatData, i) => (
               <h6
                 key={i}
-                onClick={() => setActiveCat(CatData.Catid)}
+                onClick={() => handleSetActiveCat(CatData.Catid)}
                 className={
                   activeCat === CatData.Catid
                     ? "GalleryLS-CategoryActive"

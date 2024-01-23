@@ -75,10 +75,7 @@ export const FooterFoot = () => {
             </svg>
           </a>
 
-          <a
-            href="https://www.facebook.com/dezainahub/"
-            target="_blank"
-          >
+          <a href="https://www.facebook.com/dezainahub/" target="_blank">
             <svg
               width="28"
               height="28"

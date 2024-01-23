@@ -15,6 +15,7 @@ import "swiper/css/autoplay";
 
 // import required modules
 import { Autoplay, EffectCube, Pagination } from 'swiper/modules';
+import Button from '../../../GlobalComponents/Button/Button'
 
 
 export const HomeAboutSec = () => {
@@ -94,9 +95,7 @@ export const HomeAboutSec = () => {
         <h1 className='HomeAboutSecContent-Head'>DezainaHub is Your <span>Key</span> to Exceptional Branding <span>Success</span></h1>
         <p className='HomeAboutSecContent-Body'>DezainaHub is your trusted partner, whether you're a small business seeking a strong brand presence or a large corporation in need of powerful marketing campaigns. Our specialty lies in crafting captivating brand identities through visually stunning designs. From logos to corporate solutions, we cover it all, helping you shine in a competitive market while you focus on business growth.</p>
         <NavLink to="/AboutUs" className="buttons">
-        <button className='HomeAboutSecContent-Button'>
-        Want to Know More?
-        </button>
+         <Button buttonText="Want to Know More?"  backgroundColor=""/>
         </NavLink>
       </div>
     </div>

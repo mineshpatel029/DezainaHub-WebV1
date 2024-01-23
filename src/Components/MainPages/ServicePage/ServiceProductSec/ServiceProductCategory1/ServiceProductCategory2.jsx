@@ -1,10 +1,21 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setActiveCat } from "../../../../../Redux/galleryReducer";
 import "./ServiceProductCat.css";
 import {ProductDataC2} from "./ProductData";
 import { NavLink } from "react-router-dom";
 import FormatPrice from "../../../../../Helpers/FormatPrice";
+import Button from "../../../../GlobalComponents/Button/Button";
 
 export const ServiceProductCategory2 = () => {
+ const dispatch = useDispatch();
+ const activeCat = useSelector((state) => state.gallery.activeCat);
+
+ const handleSetActiveCat = (catId) => {
+   dispatch(setActiveCat(catId));
+ };
+
+
   return (
     <div className="ServicePC1-Main" data-aos="fade-up">
       <div className="ServicePS-CategoryHeadStrip">
@@ -13,11 +24,13 @@ export const ServiceProductCategory2 = () => {
       <div className="ServicePS container">
         <div className="ServicePS-ProductList">
           <div className="ServicePS-Products">
-
             {ProductDataC2.map((Product, i) => (
               <div className="SPSBodyContent-Box" data-aos="zoom-in-up">
                 <div className="SPSBodyContentBox-ImgContainer">
-                  <img className="SPSBodyContentBox-Img" src={Product.gallery[0]} />
+                  <img
+                    className="SPSBodyContentBox-Img"
+                    src={Product.gallery[0]}
+                  />
                 </div>
                 <div className="SPSBodyContentBox-Content">
                   <div className="SPSBodyContentBox-HeadContent">
@@ -25,13 +38,15 @@ export const ServiceProductCategory2 = () => {
                       {Product.Name}
                     </h5>
                     <h6 className="SPSBodyContentBox-ProductPrice">
-                    <FormatPrice price={Product.minPrice}/> - <FormatPrice price={Product.maxPrice}/>/-
+                      <FormatPrice price={Product.minPrice} /> -{" "}
+                      <FormatPrice price={Product.maxPrice} />
+                      /-
                     </h6>
                   </div>
 
                   <div className="SPSBodyContentBox-BodyContainer">
                     <p className="SPSBodyContentBox-BodyContent">
-                    {Product.Description.DescriptHead}
+                      {Product.Description.DescriptHead}
                       <br />
                       <b>Factors Affecting Price:</b>
                       <br />
@@ -86,7 +101,16 @@ export const ServiceProductCategory2 = () => {
             ))}
           </div>
           <NavLink to="/Gallery">
-            <button className="ServicePS-Button">View Gallery</button>
+            <Button
+              border="none"
+              buttonText="View Gallery"
+              width="11rem"
+              height="3rem"
+              className="ServicePS-Button"
+              onClick={(e) => {
+                handleSetActiveCat(2);
+              }}
+            />
           </NavLink>
         </div>
       </div>

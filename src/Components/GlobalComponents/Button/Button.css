@@ -1,0 +1,15 @@
+.custom-button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  width: 16rem;
+  height: 3.5rem;
+  border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .custom-button {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 0.6rem;
+  }
+}/*# sourceMappingURL=Button.css.map */

@@ -6,8 +6,12 @@
     color: $ThirdColor;
     padding: 8.5rem 0rem;
     font-family: $HeadFont;
+    // position: relative;
+    // z-index: 1;
 
     .FooterNewsLetter{
+        // position: absolute;
+        z-index: -11111;
         display: flex;
         .FooterNewsLetter-Body{
             display: flex;
@@ -19,6 +23,7 @@
                 font-family: $SecondaryFont;
                 color: $SecondaryColor;
                 font-weight: 500;
+                
             }
             .FooterNewsLetterBody-Head{
                 font-size: 4rem !important;

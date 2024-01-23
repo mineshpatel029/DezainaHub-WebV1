@@ -1,7 +1,5 @@
 import React from 'react'
 import "./LandingPage.css"
-import HeaderSec from "../Header/HeaderSec"
-import FooterSec from '../Footer/FooterSec'
 import HomeLandingSec from './HomeLandingSec/HomeLandingSec'
 import HomeAboutSec from './HomeAboutSec/HomeAboutSec'
 import QualityStrip from './QualityStrip/QualityStrip'

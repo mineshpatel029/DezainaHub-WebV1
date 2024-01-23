@@ -1,13 +1,40 @@
 @import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
 
 
+.NavMainContainer.with-offer-strip {
+    position: fixed;
+    top: 4%;
+    // left:0.8%;
+    z-index: 100;
+    
+}
+
+.OfferStrip{
+    display: flex;
+    align-items: center;
+
+    .OfferStripText {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: #F3F2F2;
+        // text-align: center;
+        font-family: $SecondaryFont ;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        // line-height: normal;
+    }
+}
 
 .NavMainContainer{
     background-color: $PrimaryColor;
     position: fixed;
     // height: 11rem;
     width: 100%;
-    z-index: 100000000;
+    z-index: 100 ;
+    
+    
 
 .NavBarStyle{
     display: flex;
@@ -242,5 +269,30 @@
             top: -30rem !important;
     }
     }
+    }
+} 
+
+@media (min-width:  1880px) {
+.NavMainContainer {        
+        width: 100%;
+
+        .NavBarStyle {
+            display: flex;
+            flex-direction: row;
+
+            .NavBarLogoStyle {
+                display: flex;
+
+                .Nav-Logo { 
+                    // margin-left: -15rem;
+                }
+                 
+            }
+
+            .NavBarList,
+            .NavBarListMV {
+                // margin-right: -17rem !important;             
+            }
+        }
     }
 }

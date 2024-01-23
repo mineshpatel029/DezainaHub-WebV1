@@ -130,4 +130,50 @@
     width: 12rem;
     height: 3rem;
   }
+}
+@media (min-width: 1880px) {
+  .FeaturedSSMain {
+    padding: 5rem 0rem;
+    background-color: #f4f4f4;
+  }
+  .FeaturedSSMain .FeaturedSS {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head {
+    text-align: center;
+    width: 40rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Title {
+    font-family: Martel Sans;
+    color: #25C1EC;
+    font-weight: 700;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading {
+    font-family: Montserrat;
+    color: #364154;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Heading span {
+    color: #25C1EC;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Head .FeaturedSSHead-Body {
+    font-family: Rasa;
+    color: #888888;
+    font-size: 1rem;
+  }
+  .FeaturedSSMain .FeaturedSS .FeaturedSS-Button {
+    background-color: #1e1e1e;
+    font-family: Martel Sans;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.8rem;
+    width: 16rem;
+    height: 3rem;
+  }
 }/*# sourceMappingURL=FeaturedServiceSec.css.map */

@@ -80,7 +80,7 @@ import 'react-multi-carousel/lib/styles.css';
               items: 2
             },
             mobile: {
-              breakpoint: { max: 490, min: 0 },
+              breakpoint: { max: 522, min: 0 },
               items: 1
             }
           };
