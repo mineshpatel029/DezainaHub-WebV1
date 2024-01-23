@@ -21,7 +21,7 @@ const PopOver = () => {
   useEffect(() => {
     dispatch(fetchData());
     // console.log(data.length)
-    // console.log(data)
+    console.log(data)
   }, [dispatch]);
 
   const handleClose = () => {
@@ -71,8 +71,12 @@ const PopOver = () => {
               width: "60%",
             },
 
-            "@media (min-width: 601px) and (max-width: 1199px)": {
-              width: "30%",
+            "@media (min-width: 601px) and (max-width: 750px)": {
+              width: "50%",
+            },
+
+            "@media (min-width: 751px) and (max-width: 1199px)": {
+              width: "40%",
             },
 
             "@media (min-width: 1200px) and (max-width: 1440px)": {

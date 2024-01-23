@@ -6,7 +6,7 @@ import GalleryImg1 from "../Images/About.jpg";
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setActiveCat } from "../../../../Redux/galleryReducer";
-
+import Button from "../../../GlobalComponents/Button/Button";
 export const HomeGallerySec = () => {
   const dispatch = useDispatch();
   const activeCat = useSelector((state) => state.gallery.activeCat);
@@ -27,7 +27,14 @@ export const HomeGallerySec = () => {
             expertise.
           </p>
           <NavLink to="/Gallery" className="buttons">
-            <button className="HomeGSContent-Button">Explore Gallery</button>
+            <Button
+            buttonText="Explore Galllery"
+              border="0px solid "
+              backgroundColor="#364154"
+              className="HomeGSContent-Button"
+            >
+              Explore Gallery
+            </Button>
           </NavLink>
         </div>
         <div className="HomeGS-Gallery">

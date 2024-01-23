@@ -36,11 +36,4 @@ const Button = ({
 };
 
 export default Button;
-// background-color: $PrimaryColor;
-//                     font-family: $SecondaryFont;
-//                     font-weight: 600;
-//                     color: $SecondaryFontColor;
-//                     border: none;
-//                     border-radius: $SecondaryBorderRadius;
-//                     width: 16rem;
-//                     height: 3rem;
+ 

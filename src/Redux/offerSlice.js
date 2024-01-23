@@ -3,7 +3,9 @@ import axios from "axios";
 
 export const fetchData = createAsyncThunk("data/fetchData", async () => {
   try {
-    const response = await axios.get("https://pop-up-x6pg.onrender.com/banner");
+    const response = await axios.get(
+      "https://dezainabackend.onrender.com/banner"
+    );
     return response.data;
   } catch (error) {
     throw error;

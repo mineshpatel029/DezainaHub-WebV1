@@ -43,8 +43,8 @@ export const HeaderSec = () => {
               <div className="OfferStrip" style={{ marginLeft: "20px" }}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="12"
+                  width="10"
+                  height="9"
                   viewBox="0 0 12 12"
                   fill="none"
                 >

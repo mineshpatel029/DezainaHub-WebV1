@@ -2,20 +2,19 @@ import React from "react";
 import "./ServiceProductCat.css";
 import { useSelector, useDispatch } from "react-redux";
 import { setActiveCat } from "../../../../../Redux/galleryReducer";
-import {ProductDataC3} from "./ProductData";
+import { ProductDataC3 } from "./ProductData";
 import { NavLink } from "react-router-dom";
 import FormatPrice from "../../../../../Helpers/FormatPrice";
+import Button from "../../../../GlobalComponents/Button/Button";
 
 export const ServiceProductCategory3 = () => {
+  const dispatch = useDispatch();
+  const activeCat = useSelector((state) => state.gallery.activeCat);
 
-   const dispatch = useDispatch();
-   const activeCat = useSelector((state) => state.gallery.activeCat);
+  const handleSetActiveCat = (catId) => {
+    dispatch(setActiveCat(catId));
+  };
 
-   const handleSetActiveCat = (catId) => {
-     dispatch(setActiveCat(catId));
-   };
-
-   
   return (
     <div className="ServicePC1-Main" data-aos="fade-up">
       <div className="ServicePS-CategoryHeadStrip">
@@ -101,14 +100,16 @@ export const ServiceProductCategory3 = () => {
             ))}
           </div>
           <NavLink to="/Gallery">
-            <button
+            <Button
+              border="none"
+              buttonText="View Gallery"
+              width="11rem"
+              height="3rem"
               className="ServicePS-Button"
               onClick={(e) => {
                 handleSetActiveCat(3);
               }}
-            >
-              View Gallery
-            </button>
+            />
           </NavLink>
         </div>
       </div>

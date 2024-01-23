@@ -3,7 +3,7 @@ import "./FooterNewsLetter.css";
 import { NavLink } from "react-router-dom";
 import Button from "../../../GlobalComponents/Button/Button";
 
-export const FooterNewsLetter = () => {
+export const  FooterNewsLetter = () => {
   return (
     <div className="FooterNewsLetterMain">
       <div className="FooterNewsLetter container">
