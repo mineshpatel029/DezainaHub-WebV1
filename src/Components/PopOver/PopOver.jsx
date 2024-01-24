@@ -21,7 +21,7 @@ const PopOver = () => {
   useEffect(() => {
     dispatch(fetchData());
     // console.log(data.length)
-    console.log(data)
+    // console.log(data)
   }, [dispatch]);
 
   const handleClose = () => {
@@ -29,16 +29,20 @@ const PopOver = () => {
   };
 
   const dataLength = data.length;
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const [anchorEl, setAnchorEl] = useState(null);
+  const canBeOpen = open && Boolean(anchorEl);
+  const id = canBeOpen ? "transition-popper" : undefined;
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
     setOpen((previousOpen) => !previousOpen);
   };
 
-  const canBeOpen = open && Boolean(anchorEl);
-  const id = canBeOpen ? "transition-popper" : undefined;
+  useEffect(() => {
+      const buttonElement = document.getElementById("popper-button");
+    setAnchorEl(buttonElement);
+  }, []);
 
   if (dataLength === 0) {
     return;
@@ -47,7 +51,12 @@ const PopOver = () => {
   return (
     <ClickAwayListener onClickAway={handleClose}>
       <div>
-        <PopperButton aria-describedby={id} type="button" onClick={handleClick}>
+        <PopperButton
+          id="popper-button"
+          aria-describedby={id}
+          type="button"
+          onClick={handleClick}
+        >
           <button>
             <img src={Offerimg} alt="offerSvg" style={{ width: "90%" }} />
           </button>
@@ -63,6 +72,10 @@ const PopOver = () => {
             width: "20%",
             zIndex: "9",
             height: "380px",
+            "@media (max-width: 375px)": {
+              width: "80%",
+            },
+
             "@media (min-width: 375px) and (max-width: 425px)": {
               width: "80%",
             },
@@ -80,6 +93,10 @@ const PopOver = () => {
             },
 
             "@media (min-width: 1200px) and (max-width: 1440px)": {
+              width: "28%",
+            },
+
+            "@media (min-width: 1440px) and (max-width: 1799px)": {
               width: "25%",
             },
           }}
@@ -88,7 +105,7 @@ const PopOver = () => {
             <Fade {...TransitionProps} timeout={350}>
               <Box
                 sx={{
-                  border: "0px solid",
+                  border: "0px solid black",
                   height: "375px",
                   backgroundColor: "#fff",
                   padding: "9px",
@@ -107,14 +124,14 @@ const PopOver = () => {
                   className="mySwiper"
                 >
                   {data?.map((item) => (
-                    <SwiperSlide>
+                    <SwiperSlide key={item._id}>
                       <ContentImage
                         src={item.cloudinaryUrl}
                         alt="offersimg"
                         width="100%"
                         height="355px"
                         style={{
-                          border: "0px solid",
+                          border: "2px solid #1e1e1e",
                           borderRadius: "20px 20px 0px 20px",
                         }}
                       />
@@ -156,7 +173,7 @@ const PopperButton = styled.button`
   height: 60px;
   position: fixed;
   top: 90%;
-  left: 90%;
+  left: 95%;
   background-color: #fff;
   z-index: 999;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
@@ -170,9 +187,20 @@ const PopperButton = styled.button`
     height: 50px;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
   }
+  @media only screen and (max-width: 375px) {
+    left: 80%;
+  }
 
   @media only screen and (min-width: 375px) and (max-width: 600px) {
     left: 80%;
+  }
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    left: 90%;
+  }
+
+  @media (min-width: 901px) and (max-width: 1216px) {
+    left: 93%;
   }
 `;
 
