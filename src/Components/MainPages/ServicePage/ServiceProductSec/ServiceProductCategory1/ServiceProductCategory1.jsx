@@ -106,7 +106,7 @@ export const ServiceProductCategory1 = () => {
               width="11rem"
               height="3rem"
               className="ServicePS-Button"
-              onClick={(e) => {
+              onClick={() => {
                 handleSetActiveCat(1);
               }}
             />

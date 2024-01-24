@@ -2,6 +2,7 @@ import "./Button.css";
 
 
 const Button = ({
+  onClick,
   buttonText,
   fontSize,
   backgroundColor,
@@ -16,6 +17,7 @@ const Button = ({
   return (
     <div className="button-container">
       <button
+      onClick={onClick}
         className="custom-button"
         style={{
           fontSize: fontSize,

@@ -21,7 +21,7 @@ const PopOver = () => {
   useEffect(() => {
     dispatch(fetchData());
     // console.log(data.length)
-    console.log(data)
+    // console.log(data)
   }, [dispatch]);
 
   const handleClose = () => {
@@ -63,6 +63,10 @@ const PopOver = () => {
             width: "20%",
             zIndex: "9",
             height: "380px",
+            "@media (max-width: 375px)": {
+              width: "80%",
+            },
+
             "@media (min-width: 375px) and (max-width: 425px)": {
               width: "80%",
             },
@@ -80,8 +84,13 @@ const PopOver = () => {
             },
 
             "@media (min-width: 1200px) and (max-width: 1440px)": {
-              width: "25%",
+              width: "28%",
             },
+
+            "@media (min-width: 1440px) and (max-width: 1799px)" :{
+              width:"25%"
+            }
+
           }}
         >
           {({ TransitionProps }) => (
@@ -105,9 +114,10 @@ const PopOver = () => {
                   }}
                   modules={[Pagination]}
                   className="mySwiper"
+                  
                 >
                   {data?.map((item) => (
-                    <SwiperSlide>
+                    <SwiperSlide key={item._id}>
                       <ContentImage
                         src={item.cloudinaryUrl}
                         alt="offersimg"
@@ -156,7 +166,7 @@ const PopperButton = styled.button`
   height: 60px;
   position: fixed;
   top: 90%;
-  left: 90%;
+  left: 95%;
   background-color: #fff;
   z-index: 999;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
@@ -170,9 +180,20 @@ const PopperButton = styled.button`
     height: 50px;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
   }
+  @media only screen and (max-width: 375px) {
+    left: 80%;
+  }
 
   @media only screen and (min-width: 375px) and (max-width: 600px) {
     left: 80%;
+  }
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    left: 90%;
+  }
+
+  @media (min-width: 901px) and (max-width: 1216px) {
+    left: 93%;
   }
 `;
 
