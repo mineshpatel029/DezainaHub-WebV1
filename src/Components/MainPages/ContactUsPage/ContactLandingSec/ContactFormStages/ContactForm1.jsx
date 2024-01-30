@@ -27,7 +27,7 @@ const ServiceOptions = [
 export const ContactForm1 = () => {
   const [loading, setLoading] = useState(false);
   const [formState, setFormState] = useState(1);
-  const url = "https://dezainabackend.onrender.com/api/save-contact";
+  const url = "https://dezainabackend.onrender.com/contact";
   const [data, setData] = useState({
     name: "",
     email: "",
