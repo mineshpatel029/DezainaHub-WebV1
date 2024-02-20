@@ -52,6 +52,27 @@
   margin-bottom: 0.3rem;
   font-size: 0.8rem;
 }
+.ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0px solid;
+}
+.ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  padding-top: 9px;
+  overflow-y: auto !important;
+  min-height: 10px !important;
+  max-height: 10px !important;
+  border: 0px solid !important;
+  outline: none !important;
+}
+.ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select::-webkit-scrollbar {
+  width: 3px;
+}
+.ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2666666667);
+  border-radius: 10px;
+}
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Input {
   border-radius: 0.25rem;
   margin-bottom: 0rem;
