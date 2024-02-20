@@ -1,3 +1,5 @@
+@import "./Components/GlobalComponents/GlobalStyles/GlobalStyles.scss";
+
 .App{
     overflow:hidden ;
 }
@@ -10,4 +12,15 @@ a{
 a:hover{
     color: #fff;
     text-decoration: none;
+}
+
+.err-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family:$ContentFont;
+    text-align: center;
+    
 }

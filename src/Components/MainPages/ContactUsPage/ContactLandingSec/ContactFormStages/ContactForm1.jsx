@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Select from "react-select";
+import Select from "@mui/material/Select";
+import { Box, Chip, MenuItem, OutlinedInput } from "@mui/material";
 import makeAnimated from "react-select/animated";
 import Axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -7,22 +8,35 @@ import "react-toastify/dist/ReactToastify.css";
 import ContactFormFinal from "./ContactFinalStage/ContactFormFinal";
 import ContactFormLoader from "./ContactFormLoader/ContactFormLoader";
 
-const animatedComponents = makeAnimated();
-
 const ServiceOptions = [
-  { value: "Poseter", label: "Poster" },
-  { value: "Banner", label: "Poster" },
-  { value: "Business Card", label: "Business Card" },
-  { value: "Web UI", label: "Web UI" },
-  { value: "App UI", label: "App UI" },
-  { value: "Logo Designing", label: "Logo Designing" },
-  { value: "Flyer", label: "Flyer" },
-  { value: "Brochure", label: "Brochure" },
-  { value: "Sinnage Board", label: "Sinnage Board" },
-  { value: "LetterHead", label: "LetterHead" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "Other", label: "Other" },
+  "Logo Design",
+  "Brand Kit Design",
+  "Letter Head Design",
+  "Logo Designing",
+  "Flyer",
+  "Brochure",
+  "Signage Board",
+  "Catalog Design",
+  "Portfolio Design",
+  " Website Design",
+  "Application Design",
+  "Presentation Design",
+  "Pitch Deck Design",
+  "Poster Design",
+  "Banner Design",
+  " Social Media Design",
 ];
+
+const ITEM_HEIGHT = 48;
+const ITEM_PADDING_TOP = 8;
+const MenuProps = {
+  PaperProps: {
+    style: {
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      width: 250,
+    },
+  },
+};
 
 export const ContactForm1 = () => {
   const [loading, setLoading] = useState(false);
@@ -33,8 +47,19 @@ export const ContactForm1 = () => {
     email: "",
     contactNumber: "",
     message: "",
-    service: "",
+    service: [],
   });
+  const [personName, setPersonName] = useState([]);
+  console.log(data.service);
+  const handleChange = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setData((prevData) => ({
+      ...prevData,
+      service: typeof value === "string" ? value.split(",") : value,
+    }));
+  };
 
   function submit(e) {
     e.preventDefault();
@@ -133,135 +158,47 @@ export const ContactForm1 = () => {
                                     onChange={(e)=>handle(e)} value={data.service}
                                     type="service"
                                     /> */}
-
-              <select
-                id="service"
-                isMulti={true}
-                className="ContactLSForm-Input "
-                onChange={(e) => handle(e)}
+              <Select
+                style={{
+                  display: "flex",
+                  // maxHeight: "12px",
+                  width: "100%",
+                  backgroundColor: "#fff",
+                  padding: "0",
+                  border: "0px",
+                }}
+                labelId="ContactLSForm-Label"
+                id="demo-multiple-chip"
+                multiple
+                displayEmpty
                 value={data.service}
-                type="service"
+                onChange={handleChange}
+                // input={<OutlinedInput id="select-multiple-chip" label="Chip" />}
+                renderValue={(selected) => (
+                  <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5 }}>
+                    {selected?.map((value) => (
+                      <Chip key={value} label={value} />
+                    ))}
+                  </Box>
+                )}
+                MenuProps={MenuProps}
               >
-                <option value="None">None</option>
-                <option
-                  value="Category1"
-                  className="ContactLSFormInput-Category"
-                  disabled={true}
-                >
-                  Visual Branding
-                </option>
-                <option
-                  value="Logo Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Logo Design
-                </option>
-                <option
-                  value="Brand Kit Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Brand Kit Design
-                </option>
-                <option
-                  value="Business Card Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Business Card Design
-                </option>
-                <option
-                  value="Letter Head Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Letter Head Design
-                </option>
-                <option
-                  value="Signage Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Signage Design
-                </option>
-                <option
-                  value="Category2"
-                  className="ContactLSFormInput-Category"
-                  disabled={true}
-                >
-                  Digital Interaction
-                </option>
-                <option
-                  value="Portfolio Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Portfolio Design
-                </option>
-                <option
-                  value="Website Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Website Design
-                </option>
-                <option
-                  value="Application Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Application Design
-                </option>
-                <option
-                  value="Presentation Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Presentation Design
-                </option>
-                <option
-                  value="Pitch Deck Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Pitch Deck Design
-                </option>
-                <option
-                  value="Category3"
-                  className="ContactLSFormInput-Category"
-                  disabled={true}
-                >
-                  Brand Marketing
-                </option>
-                <option
-                  value="Poster Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Poster Design
-                </option>
-                <option
-                  value="Banner Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Banner Design
-                </option>
-                <option
-                  value="Flyer Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Flyer Design
-                </option>
-                <option
-                  value="Brochure Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Brochure Design
-                </option>
-                <option
-                  value="Catalog Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Catalog Design
-                </option>
-                <option
-                  value="Social Media Design"
-                  className="ContactLSFormInput-Product"
-                >
-                  Social Media Design
-                </option>
-                <option value="Other">Other...</option>
-              </select>
+                {ServiceOptions.map((name) => (
+                  <MenuItem
+                    key={name}
+                    value={name}
+                    // style={getStyles(name, personName, theme)}
+                  >
+                    {name}
+                  </MenuItem>
+                ))}
+              </Select>
+
+              {/*  
+                 
+                
+                  
+                  */}
             </div>
             <div className="ContactLSForm-Content">
               <label className="ContactLSForm-Label">Message</label>

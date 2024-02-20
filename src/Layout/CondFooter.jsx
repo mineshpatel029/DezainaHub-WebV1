@@ -5,7 +5,7 @@ const CondFooter = ({ children }) => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  if (currentPath === "/ContactUs" || currentPath === "/Error") {
+  if (currentPath === "/ContactUs" || currentPath === "/Wrong") {
     return null;
   }
 

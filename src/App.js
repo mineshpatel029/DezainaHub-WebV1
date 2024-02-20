@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, NavLink, Route, Routes } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import HeaderSec from "./Components/MainPages/Header/HeaderSec";
 // import LandingPage from './Components/MainPages/LandingPage/LandingPage';
@@ -12,10 +12,13 @@ import LazyLoader from "./Components/LazyLoader/LazyLoader";
 import LoginSignupPage from "./Components/MainPages/LoginSignupPage/LoginSignupPage";
 import FooterNewsLetter from "./Components/MainPages/Footer/FooterNewsLetter/FooterNewsLetter";
 import FooterFoot from "./Components/MainPages/Footer/FooterFoot/FooterFoot";
-
+import Erroranimation from "./Components/Errorpage.json";
+import Lottie from "lottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Layout from "./Layout/Layout";
+import Button from "./Components/GlobalComponents/Button/Button";
+import Wrong from "./Components/MainPages/Wrong page/Wrong";
 // ..
 AOS.init();
 
@@ -85,24 +88,20 @@ function App() {
           <Route path='/Signup' element={<SignupPage/>} />
           <Route path='/Verify' element={<VerifyPage/>} /> */}
               <Route
-                path="Error"
-                element={
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      height: "100vh",
-                    }}
-                  >
-                    <h1 style={{ color: "#1e1e1e" }}>Error Page</h1>
-                    <NavLink to="/">
-                      <button>Return to Home</button>
-                    </NavLink>
-                  </div>
+                path="*"
+                element={<Navigate to={"/Wrong"}/>
+                  // <div className="err-con">
+                  //   <Lottie animationData={Erroranimation} />
+                  //   <h1 className="err-content" style={{ color: "#1e1e1e" }}>
+                  //     Wrong Route, Our Designers are sleeping here{" "}
+                  //   </h1>
+                  //   <NavLink to="/">
+                  //     <Button buttonText="Back to home" fontSize="20px" />
+                  //   </NavLink>
+                  // </div>
                 }
               />
+              <Route path="/Wrong" element={<Wrong />} />
             </Routes>
           </Layout>
         </BrowserRouter>

@@ -5,7 +5,7 @@ const CondHeader = ({ children }) => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  if (currentPath === "/Error") {
+  if (currentPath === "/Wrong") {
     return null;
   }
 
