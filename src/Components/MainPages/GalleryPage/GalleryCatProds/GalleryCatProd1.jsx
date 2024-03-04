@@ -11,7 +11,7 @@ import GalleryImgProd from "../GalleryImgSec/GalleryImgProd";
 // import GalleryCatProd2 from "./GalleryCatProd3";
 import ProductDataC1 from "../../ServicePage/ServiceProductSec/ServiceProductCategory1/ProductData";
 import { Modal } from "@mui/material";
-// import ModalView from "../../../ModalView/ModalView";
+ 
 
 export const GalleryCatProd1 = () => {
   const [activeProd, setActiveProd] = useState(1);

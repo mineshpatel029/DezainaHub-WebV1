@@ -1,21 +1,19 @@
-import React from 'react'
-import "./HomeLandingSec.css"
-import LandingImg from "../Images/4.jpg"
+import React from "react";
+import "./HomeLandingSec.css";
+import LandingImg from "../Images/4.jpg";
 // import {useTypewriter, Cursor} from 'react-simple-typewriter'
-import { TypeAnimation } from 'react-type-animation';
-import CountUp from 'react-countup';
-import Marquee from 'react-fast-marquee';
+import { TypeAnimation } from "react-type-animation";
+import CountUp from "react-countup";
+import Marquee from "react-fast-marquee";
 
 export const HomeLandingSec = () => {
-    // const {text} = useTypewriter({
-    //     word: [' PRECISION', 'UNMATCHED Something', 'UNMATCHED Anything'],
-    //     loop:{},
-    // })
+  // const {text} = useTypewriter({
+  //     word: [' PRECISION', 'UNMATCHED Something', 'UNMATCHED Anything'],
+  //     loop:{},
+  // })
   return (
     <div className="HomeLSMain">
-      <div className="OfferStrip">
-         
-      </div>
+      <div className="OfferStrip"></div>
       <div className="HomeLS container">
         <div className="HomeLS-Content">
           <h1 className="HomeLSContent-Head">
@@ -98,5 +96,5 @@ export const HomeLandingSec = () => {
       </div>
     </div>
   );
-}
+};
 export default HomeLandingSec;
