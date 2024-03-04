@@ -28,8 +28,8 @@ export const HomeGallerySec = () => {
           </p>
           <NavLink to="/Gallery" className="buttons">
             <Button
-            buttonText="Explore Galllery"
-              border="0px solid "
+              buttonText="Explore Galllery"
+              border="none"
               backgroundColor="#364154"
               className="HomeGSContent-Button"
             >

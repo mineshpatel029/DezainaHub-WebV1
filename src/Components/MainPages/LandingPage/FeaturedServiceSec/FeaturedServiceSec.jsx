@@ -1,32 +1,31 @@
-import React, { useEffect } from 'react'
-import "./FeaturedServiceSec.css"
-import FeaturedServiceSecBody from './FeaturedServiceSecBody/FeaturedServiceSecBody';
+import React, { useEffect } from "react";
+import "./FeaturedServiceSec.css";
+import FeaturedServiceSecBody from "./FeaturedServiceSecBody/FeaturedServiceSecBody";
 import { NavLink } from "react-router-dom";
-import { setLoading, setProduct } from '../../../../Redux/productDetailReducer';
-import { useSelector, useDispatch } from 'react-redux'
+import { setLoading, setProduct } from "../../../../Redux/productDetailReducer";
+import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
-import Button from '../../../GlobalComponents/Button/Button';
+import Button from "../../../GlobalComponents/Button/Button";
 
 export const FeaturedServiceSec = () => {
-
   //*************** */ Api Calling to the Featured Section starts here***************
 
-//   const dispatch = useDispatch();
+  //   const dispatch = useDispatch();
 
-//   let featureProducts = useSelector((state) => state.productDetailReducer?.products);
-//   useEffect(async() => {
-//     let token = localStorage.getItem("token");
-//     const config = {
-//       headers: { authorization: token }
-//     }
-//     const ProductDataAPI = "http://localhost:5050/api/item/get?categoryId=650437af7623e86332589260";
-//     console.log(ProductDataAPI, "Item API")
-//     const res = await axios.get(ProductDataAPI, config);
-//     const products = await res.data;
-//     if(products.length){
-//         dispatch(setProduct(products))
-//     }
-// },[])
+  //   let featureProducts = useSelector((state) => state.productDetailReducer?.products);
+  //   useEffect(async() => {
+  //     let token = localStorage.getItem("token");
+  //     const config = {
+  //       headers: { authorization: token }
+  //     }
+  //     const ProductDataAPI = "http://localhost:5050/api/item/get?categoryId=650437af7623e86332589260";
+  //     console.log(ProductDataAPI, "Item API")
+  //     const res = await axios.get(ProductDataAPI, config);
+  //     const products = await res.data;
+  //     if(products.length){
+  //         dispatch(setProduct(products))
+  //     }
+  // },[])
 
   // ***************Api Calling to the Featured Section ends here***************
 
@@ -62,7 +61,6 @@ export const FeaturedServiceSec = () => {
       </div>
     </div>
   );
-}
+};
 
 export default FeaturedServiceSec;
-

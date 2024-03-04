@@ -74,6 +74,8 @@
   border-radius: 10px;
 }
 .ContactLSMain .ContactLS .ContactLS-FormContainer .ContactLS-FormBox .ContactForm-Container .ContactLS-Form .ContactLSForm-Content .ContactLSForm-Input {
+  resize: none;
+  outline: none;
   border-radius: 0.25rem;
   margin-bottom: 0rem;
   max-height: 5rem;

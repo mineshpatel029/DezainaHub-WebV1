@@ -1,6 +1,5 @@
 import "./Button.css";
 
-
 const Button = ({
   onClick,
   buttonText,
@@ -14,11 +13,18 @@ const Button = ({
   width,
   height,
 }) => {
+  console.log(backgroundColor);
   return (
     <div className="button-container">
       <button
-      onClick={onClick}
-        className="custom-button"
+        onClick={onClick}
+        className={
+          backgroundColor === "#f4f4f4" ||
+          backgroundColor === "#ffff" ||
+          backgroundColor === "white"
+            ? "Whitecustom-button"
+            : "custom-button"
+        }
         style={{
           fontSize: fontSize,
           backgroundColor: backgroundColor,
@@ -38,4 +44,3 @@ const Button = ({
 };
 
 export default Button;
- 

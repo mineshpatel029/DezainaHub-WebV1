@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Select from "@mui/material/Select";
 import { Box, Chip, MenuItem, OutlinedInput } from "@mui/material";
-import makeAnimated from "react-select/animated";
 import Axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,22 +8,37 @@ import ContactFormFinal from "./ContactFinalStage/ContactFormFinal";
 import ContactFormLoader from "./ContactFormLoader/ContactFormLoader";
 
 const ServiceOptions = [
-  "Logo Design",
-  "Brand Kit Design",
-  "Letter Head Design",
-  "Logo Designing",
-  "Flyer",
-  "Brochure",
-  "Signage Board",
-  "Catalog Design",
-  "Portfolio Design",
-  " Website Design",
-  "Application Design",
-  "Presentation Design",
-  "Pitch Deck Design",
-  "Poster Design",
-  "Banner Design",
-  " Social Media Design",
+  {
+    category: "Visual Branding",
+    services: [
+      "Logo Design",
+      "Brand Kit Design",
+      "Business Card Design",
+      "Letter Head Design",
+      "Signage Design",
+    ],
+  },
+  {
+    category: "Brand Marketing",
+    services: [
+      "Poster Design",
+      "Banner Design",
+      "Flyer Design",
+      "Brochure Design",
+      "Catalog Design",
+      "Social Media Design",
+    ],
+  },
+  {
+    category: "Digital Interaction",
+    services: [
+      "Portfolio Design",
+      "Website Design",
+      "Application Design",
+      "Presentation Design",
+      "Pitch Deck Design",
+    ],
+  },
 ];
 
 const ITEM_HEIGHT = 48;
@@ -49,7 +63,7 @@ export const ContactForm1 = () => {
     message: "",
     service: [],
   });
-  const [personName, setPersonName] = useState([]);
+  // const [personName, setPersonName] = useState([]);
   console.log(data.service);
   const handleChange = (event) => {
     const {
@@ -183,14 +197,26 @@ export const ContactForm1 = () => {
                 )}
                 MenuProps={MenuProps}
               >
-                {ServiceOptions.map((name) => (
-                  <MenuItem
-                    key={name}
-                    value={name}
-                    // style={getStyles(name, personName, theme)}
-                  >
-                    {name}
-                  </MenuItem>
+                {ServiceOptions.map((categoryObj) => (
+                  <React.Fragment key={categoryObj.category}>
+                    <MenuItem
+                      style={{ fontWeight: "bold", fontFamily: " Montserrat" }}
+                      disabled
+                      divider
+                    >
+                      {categoryObj.category}
+                    </MenuItem>
+                    {categoryObj.services.map((service) => (
+                      <MenuItem
+                        key={service}
+                        value={service}
+                        style={{ fontFamily: " Rasa" }}
+                      >
+                        {service}
+                      </MenuItem>
+                    ))}
+                    <MenuItem disabled divider />
+                  </React.Fragment>
                 ))}
               </Select>
 
