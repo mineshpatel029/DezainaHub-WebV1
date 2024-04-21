@@ -109,21 +109,24 @@
                         .ServiceSSSteps-Content{
                             width: 12rem;
                             font-size: 0.65rem;
+                           
                         }
                     }
                     .ServiceSSSteps-Line1,.ServiceSSSteps-Line2{
-                        width: 3rem;
+                        width:5rem;
                         stroke-width: 6rem;
-                        left: 15rem;
+                        left: 15%;
+                        height:1px;
+                        
                         transform: rotate(90deg);
                     }
                     .ServiceSSSteps-Line1{
-                        top: 8.25rem;
+                        top: 9rem;
                         left: auto;
                     }
                     .ServiceSSSteps-Line2{
-                        left: 13rem;
-                        top: 18rem !important;
+                        left:41%;
+                        top: 20rem !important;
                     }
                     
                 }

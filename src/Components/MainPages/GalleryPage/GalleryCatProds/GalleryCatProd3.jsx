@@ -132,6 +132,7 @@ export const GalleryCatProd3 = () => {
                     : "GalleryISStrip-Product"
                 }
               >
+         
                 {ProdData.ProdName}
               </h6>
             ))}
