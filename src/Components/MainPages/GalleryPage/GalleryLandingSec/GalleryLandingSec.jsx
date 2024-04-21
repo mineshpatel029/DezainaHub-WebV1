@@ -62,7 +62,6 @@ export const GalleryLandingSec = () => {
                     : "GalleryLS-Category"
                 }
               >
-             
                 {CatData.CatName}
               </h6>
             ))}

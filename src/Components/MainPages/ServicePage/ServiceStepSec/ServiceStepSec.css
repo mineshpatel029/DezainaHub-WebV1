@@ -104,17 +104,17 @@
     font-size: 0.65rem;
   }
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1, .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
-    width: 5rem;
+    width: 3rem;
     stroke-width: 6rem;
-    left: 15%;
+    left: 15rem;
     transform: rotate(90deg);
   }
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1 {
-    top: 9rem;
+    top: 8.25rem;
     left: auto;
   }
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
-    left: 41%;
-    top: 20rem !important;
+    left: 13rem;
+    top: 18rem !important;
   }
 }/*# sourceMappingURL=ServiceStepSec.css.map */
