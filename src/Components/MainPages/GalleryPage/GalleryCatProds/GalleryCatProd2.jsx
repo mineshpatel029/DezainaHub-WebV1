@@ -47,7 +47,7 @@ export const GalleryCatProd2 = () => {
   const handelClick = (ImgData, i) => {
     setOpen(true);
     setCurrIndex(i);
-    setClickedImg(ImgData);
+    setClickedImg(ImgData.img);
   };
 
   const handleRotationRight = () => {
@@ -171,7 +171,9 @@ export const GalleryCatProd2 = () => {
                   onClick={() => handelClick(ImgData, i)}
                 >
                   {/* <button className={ImgOpen==="Open"? "V-Cross-Button" : "H-Cross-Button"} onClick={()=>setImgOpen("close")}>X</button> */}
-                  <img className="GalleryIS-Img" src={ImgData} />
+                  <a target="_blank" href={ImgData.link}>
+                    <img className="GalleryIS-Img" src={ImgData.img} />
+                  </a>
                 </button>
               </div>
             ))}

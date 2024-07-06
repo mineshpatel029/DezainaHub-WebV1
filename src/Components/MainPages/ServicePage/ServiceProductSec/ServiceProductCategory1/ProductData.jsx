@@ -198,7 +198,24 @@ const ProductDataC2 = [
     Name: "Portfolio Design",
     minPrice: "500",
     maxPrice: "3000",
-    gallery:[ C2B1Img1, C2B1Img2, C2B1Img3, C2B1Img4],
+    gallery: [
+      {
+        img: C2B1Img1,
+        link: 'https://www.figma.com/proto/Cuc64nvDgEfnkKywiZQvSm/Job-Finder-Ui-App-Kit-(Community)?page-id=1%3A48&node-id=1-116&starting-point-node-id=1%3A116&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=XXuM7kJYq4447NiH-1',
+      },
+      {
+        img: C2B1Img2,
+        link: '',
+      },
+      {
+        img: C2B1Img3,
+        link: '',
+      },
+      {
+        img: C2B1Img4,
+        link: '',
+      }
+    ],
     Description: {
       DescriptHead:
         "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
@@ -218,7 +235,24 @@ const ProductDataC2 = [
     Name: "Website Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [C2B2Img1, C2B2Img2, C2B2Img3, C2B2Img4],
+    gallery: [
+      {
+        img: C2B2Img1,
+        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
+      },
+      {
+        img: C2B2Img2,
+        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=sPNP3nc003pzkvU0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778',
+      },
+      {
+        img: C2B2Img3,
+        link: 'https://www.figma.com/proto/Iaeq3iKFI36dIZx4fATgHb/E-commerce-Website-UI?page-id=0%3A1&node-id=20-2&t=ENH3IJPm7T7RpXGS-1',
+      },
+      {
+        img: C2B2Img4,
+        link: '',
+      }
+    ],
     Description: {
       DescriptHead:
         "A well-designed website is crucial for establishing an online presence, attracting customers, and providing information about your brand.",
@@ -244,7 +278,12 @@ const ProductDataC2 = [
     Name: "Application Design",
     minPrice: "2000",
     maxPrice: "12000",
-    gallery: [C2B3Img1],
+    gallery: [
+      {
+        img: C2B3Img1,
+        link: 'https://www.figma.com/proto/FmAC6IAcxbmL0D5yMi6p6P/Coffee-Shop-Mobile-App-Design-(Community)?page-id=2%3A2&node-id=202-291&viewport=325%2C74%2C0.89&t=6CpYVkiOcL7IAxat-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=202%3A266',
+      }
+    ],
     Description: {
       DescriptHead:
         "App design focuses on creating user-friendly interfaces and experiences for your digital products, enhancing user engagement.",
