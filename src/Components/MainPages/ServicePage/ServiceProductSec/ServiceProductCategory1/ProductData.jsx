@@ -309,7 +309,7 @@ const ProductDataC2 = [
     Name: "Presentation Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [C2B4Img1] ,
+    gallery: [{img: C2B4Img1, link: ''}] ,
     Description: {
       DescriptHead:
         "Professional presentations can make a significant impact during meetings, pitches, or conferences, conveying your message effectively.",
@@ -334,7 +334,7 @@ const ProductDataC2 = [
     Name: "Pitch Deck Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [C2B5Img1, C2B5Img2],
+    gallery: [{img: C2B5Img1, link: ''}, {img: C2B5Img2, link: ''}],
     Description: {
       DescriptHead:
         "A well-crafted pitch deck is essential for impressing investors, partners, or clients, helping you secure opportunities and funding.",
