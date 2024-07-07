@@ -205,15 +205,12 @@ const ProductDataC2 = [
       },
       {
         img: C2B1Img2,
-        link: '',
       },
       {
         img: C2B1Img3,
-        link: '',
       },
       {
         img: C2B1Img4,
-        link: '',
       }
     ],
     Description: {
@@ -250,7 +247,6 @@ const ProductDataC2 = [
       },
       {
         img: C2B2Img4,
-        link: '',
       }
     ],
     Description: {
@@ -309,7 +305,7 @@ const ProductDataC2 = [
     Name: "Presentation Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [{img: C2B4Img1, link: ''}] ,
+    gallery: [{img: C2B4Img1}] ,
     Description: {
       DescriptHead:
         "Professional presentations can make a significant impact during meetings, pitches, or conferences, conveying your message effectively.",
@@ -334,7 +330,7 @@ const ProductDataC2 = [
     Name: "Pitch Deck Design",
     minPrice: "250",
     maxPrice: "500",
-    gallery: [{img: C2B5Img1, link: ''}, {img: C2B5Img2, link: ''}],
+    gallery: [{img: C2B5Img1}, {img: C2B5Img2}],
     Description: {
       DescriptHead:
         "A well-crafted pitch deck is essential for impressing investors, partners, or clients, helping you secure opportunities and funding.",
