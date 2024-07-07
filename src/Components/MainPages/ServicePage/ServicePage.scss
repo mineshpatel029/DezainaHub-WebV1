@@ -1,4 +1,6 @@
 @import "../../GlobalComponents/GlobalStyles/GlobalStyles.scss";
+// last change 07-07-2024
+// changed .button-container
 
 .ServicePageMain{
     display: flex;
@@ -134,7 +136,7 @@
                     margin: 0rem;
                 }
                 .ServiceLSHead-Body{
-                    width: 100%;
+                    width:100%;
                     .ServiceLSHeadBody-Content{
                         font-family: $ContentFont;
                         color: $ContentFontColor;
@@ -145,6 +147,12 @@
                         width: 10rem;
                         height: 2.5rem;
                         font-size: 0.6rem;
+                        
+                    }
+                    // code to review before push 
+                    .button-container{
+                        display:flex;
+                        justify-content:center;
                     }
                 }
             }
@@ -182,7 +190,6 @@
         }
     }
 }
-
 @media screen and (min-width: 500px) and (max-width:990px){
     .ServiceLSMain{
         height: 36rem;
@@ -209,6 +216,10 @@
                         width: 10rem;
                         height: 2.5rem;
                         font-size: 0.6rem;
+                    }
+                    .button-container{
+                        display:flex;
+                        justify-content:center;
                     }
                 }
             }

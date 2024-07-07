@@ -29,7 +29,7 @@ export const ServiceProductCategory2 = () => {
                 <div className="SPSBodyContentBox-ImgContainer">
                   <img
                     className="SPSBodyContentBox-Img"
-                    src={Product.gallery[0].img}
+                    src={Product.gallery[0].img} alt="galleryImage"
                   />
                 </div>
                 <div className="SPSBodyContentBox-Content">
@@ -37,11 +37,12 @@ export const ServiceProductCategory2 = () => {
                     <h5 className="SPSBodyContentBox-ProductName">
                       {Product.Name}
                     </h5>
-                    <h6 className="SPSBodyContentBox-ProductPrice">
+                    {/* // price commented for prod */}
+                    {/* <h6 className="SPSBodyContentBox-ProductPrice">
                       <FormatPrice price={Product.minPrice} /> -{" "}
                       <FormatPrice price={Product.maxPrice} />
                       /-
-                    </h6>
+                    </h6> */}
                   </div>
 
                   <div className="SPSBodyContentBox-BodyContainer">
@@ -54,9 +55,9 @@ export const ServiceProductCategory2 = () => {
                         <li>{Points.factorsPoints}</li>
                       ))}
                       <br />
-                      {Product.Description.DescriptFooter.map((Points) => (
+                      {/* {Product.Description.DescriptFooter.map((Points) => (
                         <div>{Points.FooterPoints}</div>
-                      ))}
+                      ))} */}
                     </p>
                   </div>
                 </div>

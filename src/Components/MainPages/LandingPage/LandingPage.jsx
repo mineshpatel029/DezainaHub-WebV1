@@ -6,6 +6,7 @@ import QualityStrip from './QualityStrip/QualityStrip'
 import FeaturedServiceSec from './FeaturedServiceSec/FeaturedServiceSec'
 import HomeServiceStepsSec from './HomeServiceStepsSec/HomeServiceStepsSec'
 import HomeGallerySec from './HomeGallerySec/HomeGallerySec'
+import AboutTestimonial from '../AboutUsPage/AboutTestimonial/AboutTestimonial'
 
 
 export const LandingPage = () => {
@@ -16,7 +17,9 @@ export const LandingPage = () => {
         <HomeAboutSec/>
         <QualityStrip/>
         <FeaturedServiceSec/>
+        <AboutTestimonial/>
         <HomeServiceStepsSec/>
+        
         <HomeGallerySec/>
     {/* <FooterSec/> */}
     
