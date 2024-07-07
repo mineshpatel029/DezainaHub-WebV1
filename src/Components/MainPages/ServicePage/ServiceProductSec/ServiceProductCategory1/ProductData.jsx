@@ -199,21 +199,7 @@ const ProductDataC2 = [
     Name: "Portfolio Design",
     minPrice: "500",
     maxPrice: "3000",
-    gallery: [
-      {
-        img: C2B1Img1,
-        link: 'https://www.figma.com/proto/Cuc64nvDgEfnkKywiZQvSm/Job-Finder-Ui-App-Kit-(Community)?page-id=1%3A48&node-id=1-116&starting-point-node-id=1%3A116&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=XXuM7kJYq4447NiH-1',
-      },
-      {
-        img: C2B1Img2,
-      },
-      {
-        img: C2B1Img3,
-      },
-      {
-        img: C2B1Img4,
-      }
-    ],
+    gallery: [C2B1Img1,C2B1Img2,C2B1Img3,C2B1Img4],
     Description: {
       DescriptHead:
         "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",

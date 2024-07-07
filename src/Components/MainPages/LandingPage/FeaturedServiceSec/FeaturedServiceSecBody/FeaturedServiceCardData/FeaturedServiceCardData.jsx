@@ -13,7 +13,7 @@ export const FeaturedServiceCardData = (ServiceCardData) => {
     
     <div className="FSBodyContent-Box swiper-slide">
       <div className="FSBodyContentBox-ImgContainer">
-        <img className="FSBodyContentBox-Img" src={gallery[0]} />
+        <img className="FSBodyContentBox-Img" src={gallery[0]} alt="galleyImag"/>
       </div>
       <div className="FSBodyContentBox-Content">
         <div className="FSBodyContentBox-HeadContent">
