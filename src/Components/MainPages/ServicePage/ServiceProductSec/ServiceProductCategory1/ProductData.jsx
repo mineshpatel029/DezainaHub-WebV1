@@ -45,9 +45,10 @@ import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
 import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/Web UI1.png"
 import C2B2Img2 from "./ProductImages/Category2Imgs/C2Prod2/DezainaHub Main.jpg"
 import C2B2Img3 from "./ProductImages/Category2Imgs/C2Prod2/AnilBimal Law Firm.jpg"
-import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
+// import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
 
 import C2B3Img1 from "./ProductImages/Category2Imgs/C2Prod3/App UI1.jpeg"
+import C2B3Img2 from "./ProductImages/Category2Imgs/C2Prod3/c2b3i2.png"
 
 import C2B4Img1 from "./ProductImages/Category2Imgs/C2Prod4/Brand.jpg"
 
@@ -235,19 +236,21 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B2Img1,
-        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
+        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=sPNP3nc003pzkvU0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778',
       },
       {
         img: C2B2Img2,
-        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=sPNP3nc003pzkvU0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778',
+        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         img: C2B2Img3,
         link: 'https://www.figma.com/proto/Iaeq3iKFI36dIZx4fATgHb/E-commerce-Website-UI?page-id=0%3A1&node-id=20-2&t=ENH3IJPm7T7RpXGS-1',
       },
-      {
-        img: C2B2Img4,
-      }
+      // WIP: removed becz of anavailable figma link can be added afterwards 
+      // for adding refer to the imported image 
+      // {
+      //   img: C2B2Img4,
+      // }
     ],
     Description: {
       DescriptHead:
@@ -277,8 +280,12 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B3Img1,
-        link: 'https://www.figma.com/proto/FmAC6IAcxbmL0D5yMi6p6P/Coffee-Shop-Mobile-App-Design-(Community)?page-id=2%3A2&node-id=202-291&viewport=325%2C74%2C0.89&t=6CpYVkiOcL7IAxat-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=202%3A266',
-      }
+        link: ' https://www.figma.com/proto/FmAC6IAcxbmL0D5yMi6p6P/Coffee-Shop-Mobile-App-Design-(Community)?page-id=2%3A2&node-id=202-291&viewport=325%2C74%2C0.89&t=6CpYVkiOcL7IAxat-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=202%3A266',
+      },
+      {
+        img: C2B3Img2,
+        link: 'https://www.figma.com/proto/Cuc64nvDgEfnkKywiZQvSm/Job-Finder-Ui-App-Kit-(Community)?page-id=1%3A48&node-id=1-116&starting-point-node-id=1%3A116&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=XXuM7kJYq4447NiH-1 ',
+      },
     ],
     Description: {
       DescriptHead:
