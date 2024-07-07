@@ -155,7 +155,7 @@ export const GalleryCatProd3 = () => {
                   className="GalleryIS-ImgBox"
                   onClick={() => handelClick(ImgData, i)}
                 >
-                  <img className="GalleryIS-Img" src={ImgData} />
+                  <img className="GalleryIS-Img" src={ImgData.img} />
                 </button>
               </div>
             ))}

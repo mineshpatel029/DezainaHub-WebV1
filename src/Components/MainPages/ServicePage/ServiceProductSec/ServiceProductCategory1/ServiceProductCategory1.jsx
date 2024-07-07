@@ -28,7 +28,7 @@ export const ServiceProductCategory1 = () => {
                 <div className="SPSBodyContentBox-ImgContainer">
                   <img
                     className="SPSBodyContentBox-Img"
-                    src={Product.gallery[0] } alt="contentpIC" />
+                    src={Product.gallery[0].img } alt="contentpIC" />
                 </div>
                 <div className="SPSBodyContentBox-Content">
                   <div className="SPSBodyContentBox-HeadContent">

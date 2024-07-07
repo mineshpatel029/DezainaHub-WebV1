@@ -82,7 +82,7 @@ export const GalleryImgSec = (newCat, prodList) => {
             {PosterImgData.map((ImgData, i) => (
               <div key={i} className="GalleryIS-ImgContainer">
                 <button className="GalleryIS-ImgBox" >
-                  <img className="GalleryIS-Img" src={ImgData.img} />
+                  <img className="GalleryIS-Img" src={ImgData} />
                 </button>
               </div>
             ))}
