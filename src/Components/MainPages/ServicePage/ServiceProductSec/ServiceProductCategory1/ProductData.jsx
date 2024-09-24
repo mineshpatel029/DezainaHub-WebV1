@@ -98,34 +98,27 @@ const ProductDataC1 = [
     gallery: [
       {
         img: C1B1Img1,
-        link: '',
       },
       {
         img: C1B1Img2,
-        link: '',
       },
       {
         img: C1B1Img3,
-        link: '',
       },
       {
         img: C1B1Img4,
-        link: '',
       },
       {
         img: C1B1Img5,
-        link: '',
       },
       {
         img: C1B1Img6,
-        link: '',
       },
       {
         img: C1B1Img7,
-        link: '',
-      },{
+      },
+      {
         img: C1B1Img8,
-        link: '',
       },],
     Description: {
       DescriptHead:
@@ -151,13 +144,10 @@ const ProductDataC1 = [
     maxPrice: "5000",
     gallery: [{
       img: C1B2Img1,
-      link: '',
     },{
       img: C1B2Img2,
-      link: '',
     },{
       img: C1B2Img3,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -182,37 +172,26 @@ const ProductDataC1 = [
     maxPrice: "2000",
     gallery: [{
       img: C1B3Img1,
-      link: '',
     },{
       img: C1B3Img2,
-      link: '',
     },{
       img: C1B3Img3,
-      link: '',
     },{
       img: C1B3Img4,
-      link: '',
     },{
       img: C1B3Img5,
-      link: '',
     },{
       img: C1B3Img6,
-      link: '',
     },{
       img: C1B3Img7,
-      link: '',
     },{
       img: C1B3Img8,
-      link: '',
     },{
       img: C1B3Img9,
-      link: '',
     },{
       img: C1B3Img10,
-      link: '',
     },{
       img: C1B3Img11,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -235,13 +214,10 @@ const ProductDataC1 = [
     maxPrice: "1000",
     gallery: [{
       img: C1B4Img1,
-      link: '',
     },{
       img: C1B4Img2,
-      link: '',
     },{
       img: C1B4Img3,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -264,13 +240,10 @@ const ProductDataC1 = [
     maxPrice: "1000",
     gallery: [{
       img: C1P5Img1,
-      link: '',
     }, {
       img: C1P5Img2,
-      link: '',
     }, {
       img: C1P5Img3,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -468,13 +441,10 @@ const ProductDataC3 = [
     gallery: [
       {
         img: C3B1Img1,
-        link: '',
       },{
         img: C3B1Img2,
-        link: '',
       },{
         img: C3B1Img3,
-        link: '',
       }],
     Description: {
       DescriptHead:
@@ -498,16 +468,12 @@ const ProductDataC3 = [
     maxPrice: "2500",
     gallery: [{
       img: C3B2Img1,
-      link: '',
     },{
       img: C3B2Img2,
-      link: '',
     },{
       img: C3B2Img3,
-      link: '',
     },{
       img: C3B2Img4,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -530,13 +496,10 @@ const ProductDataC3 = [
     maxPrice: "3000",
     gallery: [{
       img: C3B3Img1,
-      link: '',
     },{
       img: C3B3Img2,
-      link: '',
     },{
       img: C3B3Img3,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -560,13 +523,10 @@ const ProductDataC3 = [
     gallery: [
       {
         img: C3B4Img1,
-        link: '',
       },{
         img: C3B4Img2,
-        link: '',
       },{
         img: C3B4Img3,
-        link: '',
       }, ],
     Description: {
       DescriptHead:
@@ -591,13 +551,10 @@ const ProductDataC3 = [
     maxPrice: "1000",
     gallery: [{
       img: C3B5Img1,
-      link: '',
     },{
       img: C3B5Img2,
-      link: '',
     },{
       img: C3B5Img3,
-      link: '',
     },],
     Description: {
       DescriptHead:
@@ -631,19 +588,14 @@ const ProductDataC3 = [
     maxPrice: "1000",
     gallery: [{
       img: C3B6Img1,
-      link: '',
     }, {
       img: C3B6Img2,
-      link: '',
     }, {
       img: C3B6Img3,
-      link: '',
     }, {
       img: C3B6Img4,
-      link: '',
     }, {
       img: C3B6Img5,
-      link: '',
     }, ],
     Description: {
       DescriptHead:

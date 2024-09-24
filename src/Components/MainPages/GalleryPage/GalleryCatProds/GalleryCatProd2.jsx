@@ -171,8 +171,8 @@ export const GalleryCatProd2 = () => {
                   onClick={() => handelClick(ImgData, i)}
                 >
                   {/* <button className={ImgOpen==="Open"? "V-Cross-Button" : "H-Cross-Button"} onClick={()=>setImgOpen("close")}>X</button> */}
-                  <a target="_blank" href={ImgData.link}>
-                    <img className="GalleryIS-Img" src={ImgData.img} />
+                  <a target="_blank" href={ImgData.link} rel="noreferrer">
+                    <img className="GalleryIS-Img" src={ImgData.img} alt="" />
                   </a>
                 </button>
               </div>
