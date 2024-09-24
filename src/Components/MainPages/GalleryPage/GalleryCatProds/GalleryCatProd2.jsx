@@ -25,6 +25,8 @@ export const GalleryCatProd2 = () => {
   //   if(setClickedImg(ImgData)){
   //      setOpen(true)
   //   }
+
+  // const handleClose = () => {
   // };
 
   const ShowProd = (Prod) => {
