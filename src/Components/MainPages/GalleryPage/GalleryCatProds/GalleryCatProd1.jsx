@@ -59,33 +59,29 @@ export const GalleryCatProd1 = () => {
     const totalLength = ShowProd(activeProd).length;
     if (currIndex + 1 >= totalLength) {
       setCurrIndex(0);
-      const newUrl = ShowProd(activeProd)[0];
+      const newUrl = ShowProd(activeProd)[0].img;
       setClickedImg(newUrl);
       return;
     }
     const newIndex = currIndex + 1;
-    const newUrl = ShowProd(activeProd).filter((item) => {
-      return ShowProd(activeProd).indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0];
-    setClickedImg(newItem);
+    const newUrl = ShowProd(activeProd)[newIndex].img;
+    setClickedImg(newUrl);
     setCurrIndex(newIndex);
   };
 
   const handleRotationLeft = () => {
     const totalLength = ShowProd(activeProd).length;
     if (currIndex === 0) {
-      setCurrIndex(totalLength - 1);
-      const newUrl = ShowProd(activeProd)[totalLength - 1];
+      const newIndex = totalLength - 1;
+      setCurrIndex(newIndex);
+      const newUrl = ShowProd(activeProd)[newIndex].img;
       setClickedImg(newUrl);
+    } else {
+      const newIndex = currIndex - 1;
+      const newUrl = ShowProd(activeProd)[newIndex].img;
+      setClickedImg(newUrl);
+      setCurrIndex(newIndex);
     }
-    const newIndex = currIndex - 1;
-    const newUrl = ShowProd(activeProd).filter((item) => {
-      return ShowProd(activeProd).indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0];
-    setClickedImg(newItem);
-    setCurrIndex(newIndex);
   };
 
   const handelClickClose = (e) => {
