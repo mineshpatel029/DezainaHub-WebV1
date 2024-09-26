@@ -91,6 +91,7 @@
                     align-items: center;
                     gap: 3rem;
                     .ServiceSSSteps-1{
+                        display:hidden;
                         width: 15rem;
                         justify-content: center;
                         align-items: center;
@@ -114,16 +115,17 @@
                     .ServiceSSSteps-Line1,.ServiceSSSteps-Line2{
                         width: 3rem;
                         stroke-width: 6rem;
+                        visibility:hidden;
                         left: 15rem;
                         transform: rotate(90deg);
                     }
                     .ServiceSSSteps-Line1{
+                        
                         top: 8.25rem;
                         left: auto;
                     }
                     .ServiceSSSteps-Line2{
                         left: 13rem;
-                        top: 18rem !important;
                     }
                     
                 }

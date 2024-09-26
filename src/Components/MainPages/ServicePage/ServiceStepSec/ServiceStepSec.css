@@ -83,6 +83,7 @@
     gap: 3rem;
   }
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-1 {
+    display: hidden;
     width: 15rem;
     justify-content: center;
     align-items: center;
@@ -106,6 +107,7 @@
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line1, .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
     width: 3rem;
     stroke-width: 6rem;
+    visibility: hidden;
     left: 15rem;
     transform: rotate(90deg);
   }
@@ -115,6 +117,5 @@
   }
   .ServiceSSMain .ServiceSS .ServiceSS-Steps .ServiceSSSteps-Line2 {
     left: 13rem;
-    top: 18rem !important;
   }
 }/*# sourceMappingURL=ServiceStepSec.css.map */

@@ -53,7 +53,7 @@ export const GalleryCatProd1 = () => {
   const handelClick = (ImgData, i) => {
     setOpen(true);
     setCurrIndex(i);
-    setClickedImg(ImgData);
+    setClickedImg(ImgData.img);
   };
   const handleRotationRight = () => {
     const totalLength = ShowProd(activeProd).length;
@@ -174,7 +174,7 @@ export const GalleryCatProd1 = () => {
                   className="GalleryIS-ImgBox"
                   onClick={() => handelClick(ImgData, i)}
                 >
-                  <img className="GalleryIS-Img" src={ImgData} />
+                  <img className="GalleryIS-Img" src={ImgData.img} alt="" />
                 </button>
               </div>
             ))}

@@ -163,15 +163,7 @@ export const ContactForm1 = () => {
                   (Opitional){" "}
                 </span>
               </label>
-              {/* <Select id='service' 
-                                        className='OPBodyContentAddBox-ProductDetail' 
-                                        closeMenuOnSelect={false}
-                                        components={animatedComponents}
-                                        isMulti
-                                    options={ServiceOptions} 
-                                    onChange={(e)=>handle(e)} value={data.service}
-                                    type="service"
-                                    /> */}
+             
               <Select
                 style={{
                   display: "flex",
@@ -187,7 +179,7 @@ export const ContactForm1 = () => {
                 displayEmpty
                 value={data.service}
                 onChange={handleChange}
-                // input={<OutlinedInput id="select-multiple-chip" label="Chip" />}
+                input={<OutlinedInput id="select-multiple-chip" label="Chip" />}
                 renderValue={(selected) => (
                   <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5 }}>
                     {selected?.map((value) => (

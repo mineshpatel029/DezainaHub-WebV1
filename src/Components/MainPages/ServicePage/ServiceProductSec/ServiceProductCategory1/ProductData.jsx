@@ -45,9 +45,10 @@ import C2B1Img4 from "./ProductImages/Category2Imgs/C2Prod1/Sachin Resume.jpg"
 import C2B2Img1 from "./ProductImages/Category2Imgs/C2Prod2/Web UI1.png"
 import C2B2Img2 from "./ProductImages/Category2Imgs/C2Prod2/DezainaHub Main.jpg"
 import C2B2Img3 from "./ProductImages/Category2Imgs/C2Prod2/AnilBimal Law Firm.jpg"
-import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
+// import C2B2Img4 from "./ProductImages/Category2Imgs/C2Prod2/8817350.jpg"
 
 import C2B3Img1 from "./ProductImages/Category2Imgs/C2Prod3/App UI1.jpeg"
+import C2B3Img2 from "./ProductImages/Category2Imgs/C2Prod3/c2b3i2.png"
 
 import C2B4Img1 from "./ProductImages/Category2Imgs/C2Prod4/Brand.jpg"
 
@@ -89,11 +90,36 @@ import C3B6Img5 from "./ProductImages/Category3Imgs/C3Prod6/AnimalDay.jpg"
 
 
 const ProductDataC1 = [
+  // Logo Design 
   {
     Name: "Logo Design",
     minPrice: "2000",
     maxPrice: "5000",
-    gallery: [C1B1Img1, C1B1Img2, C1B1Img3, C1B1Img4 , C1B1Img5, C1B1Img6 , C1B1Img7, C1B1Img8],
+    gallery: [
+      {
+        img: C1B1Img1,
+      },
+      {
+        img: C1B1Img2,
+      },
+      {
+        img: C1B1Img3,
+      },
+      {
+        img: C1B1Img4,
+      },
+      {
+        img: C1B1Img5,
+      },
+      {
+        img: C1B1Img6,
+      },
+      {
+        img: C1B1Img7,
+      },
+      {
+        img: C1B1Img8,
+      },],
     Description: {
       DescriptHead:
         "A professionally designed logo is the visual cornerstone of your brand. It's essential for creating a memorable and recognizable brand identity.",
@@ -111,11 +137,18 @@ const ProductDataC1 = [
 
     featured: true,
   },
+  // Brand kit design 
   {
     Name: "Brand Kit Design",
     minPrice: "1000",
     maxPrice: "5000",
-    gallery: [C1B2Img1, C1B2Img2, C1B2Img3],
+    gallery: [{
+      img: C1B2Img1,
+    },{
+      img: C1B2Img2,
+    },{
+      img: C1B2Img3,
+    },],
     Description: {
       DescriptHead:
         "Brand kit includes brand guidelines, color palette, typography, orientation and other related details. A brand kit provides a clear set of guidelines for consistent use of your brand's visual elements, ensuring a cohesive and professional image across all materials.",
@@ -132,11 +165,34 @@ const ProductDataC1 = [
     },
     featured: true,
   },
+  // Business Card design 
   {
     Name: "Business Card Design",
     minPrice: "500",
     maxPrice: "2000",
-    gallery: [C1B3Img1, C1B3Img2, C1B3Img3, C1B3Img4, C1B3Img5, C1B3Img6, C1B3Img7, C1B3Img8, C1B3Img9, C1B3Img10, C1B3Img11],
+    gallery: [{
+      img: C1B3Img1,
+    },{
+      img: C1B3Img2,
+    },{
+      img: C1B3Img3,
+    },{
+      img: C1B3Img4,
+    },{
+      img: C1B3Img5,
+    },{
+      img: C1B3Img6,
+    },{
+      img: C1B3Img7,
+    },{
+      img: C1B3Img8,
+    },{
+      img: C1B3Img9,
+    },{
+      img: C1B3Img10,
+    },{
+      img: C1B3Img11,
+    },],
     Description: {
       DescriptHead:
         "Well-designed business/Visiting cards are crucial for leaving a lasting impression on potential clients and partners. They contain essential contact information and reflect your brand's personality.",
@@ -151,11 +207,18 @@ const ProductDataC1 = [
     },
     featured: true,
   },
+  // letter head design 
   {
     Name: "Letter Head Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [C1B4Img1, C1B4Img2, C1B4Img3],
+    gallery: [{
+      img: C1B4Img1,
+    },{
+      img: C1B4Img2,
+    },{
+      img: C1B4Img3,
+    },],
     Description: {
       DescriptHead:
         " Letterheads with a professional design enhance official correspondence and reinforce your brand's identity when sending formal documents.",
@@ -170,11 +233,18 @@ const ProductDataC1 = [
     },
     featured: false,
   },
+  // signage Design
   {
     Name: "Signage Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [C1P5Img1, C1P5Img2, C1P5Img3],
+    gallery: [{
+      img: C1P5Img1,
+    }, {
+      img: C1P5Img2,
+    }, {
+      img: C1P5Img3,
+    },],
     Description: {
       DescriptHead:
         "Signage design ensures that your brand is prominently displayed, making it easy for customers and visitors to locate and identify your business.",
@@ -191,9 +261,10 @@ const ProductDataC1 = [
   },
 ];
 
-
+// gallery need link object after img 
 
 const ProductDataC2 = [
+  // portfolio design 
   {
     Name: "Portfolio Design",
     minPrice: "500",
@@ -201,18 +272,13 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B1Img1,
-        link: 'https://www.figma.com/proto/Cuc64nvDgEfnkKywiZQvSm/Job-Finder-Ui-App-Kit-(Community)?page-id=1%3A48&node-id=1-116&starting-point-node-id=1%3A116&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=XXuM7kJYq4447NiH-1',
-      },
-      {
+      },{
         img: C2B1Img2,
-      },
-      {
+      },{
         img: C2B1Img3,
-      },
-      {
+      },{
         img: C2B1Img4,
-      }
-    ],
+      }],
     Description: {
       DescriptHead:
         "A professionally designed portfolio showcases your work, making it easier to attract clients or employers and highlight your skills.",
@@ -228,6 +294,7 @@ const ProductDataC2 = [
     },
     featured: true,
   },
+  // website design 
   {
     Name: "Website Design",
     minPrice: "2000",
@@ -235,19 +302,21 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B2Img1,
-        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
+        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=ZoUaZsG3SyBFHldl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778 ',
       },
       {
         img: C2B2Img2,
-        link: 'https://www.figma.com/proto/KBr8U09l3o90njbZ4Riptj/Restrosol-Web-design?page-id=0%3A1&node-id=1-816&viewport=3665%2C3079%2C0.3&t=sPNP3nc003pzkvU0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=84%3A14778',
+        link: 'https://www.figma.com/proto/OqgCPKgOtzEwR41pTJa3xh/Finance-Web-UI?page-id=0%3A1&node-id=13-17&viewport=1539%2C849%2C0.2&t=zycJugIq6oExomFp-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         img: C2B2Img3,
         link: 'https://www.figma.com/proto/Iaeq3iKFI36dIZx4fATgHb/E-commerce-Website-UI?page-id=0%3A1&node-id=20-2&t=ENH3IJPm7T7RpXGS-1',
       },
-      {
-        img: C2B2Img4,
-      }
+      // WIP: removed becz of anavailable figma link can be added afterwards 
+      // for adding refer to the imported image 
+      // {
+      //   img: C2B2Img4,
+      // }
     ],
     Description: {
       DescriptHead:
@@ -270,6 +339,7 @@ const ProductDataC2 = [
     },
     featured: true,
   },
+  // application design 
   {
     Name: "Application Design",
     minPrice: "2000",
@@ -277,8 +347,12 @@ const ProductDataC2 = [
     gallery: [
       {
         img: C2B3Img1,
-        link: 'https://www.figma.com/proto/FmAC6IAcxbmL0D5yMi6p6P/Coffee-Shop-Mobile-App-Design-(Community)?page-id=2%3A2&node-id=202-291&viewport=325%2C74%2C0.89&t=6CpYVkiOcL7IAxat-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=202%3A266',
-      }
+        link: ' https://www.figma.com/proto/FmAC6IAcxbmL0D5yMi6p6P/Coffee-Shop-Mobile-App-Design-(Community)?page-id=2%3A2&node-id=202-291&viewport=325%2C74%2C0.89&t=6CpYVkiOcL7IAxat-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=202%3A266',
+      },
+      {
+        img: C2B3Img2,
+        link: 'https://www.figma.com/proto/Cuc64nvDgEfnkKywiZQvSm/Job-Finder-Ui-App-Kit-(Community)?page-id=1%3A48&node-id=1-116&starting-point-node-id=1%3A116&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=XXuM7kJYq4447NiH-1 ',
+      },
     ],
     Description: {
       DescriptHead:
@@ -301,6 +375,7 @@ const ProductDataC2 = [
     },
     featured: true,
   },
+  // Presentaion Design 
   {
     Name: "Presentation Design",
     minPrice: "250",
@@ -326,6 +401,7 @@ const ProductDataC2 = [
     },
     featured: false,
   },
+  // Pitch Deck Design 
   {
     Name: "Pitch Deck Design",
     minPrice: "250",
@@ -362,7 +438,14 @@ const ProductDataC3 = [
     Name: "Poster Design",
     minPrice: "500",
     maxPrice: "2500",
-    gallery: [C3B1Img1, C3B1Img2, C3B1Img3],
+    gallery: [
+      {
+        img: C3B1Img1,
+      },{
+        img: C3B1Img2,
+      },{
+        img: C3B1Img3,
+      }],
     Description: {
       DescriptHead:
         "Posters are powerful marketing tools for events, promotions, or showcasing your brand's message and products to a broader audience.",
@@ -383,7 +466,15 @@ const ProductDataC3 = [
     Name: "Banner Design",
     minPrice: "500",
     maxPrice: "2500",
-    gallery: [C3B2Img1, C3B2Img2, C3B2Img3, C3B2Img4],
+    gallery: [{
+      img: C3B2Img1,
+    },{
+      img: C3B2Img2,
+    },{
+      img: C3B2Img3,
+    },{
+      img: C3B2Img4,
+    },],
     Description: {
       DescriptHead:
         "Banners are excellent for outdoor or indoor advertising, helping to grab the attention of potential customers and conveying key messages effectively.",
@@ -403,7 +494,13 @@ const ProductDataC3 = [
     Name: "Flyer Design",
     minPrice: "500",
     maxPrice: "3000",
-    gallery: [C3B3Img1, C3B3Img2, C3B3Img3],
+    gallery: [{
+      img: C3B3Img1,
+    },{
+      img: C3B3Img2,
+    },{
+      img: C3B3Img3,
+    },],
     Description: {
       DescriptHead:
         "Flyers are versatile marketing materials used for promoting special offers, events, or introducing new products or services.",
@@ -423,7 +520,14 @@ const ProductDataC3 = [
     Name: "Brochure Design",
     minPrice: "500",
     maxPrice: "2000",
-    gallery: [C3B4Img1, C3B4Img2, C3B4Img3],
+    gallery: [
+      {
+        img: C3B4Img1,
+      },{
+        img: C3B4Img2,
+      },{
+        img: C3B4Img3,
+      }, ],
     Description: {
       DescriptHead:
         "Brochure are Double Sided informative marketing materials, ideal for detailing product or service offerings and establishing credibility.",
@@ -445,7 +549,13 @@ const ProductDataC3 = [
     Name: "Catalog Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [C3B5Img1, C3B5Img2, C3B5Img3],
+    gallery: [{
+      img: C3B5Img1,
+    },{
+      img: C3B5Img2,
+    },{
+      img: C3B5Img3,
+    },],
     Description: {
       DescriptHead:
         "Catalogs are comprehensive sales tools that help showcase your product range and assist customers in making informed purchase decisions.",
@@ -476,7 +586,17 @@ const ProductDataC3 = [
     Name: "Social Media Design",
     minPrice: "300",
     maxPrice: "1000",
-    gallery: [C3B6Img1, C3B6Img2, C3B6Img3, C3B6Img4, C3B6Img5],
+    gallery: [{
+      img: C3B6Img1,
+    }, {
+      img: C3B6Img2,
+    }, {
+      img: C3B6Img3,
+    }, {
+      img: C3B6Img4,
+    }, {
+      img: C3B6Img5,
+    }, ],
     Description: {
       DescriptHead:
         "Engaging social media graphics are essential for maintaining an active online presence and effectively conveying your brand's message to your target audience.",

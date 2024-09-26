@@ -116,6 +116,10 @@
     height: 2.5rem;
     font-size: 0.6rem;
   }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .button-container {
+    display: flex;
+    justify-content: center;
+  }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody {
     border-radius: 0.8rem;
   }
@@ -167,6 +171,10 @@
     width: 10rem;
     height: 2.5rem;
     font-size: 0.6rem;
+  }
+  .ServiceLSMain .ServiceLS .ServiceLS-Head .ServiceLSHead-Body .button-container {
+    display: flex;
+    justify-content: center;
   }
   .ServiceLSMain .ServiceLS .ServiceLS-ImgBody {
     border-radius: 0.8rem;

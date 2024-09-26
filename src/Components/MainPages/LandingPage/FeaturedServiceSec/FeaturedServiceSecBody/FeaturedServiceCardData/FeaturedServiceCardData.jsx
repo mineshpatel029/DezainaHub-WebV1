@@ -9,18 +9,25 @@ export const FeaturedServiceCardData = (ServiceCardData) => {
 
   //   console.log('Getting Data', ServiceCardData);
   // console.log(gallery.src, "gallery URL");
+
+  // function to call gallary img 
+  // {gallery.map((item, index) => (
+  //   <img src={item.img} alt={`Gallery image ${index + 1}`} />    ))}
+  
   return (
     
     <div className="FSBodyContent-Box swiper-slide">
       <div className="FSBodyContentBox-ImgContainer">
-        <img className="FSBodyContentBox-Img" src={gallery[0]} />
+        <img className="FSBodyContentBox-Img" src={gallery[0].img} alt="galleyImag"/>
+        {/* {gallery.map((item, index) => (
+    <img src={item.img} alt={`Gallery image ${index + 1}`} />    ))} */}
       </div>
       <div className="FSBodyContentBox-Content">
         <div className="FSBodyContentBox-HeadContent">
           <h5 className="FSBodyContentBox-ProductName">{Name}</h5>
           <h6 className="FSBodyContentBox-ProductPrice">
-            <FormatPrice price={minPrice} /> - <FormatPrice price={maxPrice} />
-            /-
+            {/* <FormatPrice price={minPrice} /> - <FormatPrice price={maxPrice} /> */}
+            {/* /- */}
           </h6>
         </div>
 
